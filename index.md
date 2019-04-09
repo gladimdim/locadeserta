@@ -16,10 +16,12 @@
 
 Уже зараз ви можете отримати альфа версії, для цього звертайтесь до gladimdim@gmail.com. В темі укажіть "Alpha Access".
 
-Альфа версії виглядають так:
-![](images/screeenshot_landing.jpg)
+***Альфа версії виглядають так:***
+![](images/screenshot_landing.jpg)
 
 ![](images/screenshot_story_list.jpg)
+
+![](images/screenshot_0.jpg)
 
 ## Хто цим займається
 
