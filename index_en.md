@@ -36,7 +36,13 @@ Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
 
 ## How can we help?
 
-If you can make such sketches: ![](vesterfeld_example.jpg) and want to help, then write email to gladimdim@gmail.com
+If you can make such sketches: 
+
+<p align="center">
+  <img src="Vesterfeld_example.jpg" width="550">
+</p>
+
+and want to help, then write email to gladimdim@gmail.com
 
 ## Where to buy miniatures?
 
