@@ -5,8 +5,6 @@
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 
 
-<a href='https://play.google.com/store/apps/details?id=gladimdim.locadeserta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img width=150 alt='Завантажити з Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png'/></a>
-
 
 # Дике Полe
 # Що це
