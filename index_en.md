@@ -24,13 +24,11 @@ We plan to beta release the game on 1st of June 2019
 You can get the invite to alpha version (for Android) by emailing us at locadeserta@gladimdim.org. Topic: "Alpha Access".
 
 ***Alpha versions:***
-![](images/screenshot_landing.jpg)
-
-![](images/select_option.jpg)
-
-![](images/story.jpg)
-
-![](images/screenshot_story_list.jpg)
+<p align="center">
+  <img src="images/screenshot_landing.jpg" width="550">
+  <img src="images/screenshot_story_list.jpg" width="550">
+  <img src="images/select_option.jpg" width="550">
+</p>
 
 ## Who we are
 
