@@ -20,11 +20,11 @@
 Уже зараз ви можете отримати альфа версії, для цього звертайтесь до gladimdim@gmail.com. В темі укажіть "Alpha Access".
 
 ***Альфа версії виглядають так:***
-![](images/screenshot_landing.jpg)
+![](images/screenshot_landing.jpg =250x250)
 
-![](images/screenshot_story_list.jpg)
+![](images/screenshot_story_list.jpg =250x250)
 
-![](images/screenshot_0.jpg)
+![](images/screenshot_0.jpg =250x250)
 
 ## Хто цим займається
 
@@ -32,7 +32,7 @@
 
 ## Як допомогти?
 
-Якщо вмієте малювати в стилі: ![](vesterfeld_example.jpg) і хочете допомогти, то пишіть на gladimdim@gmail.com
+Якщо вмієте малювати в стилі: ![](vesterfeld_example.jpg =250x250) і хочете допомогти, то пишіть на gladimdim@gmail.com
 
 ## Де купити фігурки?
 
