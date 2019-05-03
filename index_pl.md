@@ -25,13 +25,11 @@ Planujemy beta wydać grę 1 czerwca 2019 roku
 Możesz otrzymać zaproszenie do wersji alpha (na Androida), wysyłając nam wiadomość e-mail na adres locadeserta@gladimdim.org. Temat: „Alpha Access”.
 
 *** Wersje Alpha: ***
-! [] (images / screenshot_landing.jpg)
-
-! [] (images / select_option.jpg)
-
-! [] (images / story.jpg)
-
-! [] (images / screenshot_story_list.jpg)
+<p align="center">
+  <img src="images/screenshot_landing.jpg" width="550">
+  <img src="images/screenshot_story_list.jpg" width="550">
+  <img src="images/select_option.jpg" width="550">
+</p>
 
 ## Kim jesteśmy
 
@@ -39,7 +37,11 @@ Produkt został opracowany przez Dmytro Gladkyi i Boytsov Kostyantin
 
 ## Jak możemy pomóc?
 
-Jeśli możesz zrobić takie szkice:! [] (Vesterfeld_example.jpg) i chcesz pomóc, napisz e-mail na adres gladimdim@gmail.com
+Jeśli możesz zrobić takie szkice:
+<p align="center">
+  <img src="images/Vesterfeld_example.jpg" width="550">
+</p>
+ i chcesz pomóc, napisz e-mail na adres gladimdim@gmail.com
 
 ## Gdzie kupić miniatury?
 
