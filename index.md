@@ -22,9 +22,9 @@
 ***Альфа версії виглядають так:***
 
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="350">
-  <img src="images/screenshot_story_list.jpg" width="350">
-  <img src="images/select_option.jpg" width="350">
+  <img src="images/screenshot_landing.jpg" width="550">
+  <img src="images/screenshot_story_list.jpg" width="550">
+  <img src="images/select_option.jpg" width="550">
 </p>
 
 ## Хто цим займається
@@ -35,9 +35,7 @@
 
 Якщо вмієте малювати в стилі: 
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="350">
-  <img src="images/screenshot_story_list.jpg" width="350">
-  <img src="vesterfeld_example.jpg" width="350">
+  <img src="vesterfeld_example.jpg" width="650">
 </p>
  і хочете допомогти, то пишіть на gladimdim@gmail.com
 
