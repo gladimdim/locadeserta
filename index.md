@@ -20,11 +20,12 @@
 Уже зараз ви можете отримати альфа версії, для цього звертайтесь до gladimdim@gmail.com. В темі укажіть "Alpha Access".
 
 ***Альфа версії виглядають так:***
-![](images/screenshot_landing.jpg | =250x250)
 
-![](images/screenshot_story_list.jpg | =250x250)
-
-![](images/screenshot_0.jpg | =250x250)
+<p align="center">
+  <img src="images/screenshot_landing.jpg" width="256">
+  <img src="images/screenshot_story_list.jpg" width="256">
+  <img src="images/screenshot_0.jpg" width="256">
+</p>
 
 ## Хто цим займається
 
