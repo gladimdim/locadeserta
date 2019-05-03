@@ -22,9 +22,9 @@
 ***Альфа версії виглядають так:***
 
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="256">
-  <img src="images/screenshot_story_list.jpg" width="256">
-  <img src="images/screenshot_0.jpg" width="256">
+  <img src="images/screenshot_landing.jpg" width="350">
+  <img src="images/screenshot_story_list.jpg" width="350">
+  <img src="images/select_option.jpg" width="350">
 </p>
 
 ## Хто цим займається
@@ -33,7 +33,13 @@
 
 ## Як допомогти?
 
-Якщо вмієте малювати в стилі: ![](vesterfeld_example.jpg | =250x250) і хочете допомогти, то пишіть на gladimdim@gmail.com
+Якщо вмієте малювати в стилі: 
+<p align="center">
+  <img src="images/screenshot_landing.jpg" width="350">
+  <img src="images/screenshot_story_list.jpg" width="350">
+  <img src="vesterfeld_example.jpg" width="350">
+</p>
+ і хочете допомогти, то пишіть на gladimdim@gmail.com
 
 ## Де купити фігурки?
 
