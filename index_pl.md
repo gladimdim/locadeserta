@@ -39,7 +39,7 @@ Produkt został opracowany przez Dmytro Gladkyi i Boytsov Kostyantin
 
 Jeśli możesz zrobić takie szkice:
 <p align="center">
-  <img src="images/Vesterfeld_example.jpg" width="550">
+  <img src="Vesterfeld_example.jpg" width="550">
 </p>
  i chcesz pomóc, napisz e-mail na adres gladimdim@gmail.com
 
