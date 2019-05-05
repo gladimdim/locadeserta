@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: locadeserta.com
+Token: f3bafcf111bf6d964a7d0a0959b75b6614f2a14a5fd76ed7922da664f00c727b
