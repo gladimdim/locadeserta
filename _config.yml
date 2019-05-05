@@ -1,2 +1,2 @@
 theme: jekyll-theme-hacker
-include: [".well-known/brave-rewards-verification.txt"]
+include: [".well-known", ".well-known/brave-rewards-verification.txt"]
