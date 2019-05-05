@@ -1,1 +1,2 @@
 theme: jekyll-theme-hacker
+include: .well-known/brave-rewards-verification.txt
