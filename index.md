@@ -17,7 +17,7 @@
 
 ## Альфа версії
 
-Уже зараз ви можете отримати альфа версії, для цього звертайтесь до gladimdim@gmail.com. В темі укажіть "Alpha Access".
+Уже зараз ви можете отримати альфа версії, для цього зайдіть по посиланню:
 
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
 
