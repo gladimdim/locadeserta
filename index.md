@@ -19,7 +19,7 @@
 
 Уже зараз ви можете отримати альфа версії, для цього зайдіть по посиланню:
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
+[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
 ***Альфа версії виглядають так:***
 
