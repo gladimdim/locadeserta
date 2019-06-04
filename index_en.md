@@ -15,22 +15,16 @@ The story starts just after the [Battle of Cecora](https://en.wikipedia.org/wiki
 
 **Game will be available in Ukrainian, English and Polish languages**
 
-## When will it be ready?
+## Download now!
 
-We plan to beta release the game on 1st of June 2019
+[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
-
-## Alpha Version
-
-You can get the invite to alpha version (for Android) by emailing us at locadeserta@gladimdim.org. Topic: "Alpha Access".
-
-***Alpha versions:***
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="550">
-  <img src="images/screenshot_story_list.jpg" width="550">
-  <img src="images/select_option.jpg" width="550">
+  <img src="images/login_page.jpg" width="550">
+  <img src="images/stories_page.jpg" width="550">
+  <img src="images/passage_page.jpg" width="550">
 </p>
+
 
 ## Who we are
 

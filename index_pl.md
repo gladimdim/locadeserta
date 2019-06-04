@@ -11,25 +11,18 @@ Interaktywna fikcja. Ta gra pozwala zanurzyć się w heroicznej epoce w XVII wie
 
 # O książce
 
-Historia zaczyna się tuż po zakończeniu [Bitwy o Cecora] (https://en.wikipedia.org/wiki/Battle_of_Cecora_ (1620)). Wojsko turecko-krymskie wygrało bitwę przeciwko Rzeczowi Pospolita. Jednym z jeńców wojennych jest nasz bohater - Dmytro. Była jesień w 1620 roku. Dmytro mógł uciec, gdy został przeniesiony na Krym. Historia zaczyna się, gdy Dmytro rozpoczyna swoją podróż z powrotem na Ukrainę.
+Na początku XVII wieku dochodzi do konfrontacji Imperium Osmańskiego i Wspólnoty Narodów. Podczas ciężkiej klęski w bitwie Cetzer wielu szlachciców, kozaków i rybaków zostało schwytanych lub schwytanych przez Turków i Tatarów. Od czytelnika tej interaktywnej opowieści zależy, jak los młodego Kozaka, który rozpaczliwie próbuje uciec z niewoli tatarskiej, udaje się do Dzikiego Pola. Aby przetrwać w stepie, uniknąć zemsty tatarskiej, polegać na zaufaniu pielęgniarek kozackich i powrócić do domu - równie trudne testy. Nadchodzi jednak czas decydującej bitwy, która zmieni bieg historii. Czy bohater będzie mógł wziąć w niej udział i nie zginąć, a w jaki sposób pójdzie na własne życie - tylko ty możesz odpowiedzieć na te pytania.
 
 ** Gra będzie dostępna w językach ukraińskim, angielskim i polskim **
 
-## Kiedy to będzie gotowe?
+## Pobierz teraz!
 
-Planujemy beta wydać grę 1 czerwca 2019 roku
+[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
-
-## Wersja Alpha
-
-Możesz otrzymać zaproszenie do wersji alpha (na Androida), wysyłając nam wiadomość e-mail na adres locadeserta@gladimdim.org. Temat: „Alpha Access”.
-
-*** Wersje Alpha: ***
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="550">
-  <img src="images/screenshot_story_list.jpg" width="550">
-  <img src="images/select_option.jpg" width="550">
+  <img src="images/login_page.jpg" width="550">
+  <img src="images/stories_page.jpg" width="550">
+  <img src="images/passage_page.jpg" width="550">
 </p>
 
 ## Kim jesteśmy
