@@ -11,7 +11,7 @@ Interactive Fiction. This game allows to dive into heroic epoch in XVII century,
 
 # About the book
 
-The story starts just after the [Battle of Cecora](https://en.wikipedia.org/wiki/Battle_of_Cecora_(1620)) is finished. Turkish-crimean army won the battle against Rzecz Pospolita. One of the prisoners of war is our hero - Dmytro. It was an autumn in 1620 year. Dmytro could escape while he was moved to Crimea. The story starts when Dmytro starts his journey back home, back to Ukraine.
+At the beginning of XVII century a confrontation flares up between Polish-Lithuanian Commonwealth and Ottoman Empire. As a result of a devastating defeat in the Battle of Cecora, a lot of noblemen, cossacks and soldiers perished or were captured by Turks and Tatars. A fate of a young cossack, wayfaring through the Wild FIelds in a desperate attempt to escape from captivity, depends on a reader of this interactive fiction. All challenges are equally hard: survive in a steppe, avoid the revenge of Tatars, win the trust of cossack fishermen and return home. But the time of the final battle that will change history is coming. Will the main character be able to participate in it and stay alive and where his life will go from there - only You know the answer.
 
 **Game will be available in Ukrainian, English and Polish languages**
 
@@ -20,9 +20,9 @@ The story starts just after the [Battle of Cecora](https://en.wikipedia.org/wiki
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
 <p align="center">
-  <img src="images/login_page.jpg" width="550">
-  <img src="images/stories_page.jpg" width="550">
-  <img src="images/passage_page.jpg" width="550">
+  <img src="images/login_page.jpg" width="350">
+  <img src="images/stories_page.jpg" width="350">
+  <img src="images/passage_page.jpg" width="350">
 </p>
 
 
@@ -35,7 +35,7 @@ Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
 If you can make such sketches: 
 
 <p align="center">
-  <img src="Vesterfeld_example.jpg" width="550">
+  <img src="Vesterfeld_example.jpg" width="350">
 </p>
 
 and want to help, then write email to gladimdim@gmail.com

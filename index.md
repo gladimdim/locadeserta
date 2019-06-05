@@ -22,9 +22,9 @@
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
 <p align="center">
-  <img src="images/login_page.jpg" width="550">
-  <img src="images/stories_page.jpg" width="550">
-  <img src="images/passage_page.jpg" width="550">
+  <img src="images/login_page.jpg" width="350">
+  <img src="images/stories_page.jpg" width="350">
+  <img src="images/passage_page.jpg" width="350">
 </p>
 
 ## Хто цим займається
@@ -35,7 +35,7 @@
 
 Якщо вмієте малювати в стилі: 
 <p align="center">
-  <img src="vesterfeld_example.jpg" width="650">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
  і хочете допомогти, то пишіть на gladimdim@gmail.com
 
