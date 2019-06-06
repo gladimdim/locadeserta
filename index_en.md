@@ -35,7 +35,7 @@ Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
 If you can make such sketches: 
 
 <p align="center">
-  <img src="Vesterfeld_example.jpg" width="350">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
 
 and want to help, then write email to gladimdim@gmail.com
