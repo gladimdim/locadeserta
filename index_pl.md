@@ -33,8 +33,9 @@ Produkt został opracowany przez Dmytro Gladkyi i Boytsov Kostyantin
 
 Jeśli możesz zrobić takie szkice:
 <p align="center">
-  <img src="Vesterfeld_example.jpg" width="350">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
+
  i chcesz pomóc, napisz e-mail na adres gladimdim@gmail.com
 
 ## Gdzie kupić miniatury?
