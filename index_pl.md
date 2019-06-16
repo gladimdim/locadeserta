@@ -15,9 +15,13 @@ Na początku XVII wieku dochodzi do konfrontacji Imperium Osmańskiego i Wspóln
 
 ** Gra będzie dostępna w językach ukraińskim, angielskim i polskim **
 
-## Pobierz teraz!
+## Gra jest dostępna w Google Play Store ta Apple App Store:
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+
+[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/ua/app/%D0%B4%D0%B8%D0%BA%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5/id1468068398)
+
+## Kilka obrazów z gry:
 
 <p align="center">
   <img src="images/login_page.jpg" width="350">

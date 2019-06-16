@@ -13,11 +13,13 @@ Interactive Fiction. This game allows to dive into heroic epoch in XVII century,
 
 At the beginning of XVII century a confrontation flares up between Polish-Lithuanian Commonwealth and Ottoman Empire. As a result of a devastating defeat in the Battle of Cecora, a lot of noblemen, cossacks and soldiers perished or were captured by Turks and Tatars. A fate of a young cossack, wayfaring through the Wild FIelds in a desperate attempt to escape from captivity, depends on a reader of this interactive fiction. All challenges are equally hard: survive in a steppe, avoid the revenge of Tatars, win the trust of cossack fishermen and return home. But the time of the final battle that will change history is coming. Will the main character be able to participate in it and stay alive and where his life will go from there - only You know the answer.
 
-**Game will be available in Ukrainian, English and Polish languages**
+## The game is available on Google Play Store and Apple App Store:
 
-## Download now!
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+[![Download from Apple App Store](images/appstore.svg)](https://apps.apple.com/ua/app/%D0%B4%D0%B8%D0%BA%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5/id1468068398)
+
+## Several images from the game:
 
 <p align="center">
   <img src="images/login_page.jpg" width="350">
