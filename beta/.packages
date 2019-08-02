@@ -62,6 +62,7 @@ stream_transform:packages/stream_transform/
 string_scanner:packages/string_scanner/
 term_glyph:packages/term_glyph/
 timing:packages/timing/
+tuple:packages/tuple/
 typed_data:packages/typed_data/
 vector_math:packages/vector_math/
 watcher:packages/watcher/
