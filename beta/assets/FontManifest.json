@@ -14,5 +14,13 @@
         "asset": "fonts/Roboto/Roboto-Regular.ttf"
       }
     ]
+  },
+  {
+    "family": "Raleway-Bold",
+    "fonts": [
+      {
+        "asset": "fonts/Raleway/Raleway-Bold.ttf"
+      }
+    ]
   }
 ]
