@@ -11,21 +11,24 @@ Interaktywna fikcja. Ta gra pozwala zanurzyć się w heroicznej epoce w XVII wie
 
 # O książce
 
-Historia zaczyna się tuż po zakończeniu [Bitwy o Cecora] (https://en.wikipedia.org/wiki/Battle_of_Cecora_ (1620)). Wojsko turecko-krymskie wygrało bitwę przeciwko Rzeczowi Pospolita. Jednym z jeńców wojennych jest nasz bohater - Dmytro. Była jesień w 1620 roku. Dmytro mógł uciec, gdy został przeniesiony na Krym. Historia zaczyna się, gdy Dmytro rozpoczyna swoją podróż z powrotem na Ukrainę.
+Na początku XVII wieku dochodzi do konfrontacji Imperium Osmańskiego i Wspólnoty Narodów. Podczas ciężkiej klęski w bitwie Cetzer wielu szlachciców, kozaków i rybaków zostało schwytanych lub schwytanych przez Turków i Tatarów. Od czytelnika tej interaktywnej opowieści zależy, jak los młodego Kozaka, który rozpaczliwie próbuje uciec z niewoli tatarskiej, udaje się do Dzikiego Pola. Aby przetrwać w stepie, uniknąć zemsty tatarskiej, polegać na zaufaniu pielęgniarek kozackich i powrócić do domu - równie trudne testy. Nadchodzi jednak czas decydującej bitwy, która zmieni bieg historii. Czy bohater będzie mógł wziąć w niej udział i nie zginąć, a w jaki sposób pójdzie na własne życie - tylko ty możesz odpowiedzieć na te pytania.
 
-** Gra będzie dostępna w językach ukraińskim, angielskim i polskim **
+*** Gra będzie dostępna w językach ukraińskim, angielskim i polskim ***
 
-## Kiedy to będzie gotowe?
+## Gra jest dostępna w Google Play Store ta Apple App Store:
 
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
 
 [![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+
+## Kilka obrazów z gry:
 
 <p align="center">
   <img src="images/en/screen1.png" width="550">
   <img src="images/en/screen2.png" width="550">
   <img src="images/en/screen3.png" width="550">
   <img src="images/en/screen4.png" width="550">
+
 </p>
 
 ## Kim jesteśmy
@@ -36,8 +39,9 @@ Produkt został opracowany przez Dmytro Gladkyi i Boytsov Kostyantin
 
 Jeśli możesz zrobić takie szkice:
 <p align="center">
-  <img src="Vesterfeld_example.jpg" width="550">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
+
  i chcesz pomóc, napisz e-mail na adres gladimdim@gmail.com
 
 ## Gdzie kupić miniatury?

@@ -9,22 +9,20 @@
 
 # Про що книга
 
-Тільки-но закінчилась битва під Цецорою. Турецьке-кримське військо розбило армію Речі Посполитої. Серед бранців опинився і головний герой - Дмитро. Йшла осінь 1620 року. Дмитро зміг втекти з полону під час переходу до Криму.Лежачи на березі Дніпра, серед очерету, він починає свій шлях. Назад в Україну.
+На початку XVII століття розгоряється протистояння Османської імперії та Речі Посполитої. Під час тяжкої поразки в Цецорській битві загинуло або було захоплено турками і татарами багато шляхтичів, козаків та жовнірів. Від читача цієї інтерактивної історії залежить, як складеться доля молодого козака, який у відчайдушній спробі втечі з татарського полону мандрує Диким Полем. Вижити у степу, уникнути татарської помсти, заслужити довіру козаків-уходників та повернутися до свого рідного дому - однаково складні випробування. Однак, наближається час вирішальної битви, яка змінить хід історії. Чи зможе герой прийняти у ній участь і не загинути, та яким шляхом піде далі його власне життя - на ці питання зможете відповісти лише Ви.   `
 
-# Почни читати прямо зараз
+## Гра доступна на Google Play Store та Apple App Store:
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
-
-
+## Декілька картинок з гри:
 <p align="center">
-  <img src="images/uk/screen1.png" width="550">
-  <img src="images/uk/screen2.png" width="550">
-  <img src="images/uk/screen3.png" width="550">
-  <img src="images/uk/screen4.png" width="550">
-
+  <img src="images/uk/screen1.png" width="350">
+  <img src="images/uk/screen2.png" width="350">
+  <img src="images/uk/screen3.png" width="350">
+  <img src="images/uk/screen4.png" width="350">
 </p>
 
 ## Хто цим займається
@@ -35,7 +33,7 @@
 
 Якщо вмієте малювати в стилі: 
 <p align="center">
-  <img src="vesterfeld_example.jpg" width="650">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
  і хочете допомогти, то пишіть на gladimdim@gmail.com
 

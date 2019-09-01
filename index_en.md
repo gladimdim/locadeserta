@@ -11,23 +11,27 @@ Interactive Fiction. This game allows to dive into heroic epoch in XVII century,
 
 # About the book
 
-The story starts just after the [Battle of Cecora](https://en.wikipedia.org/wiki/Battle_of_Cecora_(1620)) is finished. Turkish-crimean army won the battle against Rzecz Pospolita. One of the prisoners of war is our hero - Dmytro. It was an autumn in 1620 year. Dmytro could escape while he was moved to Crimea. The story starts when Dmytro starts his journey back home, back to Ukraine.
+At the beginning of XVII century a confrontation flares up between Polish-Lithuanian Commonwealth and Ottoman Empire. As a result of a devastating defeat in the Battle of Cecora, a lot of noblemen, cossacks and soldiers perished or were captured by Turks and Tatars. A fate of a young cossack, wayfaring through the Wild FIelds in a desperate attempt to escape from captivity, depends on a reader of this interactive fiction. All challenges are equally hard: survive in a steppe, avoid the revenge of Tatars, win the trust of cossack fishermen and return home. But the time of the final battle that will change history is coming. Will the main character be able to participate in it and stay alive and where his life will go from there - only You know the answer.
+
 
 **Game is available in Ukrainian and English. Polish version comming soon**
 
-# Start reading now
+# The game is available on Google Play Store and Apple App Store:
 
-[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
 [![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
+## Several images from the game:
+
 
 <p align="center">
-  <img src="images/en/screen1.png" width="550">
-  <img src="images/en/screen2.png" width="550">
-  <img src="images/en/screen3.png" width="550">
-  <img src="images/en/screen4.png" width="550">
+  <img src="images/en/screen1.png" width="350">
+  <img src="images/en/screen2.png" width="350">
+  <img src="images/en/screen3.png" width="350">
+  <img src="images/en/screen4.png" width="350">
 </p>
+
 
 ## Who we are
 
@@ -38,7 +42,7 @@ Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
 If you can make such sketches: 
 
 <p align="center">
-  <img src="Vesterfeld_example.jpg" width="550">
+  <img src="vesterfeld_example.jpg" width="350">
 </p>
 
 and want to help, then write email to gladimdim@gmail.com
