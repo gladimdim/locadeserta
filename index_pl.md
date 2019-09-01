@@ -17,19 +17,15 @@ Historia zaczyna się tuż po zakończeniu [Bitwy o Cecora] (https://en.wikipedi
 
 ## Kiedy to będzie gotowe?
 
-Planujemy beta wydać grę 1 czerwca 2019 roku
-
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
 
-## Wersja Alpha
+[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
-Możesz otrzymać zaproszenie do wersji alpha (na Androida), wysyłając nam wiadomość e-mail na adres locadeserta@gladimdim.org. Temat: „Alpha Access”.
-
-*** Wersje Alpha: ***
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="550">
-  <img src="images/screenshot_story_list.jpg" width="550">
-  <img src="images/select_option.jpg" width="550">
+  <img src="images/en/screen1.png" width="550">
+  <img src="images/en/screen2.png" width="550">
+  <img src="images/en/screen3.png" width="550">
+  <img src="images/en/screen4.png" width="550">
 </p>
 
 ## Kim jesteśmy

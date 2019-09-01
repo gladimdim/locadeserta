@@ -13,23 +13,20 @@ Interactive Fiction. This game allows to dive into heroic epoch in XVII century,
 
 The story starts just after the [Battle of Cecora](https://en.wikipedia.org/wiki/Battle_of_Cecora_(1620)) is finished. Turkish-crimean army won the battle against Rzecz Pospolita. One of the prisoners of war is our hero - Dmytro. It was an autumn in 1620 year. Dmytro could escape while he was moved to Crimea. The story starts when Dmytro starts his journey back home, back to Ukraine.
 
-**Game will be available in Ukrainian, English and Polish languages**
+**Game is available in Ukrainian and English. Polish version comming soon**
 
-## When will it be ready?
-
-We plan to beta release the game on 1st of June 2019
+# Start reading now
 
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
 
-## Alpha Version
+[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
-You can get the invite to alpha version (for Android) by emailing us at locadeserta@gladimdim.org. Topic: "Alpha Access".
 
-***Alpha versions:***
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="550">
-  <img src="images/screenshot_story_list.jpg" width="550">
-  <img src="images/select_option.jpg" width="550">
+  <img src="images/en/screen1.png" width="550">
+  <img src="images/en/screen2.png" width="550">
+  <img src="images/en/screen3.png" width="550">
+  <img src="images/en/screen4.png" width="550">
 </p>
 
 ## Who we are

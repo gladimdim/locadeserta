@@ -11,22 +11,20 @@
 
 Тільки-но закінчилась битва під Цецорою. Турецьке-кримське військо розбило армію Речі Посполитої. Серед бранців опинився і головний герой - Дмитро. Йшла осінь 1620 року. Дмитро зміг втекти з полону під час переходу до Криму.Лежачи на березі Дніпра, серед очерету, він починає свій шлях. Назад в Україну.
 
-## Коли можна буде пограти
-
-Випуск гри заплановано на 1 червня 2019 року.
-
-## Альфа версії
-
-Уже зараз ви можете отримати альфа версії, для цього зайдіть по посиланню:
+# Почни читати прямо зараз
 
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/ua_badge_web_generic.png)](https://play.google.com/apps/testing/gladimdim.locadeserta)
 
-***Альфа версії виглядають так:***
+[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+
+
 
 <p align="center">
-  <img src="images/screenshot_landing.jpg" width="550">
-  <img src="images/screenshot_story_list.jpg" width="550">
-  <img src="images/select_option.jpg" width="550">
+  <img src="images/uk/screen1.png" width="550">
+  <img src="images/uk/screen2.png" width="550">
+  <img src="images/uk/screen3.png" width="550">
+  <img src="images/uk/screen4.png" width="550">
+
 </p>
 
 ## Хто цим займається
@@ -40,8 +38,4 @@
   <img src="vesterfeld_example.jpg" width="650">
 </p>
  і хочете допомогти, то пишіть на gladimdim@gmail.com
-
-## Де купити фігурки?
-
-Ми плануємо запустити продаж мініатюр з головними героями книги. Поки що нічого конкретного, але буде :-)
 
