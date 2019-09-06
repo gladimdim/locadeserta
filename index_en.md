@@ -6,15 +6,13 @@
 
 # What is this
 
-Interactive Fiction. This game allows to dive into heroic epoch in XVII century, which took part in the southern part of Ukraine, at Loca Deserta. You not only read the story but you can select how it proceeds further! Depending on your selections you can get absolutely different events, encounters. Or you can even die.
-
+Interactive fiction. This game allows you to dive into the heroic epoch of the XVII century and experience the unforgettable life of a Cossack in the Wild Fields of southern Ukraine. You will not only get a chance to read the story but determine how it will develop! The fate of the brave Cossack depends on your choices and his life is in your hands.
 
 # About the book
+At the beginning of the XVII century a confrontation flares up between the Polish-Lithuanian Commonwealth and the Ottoman Empire. As a result of a devastating defeat at the Battle of Cecora, a lot of noblemen, Cossacks, and soldiers are killed or captured by Turks and Tatars. The fate of a young Cossack, wayfaring through the Wild Fields in a desperate attempt to escape from captivity, depends on the choices of the reader of this interactive fiction. All the challenges are equally hard: surviving in the steppe, avoiding the revenge of the Tatars, winning the trust of the Cossack fisherman and returning home. But the battle that will change the course of history is fast approaching. Will the main character be able to participate in it and stay alive? And how will his life go from there? – Only you know the answer!
 
-At the beginning of XVII century a confrontation flares up between Polish-Lithuanian Commonwealth and Ottoman Empire. As a result of a devastating defeat in the Battle of Cecora, a lot of noblemen, cossacks and soldiers perished or were captured by Turks and Tatars. A fate of a young cossack, wayfaring through the Wild FIelds in a desperate attempt to escape from captivity, depends on a reader of this interactive fiction. All challenges are equally hard: survive in a steppe, avoid the revenge of Tatars, win the trust of cossack fishermen and return home. But the time of the final battle that will change history is coming. Will the main character be able to participate in it and stay alive and where his life will go from there - only You know the answer.
+**The game is available in Ukrainian and English. The Polish version is coming soon.**
 
-
-**Game is available in Ukrainian and English. Polish version comming soon**
 
 # The game is available on Google Play Store and Apple App Store:
 
@@ -33,21 +31,8 @@ At the beginning of XVII century a confrontation flares up between Polish-Lithua
 </p>
 
 
-## Who we are
+## Who are we
 
 Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
 
-## How can we help?
-
-If you can make such sketches: 
-
-<p align="center">
-  <img src="vesterfeld_example.jpg" width="350">
-</p>
-
-and want to help, then write email to gladimdim@gmail.com
-
-## Where to buy miniatures?
-
-We plan to 3D print main characters of this book. Stay tuned.
 
