@@ -106,3 +106,9 @@ header a:hover {
     font-weight: bold;
     margin: 0.5rem;
 }
+
+.textAreaStyle {
+    border: 3px solid black;
+    width: 100%;
+    display: block;
+}
