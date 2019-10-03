@@ -15,13 +15,14 @@
 
 [![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/ua/app/%D0%B4%D0%B8%D0%BA%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5/id1468068398)
+[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
 ## Декілька картинок з гри:
 <p align="center">
-  <img src="images/login_page.jpg" width="350">
-  <img src="images/stories_page.jpg" width="350">
-  <img src="images/passage_page.jpg" width="350">
+  <img src="images/uk/screen1.png" width="350">
+  <img src="images/uk/screen2.png" width="350">
+  <img src="images/uk/screen3.png" width="350">
+  <img src="images/uk/screen4.png" width="350">
 </p>
 
 ## Хто цим займається
@@ -35,8 +36,4 @@
   <img src="vesterfeld_example.jpg" width="350">
 </p>
  і хочете допомогти, то пишіть на gladimdim@gmail.com
-
-## Де купити фігурки?
-
-Ми плануємо запустити продаж мініатюр з головними героями книги. Поки що нічого конкретного, але буде :-)
 
