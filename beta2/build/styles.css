@@ -120,7 +120,7 @@ header a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    animation: pulse 2s;
+    animation: pulse 5s;
 }
 
 @keyframes pulse {
