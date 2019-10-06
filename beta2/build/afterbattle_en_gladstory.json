@@ -1,0 +1,249 @@
+{
+    "title": "After the Battle",
+    "description": "At the beginning of the XVII century a confrontation flares up between the Polish-Lithuanian Commonwealth and the Ottoman Empire. As a result of a devastating defeat at the Battle of Cecora, a lot of noblemen, Cossacks, and soldiers are killed or captured by Turks and Tatars. The fate of a young Cossack, wayfaring through the Wild Fields in a desperate attempt to escape from captivity, depends on the choices of the reader of this interactive fiction. All the challenges are equally hard: surviving in the steppe, avoiding the revenge of the Tatars, winning the trust of the Cossack fisherman and returning home. But the battle that will change the course of history is fast approaching. Will the main character be able to participate in it and stay alive? And how will his life go from there? – Only you know the answer!",
+    "authors": "Konstantin Boytsov, Anastasiia Tsapenko",
+    "root": {
+        "endType": null,
+        "nodes": [
+            {
+                "text": "Dmytro lay hidden in the thicket far from the water, listening carefully to the nearby sounds. Pesky gnats needled his face and neck. A little further off on the shore, where the reeds gave place to steppe grass and sparsely growing trees, three men had settled near a fire. The runaway couldn’t see them, but he could sometimes hear fragments of their conversation and the clatter of provisions passed on by the wind. They were Tatars. Dmytro was trying to hear whether they were there for him.",
+                "imageType": "river"
+            },
+            {
+                "text": "The Cossack lay like this for a long time, covering his head with his hands until it was completely dark. The wind increased, blocking out all other sounds except for the haunting song of the rustling reeds. The wispy clouds were driven westward, creating a covering for the weak light of the crescent moon. Dmytro couldn’t wait any longer."
+            },
+            {
+                "text": "The runaway had to crawl once again since the river bank had risen. Suddenly, he spotted a solitary fire glowing in the dark sea of the steppe."
+            },
+            {
+                "text": "In the rare times the moonlight was visible, it was possible to glimpse the silhouettes of people and horses. Two were sleeping on the ground facing each other. A third was sitting closer to the fire, leaning against a short spear and, seemingly, also sleeping. It was harder to make out the horses as they slept on the other side of the fire, but there appeared to be at least five of them."
+            },
+            {
+                "text": "Dmytro crawled to the nearest Tatar and quietly rose to his knees, ready to stick the knife in the Tatar’s eye if he moved. Nearby was a bow, a quiver with arrows, and a knapsack."
+            }
+        ],
+        "next": [
+            {
+                "text": "Take the bow, quiver and knapsack",
+                "nextPage": {
+                    "nodes": [
+                        {
+                            "text": "The Cossack didn’t dare to touch anything else and with his takings made the way back to the reeds and distanced himself from the riders, following the river upstream."
+                        },
+                        {
+                            "text": "Farther away, a good range from the camp, there was small hill which revealed that in the back of the steppe there glimmered not one, but two fires. The second one was some distance from the river and it was hard to spot. There were more Tatars here than Dmytro thought. He moved on, keeping in mind there was little time. Soon, both fires disappeared in the fog. The first cold autumn night had come to the Wild Fields."
+                        },
+                        {
+                            "text": "The reeds were replaced by grass, the grass by rocks, and the rocks by ravines. A lot of time had passed since the runaway had started his journey along the river bank. Having passed another hollow that led to the Dnipro, the Cossack set off into the steppe, away from the river.",
+                            "imageType": "steppe"
+                        },
+                        {
+                            "text": "Dmytro was walking among low-lying hills when he suddenly caught the scent of something burning. On one of the hillocks, he got a good view of the surroundings. There was no fire or smoke anywhere. However, in the distance he caught a glimpse of a copse of trees. The runaway headed towards the woods. As he did so, the smell of smoke became stronger. Up close, the wood showed signs of a forest fire – blackened tree trunks stuck out like poles, merging together and disappearing in the darkness. Behind the trees there was a slight hollow where a small brook flowed hidden from sight by several boulders the size of a horse-cart. The ground was covered by a thick layer of cold ashes."
+                        },
+                        {
+                            "text": "The man settled near the boulder closest to the brook, holding the bow and arrow at the ready, and started to look through the Tartar’s knapsack."
+                        },
+                        {
+                            "text": "The first thing he found was a firesteel tied to a gray bag that contained pieces of flint and tinder from burnt rags. There was also some dried bread, several pieces of dried horse meat wrapped in sackcloth, a copper jug, and a scabbard for a knife or a dagger. The scabbard, made from rough leather, would have been a simple one if not for the moldings on it and the semiprecious stone at its center. There was no dagger in the knapsack. Since the knife that Dmytro had was too small for the scabbard, he put it back in the knapsack.",
+                            "imageType": "forest"
+                        },
+                        {
+                            "text": "Night air became bone-chilling."
+                        }
+                    ],
+                    "next": [
+                        {
+                            "text": "Set fire",
+                            "nextPage": {
+                                "nodes": [
+                                    {
+                                        "text": "Dmytro didn’t have an overcoat so he went to gather burnt branches and placed them beside a boulder that had a flat vertical surface, turned inwards to the hollow where the brook ran. The Tartar’s tinder and firesteel had come in handy. The Cossack lit a fire, hoping that the hollow behind the bolder would help him hide the fire. The charred logs burned quickly and almost without any smoke, leaving behind glowing embers. In a small span of time, the Cossack had enough embers that he could start adding some bigger pieces of word to the fire. He found some twigs to create a makeshift bedding near the fire. Bringing some more logs to the fire, Dmytro spread the embers around the perimeter of the boulder. Worn and tired, he placed a jug with spring water right next to the fire to soften the dried bread and horse meat. The simple food and the warmth from the embers, which radiated from the tall boulders, finally warmed him up. The Cossack slept until dawn, waking up from time to time to add wood to the fire or to drink some water. At last, the sky was starting to clear up. A new day began."
+                                    },
+                                    {
+                                        "text": "The wind from the east brought some denser clouds that blocked out the sun, so the morning was cloudy. Dmytro woke up, as it seemed to him, due to some faraway sound. There was only a pile of ash left from last night’s fire, but the surrounding boulders still preserved some of the warmth from the fire, keeping the morning cold at bay. The Cossack got up quickly, grabbed the knapsack, the bow and quiver of arrows, and set off for the opposite side of the hollow. He then turned left and, making a wide circle, returned to the edge of the burnt forest, a little way off from the place where he had entered the forest."
+                                    },
+                                    {
+                                        "text": "Meanwhile deep in the woods, a Tartar looked at Dmytro’s footprints in the ashes. He then got up and took a good look at his surroundings. As much as Dmytro could see from his hiding spot, it was the very same Tartar whose things Dmytro had taken the night before. What’s more, the Tartar was by himself."
+                                    }
+                                ],
+                                "next": [
+                                    {
+                                        "text": "Shoot a bow",
+                                        "nextPage": {
+                                            "nodes": [
+                                                {
+                                                    "text": "The Cossack nocked the arrow, drew the bow, aimed carefully and released the arrow. The Tartar made a noise and collapsed to the burnt ground. Dmytro waited for a while – nobody appeared. Then he carefully walked forward. The Tartar didn’t seem to be breathing anymore."
+                                                },
+                                                {
+                                                    "text": "In a little bit, Dmytro emerged from the burnt woods donning a hat, a slightly bloodied overcoat, and a curved Tartar saber on his belt. Not far in the steppe there was a small stallion with a saddle. The Cossack approached him, whispering words that he had learned as young boy when caring for horses, and looked into the animal’s eyes. Not meeting any resistance, he quickly mounted the horse and galloped off into the distance. In a few minutes, rain started to fall from the leaden sky, slowly but steadily soaking the russet dried grass of the steppe."
+                                                },
+                                                {
+                                                    "text": "Dmytro rode through the steppe without stopping. Sometimes he changed directions as he approached the river, but as soon as he could see the shore, he turned to the steppe again. The rain fell without stopping, soaking Dmytro’s clothing and things. However, the sleep he had gotten the night before gave the Cossack strength, so he didn’t pay attention to such trifles. The steppe horse also proved to be a hardy creature, showing no signs of fatigue. With the new owner in the saddle, he galloped steadily into the unknown through the tall grass, wind and rain."
+                                                },
+                                                {
+                                                    "text": "The terrain became even more hilly, from place to place rocks emerged from the earth. Once again turning to the west, Dmytro rode to one of the cliffs. The river stretched out below, wide and calm, decked with reeds, boulders, islands and shrouded in fog. In the middle there was a large island, completely flat and covered with willows and shrubs. The dark silhouette of a small boat moved briskly against the current from the northern end of the island, gradually disappearing in the coastal thickets."
+                                                },
+                                                {
+                                                    "text": "Dmytro managed to ride a a little more until he approached a small stream which, however, ran down into a deep chasm, flowing down to the Dnipro River. Nearby, there was a barely noticeable trail that led downhill. "
+                                                },
+                                                {
+                                                    "text": "Dmytro got down from his horse and started the steep trek down the trail, guiding the horse by the reins."
+                                                },
+                                                {
+                                                    "text": "The trail led to a wide clearing surrounded by willows and hidden by cliffs in the place where the stream joined the big river."
+                                                }
+                                            ],
+                                            "next": [
+                                                {
+                                                    "text": "Take a look at the clearing",
+                                                    "nextPage": {
+                                                        "nodes": [
+                                                            {
+                                                                "text": "Dmytro released his horse and set off into the thickets, keeping a vigilant eye on the surroundings. He had walked only a couple of paces when he heard the click of a gun being cocked behind his back. The runaway froze."
+                                                            },
+                                                            {
+                                                                "text": "What faith are you?” Said the voice behind him."
+                                                            },
+                                                            {
+                                                                "text": "The faith of the Rus,” Dmytro confidently replied and slowly turned around. Behind him stood two men, which had appeared from nowhere. Without the gun and sabers, and spear, he would have taken them for fishermen."
+                                                            },
+                                                            {
+                                                                "text": "Cross yourself if you are a good man,” said another man. The runaway crossed himself three times."
+                                                            },
+                                                            {
+                                                                "text": "Let’s go,” said the one with the gun. He didn’t lower the weapon but inclined his head towards the willows. All three walked down the hill to the trees. The man with the spear threw a small bag onto Dmytro’s head that reeked of fish and pushed him in the back."
+                                                            },
+                                                            {
+                                                                "text": "Go on, go on,” someone grabbed the runaway by the arm and led the way. They walked only a short while before Dmytro had to bend over and walk down some stairs. A door creaked. Someone pulled the bag off his head. They were in a long, shadowy cabin with an earthen floor covered by reeds. On the benches at a table of rough logs sat a large group of armed men. The light barely passed through the bottles inserted close to the ceiling of the earthen walls of the cabin. Dust and smoke circulated in the rays of light coming through the bottles. An icon of the Holy Virgin hung in the corner illuminated by a candle."
+                                                            },
+                                                            {
+                                                                "text": "Dmytro was questioned about his origins and whereabouts. He told them how he was captured along with other Cossacks by the Tartars at Cecora, how he was taken to Crimea, and about his escape at the crossing during the confusion that ensued when someone suddenly attacked the Tartars."
+                                                            },
+                                                            {
+                                                                "text": "All the men listened attentively. Then Dmytro was taken outside the cabin with the same precautions as when he had been taken in. He sat below a willow while the man with the gun guarded him. The runaway asked for some water. The guard carefully gave him a clay flask and allowed him to take a few sips. Soon about a dozen men emerged from behind the trees. Some of them Dmytro recognized from the earth cabin. A stocky man holding a long stick with a noose at one end stepped to the front of the crowd. “You are no captive Cossack, but a spy!”- He loudly proclaimed. The crowd shouted approvingly. The noose was thrown around Dmytro’s neck and he was pulled to the Dnipro. It was futile to resist and he almost had no strength left in him."
+                                                            },
+                                                            {
+                                                                "text": "When he was near the water, someone offered him to pray for the last time. The runaway started to say something when a strange noise came from the clearing. A man ran along the path, waving his saber and shouting something. Suddenly, he swayed, made a few hesitant steps and collapsed. A crimson stain was quickly spreading on the back of his shirt. Someone ran up to him from the crowd that had gathered near the shore. Several arrows whistled by and a gun had been fired somewhere close. The air was filled with smoke. People grabbed their weapons and ran down the path to the clearing. Dmytro was pushed out of the water and left lying on the shore."
+                                                            }
+                                                        ],
+                                                        "next": [
+                                                            {
+                                                                "text": "Hide in the reeds",
+                                                                "nextPage": {
+                                                                    "nodes": [
+                                                                        {
+                                                                            "text": "Dmytro focused all his energy on paddling until the last rays of the sun glimmered on the glassy surface of the river. At that time, the stern of the boat had landed on the nameless patch of earth in the middle of the mighty river."
+                                                                        },
+                                                                        {
+                                                                            "text": "The island was heavily overgrown with shrubs. It took some elbow grease for Dmytro to pull the boat ashore. On the other hand, the thicket hid everything that was on the island from any onlooker on shore or in the water."
+                                                                        },
+                                                                        {
+                                                                            "text": "The fugitive surveyed the goods. Among the things, he found everything needed for life: food, cooking utensils, a wide knife, a firesteel, and even a pipe and a pouch tobacco."
+                                                                        },
+                                                                        {
+                                                                            "text": "To get to the middle of the island, which could have been about a hundred steps, he had to bend over and crawl through the thickets. In the middle of the island grew three ancient trees, so burly and thick that no bushes could grow in their vicinity. The ground was heavily covered with twigs and yellowed leaves."
+                                                                        },
+                                                                        {
+                                                                            "text": "Dmytro dragged his boat supplies and quickly made a reed shack. Then he cooked some grain in a copper jug over a small fire."
+                                                                        },
+                                                                        {
+                                                                            "text": "By then, it was completely dark. The night turned out to be clear, warm and starry. Dmytro left his camp and went to the edge of the island opposite to the one where he had landed. Cutting the reeds, he found that passage to the shore was quite clear here. The thickets weren’t so thick and near the shore there were a couple of stone blocks that created a small shelter. Dmytro left his clothing on the rocks and carefully entered the cold water of the Dnipro. Having entered the river up to his waist, he stopped, admiring the reflection of the stars in the water. Suddenly, he seemed to catch a glimpse of that young lady underwater again. Dmytro shook his head – it was most likely his weariness getting the better of him. Despite the cold, the bath brought a sense of relief and washed away the dust of his recent adventures. Returning to the shack, Dmytro barely waited for the fire to die down and fell soundly asleep."
+                                                                        },
+                                                                        {
+                                                                            "text": "In the morning, he quickly gathered, ate a little, and with the first light of dawn was already on the water. Up the current there was a network of straits and tributaries filled with countless small islands, and Dmytro hoped to continue his journey by hiding in the depths of this labyrinth. Currently, his goal was to cross the open space as quickly as possible before the sun had fully risen. Entering one of the straits, the runaway stopped paddling. The boat slid across the water without a sound. The current was much weaker here, so while the boat had stopped and started going backwards, Dmytro turned slightly and listened attentively. Then he made a couple of more strokes with the paddle, leveling the dugout canoe and guiding it forward. Repeating this movements many times, the Cossack slowly made his way through the thickets, trying not to lose his sense of direction. Even the current was no longer helping. In some areas it was hardly noticeable and in other areas the water seemed to move in a circle, pulling the boat into the center of the gyration. Suddenly, larger islands started to appear with patches of hard dry earth and even a couple of bushes. Dmytro went around these islands to the left, then to the right, until he approached a fairly large piece of land with several willows. The island was curved like a crescent moon, and Dmytro was approaching one of its tips while the other tip was visible from a distance. He led the boat to a small bay between the tips of the island. Dmytro surveyed the semicircle of the island’s sandy shore. At first, he didn’t see anything special, but a moment before he turned away something white flashed through the thickets. He vigorously paddled to turn back and surveyed the shallows once again. It seemed that in the depths of the island there was something white that resembled a piece of cloth tied to a tree or pole."
+                                                                        }
+                                                                    ],
+                                                                    "next": [
+                                                                        {
+                                                                            "text": "Land on the island",
+                                                                            "nextPage": {
+                                                                                "endType": "alive",
+                                                                                "nodes": [
+                                                                                    {
+                                                                                        "text": "Dmytro reached the shore, jumped out of the boat into the shallow water and pulled the boat ashore, trying to hide it as well as possible. Having finished this, he went towards the trees where the he had glimpsed something light-colored. He quickly found someone’s makeshift bedding under some willows. It seemed that the place had been left in haste a long time ago. The abandoned tent had been displaced by the wind and there were no ashes in the firepit. However, he couldn’t find any belongings, only a decaying sack and a wooden shovel that had fallen apart due to the moisture. Dmytro walked around a little more, taking a good look at the area. He was ready to return to the boat when he heard a noise from the other side of the island. He listened carefully. It seemed somebody had landed on the other side of the island. He heard low voices but couldn’t decipher what they were saying. The runaway hardly had the time to hide in the nearest thickets when several Cossacks emerged from the opposite side, their bows at the ready. They quickly made their way to the remnants of the abandoned tent. Two others followed right after them. To Dmytro’s surprise, he recognized one of the Cossacks. The young man had once persuaded him to run off to the Wild Fields before disappearing himself."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "The newcomers carefully surveyed the island. One of the Cossacks moved towards the shore where Dmytro had left his boat. Soon, they had gathered near the tent once again, looking around. Then one of them called out: “Come out in the clearing or we will find you!” Dmytro hesitated a bit, but then he replied, still hidden in the thickets: “Stepan! Stepan from Bila Tserkva? Ask the men not to shoot and I will come out.” The Cossacks started to talk quietly among themselves, somewhat surprised. Then the one whom Dmytro had recognized, proclaimed: “Come out, show yourself.” Dmytro slowly got up and came out of the thickets. Stepan also recognized him and couldn’t hide his surprise: “Which wind brought you here? What a meeting! So you also decided to join the Zaporozhians?”"
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "It turned out that Stepan belonged to the very same group of Cossacks that had captured Dmytro previously, but he was away when this happened. “Listen, we can’t let you go, but I will do the best I can,” Stepan promised and smiled, adding, “We won’t try to drown you anymore.”"
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "Stepan stayed with the rest of the Cossacks and they sent Dmytro in the company of two Cossacks to their camp on another island. Soon they joined him and Dmytro again was sent to the otaman."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "He was brought into a small tent under some willows in the middle of the island. In the tent there was a man already familiar  sitting on a barrel. He was short and simply dressed, with a scar covering half his face. A pipe rested between his lips. There were two Cossacks sitting near the entrance on a bedding of hay, talking energetically among themselves and smoking their pipes. Aromatic smoke rose to the top of the tent, winding in fanciful loops and pouring out in swaths from the open entrance of the tent."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "The conversation turned out to be more pleasant this time. Since Stepan had vouched for the runaway, Dmytro was permitted to stay with the Cossacks and spend the winter with them. On the other hand, he didn’t have any better options."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "In three days, the group reached the bleak cliffs that rose high above the Dnipro River, so steep that they seemed like great walls reaching towards the sky. The boat that was in front approached these stone giants and suddenly disappeared from sight. And after this boat, the next one vanished as well, and the one after that. When Dmytro’s boat reached the same cliff, he realized that it wasn’t solid. A massive boulder jutted out into the main body of the river, creating a narrow passage, behind which a peaceful stretch of land was safely hidden. In a while, the whole group had disembarked on the mysterious shore."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "Higher up on the shore was a forest full of ravines and gullies, behind which a small river ran its course into the majestic currents of the Dnipro."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "When the greater part of the Cossacks had gathered near the edge of the forest, surveying the surroundings, the leader of the group confidently proclaimed: “We will spend winter here!”"
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "men started to unpack the boats."
+                                                                                    },
+                                                                                    {
+                                                                                        "text": "The End of Chapter One"
+                                                                                    }
+                                                                                ],
+                                                                                "next": []
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "text": "Look for a Tatar saber",
+                "nextPage": {
+                    "nodes": [
+                        {
+                            "text": "Carefully placing these things to closer to him, Dmytro was on the lookout for the saber. It was nearby, taken off the hook, but the sleeper was holding it in his arms like a child his favorite toy.",
+                            "imageType": "camp"
+                        },
+                        {
+                            "text": "Yet it was quiet in the camp. The figure near the fire continued to sit in the same place. Dmytro waited a little and, at last, walked away, trying to step as quietly as possible. Soon, he was in the open steppe, walking away from the river."
+                        }
+                    ],
+                    "next": [
+                        {
+                            "text": "Try to pull it out",
+                            "nextPage": {
+                                "nodes": [
+                                    {
+                                        "text": "Dmytro held his breath. With a steady hand he grasped the saber and started to pull it out from the sheath, holding the knife in his other hand. The sleeping man turned on his side and abruptly turned back and opened his eyes."
+                                    },
+                                    {
+                                        "text": "The Cossack hit him with all his strength. The Tartar howled, twitched, and at last became silent. With a sharp movement, Dmytro pulled the saber from the hands of the dead man, grabbed his things, and stepped back into the darkness. From the fire, it was possible to hear an undistinguishable clamor of voices. He stopped and raised his bow and arrow, aiming at the strange shapes that glimmered in the light of the dying fire."
+                                    },
+                                    {
+                                        "text": "A figure holding a spear stood up near the fire and started approaching through the clouds of smoke. Dmytro released an arrow. In response he heard the rustling of grass and then complete silence. The Cossack carefully retreated behind the river bank and quickly distanced himself from the camp. After some time, he climbed down the river bank to hide among the reeds, listening for followers. It seemed no one was following him. He then got back up onto the plain and set off into the steppe away from the river."
+                                    }
+                                ],
+                                "next": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
