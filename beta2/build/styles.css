@@ -94,7 +94,8 @@ header a:hover {
 }
 
 .continueBlock {
-    display: block;
+    display: inline-block;
+    box-sizing: border-box;
     width: 100%;
     border: none;
     background-color: black;
@@ -104,13 +105,14 @@ header a:hover {
     text-align: center;
     color: white;
     font-weight: bold;
-    margin: 0.5rem;
+    margin: 0.5rem auto;
 }
 
 .textAreaStyle {
+    box-sizing: border-box;
     border: 3px solid black;
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 .historyImage {
@@ -119,6 +121,7 @@ header a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
     width: 70%;
     animation: pulse 5s;
 }
@@ -131,3 +134,7 @@ header a:hover {
         opacity: 1;
     }
 }
+
+* { 
+    box-sizing:border-box;
+  }

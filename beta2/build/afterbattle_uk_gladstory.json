@@ -1,0 +1,118 @@
+{
+    "title": "After the Battle",
+    "description": "At the beginning of the XVII century a confrontation flares up between the Polish-Lithuanian Commonwealth and the Ottoman Empire. As a result of a devastating defeat at the Battle of Cecora, a lot of noblemen, Cossacks, and soldiers are killed or captured by Turks and Tatars. The fate of a young Cossack, wayfaring through the Wild Fields in a desperate attempt to escape from captivity, depends on the choices of the reader of this interactive fiction. All the challenges are equally hard: surviving in the steppe, avoiding the revenge of the Tatars, winning the trust of the Cossack fisherman and returning home. But the battle that will change the course of history is fast approaching. Will the main character be able to participate in it and stay alive? And how will his life go from there? – Only you know the answer!",
+    "authors": "Konstantin Boytsov, Anastasiia Tsapenko",
+    "root": {
+        "endType": null,
+        "nodes": [
+            {
+                "text": "Сонце сідало за рікою, заливаючи все навколо багряним сяйвом. Стрімка течія несла темну воду на південь, до моря. Вітерець стиха колихав очерет, розносячи запах ранньої осені та дим від вогнища. Поступово сутеніло.",
+                "imageType": "river"
+            },
+            {
+                "text": "Дмитро нерухомо лежав у прибережних заростях далеко від води, прислухаючись до навколишніх звуків. Надокучлива комашня гризла обличчя та шию. Десь там, трохи далі на березі, де очерет поступається степовій траві та поодиноким деревцям, розташувалися навколо вогню троє чоловіків. Утікачу їх не було видно, однак інколи вітер приносив уривки розмови та брязкіт реманенту. Це були татари. Дмитро прислухався, намагаючись зрозуміти, чи вони тут по його душу."
+            },
+            {
+                "text": "Козак лежав так ще довго, закривши голову руками, доки зовсім не стемніло. Вітер посилився, зовсім заглушивши усі навколишні звуки потужним шелестом очеретяного моря. Він гнав на захід уривчасті хмари, що затуляли і без того слабеньке сяйво молодого місяця. Дмитрові вже несила було чекати довше, треба було на щось наважуватися. Стиснувши добрий поясний ніж - єдину річ, що йому вдалося прихопити з човна під час втечі, - він поволі переповз до стежки, яка вела крізь очерет до річки. Трохи почекав, підвівся та, намагаючись ступати тихіше, підійшов до краю води. На темній стежці нікого не було. Він присів і почав пити холодну річкову воду, черпаючи її долонею. У стрімкому потоці час від часу спалахувало відображення місяця та хмар, підсвічених ним. А потім раптом промайнуло дівоче обличчя. Чоловік відсахнувся від води та витріщився туди, звідки якусь мить тому на нього дивилися ясні очі молодої панночки. Але там вже нічого не було - тільки місячне сяйво подекуди виринало із хмар. Він перехрестився та позадкував, у півголоса промовляючи молитву. Потім розвернувся та рішуче вирушив туди, де закінчувалася стіна очерету."
+            },
+            {
+                "text": "Втікачу знову довелося повзти, бо берег піднімався все вище, аж ось незабаром з’явилося вогнище, яке ще жевріло самотньо у степу."
+            },
+            {
+                "text": "У нечастих спалахах місячного сяйва можна було розгледіти силуети людей та коней. Двоє, схоже, спали на землі, один навпроти одного. Третій сидів ближче до вогню, спираючись на короткого списа, і, здавалося, теж заснув. Коней було видно гірше, вони дрімали десь з іншого боку багаття і їх, на перший погляд, було не менше п’яти."
+            },
+            {
+                "text": "Дмитро підповз до найближчого сплячого татарина та тихо підвівся на коліна, підготувавшись встромити ножа йому в око, якщо той ворухнеться. Поруч лежав лук з сагайдаком та якась торбинка.",
+                "imageType": "steppe"
+            }
+        ],
+        "next": [
+            {
+                "text": "Забрати торбинку та лук з сагайдаком",
+                "nextPage": {
+                    "nodes": [
+                        {
+                            "text": "Козак більше нічого не ризикнув чіпати і зі своєю здобиччю обережно повернувся до очерету та почав поступово віддалятися від вершників, прямуючи вздовж річки вверх за течією."
+                        },
+                        {
+                            "text": "Далі, як на добрий перестріл від стоянки, трапився невеликий пагорб, з якого було видно, що позаду в степу мерехтіло не одне, а два вогнища. Друге було ще далі від річки і його було погано видно. Татар тут було більше, ніж Дмитрові здавалося спочатку. Він рушив далі, не гаючи часу. Незабаром, обидва вогнища зникли у степовій імлі. Перша холодна осіння ніч завітала до Дикого Поля."
+                        },
+                        {
+                            "text": "Очерет змінювався травою, трава - камінням, каміння - байраками. Пройшло вже багато часу відтоді, як розпочався шлях втікача вздовж узбережжя. Пройшовши в темряві чергову улоговину, що збігала вниз до Дніпра, козак рушив у степ подалі від річища.",
+                            "imageType": "steppe"
+                        },
+                        {
+                            "text": "Дмитро йшов між невисокими пагорбами, коли раптом відчув запах згарища. На черговому горбі він добре роздивився навколо - жодних вогнів, чи навіть диму помітити не вдалося. Проте, вдалині, на скільки дозволяла ніч, можна було побачити якийсь перелісок. Утікач попрямував до нього. У повітрі все сильніше смерділо горілим. Зблизька лісок дійсно виявився згарищем - голі почорнілі стовбури стирчали, наче щогли, гублячись у темряві та зливаючись між собою у суцільну стіну. За собою вони ховали невелику западину, в якій стояла калюжа води та витікав ледь помітний струмок. Навколо западини розкинулося декілька кам’яних брил завбільшки з воза. Долівку вкривав товстий шар холодного попелу."
+                        },
+                        {
+                            "text": "Чоловік розташувався за найближчою до струмка каменюкою, тримаючи лук зі стрілами напоготові біля себе, та став навпомацки вивчати вміст татарської торбинки."
+                        },
+                        {
+                            "text": "Спочатку під руку потрапило кресало та прив’язаний до нього сірий мішечок зі шматками кременя та трутом з обпалених ганчірок, далі - сухарі та кілька куснів в’яленої конини, загорнутих в рядно, мідний кухоль, а останнім предметом були піхви до ножа чи кинджалу, на вигляд звичайні, з грубої шкіри, проте, оздоблені тисненням та невеликим камінцем посередині. Самого кинджалу у торбі не було. Ніж, що його мав Дмитро, для них був замалий, тож він поклав піхви назад до торбинки.",
+                            "imageType": "forest"
+                        }
+                    ],
+                    "next": [
+                        {
+                            "text": "Set fire",
+                            "nextPage": {
+                                "nodes": [
+                                    {
+                                        "text": "Dmytro didn’t have an overcoat so he went to gather burnt branches and placed them beside a boulder that had a flat vertical surface, turned inwards to the hollow where the brook ran. The Tartar’s tinder and firesteel had come in handy. The Cossack lit a fire, hoping that the hollow behind the bolder would help him hide the fire. The charred logs burned quickly and almost without any smoke, leaving behind glowing embers. In a small span of time, the Cossack had enough embers that he could start adding some bigger pieces of word to the fire. He found some twigs to create a makeshift bedding near the fire. Bringing some more logs to the fire, Dmytro spread the embers around the perimeter of the boulder. Worn and tired, he placed a jug with spring water right next to the fire to soften the dried bread and horse meat. The simple food and the warmth from the embers, which radiated from the tall boulders, finally warmed him up. The Cossack slept until dawn, waking up from time to time to add wood to the fire or to drink some water. At last, the sky was starting to clear up. A new day began."
+                                    },
+                                    {
+                                        "text": "The wind from the east brought some denser clouds that blocked out the sun, so the morning was cloudy. Dmytro woke up, as it seemed to him, due to some faraway sound. There was only a pile of ash left from last night’s fire, but the surrounding boulders still preserved some of the warmth from the fire, keeping the morning cold at bay. The Cossack got up quickly, grabbed the knapsack, the bow and quiver of arrows, and set off for the opposite side of the hollow. He then turned left and, making a wide circle, returned to the edge of the burnt forest, a little way off from the place where he had entered the forest."
+                                    }
+                                ],
+                                "next": [
+                                    {
+                                        "text": "Shoot a bow",
+                                        "nextPage": [
+                                            {
+                                                "nodes": [],
+                                                "next": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "text": "Пошукати татарську шаблю",
+                "nextPage": {
+                    "nodes": [
+                        {
+                            "text": "Carefully placing these things to closer to him, Dmytro was on the lookout for the saber. It was nearby, taken off the hook, but the sleeper was holding it in his arms like a child his favorite toy.",
+                            "imageType": "camp"
+                        },
+                        {
+                            "text": "Yet it was quiet in the camp. The figure near the fire continued to sit in the same place. Dmytro waited a little and, at last, walked away, trying to step as quietly as possible. Soon, he was in the open steppe, walking away from the river."
+                        }
+                    ],
+                    "next": [
+                        {
+                            "text": "Try to pull it out",
+                            "nextPage": {
+                                "nodes": [
+                                    {
+                                        "text": "Dmytro held his breath. With a steady hand he grasped the saber and started to pull it out from the sheath, holding the knife in his other hand. The sleeping man turned on his side and abruptly turned back and opened his eyes."
+                                    },
+                                    {
+                                        "text": "The Cossack hit him with all his strength. The Tartar howled, twitched, and at last became silent. With a sharp movement, Dmytro pulled the saber from the hands of the dead man, grabbed his things, and stepped back into the darkness. From the fire, it was possible to hear an undistinguishable clamor of voices. He stopped and raised his bow and arrow, aiming at the strange shapes that glimmered in the light of the dying fire."
+                                    },
+                                    {
+                                        "text": "A figure holding a spear stood up near the fire and started approaching through the clouds of smoke. Dmytro released an arrow. In response he heard the rustling of grass and then complete silence. The Cossack carefully retreated behind the river bank and quickly distanced himself from the camp. After some time, he climbed down the river bank to hide among the reeds, listening for followers. It seemed no one was following him. He then got back up onto the plain and set off into the steppe away from the river."
+                                    }
+                                ],
+                                "next": []
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
