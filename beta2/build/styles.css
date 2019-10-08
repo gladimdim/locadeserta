@@ -3,7 +3,7 @@ body {
     max-width: 50em;
     line-height: 1.5;
     padding: 1em 1em;
-    color: #566b78;
+    color: #1a000d;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
@@ -16,34 +16,8 @@ h1, h2, strong {
     color: #333;
 }
 
-code, pre {
-    background: #eee;
-}
-
-code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-}
-
-pre {
-    padding: 1em;
-}
-
-a {
-    color: #e81c4f;
-}
-
-code, pre {
-    background: #f5f7f9;
-    border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
-}
-
-pre {
-    border-left: 2px solid #69c;
-}
-
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
 header {
     background-color: #263d36;
     background-image: url("header.jpg");
@@ -91,6 +65,8 @@ header a:hover {
     padding: 10px;
     margin: 1rem;
     font-size: 1.25rem;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 .continueBlock {
@@ -135,6 +111,6 @@ header a:hover {
     }
 }
 
-* { 
-    box-sizing:border-box;
-  }
+* {
+    box-sizing: border-box;
+}
