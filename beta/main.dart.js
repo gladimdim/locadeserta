@@ -45343,7 +45343,7 @@ $S:0}
 L.q_.prototype={
 ak:function(){return new L.v1(new H.cH([P.n,P.a9]),P.u(Q.eK,D.ib),new S.yE(new P.b1(new P.T($.G,[null]),[null]),[null]),C.l)}}
 L.v1.prototype={
-Rb:function(){return G.a6X("https://locadeserta.com/beta2/build/stories/hotin_massacre.json")},
+Rb:function(){return G.a6X("https://locadeserta.com/stories/hotin_massacre.json")},
 F:function(a){var u=this.r,t=u.a,s=t.a
 if(s.a===0)t.c2(0,P.a38(this.gRa(),H.o(u,0)))
 return new B.qo(s,new L.Px(this),null,[null])},
