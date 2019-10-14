@@ -12,6 +12,7 @@ file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/components
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/components/game_app_bar.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/components/game_component.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/components/narrow_scaffold.dart
+file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/catalog_vew.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_node_view.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_story.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/fat_button.dart
@@ -23,6 +24,7 @@ file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/st
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/creator/utils/utils.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/main.dart
 file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/models/background_image.dart
+file:///C:/Users/gladi/projects/DikePole/locadeserta/onlineeditor/lib/models/story_catalogs.dart
 file:///C:/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.3.0/lib/async.dart
 file:///C:/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.3.0/lib/src/async_cache.dart
 file:///C:/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.3.0/lib/src/async_memoizer.dart
