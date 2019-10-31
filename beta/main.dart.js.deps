@@ -62,6 +62,7 @@ file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/collectio
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/utils.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/wrappers.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-6.0.0/lib/firebase.dart
+file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-6.0.0/lib/firestore.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-6.0.0/lib/src/app.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-6.0.0/lib/src/auth.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-6.0.0/lib/src/database.dart
@@ -267,7 +268,9 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/bitmap_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/browser_detection.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/browser_location.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/color_filter.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/canvas.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/color_filter.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/engine_delegate.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/fonts.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/image.dart
@@ -301,6 +304,7 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/plugins.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/pointer_binding.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/recording_canvas.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/render_vertices.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/rrect_renderer.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/accessibility.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/checkable.dart
@@ -326,6 +330,7 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/picture.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/platform_view.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/scene.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/scene_builder.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/surface.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/transform.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/test_embedding.dart
@@ -387,6 +392,7 @@ file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/colors.da
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/constants.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/date_picker.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/dialog.dart
+file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/icon_theme_data.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/icons.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/interface_level.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/localizations.dart
@@ -398,6 +404,7 @@ file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/route.dar
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/scrollbar.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/segmented_control.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/slider.dart
+file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/sliding_segmented_control.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/switch.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/tab_scaffold.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/cupertino/tab_view.dart
@@ -826,11 +833,13 @@ file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/catalog_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_node_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_story.dart
-file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/fat_button.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/fat_container.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/game_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/image_selector.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/meta_story_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/story_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/text_editor.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/story/persistence.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/story/story.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/utils/utils.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/locale_selection_view.dart
@@ -838,7 +847,7 @@ file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/main.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/LDAuth.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/LDUser.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/background_image.dart
-file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/story_catalogs.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/root.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/views/inherited_auth.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/views/login_view.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/waiting_screen.dart
