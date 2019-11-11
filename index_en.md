@@ -4,6 +4,11 @@
 
 # Loca Deserta
 
+### Online version is available at 
+<p align="center">
+<a style="font-size: 36px" href="https://locadeserta.com/game/">Loca Deserta Online</a>
+</p>
+
 # What is this
 
 Interactive fiction. This game allows you to dive into the heroic epoch of the XVII century and experience the unforgettable life of a Cossack in the Wild Fields of southern Ukraine. You will not only get a chance to read the story but determine how it will develop! The fate of the brave Cossack depends on your choices and his life is in your hands.
