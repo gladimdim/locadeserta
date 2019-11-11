@@ -849,12 +849,13 @@ file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/sto
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/utils/utils.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/locale_selection_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/main.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/main_editor_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/main_menu.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/LDAuth.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/LDUser.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/background_image.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/models/catalogs.dart
-file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/root.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/views/import_gladstories_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/views/inherited_auth.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/views/login_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/waiting_screen.dart
