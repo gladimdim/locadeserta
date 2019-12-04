@@ -309,6 +309,7 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/platform_views.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/plugins.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/pointer_binding.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/pointer_converter.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/recording_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/render_vertices.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/rrect_renderer.dart
@@ -842,7 +843,10 @@ file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/constants.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/game_app_bar.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/game_component.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/image_transition.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/narrow_scaffold.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/revolver_shell.dart
+file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/components/transforming_page_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/catalog_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_node_sequence_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/onlineeditor/lib/creator/components/edit_node_view.dart
