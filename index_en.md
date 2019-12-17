@@ -9,6 +9,12 @@
 <a style="font-size: 36px" href="https://locadeserta.com/game/">Loca Deserta Online</a>
 </p>
 
+### The game is available in Google Play Store and Apple App Store:
+
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+
+[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+
 # What's it about
 
 Loca Deserta is an interactive game based on storytelling. All the stories are dedicated to historical
@@ -26,13 +32,6 @@ This island exists in **Warp**, from which it’s possible to travel to differen
 
 # Create your own interactive story
 Both the web and mobile versions of the game allow users to create stories. You can create your own story on a phone. All the versions of the game are synchronized with each other, so you can continue editing your story on a computer.
-
-
-## The game is available in Google Play Store and Apple App Store:
-
-[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
-
-[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
 ## Several images from the game:
 
