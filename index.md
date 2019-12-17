@@ -9,6 +9,12 @@
 <a style="font-size: 36px" href="https://locadeserta.com/game/">Дике Поле Онлайн</a>
 </p>
 
+### Гра доступна на Google Play Store та Apple App Store:
+
+[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+
+[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+
 # Що це
 
 Loca Deserta – це гра, яка являє собою серію інтерактивних оповідань. Всі вони присвячені різним подіям, які відбувались в Україні з дев'ятого по двадцять перше сторіччя.
