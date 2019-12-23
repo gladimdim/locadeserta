@@ -736,9 +736,7 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/browser_location.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/color_filter.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/canvas.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/canvas_kit_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/color_filter.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/embedded_views.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/engine_delegate.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/fonts.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/image.dart
@@ -747,8 +745,6 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer_scene_builder.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer_tree.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/n_way_canvas.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/painting.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/path.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/path_metrics.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/picture.dart
@@ -756,6 +752,7 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/platform_message.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/raster_cache.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/rasterizer.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/recording_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/runtime_delegate.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/surface.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/text.dart
@@ -772,11 +769,11 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/keyboard.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/onscreen_logging.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/path_to_svg.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/picture.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/platform_views.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/plugins.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/pointer_binding.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/pointer_converter.dart
+file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/recording_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/render_vertices.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/rrect_renderer.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/accessibility.dart
@@ -787,7 +784,6 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/live_region.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/scrollable.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/semantics.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/semantics_helper.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/tappable.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/semantics/text_field.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/services/buffers.dart
@@ -801,11 +797,8 @@ file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/debug_canvas_reuse_overlay.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/offset.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/opacity.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/painting.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/path_metrics.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/picture.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/platform_view.dart
-file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/recording_canvas.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/scene.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/scene_builder.dart
 file:///Users/i501633/progs/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/surface/surface.dart
@@ -1138,7 +1131,6 @@ file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/paragraph
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/performance_overlay.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/platform_view.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/proxy_box.dart
-file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/proxy_sliver.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/rotated_box.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/shifted_box.dart
 file:///Users/i501633/progs/flutter/packages/flutter/lib/src/rendering/sliver.dart
