@@ -6,7 +6,7 @@
 
 ### Online version is available at 
 <p align="center">
-<a style="font-size: 36px" href="https://locadeserta.com/game/">Loca Deserta Online</a>
+<a style="font-size: 36px" href="https://locadeserta.com/game/?lang=en">Loca Deserta Online</a>
 </p>
 
 ### The game is available in Google Play Store and Apple App Store:
