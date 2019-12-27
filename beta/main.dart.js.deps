@@ -191,6 +191,7 @@ file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-1.0.2/lib/src/method_channel_firebase_core.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-1.0.2/lib/src/platform_firebase_app.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+1/lib/firebase_core_web.dart
+file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/fluri-1.2.8/lib/fluri.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/gladstoriesengine-0.2.2/lib/gladstoriesengine.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.1.0/lib/google_sign_in.dart
 file:///Users/i501633/progs/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.1.0/lib/src/common.dart
@@ -1330,6 +1331,7 @@ file:///Users/i501633/projects/DikePole/locadeserta/lib/import_gladstories_view.
 file:///Users/i501633/projects/DikePole/locadeserta/lib/loaders/analytics.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/loaders/catalogs.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/loaders/creator_story_persistence.dart
+file:///Users/i501633/projects/DikePole/locadeserta/lib/loaders/url_parser.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/locale_selection.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/login_view.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/main.dart
@@ -1345,3 +1347,4 @@ file:///Users/i501633/projects/DikePole/locadeserta/lib/waiting_screen.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/web/creator/story/persistence.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/web/models/analytics.dart
 file:///Users/i501633/projects/DikePole/locadeserta/lib/web/models/catalogs.dart
+file:///Users/i501633/projects/DikePole/locadeserta/lib/web/models/url_parser.dart
