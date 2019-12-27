@@ -6,7 +6,7 @@
 
 ### Онлайн версія гри знаходиться по посиланню:
 <p align="center">
-<a style="font-size: 36px" href="https://locadeserta.com/game/">Дике Поле Онлайн</a>
+<a style="font-size: 36px" href="https://locadeserta.com/game/?lang=uk">Дике Поле Онлайн</a>
 </p>
 
 ### Гра доступна на Google Play Store та Apple App Store:
