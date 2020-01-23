@@ -3,7 +3,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "/index.html": "0170988fce15b969bd8ef69d18935137",
 "/main.dart.js.deps": "6429867ba350ae5f317aab46dd641858",
-"/main.dart.js": "1b9a0ed2ad2c14f67b0f5505de8a36f8",
+"/main.dart.js": "e047c60bced59101eb0add8dc26126ae",
 "/assets/LICENSE": "aad337c221a15caafdc54813b0b11fe5",
 "/assets/images/background/forest/c_4.jpg": "45552da4efe37113aba53140d71a6312",
 "/assets/images/background/forest/c_5.jpg": "0670b75bd0379bfe4de00b05c78a344f",
@@ -197,7 +197,8 @@ const RESOURCES = {
 "/assets/images/city_building/resources/food.png": "83e9ab3f5db52f33efeaa7382372ba5a",
 "/assets/images/city_building/resources/money.png": "91f1c4d7e97b125fa0e573f06ca1a6e1",
 "/assets/images/city_building/resources/fur.png": "da7bc6395247fd19cfe79df248af76f7",
-"/assets/AssetManifest.json": "562d2de39e8706a59899f9e390596932",
+"/assets/images/city_building/resources/fish.png": "58d93497fc5f97d894988c28f6b62253",
+"/assets/AssetManifest.json": "bc9263b2464b875a9a232b3968bb913c",
 "/assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
 "/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
