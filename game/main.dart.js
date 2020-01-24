@@ -9403,7 +9403,7 @@ case C.br:return t
 case C.iz:return"images/city_building/resources/niter.png"
 case C.l_:return"images/city_building/resources/fur2.png"
 case C.iB:return t
-case C.iC:return t
+case C.iC:return"images/city_building/resources/horse.png"
 case C.fc:return"images/city_building/resources/iron_ore.png"
 case C.iA:return"images/city_building/resources/fish.png"}},
 e2:function e2(a){this.b=a},
