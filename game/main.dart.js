@@ -9395,14 +9395,13 @@ case C.iC:return"Horse"
 case C.fc:return"Ore"
 case C.iA:return"Fish"
 default:return"PLACEHOLDER"}},
-adZ:function(a){var t="images/city_building/resources/stone.png"
-switch(a){case C.a9:return"images/city_building/resources/food.png"
+adZ:function(a){switch(a){case C.a9:return"images/city_building/resources/food.png"
 case C.cI:return"images/city_building/resources/money.png"
 case C.aL:return"images/city_building/resources/wood.png"
-case C.br:return t
+case C.br:return"images/city_building/resources/stone.png"
 case C.iz:return"images/city_building/resources/niter.png"
 case C.l_:return"images/city_building/resources/fur2.png"
-case C.iB:return t
+case C.iB:return"images/city_building/resources/firearm.png"
 case C.iC:return"images/city_building/resources/horse.png"
 case C.fc:return"images/city_building/resources/iron_ore.png"
 case C.iA:return"images/city_building/resources/fish.png"}},
@@ -59496,29 +59495,29 @@ return new U.wY(t.b,s,null)}}
 Z.q0.prototype={
 a_:function(){return new Z.NN(C.l)}}
 Z.NN.prototype={
-C:function(a){var t,s,r,q,p,o=this,n=null,m="Requires to build",l=M.q1(o.a.c),k=u.D,j=H.a([],k)
-j.push(T.aN(H.a([L.a5(H.c(M.PT(o.a.c)),n,n,n,K.N(a,!1).L.f.bo(0,A.bt(n,n,n,n,n,n,n,n,n,n,n,30,n,n,n,n,!0,n,n,n,n,n,n)),n),new T.ag(C.I,U.iN(M.PS(o.a.c),320,n),n)],k),C.m,C.b5,C.k))
-if(o.a.d){t=H.a([],k)
-s=L.a5(m,n,n,n,n,n)
-r=l.gdF()
+C:function(a){var t,s,r,q,p,o=this,n=null,m=M.q1(o.a.c),l=u.D,k=H.a([],l)
+k.push(T.aN(H.a([L.a5(H.c(M.PT(o.a.c)),n,n,n,K.N(a,!1).L.f.bo(0,A.bt(n,n,n,n,n,n,n,n,n,n,n,30,n,n,n,n,!0,n,n,n,n,n,n)),n),new T.ag(C.I,U.iN(M.PS(o.a.c),320,n),n)],l),C.m,C.b5,C.k))
+if(o.a.d){t=H.a([],l)
+s=L.a5("Requires to build",n,n,n,n,n)
+r=m.gdF()
 q=u.C5
 r=D.u9(r.gl8(r).a9(0),2,q)
-t.push(T.c9(new T.ag(C.cZ,T.aN(H.a([s,T.aN(new H.Q(r,new Z.aaC(),H.ac(r).j("Q<1,i9>")).a9(0),C.m,C.u,C.k)],k),C.m,C.u,C.k),n)))
+t.push(T.c9(new T.ag(C.cZ,T.aN(H.a([s,T.aN(new H.Q(r,new Z.aaC(),H.ac(r).j("Q<1,i9>")).a9(0),C.m,C.u,C.k)],l),C.m,C.u,C.k),n)))
 t.push(new T.aO(n,35,n,n))
-t.push(T.c9(T.aN(H.a([L.a5("Max number of workers",n,n,n,n,n),T.bo(H.a([L.a5("5x",n,n,n,n,n),L.cd(C.jD,n,n)],k),C.m,C.b5,C.k)],k),C.m,C.b5,C.k)))
+t.push(T.c9(T.aN(H.a([L.a5("Max number of workers",n,n,n,n,n),T.bo(H.a([L.a5("5x",n,n,n,n,n),L.cd(C.jD,n,n)],l),C.m,C.b5,C.k)],l),C.m,C.b5,C.k)))
 t.push(new T.aO(n,35,n,n))
-s=l.gi4()
-if(s.gaT(s)){s=L.a5(m,n,n,n,n,n)
-r=l.gi4()
+s=m.gi4()
+if(s.gaT(s)){s=L.a5("Input",n,n,n,n,n)
+r=m.gi4()
 q=D.u9(r.gl8(r).a9(0),2,q)
-t.push(T.c9(T.aN(H.a([s,T.aN(new H.Q(q,new Z.aaD(),H.ac(q).j("Q<1,i9>")).a9(0),C.m,C.u,C.k)],k),C.m,C.u,C.k)))}t.push(new T.aO(n,35,n,n))
-t.push(T.aN(H.a([L.a5("Output",n,n,n,n,n),T.bo(H.a([new N.mU(l.gdE(),n,n),L.a5("x "+l.gj2(),n,n,n,n,n)],k),C.m,C.b5,C.k)],k),C.m,C.a4,C.k))
+t.push(T.c9(T.aN(H.a([s,T.aN(new H.Q(q,new Z.aaD(),H.ac(q).j("Q<1,i9>")).a9(0),C.m,C.u,C.k)],l),C.m,C.u,C.k)))}t.push(new T.aO(n,35,n,n))
+t.push(T.aN(H.a([L.a5("Output",n,n,n,n,n),T.bo(H.a([new N.mU(m.gdE(),n,n),L.a5("x "+m.gj2(),n,n,n,n,n)],l),C.m,C.b5,C.k)],l),C.m,C.a4,C.k))
 t.push(new T.aO(n,35,n,n))
-k=t.length
+l=t.length
 p=0
-for(;p<t.length;t.length===k||(0,H.C)(t),++p)j.push(t[p])}k=o.a.e
-if(k!=null)j.push(T.c9(T.du(M.bm(n,new T.bz(C.x,n,n,L.a5("Build",n,n,n,n,n),n),n,n,n,64,n,n,n),C.n_,k)))
-return T.c9(new T.ag(C.I,T.c9(T.aN(j,C.m,C.cC,C.k)),n))}}
+for(;p<t.length;t.length===l||(0,H.C)(t),++p)k.push(t[p])}l=o.a.e
+if(l!=null)k.push(T.c9(T.du(M.bm(n,new T.bz(C.x,n,n,L.a5("Build",n,n,n,n,n),n),n,n,n,64,n,n,n),C.n_,l)))
+return T.c9(new T.ag(C.I,T.c9(T.aN(k,C.m,C.cC,C.k)),n))}}
 Z.aaC.prototype={
 $1:function(a){return T.bo(J.cV(a,new Z.aaB(),u.dh).a9(0),C.m,C.cC,C.k)}}
 Z.aaB.prototype={
