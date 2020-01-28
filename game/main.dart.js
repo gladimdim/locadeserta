@@ -11258,7 +11258,7 @@ switch(a){case C.dj:return"images/city_building/resource_buildings/field.png"
 case C.dk:return u
 case C.fc:return u
 case C.fd:return"images/city_building/resource_buildings/quarry.png"
-case C.fe:return u
+case C.fe:return"images/city_building/resource_buildings/stable.png"
 case C.ff:return"images/city_building/resource_buildings/iron_mine.png"
 case C.fg:return"images/city_building/resource_buildings/trappershouse.png"}},
 t1:function t1(){},
