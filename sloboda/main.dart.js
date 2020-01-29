@@ -39717,7 +39717,7 @@ G.pT.prototype={
 aj:function(){return new G.Cy(C.n)}}
 G.Cy.prototype={
 E:function(a){var t=$.a0_()
-return new S.ox(P.ah(["/city_game",new G.RJ(),"/city_building/resource_building",new G.RK(),"/city_building/resource_details_view",new G.RL(),"/city_building/resource_building_details",new G.RM(),"/city_building/city_building",new G.RN(),"/city_building/nature_resource_building",new G.RO()],u.N,u.hw),"/city_game","Loca Deserta",t,!1,null)}}
+return new S.ox(P.ah(["/city_game",new G.RJ(),"/city_building/resource_building",new G.RK(),"/city_building/resource_details_view",new G.RL(),"/city_building/resource_building_details",new G.RM(),"/city_building/city_building",new G.RN(),"/city_building/nature_resource_building",new G.RO()],u.N,u.hw),"/city_game","Sloboda - City Building Game Set in Ukraine XVII century",t,!1,null)}}
 G.RJ.prototype={
 $1:function(a){return new Y.il(null)},
 $S:164}
