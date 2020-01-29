@@ -8,9 +8,11 @@
 <p align="center">
 <a style="font-size: 36px" href="https://locadeserta.com/game/?lang=uk">Дике Поле: Інтерактивні історії</a>
 </p>
+
 ### Гра, в якій ви можете побудувати свою слободи на Дикому Полі:
+
 <p align="center">
-<a style="font-size: 36px" href="https://locadeserta.com/sloboda/>Дике Поле: Слобода</a>
+<a style="font-size: 36px" href="https://locadeserta.com/sloboda/">Дике Поле: Слобода</a>
 </p>
 
 ### Гра доступна на Google Play Store та Apple App Store:
