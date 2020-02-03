@@ -1,7 +1,7 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "/index.html": "37e8953f2657d927f5c3bb7a93765e14",
+  "/index.html": "10545c2bf1c2f7ec5f0c3e99f745e0f4",
 "/favicons/favicon-16x16.png": "b05c3672ea88732496afc8c77b850f79",
 "/favicons/favicon.ico": "f3c0fcc3b2f940b7901ab0bc68a81d89",
 "/favicons/apple-icon.png": "55402c7624190362d4120113fbe4a45f",
@@ -29,12 +29,12 @@ const RESOURCES = {
 "/favicons/apple-icon-120x120.png": "e82d6cdb3558fb0818e7f04b60a6e813",
 "/favicons/favicon-32x32.png": "83e952207a9e7e2f7e0f5071a1190d89",
 "/favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
-"/main.dart.js": "b1e85d13aff3399b8553644528aa526d",
+"/main.dart.js": "4f3e4e9a4740b836a5bf8d96f6f6156f",
 "/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "44975d1606efd10622470ac5f604d4a1",
-"/assets/LICENSE": "b447c208c9a28d50a2dfe5b1b9c5a624",
+"/assets/LICENSE": "a72268cd5642b967cbcfcad569ddb1bb",
 "/assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
 "/assets/images/resource_buildings/trappershouse_64.png": "fae2016f031019b84c5287a4e70ed345",
 "/assets/images/resource_buildings/stable.png": "bb568dfd779db29d80e621294a426caa",
