@@ -42456,9 +42456,11 @@ M.M7.prototype={
 giO:function(){return this.b}}
 X.Pi.prototype={
 z5:function(a,b){var t=this.a
-t.m(0,a,t.h(0,a)+b)},
+t.m(0,a,t.h(0,a)+b)
+if(this.a.h(0,a)<0)this.a.m(0,a,0)},
 Bt:function(a,b){var t=this.a
-t.m(0,a,t.h(0,a)-b)},
+t.m(0,a,t.h(0,a)-b)
+if(this.a.h(0,a)<0)this.a.m(0,a,0)},
 R:function(a,b){if(b!=null)this.a.Y(0,new X.Pm(this,b))}}
 X.Pm.prototype={
 $2:function(a,b){var t=this.b

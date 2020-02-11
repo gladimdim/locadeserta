@@ -1,7 +1,7 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "/index.html": "10545c2bf1c2f7ec5f0c3e99f745e0f4",
+  "/index.html": "54076ab8c2ab118b2b848448be73bef4",
 "/favicons/favicon-16x16.png": "b05c3672ea88732496afc8c77b850f79",
 "/favicons/favicon.ico": "f3c0fcc3b2f940b7901ab0bc68a81d89",
 "/favicons/apple-icon.png": "55402c7624190362d4120113fbe4a45f",
@@ -29,7 +29,7 @@ const RESOURCES = {
 "/favicons/apple-icon-120x120.png": "e82d6cdb3558fb0818e7f04b60a6e813",
 "/favicons/favicon-32x32.png": "83e952207a9e7e2f7e0f5071a1190d89",
 "/favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
-"/main.dart.js": "ed3c8097e906a7e1ba0fa1e8d7f83150",
+"/main.dart.js": "80d8368674c5851da32d527e90192d78",
 "/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
