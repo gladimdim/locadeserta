@@ -34,8 +34,6 @@ const RESOURCES = {
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/manifest.json": "44975d1606efd10622470ac5f604d4a1",
-"/assets/LICENSE": "332d8271f356985e79e364c6b72cb59a",
-"/assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
 "/assets/images/resource_buildings/trappershouse_64.png": "fae2016f031019b84c5287a4e70ed345",
 "/assets/images/resource_buildings/powder_cellar_64.png": "0d61470bfc46645b99080e8086ad7fce",
 "/assets/images/resource_buildings/mill_64.png": "34c42a5be2702ebe14f7bdec4a488bc5",
@@ -54,14 +52,10 @@ const RESOURCES = {
 "/assets/images/resource_buildings/river_64.png": "05e79cb64e18c41933e706ad39fb69da",
 "/assets/images/resource_buildings/stable_64.png": "f39cfaaa7b88c899fab752ebd3a3bfe0",
 "/assets/images/resource_buildings/iron_mine.png": "54cfea12407a18285e6ba75b8a80e1c0",
-"/assets/images/city_buildings/kurin_64.png": "5b4f1607e25120c4f340ed846a23f90c",
-"/assets/images/city_buildings/wall_64.png": "bc064cd82fd899f1098840f2bd0c80fb",
 "/assets/images/city_buildings/church_64.png": "524ba12e7a0d79ed9db615e03ea76244",
 "/assets/images/city_buildings/church.png": "bb0f29a14f82dca04a5245978c76fdd0",
 "/assets/images/city_buildings/kurin.png": "9a5dcebe9e363e0c2b04dcd7863fef07",
-"/assets/images/city_buildings/watch_tower_64.png": "8700ee9b1dcdccbd7c3f732e35091a5a",
 "/assets/images/city_buildings/watch_tower.png": "bb08f2eeb8a9dcd45b2cacfa25300255",
-"/assets/images/city_buildings/citizen_64.png": "1509a1ea0bca710c4f6fd4aefabed05e",
 "/assets/images/city_buildings/wall.png": "cb111e89932af2fb250ed54b5e4cdd75",
 "/assets/images/city_buildings/citizen.png": "3d9b4be46bd2b09b98954c3a5b510862",
 "/assets/images/resources/horse.png": "c3dc878fd08e2095dc708c274d3c44e2",
@@ -83,16 +77,7 @@ const RESOURCES = {
 "/assets/images/resources/firearm_64.png": "60b2f0c847e6af33fd494f36c2832ed9",
 "/assets/images/resources/fur_64.png": "d1ff36b160d0000e0538edae4be1310a",
 "/assets/images/resources/fur.png": "f72a39afc139d3d439889e7d7b018deb",
-"/assets/images/resources/fish.png": "02d00a26f5a9beaa0261f2358caa1e9d",
-"/assets/AssetManifest.json": "a9d67db2e55735d9c27bbed89efcc464",
-"/assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
-"/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"/assets/fonts/Roboto/Roboto-Regular.ttf": "18d44f79b3979ec168862093208c6d7d",
-"/assets/fonts/Roboto/Roboto-Bold.ttf": "7c18188784f21915f42a5b3bc9d91e20",
-"/assets/fonts/Raleway/Raleway-Regular.ttf": "84abe14c9756256a4b91300ba3e4ec62",
-"/assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
-"/assets/fonts/Raleway/Raleway-Bold.ttf": "2f99a85426a45e0c7f8707aae53af803"
+"/assets/images/resources/fish.png": "02d00a26f5a9beaa0261f2358caa1e9d"
 };
 
 self.addEventListener('activate', function (event) {
