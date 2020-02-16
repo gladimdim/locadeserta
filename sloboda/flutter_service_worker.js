@@ -29,7 +29,7 @@ const RESOURCES = {
 "/favicons/apple-icon-120x120.png": "e82d6cdb3558fb0818e7f04b60a6e813",
 "/favicons/favicon-32x32.png": "83e952207a9e7e2f7e0f5071a1190d89",
 "/favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
-"/main.dart.js": "4de92dd2d08342d0d03db2c98aab9a2d",
+"/main.dart.js": "c577f78559b945fbf0b415d6994d2ba8",
 "/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
