@@ -5940,11 +5940,6 @@ case C.ce:return new F.Bq(P.I([C.t,100,C.a3,20,C.K,50,C.W,20],u.b,u.S))
 case C.cf:return new Q.BK(P.I([C.t,100,C.a3,20,C.K,50,C.W,20],u.b,u.S))
 case C.cg:return new S.BJ(P.I([C.t,20,C.K,100],u.b,u.S))
 default:throw H.c("Building "+H.b(a)+" is not recognized")}},
-ZR:function(a){switch(a){case C.a6:return"images/city_buildings/citizen_64.png"
-case C.bx:return"images/city_buildings/tower_64.png"
-case C.bL:return"images/city_buildings/watch_tower_64.png"
-case C.a5:return"images/city_props/glory_64.png"
-default:throw H.c("City property "+H.b(a)+" is not recognized")}},
 ZQ:function(a){switch(a){case C.cf:return"cityBuildings.watchTower"
 case C.ce:return"cityBuildings.tower"
 case C.bK:return"cityBuildings.house"
@@ -7835,6 +7830,11 @@ ZS:function(a){switch(a){case C.a5:return $.b2.h(0,P.ao($.aT().a)).h(0,"glory")
 case C.a6:return $.b2.h(0,P.ao($.aT().a)).h(0,"citizens")
 case C.bL:return $.b2.h(0,P.ao($.aT().a)).h(0,"faith")
 case C.bx:return $.b2.h(0,P.ao($.aT().a)).h(0,"defense")
+default:throw H.c("City property "+H.b(a)+" is not recognized")}},
+ZR:function(a){switch(a){case C.a6:return"images/city_buildings/citizen_64.png"
+case C.bx:return"images/city_props/defense_64.png"
+case C.bL:return"images/city_props/faith_64.png"
+case C.a5:return"images/city_props/glory_64.png"
 default:throw H.c("City property "+H.b(a)+" is not recognized")}},
 H0:function H0(a){this.a=a},
 H2:function H2(a,b){this.a=a
@@ -43223,7 +43223,7 @@ for(t=new H.N(C.qk,new Y.Sb(this,q,a),u.j6).a8(0),s=t.length,r=0;r<t.length;t.le
 return E.eF(T.b9(p,C.hI,C.A,C.i),null,C.j)}}
 Y.Sa.prototype={
 $1:function(a){var t=M.ck(S.ZQ(a.gbi(a)))
-return new T.U(C.u,M.Yf(1,S.aac(a.gbi(a)),new Y.S9(this.a,this.b,a),S.ZR(a.gb5()),t),null)}}
+return new T.U(C.u,M.Yf(1,S.aac(a.gbi(a)),new Y.S9(this.a,this.b,a),R.ZR(a.gb5()),t),null)}}
 Y.S9.prototype={
 $0:function(){var t=this.a.cB(u.v)
 t.jz("/city_building/city_building",new V.GZ(this.b,this.c),u.K)},
@@ -43424,14 +43424,14 @@ Y.oI.prototype={
 i:function(a){return this.b}}
 E.wh.prototype={
 D:function(a){var t=null,s=this.c
-return T.bd(H.a([new T.d8(1,C.at,U.cs(S.ZR(s),64,t),t),new T.d8(3,C.at,new X.cb(R.ZS(s),t),t)],u.p),C.o,C.A,C.i)}}
+return T.bd(H.a([new T.d8(1,C.at,U.cs(R.ZR(s),64,t),t),new T.d8(3,C.at,new X.cb(R.ZS(s),t),t)],u.p),C.o,C.A,C.i)}}
 N.wi.prototype={
 D:function(a){var t=this.c.a
 t=t.ga4(t)
 t=P.aj(t,!0,H.A(t).j("j.E"))
 return E.eF(new T.U(C.kW,T.bd(new H.N(t,new N.H1(this,a),H.T(t).j("N<1,i>")).a8(0),C.o,C.A,C.i),null),null,C.l)}}
 N.H1.prototype={
-$1:function(a){return T.bd(H.a([U.cs(S.ZR(a),null,18),L.aK(R.ZS(a)+": "+H.b(this.a.c.a.h(0,a))+" ",K.ak(this.b,!1).K.y.zW(18),null)],u.p),C.o,C.A,C.i)}}
+$1:function(a){return T.bd(H.a([U.cs(R.ZR(a),null,18),L.aK(R.ZS(a)+": "+H.b(this.a.c.a.h(0,a))+" ",K.ak(this.b,!1).K.y.zW(18),null)],u.p),C.o,C.A,C.i)}}
 K.vJ.prototype={
 D:function(a){return U.cs("images/ui/arrow_right.png",null,32)}}
 K.vI.prototype={
