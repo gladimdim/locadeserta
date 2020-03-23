@@ -1,13 +1,9 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "/index.html": "31556f325fe862888358e82e8a546e63",
-"/main.dart.js.deps": "ca9f61df9d7ed53f84d2482003effc8a",
-"/main.dart.js": "4ccc9cd15510c80acb3c5c6e960fccc2",
-"/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"/manifest.json": "b7f986df9dfee97b76dc3ec6a0ba4902",
-"/assets/LICENSE": "ff3d356edfd4d8daa943e0f836cf5c63",
+  "/index.html": "0170988fce15b969bd8ef69d18935137",
+"/main.dart.js": "db3d6e38a5cbabe0b83410417f80ce33",
+"/assets/LICENSE": "28a12ce391565ae1408173dd0e20268b",
 "/assets/images/background/forest/c_4.jpg": "45552da4efe37113aba53140d71a6312",
 "/assets/images/background/forest/c_5.jpg": "0670b75bd0379bfe4de00b05c78a344f",
 "/assets/images/background/forest/c_7.jpg": "d7dd30b33d9579560242ecb86de4a4d7",
@@ -182,31 +178,7 @@ const RESOURCES = {
 "/assets/images/background/camp/0.jpg": "d295c901f34a1b4747d2e6cb6dcfe045",
 "/assets/images/background/c_cossack_0.jpg": "0b0868a9d66c93442aed3243dc05e6fe",
 "/assets/images/background/cossack_0.jpg": "1a11633dad6bd62846bc34e51af99f67",
-"/assets/images/city_building/resource_buildings/river.png": "107aa1744188343bb902e3133bf24f35",
-"/assets/images/city_building/resource_buildings/forest.png": "f7e20f696dfc47f08b21190d7afa496f",
-"/assets/images/city_building/resource_buildings/kurin.png": "03a17c22c2bef448fedc61284bdec6b9",
-"/assets/images/city_building/resource_buildings/field.png": "c1ac4e1509ead8de375dc972504c60b8",
-"/assets/images/city_building/resource_buildings/quarry.png": "c1906858c4ec465d5111afcadc5454a5",
-"/assets/images/city_building/resource_buildings/trappershouse.png": "f26b6b20b17737a6d14f69c08d5373fe",
-"/assets/images/city_building/resource_buildings/mill.gif": "15c0c9adf1a6dbff23979b4f703b2df2",
-"/assets/images/city_building/resource_buildings/iron_mine.png": "fb22daa9c3bd4a86da744d1c8231e63f",
-"/assets/images/city_building/city_buildings/kurin.png": "03a17c22c2bef448fedc61284bdec6b9",
-"/assets/images/city_building/city_buildings/watch_tower.png": "bc59ccbe40805ff15d23618ed0f5d8b7",
-"/assets/images/city_building/city_buildings/wall.png": "3e1f0d00e3b850c056f5a8fc78ad7201",
-"/assets/images/city_building/resources/horse.png": "08805ee0d43b0c91b4ee7f0e08ce619f",
-"/assets/images/city_building/resources/chastokol.png": "3e1f0d00e3b850c056f5a8fc78ad7201",
-"/assets/images/city_building/resources/niter.png": "07bc3416b8d17f13411798a837a359c9",
-"/assets/images/city_building/resources/fur2.png": "f72a39afc139d3d439889e7d7b018deb",
-"/assets/images/city_building/resources/kurin.png": "03a17c22c2bef448fedc61284bdec6b9",
-"/assets/images/city_building/resources/firearm.png": "2207793345efc510a53d5bec54952957",
-"/assets/images/city_building/resources/wood.png": "bf320f06448ffa6cdc4de53f071010fa",
-"/assets/images/city_building/resources/iron_ore.png": "f34296f6bf6f13d936d4c430949fb951",
-"/assets/images/city_building/resources/stone.png": "6fa9cf8a4a2001272cb5ec12bf5a1f18",
-"/assets/images/city_building/resources/food.png": "83e9ab3f5db52f33efeaa7382372ba5a",
-"/assets/images/city_building/resources/money.png": "91f1c4d7e97b125fa0e573f06ca1a6e1",
-"/assets/images/city_building/resources/fur.png": "da7bc6395247fd19cfe79df248af76f7",
-"/assets/images/city_building/resources/fish.png": "58d93497fc5f97d894988c28f6b62253",
-"/assets/AssetManifest.json": "6b1aa9b1fecdfeb07f29cea8730fc248",
+"/assets/AssetManifest.json": "43c0bfb241a886fedc737c1cf62f55c1",
 "/assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
 "/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "/assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
@@ -236,9 +208,7 @@ self.addEventListener('fetch', function (event) {
         if (response) {
           return response;
         }
-        return fetch(event.request, {
-          credentials: 'include'
-        });
+        return fetch(event.request);
       })
   );
 });

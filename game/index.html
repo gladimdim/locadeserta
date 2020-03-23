@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="A new Flutter project.">
-
-    <!-- iOS meta tags & icons -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="locadeserta">
-
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
@@ -23,12 +16,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="google-signin-client_id"
-          content="874237405817-nq6pbdmeb0komt27uuakoeb5g5tmssbt.apps.googleusercontent.com">
-
+    <meta name="google-signin-client_id" content="874237405817-nq6pbdmeb0komt27uuakoeb5g5tmssbt.apps.googleusercontent.com">
 
     <title>Loca Deserta</title>
     <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
@@ -36,14 +28,8 @@
     <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139608005-1"></script>
-    <link rel="manifest" href="manifest.json">
-</head>
-<body>
-<!-- This script installs service_worker.js to provide PWA functionality to
-     application. For more information, see:
-     https://developers.google.com/web/fundamentals/primers/service-workers -->
-<script>
-  window.dataLayer = window.dataLayer || [];
+    <script>
+    window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
@@ -58,13 +44,12 @@
           messagingSenderId: "874237405817",
     });
 
-<!--    if ('serviceWorker' in navigator) {-->
-<!--      window.addEventListener('load', function () {-->
-<!--        navigator.serviceWorker.register('/flutter_service_worker.js');-->
-<!--      });-->
-<!--    }-->
+    </script>
 
-</script>
+</head>
+
+<body>
 <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>
