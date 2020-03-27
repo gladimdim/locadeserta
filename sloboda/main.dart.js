@@ -48049,7 +48049,7 @@ a1:function(){return new K.vG(C.k)},
 X8:function(a){return this.c.$1(a)}}
 K.vG.prototype={
 v:function(a){var t=null,s=this.a.d.a,r=this.gR0(),q=u.N
-return T.aU(H.a([Y.t5(P.al(s),r,"uk",q),L.au("\ud83c\uddfa\ud83c\udde6",t,t,t,t,t,t),Y.t5(P.al(s),r,"en",q),L.au("\ud83c\uddfa\ud83c\uddf8",t,t,t,t,t,t)],u.p),C.j,C.an,C.v)},
+return T.aU(H.a([Y.t5(P.al(s),r,"uk",q),L.au("UKR",t,t,t,t,t,t),Y.t5(P.al(s),r,"en",q),L.au("ENG",t,t,t,t,t,t)],u.p),C.j,C.an,C.v)},
 oy:function(a){return this.R1(a)},
 R1:function(a){var t=0,s=P.a1(u.z),r=1,q,p=[],o=this,n,m
 var $async$oy=P.X(function(b,c){if(b===1){q=c
