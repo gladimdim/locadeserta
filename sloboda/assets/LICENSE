@@ -9230,9 +9230,9 @@ image
 
 
 Parts of the Image library were ported from the following sources:
-   
-==============================================================================   
- 
+
+==============================================================================
+
  The JPEG encoder/decoder code is derived from the following:
    https://github.com/notmasteryet/jpgjs
    Copyright (C) 2011 notmasteryet
@@ -9285,8 +9285,8 @@ The WebP encoder/decoder code is derived from the following:
   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-==============================================================================  
+  
+==============================================================================
 
 The TIFF decoder code is derived from the following:
   Apache Batik
@@ -9305,7 +9305,7 @@ The TIFF decoder code is derived from the following:
    limitations under the License.
 
 ==============================================================================
-   
+
 The OpenEXR decoder is derived in part from the OpenEXR library:
 
 Copyright (c) 2002-2011, Industrial Light & Magic, a division of 
@@ -9395,6 +9395,7 @@ http://www.limbicsoftware.com/quickpvr.html
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   
+
 --------------------------------------------------------------------------------
 io
 multi_server_socket
