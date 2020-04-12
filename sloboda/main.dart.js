@@ -47467,7 +47467,7 @@ G.us.prototype={
 W:function(){return new G.IE(C.j)}}
 G.IE.prototype={
 v:function(a){var t=$.acw()
-return new S.rP(P.q(["/createSloboda",new G.a1X(),"/city_game",new G.a1Y(),"/city_building/resource_building",new G.a1Z(),"/city_building/resource_details_view",new G.a2_(),"/city_building/resource_building_details",new G.a20(),"/city_building/city_building",new G.a21(),"/city_building/nature_resource_building",new G.a22(),"/city_building/shooting_range",new G.a23(),"/city_prop_details",new G.a24(),"/sich",new G.a25()],u.N,u.f_),"/createSloboda","Sloboda - City Building Game Set in Ukraine XVII century",t,!1,null)}}
+return new S.rP(P.q(["/",new G.a1X(),"/city_game",new G.a1Y(),"/city_building/resource_building",new G.a1Z(),"/city_building/resource_details_view",new G.a2_(),"/city_building/resource_building_details",new G.a20(),"/city_building/city_building",new G.a21(),"/city_building/nature_resource_building",new G.a22(),"/city_building/shooting_range",new G.a23(),"/city_prop_details",new G.a24(),"/sich",new G.a25()],u.N,u.f_),"/","Sloboda - City Building Game Set in Ukraine XVII century",t,!1,null)}}
 G.a1X.prototype={
 $1:function(a){return new E.ko(null)},
 $S:177}
@@ -48905,7 +48905,7 @@ $0:function(){$.a8F=this.a},
 $S:0}
 Y.YU.prototype={
 $0:function(){var t=u.K,s=K.c0(this.a)
-s.Yc(s.tq("/createSloboda",null,t),new Y.YQ(),t)},
+s.Yc(s.tq("/",null,t),new Y.YQ(),t)},
 $S:0}
 Y.YQ.prototype={
 $1:function(a){return!1}}
