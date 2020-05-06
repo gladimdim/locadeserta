@@ -1,12 +1,13 @@
 [🇺🇸English](index_en.md)
 [🇺🇦Українською](index.md)
 
+
 # Слобода. Покрокова будівельна гра.
 
 ### Онлайн версія гри знаходиться по посиланню:
 <p align="center">
 <img src="images/icon.png" width="128">
-<p>
+<p align="center">
 <a style="font-size: 26px" href="https://locadeserta.com/sloboda/">Слобода Онлайн</a>
 </p>
 
