@@ -5,11 +5,11 @@
 
 ### Онлайн версія гри знаходиться по посиланню:
 
+<!-- <p align="center">
 <p align="center">
-<img src="images/icon.png" width="256">
-<p align="center">
-<a style="font-size: 26px" href="https://locadeserta.com/sloboda/">Слобода Онлайн</a>
-</p>
+<a style="font-size: 26px" href="https://locadeserta.com/sloboda/">
+<img src="images/icon.png" width="256"><p align="center">Слобода Онлайн</p></a>
+</p> -->
 
 ## Основний ігролад
 
