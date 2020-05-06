@@ -12,7 +12,7 @@
 ### City Building game set in the same Loca Deserta world:
 
 <p align="center">
-<a style="font-size: 36px" href="https://locadeserta.com/sloboda/">Loca Deserta: Sloboda Building Game</a>
+<a style="font-size: 36px" href="https://locadeserta.com/citybuilding/">Loca Deserta: Sloboda Building Game</a>
 </p>
 
 ### The game is available in Google Play Store and Apple App Store:
