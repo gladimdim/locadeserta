@@ -51345,7 +51345,7 @@ lf:function(a){this.a=this.a+("### "+H.c(a)+"\n")
 return this},
 wH:function(a,b,c,d){var t,s=this
 if(c==null)c=""
-t=s.a+("![resource:"+c+"]("+b+")")
+t=s.a+("!["+c+"](resource:"+b+")")
 s.a=t
 t+=" "+c
 s.a=t
