@@ -1,143 +1,268 @@
-# locadeserta
-Дике Поле. Початок Легенд.
+# Loca Deserta: Sloboda User Docs
 
-# ![Кузня](sloboda/assets/images/resource_buildings/smith_64.png) Кузня
-Виробляє самопали. Потребує залізо.
-### Потребується для будування
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 3
-
-- ![Каміння](sloboda/assets/images/resources/stone_64.png) Каміння: 3
-
-### Виробляє
-![Самопал](sloboda/assets/images/resources/firearm_64.png) Самопал: 1
-
-
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 2
-
-- ![Руда](sloboda/assets/images/resources/iron_ore_64.png) Руда: 1
-
-- ![Порох](sloboda/assets/images/resources/powder_64.png) Порох: 1
-
-
-- ### Вміщує робочих: 30
+# Resources
 ---
-# ![Поле](sloboda/assets/images/resource_buildings/field_64.png) Поле
-Основний виробник їжі для вашого селища.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
+# ![Smith](sloboda/assets/images/resource_buildings/smith_64.png) Smith
 
-### Виробляє
-![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 1
+Produces firearms. Needs ore, powder and food.
+### Required for building
+- ![Wood: 3](sloboda/assets/images/resources/wood_64.png) Wood: 3
+
+- ![Stone: 3](sloboda/assets/images/resources/stone_64.png) Stone: 3
 
 
-### Потребується у виробництві
+### Output
+![Firearm: 1](sloboda/assets/images/resources/firearm_64.png) Firearm: 1
 
-- ### Вміщує робочих: 50
+### Required for production by
+- ![Food: 2](sloboda/assets/images/resources/food_64.png) Food: 2
+
+- ![Ore: 1](sloboda/assets/images/resources/iron_ore_64.png) Ore: 1
+
+- ![Powder: 1](sloboda/assets/images/resources/powder_64.png) Powder: 1
+
+
+- ### Max number of workers: 30
+
+
 ---
-# ![Млин](sloboda/assets/images/resource_buildings/mill_64.png) Млин
-Заробляє вам гроші. Люди приносять сюди збіжжя і платять вам гроші за борошно.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
-
-- ![Каміння](sloboda/assets/images/resources/stone_64.png) Каміння: 5
-
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 5
-
-### Виробляє
-![Гроші](sloboda/assets/images/resources/money_64.png) Гроші: 1
-
-
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
-
-
-- ### Вміщує робочих: 30
 ---
-# ![Каменярня](sloboda/assets/images/resource_buildings/quarry_64.png) Каменярня
-Виробляє каміння для будівництв.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
+# ![Field](sloboda/assets/images/resource_buildings/field_64.png) Field
 
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 5
-
-### Виробляє
-![Каміння](sloboda/assets/images/resources/stone_64.png) Каміння: 1
+The main food income resource.
+### Required for building
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
 
 
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 2
+### Output
+![Food: 1](sloboda/assets/images/resources/food_64.png) Food: 1
+
+### Required for production by
+
+- ### Max number of workers: 50
 
 
-- ### Вміщує робочих: 30
 ---
-# ![Конюшня](sloboda/assets/images/resource_buildings/stable_64.png) Конюшня
-Виробляє коней. Вони необхідні козакам.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
-
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 5
-
-### Виробляє
-![Коні](sloboda/assets/images/resources/horse_64.png) Коні: 1
-
-
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 10
-
-
-- ### Вміщує робочих: 30
 ---
-# ![Рудня](sloboda/assets/images/resource_buildings/iron_mine_64.png) Рудня
-Виробляє залізо для коваля.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 10
+# ![Mill](sloboda/assets/images/resource_buildings/mill_64.png) Mill
 
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 15
+Earns you money by consuming food.
+### Required for building
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
 
-### Виробляє
-![Руда](sloboda/assets/images/resources/iron_ore_64.png) Руда: 1
+- ![Stone: 5](sloboda/assets/images/resources/stone_64.png) Stone: 5
 
-
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
+- ![Wood: 5](sloboda/assets/images/resources/wood_64.png) Wood: 5
 
 
-- ### Вміщує робочих: 30
+### Output
+![Money: 1](sloboda/assets/images/resources/money_64.png) Money: 1
+
+### Required for production by
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
+
+
+- ### Max number of workers: 30
+
+
 ---
-# ![Хата уходника](sloboda/assets/images/resource_buildings/trappershouse_64.png) Хата уходника
-Уходник ходить в ліс по дичину. Хутра можна продати за гарні кошти в Каневі.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 3
-
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 15
-
-### Виробляє
-![Хутра](sloboda/assets/images/resources/fur_64.png) Хутра: 1
-
-
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
-
-
-- ### Вміщує робочих: 10
 ---
-# ![Пороховий льох](sloboda/assets/images/resource_buildings/powder_cellar_64.png) Пороховий льох
-Виробляє порох для виробництва самопалів.
-### Потребується для будування
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 5
+# ![Quarry](sloboda/assets/images/resource_buildings/quarry_64.png) Quarry
 
-- ![Дерево](sloboda/assets/images/resources/wood_64.png) Дерево: 5
+Produces stone used for building.
+### Required for building
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
 
-- ![Каміння](sloboda/assets/images/resources/stone_64.png) Каміння: 2
-
-### Виробляє
-![Порох](sloboda/assets/images/resources/powder_64.png) Порох: 1
+- ![Wood: 5](sloboda/assets/images/resources/wood_64.png) Wood: 5
 
 
-### Потребується у виробництві
-- ![Їжа](sloboda/assets/images/resources/food_64.png) Їжа: 3
+### Output
+![Stone: 1](sloboda/assets/images/resources/stone_64.png) Stone: 1
+
+### Required for production by
+- ![Food: 2](sloboda/assets/images/resources/food_64.png) Food: 2
 
 
-- ### Вміщує робочих: 30
+- ### Max number of workers: 30
+
+
 ---
+---
+# ![Stables](sloboda/assets/images/resource_buildings/stable_64.png) Stables
+
+Produces horses. They are used to convert citizens into cossacks.
+### Required for building
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
+
+- ![Wood: 5](sloboda/assets/images/resources/wood_64.png) Wood: 5
+
+
+### Output
+![Horse: 1](sloboda/assets/images/resources/horse_64.png) Horse: 1
+
+### Required for production by
+- ![Food: 10](sloboda/assets/images/resources/food_64.png) Food: 10
+
+
+- ### Max number of workers: 30
+
+
+---
+---
+# ![Iron Mine](sloboda/assets/images/resource_buildings/iron_mine_64.png) Iron Mine
+
+Produces iron ore. It is used by the Smith to create firearms for cossacks.
+### Required for building
+- ![Food: 10](sloboda/assets/images/resources/food_64.png) Food: 10
+
+- ![Wood: 15](sloboda/assets/images/resources/wood_64.png) Wood: 15
+
+
+### Output
+![Ore: 1](sloboda/assets/images/resources/iron_ore_64.png) Ore: 1
+
+### Required for production by
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
+
+
+- ### Max number of workers: 30
+
+
+---
+---
+# ![Trapper's Cabin](sloboda/assets/images/resource_buildings/trappershouse_64.png) Trapper's Cabin
+
+Hunter goes into the woods and catches the wild animals. Produces furs.
+### Required for building
+- ![Food: 3](sloboda/assets/images/resources/food_64.png) Food: 3
+
+- ![Wood: 15](sloboda/assets/images/resources/wood_64.png) Wood: 15
+
+
+### Output
+![Fur: 1](sloboda/assets/images/resources/fur_64.png) Fur: 1
+
+### Required for production by
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
+
+
+- ### Max number of workers: 10
+
+
+---
+---
+# ![Powder Cellar](sloboda/assets/images/resource_buildings/powder_cellar_64.png) Powder Cellar
+
+Produces powder. It is used by the Smith to create firarms for cossacks.
+### Required for building
+- ![Food: 5](sloboda/assets/images/resources/food_64.png) Food: 5
+
+- ![Wood: 5](sloboda/assets/images/resources/wood_64.png) Wood: 5
+
+- ![Stone: 2](sloboda/assets/images/resources/stone_64.png) Stone: 2
+
+
+### Output
+![Powder: 1](sloboda/assets/images/resources/powder_64.png) Powder: 1
+
+### Required for production by
+- ![Food: 3](sloboda/assets/images/resources/food_64.png) Food: 3
+
+
+- ### Max number of workers: 30
+
+
+---
+---
+# Town
+---
+# ![House](sloboda/assets/images/city_buildings/house_64.png) House
+
+House
+### Required for building
+- ![Food: 10](sloboda/assets/images/resources/food_64.png) Food: 10
+
+- ![Stone: 3](sloboda/assets/images/resources/stone_64.png) Stone: 3
+
+- ![Wood: 10](sloboda/assets/images/resources/wood_64.png) Wood: 10
+
+
+### Output
+![Citizens: 3](sloboda/assets/images/city_props/citizen_64.png) Citizens: 3
+
+
+---
+---
+# ![Church](sloboda/assets/images/city_buildings/church_64.png) Church
+
+Church
+### Required for building
+- ![Food: 100](sloboda/assets/images/resources/food_64.png) Food: 100
+
+- ![Stone: 20](sloboda/assets/images/resources/stone_64.png) Stone: 20
+
+- ![Wood: 50](sloboda/assets/images/resources/wood_64.png) Wood: 50
+
+- ![Money: 20](sloboda/assets/images/resources/money_64.png) Money: 20
+
+
+### Output
+![Faith: 1](sloboda/assets/images/city_props/faith_64.png) Faith: 1
+
+
+---
+---
+# ![Tower](sloboda/assets/images/city_buildings/tower_64.png) Tower
+
+Tower
+### Required for building
+- ![Food: 100](sloboda/assets/images/resources/food_64.png) Food: 100
+
+- ![Stone: 20](sloboda/assets/images/resources/stone_64.png) Stone: 20
+
+- ![Wood: 50](sloboda/assets/images/resources/wood_64.png) Wood: 50
+
+- ![Money: 20](sloboda/assets/images/resources/money_64.png) Money: 20
+
+
+### Output
+![Defense: 1](sloboda/assets/images/city_props/defense_64.png) Defense: 1
+
+
+---
+---
+# ![Watch Tower](sloboda/assets/images/city_buildings/watch_tower_64.png) Watch Tower
+
+Watch Tower
+### Required for building
+- ![Food: 100](sloboda/assets/images/resources/food_64.png) Food: 100
+
+- ![Stone: 20](sloboda/assets/images/resources/stone_64.png) Stone: 20
+
+- ![Wood: 50](sloboda/assets/images/resources/wood_64.png) Wood: 50
+
+- ![Money: 20](sloboda/assets/images/resources/money_64.png) Money: 20
+
+
+### Output
+![Defense: 1](sloboda/assets/images/city_props/defense_64.png) Defense: 1
+
+
+---
+---
+# ![Wall](sloboda/assets/images/city_buildings/wall_64.png) Wall
+
+Wall
+### Required for building
+- ![Food: 20](sloboda/assets/images/resources/food_64.png) Food: 20
+
+- ![Wood: 100](sloboda/assets/images/resources/wood_64.png) Wood: 100
+
+
+### Output
+![Defense: 1](sloboda/assets/images/city_props/defense_64.png) Defense: 1
+
+
+---
+---
+
