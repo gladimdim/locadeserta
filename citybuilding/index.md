@@ -5,7 +5,6 @@
 
 ### Онлайн версія гри знаходиться зв посиланням:
 <p align="center">
-<p align="center">
 <a style="font-size: 26px" href="https://locadeserta.com/sloboda/">
 <img src="images/icon.png" width="256"><p align="center">Слобода Онлайн</p></a>
 </p>
