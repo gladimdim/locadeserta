@@ -15,13 +15,6 @@
       "year": "1651"
     },
     {
-      "author": "Konstantin Boytsov",
-      "description": "At the beginning of the XVII century a confrontation flares up between the Polish-Lithuanian Commonwealth and the Ottoman Empire. As a result of a devastating defeat at the Battle of Cecora, a lot of noblemen, Cossacks, and soldiers are killed or captured by Turks and Tatars. The fate of a young Cossack, wayfaring through the Wild Fields in a desperate attempt to escape from captivity, depends on the choices of the reader of this interactive fiction. All the challenges are equally hard: surviving in the steppe, avoiding the revenge of the Tatars, winning the trust of the Cossack fisherman and returning home. But the battle that will change the course of history is fast approaching. Will the main character be able to participate in it and stay alive? And how will his life go from there? – Only you know the answer!",
-       "storyPath": "assets/stories/after_the_battle.json",
-      "title": "After the Battle",
-      "year": "1620"
-    },
-    {
       "author": "Сава Теслюк",
       "description": "В цій історії ви візьмете участь у нічній вилазці, яка відбулась під час Хотинської битви в 1621 році. Козаки під проводом Сагайдачного зробили дуже вдалу нічну вилазку в табір турків. Було зруйновано декілька гармат і здобуто багато трофеїв. Вам доведеться зробити декілька складних виборів. Кожна гілка вибору це окрема написана історія. З повторними проходженнями ви будете бачити наслідки своїх дій з попередніх виборів.",
       "storyPath": "assets/stories/hotinska_riznya.json",
