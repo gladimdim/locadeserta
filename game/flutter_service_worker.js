@@ -6,7 +6,7 @@ const RESOURCES = {
   "assets/AssetManifest.json": "fd30a690f788d40cfb6d1969b78ce8a2",
 "assets/assets/stories/after_the_battle.json": "9dd778ded1ca30f70d918395ca9baa10",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
-"assets/assets/stories/krivava_pastka.json": "9bccd49d30433252181ded31d4e1d2ec",
+"assets/assets/stories/krivava_pastka.json": "b4002f19c2f7d47f0ad611abd0907f45",
 "assets/assets/stories/last_battle_at_berestechko.json": "cc80525a9f7d26f23ab087cbb2d56427",
 "assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
 "assets/assets/story_catalog.json": "78e0224f6b8b8ef7fb12653e3c62b277",
@@ -195,7 +195,7 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "index.html": "50154c4d08298c9127292a65990a932f",
 "/": "50154c4d08298c9127292a65990a932f",
-"main.dart.js": "6de7307463533b6b50769aca82647ba0"
+"main.dart.js": "cc91fe5eb002670a4f4beb85113c261b"
 };
 
 // The application shell files that are downloaded before a service worker can
