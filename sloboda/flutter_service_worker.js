@@ -59,7 +59,6 @@ const RESOURCES = {
 "assets/images/events/successful_event/successful_event_1.png": "4af4c6a07d4fe9d3cb49670763469c05",
 "assets/images/events/successful_event/successful_event_2.png": "3c2ab24dcb25338386f6cc0e96dc7376",
 "assets/images/events/successful_event/successful_event_3.png": "8af6521acefa825af2b6dde796771d63",
-"assets/images/events/successful_event.png": "f91b638f3109de119d8af5b31cc72fa1",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe.png": "f3101fe78f32f463dd53a5745189bad8",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_0.png": "f3101fe78f32f463dd53a5745189bad8",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_1.png": "cddca270d222c7bfb7a6d625531a9854",
@@ -142,7 +141,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "36943ed4c3cd50d8f68a259695906fb4",
 "/": "36943ed4c3cd50d8f68a259695906fb4",
-"main.dart.js": "fdacc1b18b84b43477bd538349f79fb4",
+"main.dart.js": "c3aa942f0bf66ba6cc8e533777617509",
 "manifest.json": "54cbd107fea365ff4c20a64e16430d08"
 };
 
