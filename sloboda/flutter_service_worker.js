@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "afbb0408aa99eb5b6588aa4e81dfa817",
+  "assets/AssetManifest.json": "dd31086b7c6cc55b2fea7a2c491be948",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
@@ -41,8 +41,12 @@ const RESOURCES = {
 "assets/images/city_props/faith_64.png": "7e52fde47b59da0144bf94c70e5f24ce",
 "assets/images/city_props/glory.png": "561b0672bb5faab4951e10d79c5fd239",
 "assets/images/city_props/glory_64.png": "252cbbafff4f931c813bff51f1801ea3",
-"assets/images/events/failed_event/failed_event.png": "648ede59a9ccf4b19d2f6d03fa6f088e",
+"assets/images/events/failed_event/failed_event.png": "03df4798a4dc98cc818b0343afd862a2",
+"assets/images/events/failed_event/failed_event_0.png": "648ede59a9ccf4b19d2f6d03fa6f088e",
+"assets/images/events/failed_event/failed_event_1.png": "648a62396ae4b0220d6bdfb22d59240c",
 "assets/images/events/failed_event/failed_event_128.png": "7cb8545dc1260963431cf41b3c65de07",
+"assets/images/events/failed_event/failed_event_2.png": "27beb67f84d995e2d399b534e2262309",
+"assets/images/events/failed_event/failed_event_3.png": "76aff286cc0ce0cc1dc9bbebc556881e",
 "assets/images/events/failed_event/failed_event_64.png": "20d7c9f25a88bd98de2566164051b764",
 "assets/images/events/merchant_visit/merchant_visit.png": "955a91c14dac00f9e5e386f0ba3e947b",
 "assets/images/events/merchant_visit/merchant_visit_0.png": "77d73708715c7df901f0b5bad84dd7e3",
@@ -50,7 +54,11 @@ const RESOURCES = {
 "assets/images/events/merchant_visit/merchant_visit_128.png": "103d5da749435289bec506b1c2a831ce",
 "assets/images/events/merchant_visit/merchant_visit_2.png": "535487dc0fe6aac9175721596ce53aae",
 "assets/images/events/merchant_visit/merchant_visit_3.png": "3378e3c55b4ef928c62e0487d0947fb1",
-"assets/images/events/successful_event/successful_event.png": "f91b638f3109de119d8af5b31cc72fa1",
+"assets/images/events/successful_event/successful_event.png": "74bf7c22a9046dd570e24b75692bd649",
+"assets/images/events/successful_event/successful_event_0.png": "74bf7c22a9046dd570e24b75692bd649",
+"assets/images/events/successful_event/successful_event_1.png": "4af4c6a07d4fe9d3cb49670763469c05",
+"assets/images/events/successful_event/successful_event_2.png": "3c2ab24dcb25338386f6cc0e96dc7376",
+"assets/images/events/successful_event/successful_event_3.png": "8af6521acefa825af2b6dde796771d63",
 "assets/images/events/successful_event.png": "f91b638f3109de119d8af5b31cc72fa1",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe.png": "f3101fe78f32f463dd53a5745189bad8",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_0.png": "f3101fe78f32f463dd53a5745189bad8",
@@ -134,15 +142,15 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "36943ed4c3cd50d8f68a259695906fb4",
 "/": "36943ed4c3cd50d8f68a259695906fb4",
-"main.dart.js": "8fe138a2e27f6fdea7958c0cb7b0e910",
+"main.dart.js": "fdacc1b18b84b43477bd538349f79fb4",
 "manifest.json": "54cbd107fea365ff4c20a64e16430d08"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "main.dart.js",
-"/",
+  "/",
+"main.dart.js",
 "index.html",
 "assets/LICENSE",
 "assets/AssetManifest.json",
@@ -152,7 +160,8 @@ const CORE = [
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      return cache.addAll(CORE);
+      // Provide a no-cache param to ensure the latest version is downloaded.
+      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'no-cache'})));
     })
   );
 });
@@ -171,6 +180,7 @@ self.addEventListener("activate", function(event) {
       // When there is no prior manifest, clear the entire cache.
       if (!manifest) {
         await caches.delete(CACHE_NAME);
+        contentCache = await caches.open(CACHE_NAME);
         for (var request of await tempCache.keys()) {
           var response = await tempCache.match(request);
           await contentCache.put(request, response);
@@ -220,6 +230,10 @@ self.addEventListener("activate", function(event) {
 self.addEventListener("fetch", (event) => {
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
+  // Redirect URLs to the index.html
+  if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
+    key = '/';
+  }
   // If the URL is not the the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
@@ -228,8 +242,10 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
-        return response || fetch(event.request).then((response) => {
+        // lazily populate the cache. Ensure the resources are not cached
+        // by the browser for longer than the service worker expects.
+        var modifiedRequest = new Request(event.request, {'cache': 'no-cache'});
+        return response || fetch(modifiedRequest).then((response) => {
           cache.put(event.request, response.clone());
           return response;
         });
@@ -238,3 +254,35 @@ self.addEventListener("fetch", (event) => {
   );
 });
 
+self.addEventListener('message', (event) => {
+  // SkipWaiting can be used to immediately activate a waiting service worker.
+  // This will also require a page refresh triggered by the main worker.
+  if (event.message == 'skipWaiting') {
+    return self.skipWaiting();
+  }
+
+  if (event.message = 'downloadOffline') {
+    downloadOffline();
+  }
+});
+
+// Download offline will check the RESOURCES for all files not in the cache
+// and populate them.
+async function downloadOffline() {
+  var resources = [];
+  var contentCache = await caches.open(CACHE_NAME);
+  var currentContent = {};
+  for (var request of await contentCache.keys()) {
+    var key = request.url.substring(origin.length + 1);
+    if (key == "") {
+      key = "/";
+    }
+    currentContent[key] = true;
+  }
+  for (var resourceKey in Object.keys(RESOURCES)) {
+    if (!currentContent[resourceKey]) {
+      resources.add(resourceKey);
+    }
+  }
+  return Cache.addAll(resources);
+}
