@@ -106,7 +106,6 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappershouse.png": "f26b6b20b17737a6d14f69c08d5373fe",
 "assets/images/resource_buildings/trappershouse_64.png": "fae2016f031019b84c5287a4e70ed345",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/LICENSE": "fcb4f034c0d961ab8b0e85f149f95b1d",
 "assets/NOTICES": "fcb4f034c0d961ab8b0e85f149f95b1d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
@@ -142,7 +141,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "36943ed4c3cd50d8f68a259695906fb4",
 "/": "36943ed4c3cd50d8f68a259695906fb4",
-"main.dart.js": "03f1ecd2f3adc553ba1ae5835223b474",
+"main.dart.js": "d8235e176de8db732cc844f69269ae2e",
 "manifest.json": "54cbd107fea365ff4c20a64e16430d08"
 };
 
@@ -152,7 +151,7 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/LICENSE",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 
@@ -281,8 +280,8 @@ async function downloadOffline() {
   }
   for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
-      resources.add(resourceKey);
+      resources.push(resourceKey);
     }
   }
-  return Cache.addAll(resources);
+  return contentCache.addAll(resources);
 }
