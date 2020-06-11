@@ -13373,7 +13373,7 @@ p.cx=X.a_a(t.h(a,"stock"))
 p.z=J.cv(s.a(t.h(a,"events")),new K.ZA(),u.e5).bE(0)
 s=r==null?[]:J.cv(r,new K.ZB(),u.z)
 p.Q=P.aln(s,u.C_)
-p.a=q==null?"1.11":t.h(a,"version")
+p.a=q==null?"1.2":t.h(a,"version")
 p.VD()
 return p},
 pX:function pX(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
@@ -53425,7 +53425,7 @@ C.b.w(g,new F.tJ(p,q,new Y.oE(1),new H.b6(t),h,n,l,h,new H.b6(t)))
 i.dx=i.db
 for(g=i.y,t=g.length,q=i.gtR(),k=0;k<g.length;g.length===t||(0,H.B)(g),++k)g[k].bT$.a.c6(q,h,h,h)
 for(g=i.x,t=g.length,k=0;k<g.length;g.length===t||(0,H.B)(g),++k)g[k].bT$.a.c6(q,h,h,h)
-i.a="1.11"
+i.a="1.2"
 g=u.j
 t=new R.bk(P.j(g,r))
 t.a8(h,g)
@@ -53906,7 +53906,7 @@ i=E.hY(m,m,!0,K.aq(a).r2,new E.wM(h,i,m),1,m,m,m,!1,m,m,m,!0,m,m,new V.iv(l.cx,m
 h=F.bp(a,!1).a
 t=K.aq(a).r2
 s=u.t
-r=T.aY(H.a([new K.ms(new Y.a1O(j),$.ax(),m),new T.y(C.k,L.ao("Version: 1.11",m,m,m,m,m,m),m)],s),C.j,C.a5,C.w)
+r=T.aY(H.a([new K.ms(new Y.a1O(j),$.ax(),m),new T.y(C.k,L.ao("Version: 1.2",m,m,m,m,m,m),m)],s),C.j,C.a5,C.w)
 q=T.av(V.aeX(l.cx))
 p=$.aF
 o=$.ax()
