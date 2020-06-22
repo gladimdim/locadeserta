@@ -3,8 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "dd31086b7c6cc55b2fea7a2c491be948",
+  "assets/AssetManifest.json": "6d175d21db1ac88ffb47d04e72136e2b",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
+"assets/assets/sounds/task_complete.wav": "aecb8a55db84498d3434e6164c95bad3",
 "assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
@@ -106,7 +107,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappershouse.png": "f26b6b20b17737a6d14f69c08d5373fe",
 "assets/images/resource_buildings/trappershouse_64.png": "fae2016f031019b84c5287a4e70ed345",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/NOTICES": "357ef8ce16d93fe0c54d1a92e4ac97e6",
+"assets/NOTICES": "530fd8671c0303f625779f19192e79c5",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -141,7 +142,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "36943ed4c3cd50d8f68a259695906fb4",
 "/": "36943ed4c3cd50d8f68a259695906fb4",
-"main.dart.js": "3da1d79fbe8277c778756b319fc3e6df",
+"main.dart.js": "ed77a572a5605d5f098f35b27c134bc7",
 "manifest.json": "54cbd107fea365ff4c20a64e16430d08"
 };
 
