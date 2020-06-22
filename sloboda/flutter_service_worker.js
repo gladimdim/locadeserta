@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6d175d21db1ac88ffb47d04e72136e2b",
+  "assets/AssetManifest.json": "f84b0b96d2d22d043fd8cfd3a7b6cb94",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
-"assets/assets/sounds/task_complete.wav": "aecb8a55db84498d3434e6164c95bad3",
+"assets/assets/sounds/task_complete.mp3": "c33de586a860243c12a6c209ccce0d7e",
 "assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
@@ -142,7 +142,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "36943ed4c3cd50d8f68a259695906fb4",
 "/": "36943ed4c3cd50d8f68a259695906fb4",
-"main.dart.js": "1c7b5946bbd255b8cd8b92ab221e7e0e",
+"main.dart.js": "4947bc5ceeede0d40bec5a8f2e018d91",
 "manifest.json": "54cbd107fea365ff4c20a64e16430d08"
 };
 
