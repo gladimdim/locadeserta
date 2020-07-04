@@ -6570,7 +6570,7 @@ p=P.ba(0,0,0,90)
 o=new R.bm(P.j(s,r))
 o.ac(P.o([C.ai,1],s,r),s)
 s=t.a
-return new F.oZ(S.ca(p,n,q,!1,o,0,t.z),H.a([],s),new R.m6(1),P.o([C.m,10,C.al,3,C.I,10],t.u,r),new P.c0(t.J),n,H.a([],s))
+return new F.oZ(S.ca(p,n,q,!1,o,0,t.z),H.a([],s),new R.m6(1),P.o([C.m,30,C.al,20,C.I,40],t.u,r),new P.c0(t.J),n,H.a([],s))
 case C.jj:s=t.j
 r=t.B
 q=new R.bm(P.j(s,r))
@@ -6602,7 +6602,7 @@ p=P.ba(0,0,0,90)
 o=new R.bm(P.j(s,r))
 o.ac(P.o([C.ai,1],s,r),s)
 s=t.a
-n=new F.oZ(S.ca(p,m,q,!1,o,0,t.z),H.a([],s),new R.m6(1),P.o([C.m,10,C.al,3,C.I,10],t.u,r),new P.c0(t.J),m,H.a([],s))
+n=new F.oZ(S.ca(p,m,q,!1,o,0,t.z),H.a([],s),new R.m6(1),P.o([C.m,30,C.al,20,C.I,40],t.u,r),new P.c0(t.J),m,H.a([],s))
 break
 case"CHURCH":s=t.j
 r=t.B
@@ -54485,7 +54485,7 @@ s.ac(h,g)
 p=P.ba(0,0,0,90)
 o=new R.bm(P.j(g,q))
 o.ac(P.o([C.ai,1],g,q),g)
-j=new F.oZ(S.ca(p,h,s,!1,o,0,n),H.a([],m),new R.m6(1),P.o([C.m,10,C.al,3,C.I,10],r,q),new P.c0(k),h,H.a([],m))
+j=new F.oZ(S.ca(p,h,s,!1,o,0,n),H.a([],m),new R.m6(1),P.o([C.m,30,C.al,20,C.I,40],r,q),new P.c0(k),h,H.a([],m))
 j.mz(i)
 C.b.v(i.f,j)
 i.fr.f8(new K.a_L(i))
