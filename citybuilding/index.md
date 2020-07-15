@@ -3,7 +3,7 @@
 
 # Слобода. Стратегічна гра в стилі "розбудуй селище"
 
-### Онлайн версія гри знаходиться зв посиланням:
+### Онлайн версія гри знаходиться за посиланням:
 <p align="center">
 <a style="font-size: 26px" href="https://locadeserta.com/sloboda/">
 <img src="images/icon.png" width="256"><p align="center">Слобода Онлайн</p></a>
