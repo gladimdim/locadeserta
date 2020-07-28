@@ -11,8 +11,8 @@ const RESOURCES = {
 "assets/assets/sounds/event_complete.mp3": "65d523a9b579bec58d710f0380b862de",
 "assets/assets/sounds/new_year.mp3": "05592ee0fadfa1ac9ba3c4e3c104bb75",
 "assets/assets/sounds/task_complete.mp3": "c33de586a860243c12a6c209ccce0d7e",
-"assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
-"assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
+"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
 "assets/fonts/Raleway/Raleway-Bold.ttf": "2f99a85426a45e0c7f8707aae53af803",
 "assets/fonts/Raleway/Raleway-Regular.ttf": "84abe14c9756256a4b91300ba3e4ec62",
@@ -321,8 +321,8 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "448ece7746c05ff0d7f2ecc0b7b58507",
-"manifest.json": "54cbd107fea365ff4c20a64e16430d08"
+"main.dart.js": "a491fc5ed7a558822616dea8950c76de",
+"manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
 // The application shell files that are downloaded before a service worker can
