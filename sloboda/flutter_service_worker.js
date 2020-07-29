@@ -259,8 +259,8 @@ const RESOURCES = {
 "assets/images/resources/iron_ore_64.png": "d59003a391f0598b08b29c360512ad8f",
 "assets/images/resources/money.png": "0b4aca26fa88ab3fa9cf0f5b213214d6",
 "assets/images/resources/money_64.png": "d8e729942b8b7c8ae70b48e5640422b1",
-"assets/images/resources/powder.png": "befd31656060d95ab50e6148eaeacedf",
-"assets/images/resources/powder_64.png": "b5df7908027a086924d641547cc21c01",
+"assets/images/resources/powder.png": "e9596b809227a6567f21d09a0358fd22",
+"assets/images/resources/powder_64.png": "251cfadc70a5fe14ceff815a502a17df",
 "assets/images/resources/stone.png": "6fa9cf8a4a2001272cb5ec12bf5a1f18",
 "assets/images/resources/stone_64.png": "86825e5bb98aa10e41a735f30969d19c",
 "assets/images/resources/wood.png": "bf320f06448ffa6cdc4de53f071010fa",
@@ -321,7 +321,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "a491fc5ed7a558822616dea8950c76de",
+"main.dart.js": "73ccc56cff9e938355204e0502e8ad34",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
