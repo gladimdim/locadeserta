@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "fc823a978b4182e8d8b672408b1f795b",
+  "assets/AssetManifest.json": "59f0f314dbbe07681233675e834dc312",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -148,6 +148,7 @@ const RESOURCES = {
 "assets/images/background/landing/c_5.jpg": "3a30dff864f014e5b77722421e59c3b1",
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
+"assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/river/0.jpg": "a3345d42fab01efa74a8b8a14f361219",
 "assets/images/background/river/1.jpg": "e49b1d2d0b61c1e2e690b531ca502b51",
 "assets/images/background/river/10.jpg": "28eb0031fc4e5be5859aa4b1f1540e08",
@@ -321,7 +322,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "87eb2e7b6c7cb0d5c0c482863a427b1f",
+"main.dart.js": "f0b747a34df4c90458edd0d9d3c78f3a",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
