@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "018c353e943d2cf8c388aa935061c5db",
+  "assets/AssetManifest.json": "deb6db8c38f917a49bc7b1c5797176db",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -202,6 +202,7 @@ const RESOURCES = {
 "assets/images/city_buildings/house_64.png": "5b4f1607e25120c4f340ed846a23f90c",
 "assets/images/city_buildings/shooting_range.png": "de498cc93f25f665bfd3c58be3149e99",
 "assets/images/city_buildings/shooting_range_64.png": "5695a4bae209606af621e7bb880a3359",
+"assets/images/city_buildings/sich.png": "3a857816ea56499556915d8d7468c5b6",
 "assets/images/city_buildings/sich_0.png": "3a857816ea56499556915d8d7468c5b6",
 "assets/images/city_buildings/sich_1.png": "a42f3f9c8949fe069fcc8a0b43b428de",
 "assets/images/city_buildings/sich_2.png": "a02bf666c8bf3d87941f68628eb570a8",
@@ -323,7 +324,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "0205639187910b6c51de8fb8c8297c3a",
+"main.dart.js": "05cf12784ea4515c05158d1a511cada3",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
