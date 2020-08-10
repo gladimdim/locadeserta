@@ -149,8 +149,8 @@ const RESOURCES = {
 "assets/images/background/landing/c_5.jpg": "3a30dff864f014e5b77722421e59c3b1",
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
-"assets/images/background/parallax/field.png": "b043deabe0fa28af4f52b0492144fb7d",
-"assets/images/background/parallax/forest.png": "63d4199d9343d39e8932cc9999bc7d1e",
+"assets/images/background/parallax/field.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
+"assets/images/background/parallax/forest.png": "1b61d165e438039766d2d8e30d869181",
 "assets/images/background/parallax/goxel_background.png": "4d25341b3d9edcdcf9803d60f5582519",
 "assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/parallax/steppe_2.jpg": "abf58404e0e2bb4d2a5e2e0d71600eb3",
@@ -328,7 +328,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "fe88ea20ef18ebedf1b70c2d34d24d62",
+"main.dart.js": "6b8a3c532ac6a12b3569292eb9a45ce9",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
