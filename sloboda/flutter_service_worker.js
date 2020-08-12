@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2276a451169f05fe46d4385a35d451f5",
+  "assets/AssetManifest.json": "dfe8c899f738e46d994ea04548825c96",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -149,11 +149,15 @@ const RESOURCES = {
 "assets/images/background/landing/c_5.jpg": "3a30dff864f014e5b77722421e59c3b1",
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
+"assets/images/background/parallax/church.png": "96d6c831074b8c4a1b41b586e2453836",
 "assets/images/background/parallax/field.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
 "assets/images/background/parallax/forest.png": "1b61d165e438039766d2d8e30d869181",
 "assets/images/background/parallax/goxel_background.png": "4d25341b3d9edcdcf9803d60f5582519",
 "assets/images/background/parallax/house.png": "6732039c56e0a0aa31b6bb04e0a093ca",
+"assets/images/background/parallax/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/background/parallax/iron_mine.png": "7d6ad532bb14e2f005d7368c9b3954a5",
+"assets/images/background/parallax/mill.png": "7c2bc326fba96c0c3811e702ce6663e7",
+"assets/images/background/parallax/quarry.png": "7f40dc48d74645ba054bddf450f1a47a",
 "assets/images/background/parallax/river.png": "dc6eb2d08ca2ba8c44c39a353299185f",
 "assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/parallax/steppe_2.jpg": "abf58404e0e2bb4d2a5e2e0d71600eb3",
@@ -332,7 +336,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "4feecb699c4ef7510ed66f10f6ba3772",
+"main.dart.js": "5a8e68dd3f464aec9ed006b1f658568c",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
