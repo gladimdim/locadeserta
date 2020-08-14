@@ -25,7 +25,7 @@
 
 <p align="center">Головний екран</p>
 <p align="center">
-<img src="./images/main_view.png" width="256"/>
+<img src="./images/main_view.jpg" width="362"/>
 </p>
 
 ## Інтерфейс
@@ -36,22 +36,22 @@
 
 <p align="center">Кузня</p>
 <p align="center">
-<img src="./images/smith_view.png" width="256"/>
+<img src="./images/smith_view.jpg" width="362"/>
 </p>
 
 Щоб почати виробляти якийсь продукт, спочатку необхідно побудувати відповідну будівлю. Ліс та річка доступні завжди, їх не можна зруйнувати або побудувати.
 
 <p align="center">Ліс та Річка</p>
 <p align="center">
-<img src="./images/forest_view.png" width="256"/>
-<img src="./images/river_view.png" width="256"/>
+<img src="./images/forest_view.jpg" width="362"/>
+<img src="./images/river_view.jpg" width="362"/>
 </p>
 
 Кожна дія в слободі прискорює зміну сезону. Чим більше у вас виробництва, тим частіше будуть змінюватися сезони і роки.
 
-<p align="center">Пороховий льох з 10 робітниками</p>
+<p align="center">Пороховий льох</p>
 <p align="center">
-<img src="./images/powder_cellar_view.png" width="256"/>
+<img src="./images/powder_view.jpg" width="362"/>
 </p>
 
 
@@ -59,10 +59,7 @@
 
 <p align="center">Головний екран січі</p>
 <p align="center">
-<img src="./images/sich_view_0.png" width="256"/>
-<img src="./images/sich_view_1.png" width="256"/>
-<img src="./images/sich_view_2.png" width="256"/>
-<img src="./images/sich_view_3.png" width="256"/>
+<img src="./images/sich_view_0.jpg" width="362"/>
 </p>
 
 В грі є можливість відсилати допомогу козакам на Січ. Для цього потрібно лише вихід в Інтернет для зв'язку з серцем України. Січ являє собою центральне місце, куди надсилають допомогу абсолютно всі Слободи, в які грають. Тут ви можете подивитися, скільки всього допомоги уже було надіслано всіма гравцями в Слободу
@@ -73,7 +70,7 @@
 
 <p align="center">Задачі з Січі</p>
 <p align="center">
-<img src="./images/sich_tasks_view.png" width="256"/>
+<img src="./images/sich_tasks_view.jpg" width="362"/>
 </p>
 
 ## Розбудова селища
@@ -82,26 +79,21 @@
 
 <p align="center">Курінь, Церква та Башта</p>
 <p align="center">
-<img src="./images/kurin_view.png" width="256"/>
-<img src="./images/church_view.png" width="256"/>
-<img src="./images/tower_view.png" width="256"/>
+<img src="./images/kurin_view.jpg" width="362"/>
+<img src="./images/church_view.jpg" width="362"/>
+<img src="./images/tower_view.jpg" width="362"/>
 </p>
 
 ## Події
 
 Однією з основних переваг даної гри є система подій. Всього в грі реалізовано 24 випадкові події. Залежно від прогресу вашого селища, гра буде генерувати різні випадкові події, в яких ви можете приймати участь. Також можуть створюватися події, на які ви ніяк не можете вплинути, наприклад, відвідини торговців (якщо у вас є достатньо товару).
 
-<p align="center">Гості з Січі та купець з Литви</p>
-<p align="center">
-<img src="./images/merchant_visits_view.png" width="256"/>
-</p>
-
 Кожна з подій, залежно від показників слободи, може як принести вам вигоду (наприклад, більше людей приєднається до вас, чи знайдете диких коней в степу), або ж мати погані наслідки: атака на чамбул татар зазнала невдачі і ви втратили людей.
 
 <p align="center">Прикладі подій і їх наслідки</p>
 <p align="center">
-<img src="./images/event_1.png" width="256"/>
-<img src="./images/event_2.png" width="256"/>
+<img src="./images/event_1.jpg" width="362"/>
+<img src="./images/event_2.jpg" width="362"/>
 </p>
 
 
@@ -113,14 +105,14 @@
 
 <p align="center">Питання події</p>
 <p align="center">
-<img src="./images/event_question_1.png" width="256"/>
+<img src="./images/event_question_1.jpg" width="362"/>
 </p>
 
 Козаки навчаються на Стрільбищі. Кожен козак вимагає чимало ресурсів, то ж краще спочатку створіть гарні економічні умови для великого загону.
 
 <p align="center">Стрільбище, де тренуються козаки</p>
 <p align="center">
-<img src="./images/shooting_range_view.png" width="256"/>
+<img src="./images/shooting_range_view.jpg" width="362"/>
 </p>
 
 Але пам'ятайте, як тільки ви вишколили козака, він уже не зможе працювати на роботах, а може лише займатися військовими справами.
