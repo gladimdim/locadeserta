@@ -25,7 +25,7 @@
 
 <p align="center">Головний екран</p>
 <p align="center">
-<img src="./images/main_view.jpg" width="362"/>
+<img src="./images/main_view.jpg" width="512"/>
 </p>
 
 ## Інтерфейс
@@ -36,22 +36,22 @@
 
 <p align="center">Кузня</p>
 <p align="center">
-<img src="./images/smith_view.jpg" width="362"/>
+<img src="./images/smith_view.jpg" width="512"/>
 </p>
 
 Щоб почати виробляти якийсь продукт, спочатку необхідно побудувати відповідну будівлю. Ліс та річка доступні завжди, їх не можна зруйнувати або побудувати.
 
 <p align="center">Ліс та Річка</p>
 <p align="center">
-<img src="./images/forest_view.jpg" width="362"/>
-<img src="./images/river_view.jpg" width="362"/>
+<img src="./images/forest_view.jpg" width="512"/>
+<img src="./images/river_view.jpg" width="512"/>
 </p>
 
 Кожна дія в слободі прискорює зміну сезону. Чим більше у вас виробництва, тим частіше будуть змінюватися сезони і роки.
 
 <p align="center">Пороховий льох</p>
 <p align="center">
-<img src="./images/powder_view.jpg" width="362"/>
+<img src="./images/powder_view.jpg" width="512"/>
 </p>
 
 
@@ -59,7 +59,7 @@
 
 <p align="center">Головний екран січі</p>
 <p align="center">
-<img src="./images/sich_view_0.jpg" width="362"/>
+<img src="./images/sich_view_0.jpg" width="512"/>
 </p>
 
 В грі є можливість відсилати допомогу козакам на Січ. Для цього потрібно лише вихід в Інтернет для зв'язку з серцем України. Січ являє собою центральне місце, куди надсилають допомогу абсолютно всі Слободи, в які грають. Тут ви можете подивитися, скільки всього допомоги уже було надіслано всіма гравцями в Слободу
@@ -70,7 +70,7 @@
 
 <p align="center">Задачі з Січі</p>
 <p align="center">
-<img src="./images/sich_tasks_view.jpg" width="362"/>
+<img src="./images/sich_tasks_view.jpg" width="512"/>
 </p>
 
 ## Розбудова селища
@@ -79,9 +79,9 @@
 
 <p align="center">Курінь, Церква та Башта</p>
 <p align="center">
-<img src="./images/kurin_view.jpg" width="362"/>
-<img src="./images/church_view.jpg" width="362"/>
-<img src="./images/tower_view.jpg" width="362"/>
+<img src="./images/kurin_view.jpg" width="512"/>
+<img src="./images/church_view.jpg" width="512"/>
+<img src="./images/tower_view.jpg" width="512"/>
 </p>
 
 ## Події
@@ -92,8 +92,8 @@
 
 <p align="center">Прикладі подій і їх наслідки</p>
 <p align="center">
-<img src="./images/event_1.jpg" width="362"/>
-<img src="./images/event_2.jpg" width="362"/>
+<img src="./images/event_1.jpg" width="512"/>
+<img src="./images/event_2.jpg" width="512"/>
 </p>
 
 
@@ -105,14 +105,14 @@
 
 <p align="center">Питання події</p>
 <p align="center">
-<img src="./images/event_question_1.jpg" width="362"/>
+<img src="./images/event_question_1.jpg" width="512"/>
 </p>
 
 Козаки навчаються на Стрільбищі. Кожен козак вимагає чимало ресурсів, то ж краще спочатку створіть гарні економічні умови для великого загону.
 
 <p align="center">Стрільбище, де тренуються козаки</p>
 <p align="center">
-<img src="./images/shooting_range_view.jpg" width="362"/>
+<img src="./images/shooting_range_view.jpg" width="512"/>
 </p>
 
 Але пам'ятайте, як тільки ви вишколили козака, він уже не зможе працювати на роботах, а може лише займатися військовими справами.
