@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2007680db0d41e1defc1660cedc9edf8",
+  "assets/AssetManifest.json": "0d16599f81725e82a42c935b56bc63de",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -234,8 +234,6 @@ const RESOURCES = {
 "assets/images/city_buildings/watch_tower_64.png": "8700ee9b1dcdccbd7c3f732e35091a5a",
 "assets/images/city_props/citizen.png": "3d9b4be46bd2b09b98954c3a5b510862",
 "assets/images/city_props/citizen_64.png": "1509a1ea0bca710c4f6fd4aefabed05e",
-"assets/images/city_props/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
-"assets/images/city_props/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
 "assets/images/city_props/defense.png": "a3b6501459334b54c53299976d7ef726",
 "assets/images/city_props/defense_64.png": "eb65f047169b04e8daf528f7eb235c21",
 "assets/images/city_props/faith.png": "5e0577daa944e57e5167b35340d487fa",
@@ -266,6 +264,8 @@ const RESOURCES = {
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_128.png": "dbde99a0813b1db1015ec9c79ed4f520",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_2.png": "4efde9be93124c0dda73f993b7766022",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_3.png": "5012d0130f86147badfd87fbe6d3e702",
+"assets/images/resources/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
+"assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
 "assets/images/resources/firearm.png": "90d29fd801ba296b8843585167232cbf",
 "assets/images/resources/firearm_64.png": "60b2f0c847e6af33fd494f36c2832ed9",
 "assets/images/resources/fish.png": "02d00a26f5a9beaa0261f2358caa1e9d",
@@ -342,7 +342,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "d779260e5fb37ff4da75ba5ccece9534",
+"main.dart.js": "5bc940c4eb210671e1e8f05dead8b54e",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
