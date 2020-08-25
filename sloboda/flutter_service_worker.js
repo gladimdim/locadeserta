@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "38d10ec36bc2833d3e39858b28ae1771",
+  "assets/AssetManifest.json": "f158d4258f53a7f842ee3695dfed1571",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -151,10 +151,12 @@ const RESOURCES = {
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
 "assets/images/background/parallax/church.png": "96d6c831074b8c4a1b41b586e2453836",
 "assets/images/background/parallax/field.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
-"assets/images/background/parallax/forest.png": "1b61d165e438039766d2d8e30d869181",
+"assets/images/background/parallax/forest_1.png": "1b61d165e438039766d2d8e30d869181",
+"assets/images/background/parallax/forest_2.png": "edb87da1fa4487aa57ebf62ef3fa52d7",
+"assets/images/background/parallax/forest_3.png": "29337a54a1bf7e95fcba926a658f84b7",
 "assets/images/background/parallax/goxel_background.png": "4d25341b3d9edcdcf9803d60f5582519",
 "assets/images/background/parallax/house.png": "6732039c56e0a0aa31b6bb04e0a093ca",
-"assets/images/background/parallax/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/background/parallax/imgui.ini": "fee63e3b6e2228ef7b352a32a64f248c",
 "assets/images/background/parallax/iron_mine.png": "7d6ad532bb14e2f005d7368c9b3954a5",
 "assets/images/background/parallax/mill.png": "7c2bc326fba96c0c3811e702ce6663e7",
 "assets/images/background/parallax/powder_cellar.png": "17e252293a45fae37d122e4e5d39cc53",
@@ -344,7 +346,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "a7908a326ea4b56bd3b8700049e0ebba",
+"main.dart.js": "062ce96b7da969408b2fa55c8f116bbd",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
