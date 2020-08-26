@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f158d4258f53a7f842ee3695dfed1571",
+  "assets/AssetManifest.json": "7d3c49ad89eee60435696fabf5b04a75",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -161,7 +161,9 @@ const RESOURCES = {
 "assets/images/background/parallax/mill.png": "7c2bc326fba96c0c3811e702ce6663e7",
 "assets/images/background/parallax/powder_cellar.png": "17e252293a45fae37d122e4e5d39cc53",
 "assets/images/background/parallax/quarry.png": "7f40dc48d74645ba054bddf450f1a47a",
-"assets/images/background/parallax/river.png": "dc6eb2d08ca2ba8c44c39a353299185f",
+"assets/images/background/parallax/river_1.png": "32a58da54071d8202e6140e7163b0d65",
+"assets/images/background/parallax/river_2.png": "dc6eb2d08ca2ba8c44c39a353299185f",
+"assets/images/background/parallax/river_3.png": "5a1de9dab6e36f984f2ffc35eb492f96",
 "assets/images/background/parallax/shooting_range.png": "cc89101e4b406df8e1075699340694a9",
 "assets/images/background/parallax/sich.png": "4b320513d9bf369b46ee53a420d44c91",
 "assets/images/background/parallax/smith.png": "50dbb1cde2e0872e6f506c88f1921ace",
@@ -346,7 +348,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "553b75e0d6c87b5021b6adc70c9b0748",
+"main.dart.js": "424f1d3731fd56288b49424085917278",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 

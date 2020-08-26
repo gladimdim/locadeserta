@@ -53716,7 +53716,7 @@ gc3:function(){return this.k3},
 gbH:function(){return this.k4}}
 T.G6.prototype={
 be:function(){return"images/resource_buildings/river.png"},
-d7:function(){return"images/background/parallax/river.png"},
+d7:function(){return"images/background/parallax/river_"+this.a+".png"},
 ga6:function(){return"natureResources.river"},
 gb7:function(){return"natureResources.riverDescription"},
 gat:function(){return C.r7},
