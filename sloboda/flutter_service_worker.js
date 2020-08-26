@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "7d3c49ad89eee60435696fabf5b04a75",
+  "assets/AssetManifest.json": "76914e91a7d666ace910ab079dbc3eda",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -150,7 +150,9 @@ const RESOURCES = {
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
 "assets/images/background/parallax/church.png": "96d6c831074b8c4a1b41b586e2453836",
-"assets/images/background/parallax/field.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
+"assets/images/background/parallax/field_1.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
+"assets/images/background/parallax/field_2.png": "8e25bd09072b427cf6c15e783b976ccb",
+"assets/images/background/parallax/field_3.png": "81ed0387a829385b4f5f6122ef9896fa",
 "assets/images/background/parallax/forest_1.png": "1b61d165e438039766d2d8e30d869181",
 "assets/images/background/parallax/forest_2.png": "edb87da1fa4487aa57ebf62ef3fa52d7",
 "assets/images/background/parallax/forest_3.png": "29337a54a1bf7e95fcba926a658f84b7",
@@ -348,7 +350,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "424f1d3731fd56288b49424085917278",
+"main.dart.js": "0966b20e1d95d2d7e72783aa246b5ffb",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 

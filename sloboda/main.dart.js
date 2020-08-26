@@ -53647,7 +53647,7 @@ ga6:function(){return"cityBuildings.watchTower"},
 gb7:function(){return"cityBuildings.watchTowerDescription"}}
 F.D_.prototype={
 b9:function(){return"images/resource_buildings/field_64.png"},
-d7:function(){return"images/background/parallax/field.png"},
+d7:function(){return"images/background/parallax/field_"+this.a+".png"},
 be:function(){return"images/resource_buildings/field.png"},
 ga6:function(){return"resourceBuildings.field"},
 gb7:function(){return"resourceBuildings.fieldDescription"},
