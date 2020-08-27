@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "76914e91a7d666ace910ab079dbc3eda",
+  "assets/AssetManifest.json": "e3baaf0fbb19e088644ded4f6309867d",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -158,8 +158,10 @@ const RESOURCES = {
 "assets/images/background/parallax/forest_3.png": "29337a54a1bf7e95fcba926a658f84b7",
 "assets/images/background/parallax/goxel_background.png": "4d25341b3d9edcdcf9803d60f5582519",
 "assets/images/background/parallax/house.png": "6732039c56e0a0aa31b6bb04e0a093ca",
-"assets/images/background/parallax/imgui.ini": "fee63e3b6e2228ef7b352a32a64f248c",
-"assets/images/background/parallax/iron_mine.png": "7d6ad532bb14e2f005d7368c9b3954a5",
+"assets/images/background/parallax/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/background/parallax/iron_mine_1.png": "0a04e01bbf84c0eecf7c9d20a7f21344",
+"assets/images/background/parallax/iron_mine_2.png": "7d6ad532bb14e2f005d7368c9b3954a5",
+"assets/images/background/parallax/iron_mine_3.png": "d96bd6298cfc4cce59e27aa6f52b0113",
 "assets/images/background/parallax/mill.png": "7c2bc326fba96c0c3811e702ce6663e7",
 "assets/images/background/parallax/powder_cellar.png": "17e252293a45fae37d122e4e5d39cc53",
 "assets/images/background/parallax/quarry.png": "7f40dc48d74645ba054bddf450f1a47a",
@@ -350,7 +352,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "0966b20e1d95d2d7e72783aa246b5ffb",
+"main.dart.js": "b70d5166316832f4d582abf7ad54ce7e",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
