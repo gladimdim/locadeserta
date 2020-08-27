@@ -9264,7 +9264,7 @@ s=t.k
 return new U.Fk(q,o,new Y.wU(1),r,new H.bc(s),n,new H.bc(s),H.a([],t.a),U.d5(p))
 case C.iQ:s=t.u
 r=t.B
-q=P.k(["1",P.k([C.r,30,C.z,30],s,r),"2",P.k([C.r,10,C.j,40,C.z,40,C.at,20],s,r),"3",P.k([C.r,35,C.j,80,C.z,65,C.at,35],s,r)],t.X,t.Q)
+q=P.k(["1",P.k([C.r,30,C.z,30],s,r),"2",P.k([C.r,80,C.j,140,C.z,100,C.at,60],s,r),"3",P.k([C.r,135,C.j,180,C.z,165,C.at,135],s,r)],t.X,t.Q)
 p=t.z
 o=S.dd(P.bb(0,0,0,120),n,X.ag(P.k([C.j,30,C.bf,10,C.at,10],s,r)),!1,X.ag(P.k([C.aZ,10],s,r)),7,p)
 r=P.k([C.j,2,C.bf,1,C.at,1],s,r)
@@ -53758,7 +53758,7 @@ gjs:function(){return this.y1}}
 A.Et.prototype={
 bb:function(){return"images/resource_buildings/mill_64.png"},
 bg:function(){return"images/resource_buildings/mill.png"},
-dc:function(){return"images/background/parallax/mill.png"},
+dc:function(){return"images/background/parallax/mill_"+this.a+".png"},
 ga5:function(){return"resourceBuildings.mill"},
 gb9:function(){return"resourceBuildings.millDescription"},
 gau:function(){return C.iR},
@@ -53817,7 +53817,7 @@ gbI:function(){return this.y1}}
 U.Fk.prototype={
 bb:function(){return"images/resource_buildings/quarry_64.png"},
 bg:function(){return"images/resource_buildings/quarry.png"},
-dc:function(){return"images/background/parallax/quarry.png"},
+dc:function(){return"images/background/parallax/quarry_"+this.a+".png"},
 ga5:function(){return"resourceBuildings.quarry"},
 gb9:function(){return"resourceBuildings.quarryDescription"},
 gau:function(){return C.iP},
@@ -53874,7 +53874,7 @@ gbI:function(){return this.en$}}
 U.GW.prototype={
 bb:function(){return"images/resource_buildings/smith_64.png"},
 bg:function(){return"images/resource_buildings/smith.png"},
-dc:function(){return"images/background/parallax/smith.png"},
+dc:function(){return"images/background/parallax/smith_"+this.a+".png"},
 ga5:function(){return"resourceBuildings.smith"},
 gb9:function(){return"resourceBuildings.smithDescription"},
 gau:function(){return C.iQ},
