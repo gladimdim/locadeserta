@@ -6916,6 +6916,9 @@ case"WALL":r=q.a=S.aj_()
 break
 default:throw H.b("City building type "+H.d(s.h(a,"type"))+" was not recognized")}r.sdq(J.c3(t.w.a(s.h(a,"tasks")),new S.PA(),t.mZ).bv(0))
 C.b.Y(r.gdq(),new S.PB(q))
+r=q.a
+s=s.h(a,"level")
+r.a=s==null?1:s
 return q.a},
 aqL:function(){var s,r,q,p=new K.fV()
 p.h0(null)
@@ -9317,10 +9320,11 @@ r=S.dd(P.bb(0,0,0,35),n,p,!1,r,1,!1,s)
 p=t.k
 return new V.GE(new Y.tI(1),q,r,new H.bc(p),n,new H.bc(p),H.a([],t.a),U.d5(s))
 default:throw H.b("Resource Type not Recognized")}},
-at0:function(a){var s=J.ai(a),r=M.iL(M.ayf(s.h(a,"type")))
-s=J.c3(t.w.a(s.h(a,"tasks")),new M.Yc(),t.mZ).bv(0)
-r.b=s
-C.b.Y(s,new M.Yd(r))
+at0:function(a){var s=J.ai(a),r=M.iL(M.ayf(s.h(a,"type"))),q=J.c3(t.w.a(s.h(a,"tasks")),new M.Yc(),t.mZ).bv(0)
+r.b=q
+C.b.Y(q,new M.Yd(r))
+s=s.h(a,"level")
+r.a=s==null?1:s
 return r},
 ay4:function(a){switch(a){case C.iQ:return"SMITH"
 case C.iN:return"FIELD"
@@ -53637,8 +53641,8 @@ oy:function(){return M.bK(this.gb9())},
 tp:function(){return M.bK(this.ga5())},
 bb:function(){throw H.b(P.dV(null))},
 bg:function(){throw H.b(P.dV(null))},
-b5:function(){var s=S.awZ(this.gau(this)),r=this.gdq(),q=H.O(r).i("E<1,Q<f*,@>*>")
-return P.k(["type",s,"tasks",P.M(new H.E(r,new S.PD(),q),!0,q.i("ae.E"))],t.X,t.z)},
+b5:function(){var s=this,r=s.a,q=S.awZ(s.gau(s)),p=s.gdq(),o=H.O(p).i("E<1,Q<f*,@>*>")
+return P.k(["level",r,"type",q,"tasks",P.M(new H.E(p,new S.PD(),o),!0,o.i("ae.E"))],t.X,t.z)},
 gbI:function(){return null},
 gau:function(){return null},
 ga5:function(){return null},
@@ -53838,8 +53842,8 @@ M.c6.prototype={
 tp:function(){return M.bK(this.ga5())},
 oy:function(){return M.bK(this.gb9())},
 dc:function(){return"images/background/parallax/field.png"},
-b5:function(){var s=M.ay4(this.gau(this)),r=this.b,q=H.O(r).i("E<1,Q<f*,@>*>")
-return P.k(["type",s,"tasks",P.M(new H.E(r,new M.Ye(),q),!0,q.i("ae.E"))],t.X,t.z)},
+b5:function(){var s=this,r=M.ay4(s.gau(s)),q=s.b,p=H.O(q).i("E<1,Q<f*,@>*>")
+return P.k(["type",r,"tasks",P.M(new H.E(q,new M.Ye(),p),!0,p.i("ae.E")),"level",s.a],t.X,t.z)},
 gau:function(){return null},
 gjr:function(){return this.db},
 ga5:function(){return null},
