@@ -53898,7 +53898,7 @@ gjr:function(){return this.x2}}
 G.H5.prototype={
 bb:function(){return"images/resource_buildings/stable_64.png"},
 bg:function(){return"images/resource_buildings/stable.png"},
-dc:function(){return"images/background/parallax/stable.png"},
+dc:function(){return"images/background/parallax/stable_"+this.a+".png"},
 ga5:function(){return"resourceBuildings.stables"},
 gb9:function(){return"resourceBuildings.stablesDescription"},
 gau:function(){return C.iS},

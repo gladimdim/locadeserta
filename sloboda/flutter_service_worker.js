@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ddfcc4430f7c17fac8ade97c338768a3",
+  "assets/AssetManifest.json": "4e0782a522e8fd04207e41c901b855b8",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -177,7 +177,9 @@ const RESOURCES = {
 "assets/images/background/parallax/smith_1.png": "34f4180e082aa483ae36038ab4df8159",
 "assets/images/background/parallax/smith_2.png": "89b6b200174eb4129169cb07b890717a",
 "assets/images/background/parallax/smith_3.png": "08312662c4eb63692307e03cd7388eea",
-"assets/images/background/parallax/stable.png": "d2fd220f9745823577da3ba5338da85b",
+"assets/images/background/parallax/stable_1.png": "efa953bef8234916a1b073983e056c37",
+"assets/images/background/parallax/stable_2.png": "d2fd220f9745823577da3ba5338da85b",
+"assets/images/background/parallax/stable_3.png": "cddbb8d48cf328c48dc3903395d31588",
 "assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/parallax/steppe_2.jpg": "abf58404e0e2bb4d2a5e2e0d71600eb3",
 "assets/images/background/parallax/tower.png": "f14caaab1015480f98466db6aec1f211",
@@ -358,7 +360,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "df4ac2d5b5b0869e2dbab626d17ec4dc",
+"main.dart.js": "d84456c3dd5dd1b7cb35790300f48be8",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
