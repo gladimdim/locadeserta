@@ -53629,7 +53629,7 @@ return P.W($async$th,r)}}
 D.o3.prototype={
 bb:function(){return"images/city_buildings/church_64.png"},
 bg:function(){return"images/city_buildings/church.png"},
-dc:function(){return"images/background/parallax/church.png"},
+dc:function(){return"images/background/parallax/church_"+this.a+".png"},
 gcD:function(){return this.k1},
 gc1:function(){return this.k2},
 gau:function(){return C.jk},
