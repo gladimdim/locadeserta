@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "4e0782a522e8fd04207e41c901b855b8",
+  "assets/AssetManifest.json": "70515e2067f6b656ba8193f1f1dccca5",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -172,7 +172,9 @@ const RESOURCES = {
 "assets/images/background/parallax/river_1.png": "32a58da54071d8202e6140e7163b0d65",
 "assets/images/background/parallax/river_2.png": "dc6eb2d08ca2ba8c44c39a353299185f",
 "assets/images/background/parallax/river_3.png": "5a1de9dab6e36f984f2ffc35eb492f96",
-"assets/images/background/parallax/shooting_range.png": "cc89101e4b406df8e1075699340694a9",
+"assets/images/background/parallax/shooting_range_1.png": "cc3db8cee7877c9140d162707141da6f",
+"assets/images/background/parallax/shooting_range_2.png": "8808d3166e4489ed154e39c2e535d994",
+"assets/images/background/parallax/shooting_range_3.png": "136046407ed65c13cf475c5b73384789",
 "assets/images/background/parallax/sich.png": "4b320513d9bf369b46ee53a420d44c91",
 "assets/images/background/parallax/smith_1.png": "34f4180e082aa483ae36038ab4df8159",
 "assets/images/background/parallax/smith_2.png": "89b6b200174eb4129169cb07b890717a",
@@ -183,7 +185,9 @@ const RESOURCES = {
 "assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/parallax/steppe_2.jpg": "abf58404e0e2bb4d2a5e2e0d71600eb3",
 "assets/images/background/parallax/tower.png": "f14caaab1015480f98466db6aec1f211",
-"assets/images/background/parallax/trappershouse.png": "d49df3887a390c7f26603a8190962f28",
+"assets/images/background/parallax/trappershouse_1.png": "9e236c2adc19221dd9d9e8163216bdb4",
+"assets/images/background/parallax/trappershouse_2.png": "755fd520b6cfe5ec3948259172951675",
+"assets/images/background/parallax/trappers_house_3.png": "5f69d3da8c353b8d2b324b475ab06b7a",
 "assets/images/background/parallax/wall.png": "b812e814802a71d3b5ec08de12ab0004",
 "assets/images/background/parallax/watch_tower.png": "7b5cee9c5fba63fa13456b5183cb7bdb",
 "assets/images/background/river/0.jpg": "a3345d42fab01efa74a8b8a14f361219",
@@ -360,7 +364,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "d84456c3dd5dd1b7cb35790300f48be8",
+"main.dart.js": "6c5a699afd39a45e73e7fec999d16db7",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
