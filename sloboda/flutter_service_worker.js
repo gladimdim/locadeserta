@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bfa1b7a57d51edb52ad0efd14a50bda7",
+  "assets/AssetManifest.json": "f88ac1c523ecd2c98c0249754e17162a",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -168,6 +168,9 @@ const RESOURCES = {
 "assets/images/background/parallax/mill_2.png": "1d0e86db10c54edda76a6162940d4e1b",
 "assets/images/background/parallax/mill_3.png": "6156443e63cb347f15fa4cc77d5e5cfd",
 "assets/images/background/parallax/powder_cellar.png": "17e252293a45fae37d122e4e5d39cc53",
+"assets/images/background/parallax/powder_cellar_1.png": "b01792fbcf6816f3993930fb485f620a",
+"assets/images/background/parallax/powder_cellar_2.png": "eea505c0d1af2f7087baabd874448218",
+"assets/images/background/parallax/powder_cellar_3.png": "84e1ca07e9dd705aeacbb284fce8b3f1",
 "assets/images/background/parallax/quarry_1.png": "18dfd080f09c3828fc38d193e8b44df5",
 "assets/images/background/parallax/quarry_2.png": "860ed5dddd3fac9b8ffa86e805c6a1de",
 "assets/images/background/parallax/quarry_3.png": "7f40dc48d74645ba054bddf450f1a47a",
@@ -366,7 +369,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "9167d74b08620e6f5259866ef11524d1",
+"main.dart.js": "579c56d6c66b40c711fc16592a2bd4ad",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 

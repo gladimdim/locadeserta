@@ -9304,7 +9304,7 @@ s=t.k
 return new D.HH(q,o,r,new Y.un(1),new H.bc(s),n,new H.bc(s),H.a([],t.a),U.d5(p))
 case C.iU:s=t.u
 r=t.B
-q=P.k(["1",P.k([C.j,25,C.r,35,C.z,20],s,r),"2",P.k([C.r,25,C.j,40,C.z,15],s,r),"3",P.k([C.r,40,C.j,70,C.z,35],s,r)],t.X,t.Q)
+q=P.k(["1",P.k([C.j,25,C.r,35,C.z,20],s,r),"2",P.k([C.r,75,C.j,140,C.z,60],s,r),"3",P.k([C.r,150,C.j,140,C.z,90],s,r)],t.X,t.Q)
 p=t.z
 o=S.dd(P.bb(0,0,0,30),n,X.ag(P.k([C.j,10],s,r)),!1,X.ag(P.k([C.at,5],s,r)),2,!0,p)
 r=P.k([C.j,3],s,r)
@@ -15137,7 +15137,7 @@ a0C:function a0C(){},
 a0D:function a0D(a){this.a=a},
 a0E:function a0E(a){this.a=a},
 ago:function(){var s,r,q=t.u,p=t.B
-q=P.k(["1",P.k([C.j,100,C.z,20,C.r,50,C.C,20],q,p),"2",P.k([C.r,90,C.j,70,C.z,40],q,p),"3",P.k([C.r,140,C.j,120,C.z,75],q,p)],t.X,t.Q)
+q=P.k(["1",P.k([C.j,100,C.z,20,C.r,50,C.C,20],q,p),"2",P.k([C.r,90,C.j,70,C.z,40],q,p),"3",P.k([C.r,240,C.j,220,C.z,175],q,p)],t.X,t.Q)
 s=R.aW(null)
 p=R.aW(P.k([C.ad,3],t.j,p))
 r=t.z
@@ -53819,7 +53819,7 @@ gbI:function(){return this.eo$}}
 L.Ff.prototype={
 bb:function(){return"images/resource_buildings/powder_cellar_64.png"},
 bg:function(){return"images/resource_buildings/powder_cellar.png"},
-dc:function(){return"images/background/parallax/powder_cellar.png"},
+dc:function(){return"images/background/parallax/powder_cellar_"+this.a+".png"},
 ga5:function(){return"resourceBuildings.powderCellar"},
 gb9:function(){return"resourceBuildings.powderCellarDescription"},
 gau:function(){return C.iU},
