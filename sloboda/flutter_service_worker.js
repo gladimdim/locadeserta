@@ -149,7 +149,7 @@ const RESOURCES = {
 "assets/images/background/landing/c_5.jpg": "3a30dff864f014e5b77722421e59c3b1",
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
-"assets/images/background/parallax/church_1.png": "249c55aef55b779c6d1c4e67db89610f",
+"assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
 "assets/images/background/parallax/church_2.png": "b91b7ab5f49bf08f5dad476f8f80a9ec",
 "assets/images/background/parallax/church_3.png": "281d3c1a8166e9b2dacc04683e191489",
 "assets/images/background/parallax/field_1.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
