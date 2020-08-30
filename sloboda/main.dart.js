@@ -6940,7 +6940,7 @@ PD:function PD(){},
 PE:function PE(a){this.a=a},
 d7:function d7(a){this.b=a},
 aj_:function(){var s=R.aW(null),r=t.B,q=R.aW(P.k([C.bk,3],t.j,r)),p=t.z,o=t.u
-return new S.HZ(S.dd(P.bb(1,0,0,0),null,s,!1,q,0,!0,p),new R.m3(1),P.k(["1",P.k([C.j,20,C.r,100],o,r),"2",P.k([C.j,35,C.r,175],o,r),"3",P.k([C.j,50,C.r,250],o,r)],t.X,t.Q),H.a([],t.a),U.d5(p))},
+return new S.HZ(S.dd(P.bb(1,0,0,0),null,s,!1,q,0,!0,p),new R.m3(1),P.k(["1",P.k([C.j,20,C.r,100],o,r),"2",P.k([C.j,70,C.r,175],o,r),"3",P.k([C.j,150,C.r,250],o,r)],t.X,t.Q),H.a([],t.a),U.d5(p))},
 HZ:function HZ(a,b,c,d,e){var _=this
 _.k1=a
 _.k3=b
@@ -53719,7 +53719,7 @@ gb9:function(){return"cityBuildings.towerDescription"}}
 S.HZ.prototype={
 bb:function(){return"images/city_buildings/wall_64.png"},
 bg:function(){return"images/city_buildings/wall.png"},
-dc:function(){return"images/background/parallax/wall.png"},
+dc:function(){return"images/background/parallax/wall_"+this.a+".png"},
 gc1:function(){return this.k1},
 gau:function(){return C.jm},
 gbI:function(){return this.k3},
