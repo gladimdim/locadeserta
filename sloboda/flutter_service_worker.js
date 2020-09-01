@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "10f3ed3b370a7da9efab7b22fb813483",
+  "assets/AssetManifest.json": "10fc64bcb13ba67a866b283c46b780af",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -197,6 +197,7 @@ const RESOURCES = {
 "assets/images/background/parallax/tower_3.png": "0dbec1d8604dd72e8b23ccd81b538269",
 "assets/images/background/parallax/trappershouse_1.png": "9e236c2adc19221dd9d9e8163216bdb4",
 "assets/images/background/parallax/trappershouse_2.png": "755fd520b6cfe5ec3948259172951675",
+"assets/images/background/parallax/trappershouse_3.png": "5f69d3da8c353b8d2b324b475ab06b7a",
 "assets/images/background/parallax/trappers_house_3.png": "5f69d3da8c353b8d2b324b475ab06b7a",
 "assets/images/background/parallax/wall_1.png": "4336f7fcefe73ee82d9c9117d851aacb",
 "assets/images/background/parallax/wall_2.png": "2ddce9d3f729e67815752973d846c03b",
@@ -376,9 +377,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
-"/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "8da47ed2e2f5626d082bf91d1ce6c1bd",
+"index.html": "be539e2d0431cbafecc16cb933ced8ce",
+"/": "be539e2d0431cbafecc16cb933ced8ce",
+"main.dart.js": "d65b13e71bd907732f56bec48d37b9ae",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
@@ -467,21 +468,26 @@ self.addEventListener("fetch", (event) => {
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
-  if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
+  if (key.indexOf('?v=') != -1) {
+    key = key.split('?v=')[0];
+  }
+  if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
   // If the URL is not the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
   }
+  // If the URL is the index.html, perform an online-first request.
+  if (key == '/') {
+    return onlineFirst(event);
+  }
   event.respondWith(caches.open(CACHE_NAME)
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache. Ensure the resources are not cached
-        // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'reload'});
-        return response || fetch(modifiedRequest).then((response) => {
+        // lazily populate the cache.
+        return response || fetch(event.request).then((response) => {
           cache.put(event.request, response.clone());
           return response;
         });
@@ -521,4 +527,26 @@ async function downloadOffline() {
     }
   }
   return contentCache.addAll(resources);
+}
+
+// Attempt to download the resource online before falling back to
+// the offline cache.
+function onlineFirst(event) {
+  return event.respondWith(
+    fetch(event.request).then((response) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    }).catch((error) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        return cache.match(event.request).then((response) => {
+          if (response != null) {
+            return response;
+          }
+          throw error;
+        });
+      });
+    })
+  );
 }
