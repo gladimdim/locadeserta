@@ -198,7 +198,6 @@ const RESOURCES = {
 "assets/images/background/parallax/trappershouse_1.png": "9e236c2adc19221dd9d9e8163216bdb4",
 "assets/images/background/parallax/trappershouse_2.png": "755fd520b6cfe5ec3948259172951675",
 "assets/images/background/parallax/trappershouse_3.png": "5f69d3da8c353b8d2b324b475ab06b7a",
-"assets/images/background/parallax/trappers_house_3.png": "5f69d3da8c353b8d2b324b475ab06b7a",
 "assets/images/background/parallax/wall_1.png": "4336f7fcefe73ee82d9c9117d851aacb",
 "assets/images/background/parallax/wall_2.png": "2ddce9d3f729e67815752973d846c03b",
 "assets/images/background/parallax/wall_3.png": "3c4934e97fdbdc70de79633c369c7a73",
@@ -377,9 +376,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "be539e2d0431cbafecc16cb933ced8ce",
-"/": "be539e2d0431cbafecc16cb933ced8ce",
-"main.dart.js": "d65b13e71bd907732f56bec48d37b9ae",
+"index.html": "615a64dd80ca80480381f8a36bef95e8",
+"/": "615a64dd80ca80480381f8a36bef95e8",
+"main.dart.js": "30aec37da2163b8eafa9be6251a64c4a",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
