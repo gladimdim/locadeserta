@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "e3eb964cce0fd7f7007bd96c6cdbb07e",
+  "assets/AssetManifest.json": "868686c37a5a170ce99d79be764f72fc",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -150,9 +150,10 @@ const RESOURCES = {
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
 "assets/images/background/map/boplan_map.jpg": "2b3a7d7394431a9bcd708c530bcbd8c6",
-"assets/images/background/map/grass_tile.png": "972a4a892d66b9e4f85b99e17088ded3",
+"assets/images/background/map/grass_tile.png": "9eb047e8a8fd5288910d85938599d1b4",
 "assets/images/background/map/map.png": "596c19fdea1f6c62f79c5fe3e660692c",
-"assets/images/background/map/river_tile.png": "8eada348e2002ab22a72ed5662ed49be",
+"assets/images/background/map/river_tile.png": "bbd02f42323828d412e16c6f8d0ce225",
+"assets/images/background/map/river_up_left_tile.png": "f5c5524654e5092aaf13c42f2ba069ee",
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
 "assets/images/background/parallax/church_2.png": "b91b7ab5f49bf08f5dad476f8f80a9ec",
 "assets/images/background/parallax/church_3.png": "281d3c1a8166e9b2dacc04683e191489",
@@ -380,9 +381,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "011f0b6b6a6d1d1bc015ab0d8ceadbcf",
-"/": "011f0b6b6a6d1d1bc015ab0d8ceadbcf",
-"main.dart.js": "acbb0dd708ec20fcbb297798037c7e11",
+"index.html": "be99f8bf96a00f8cb08d8575ddd8614e",
+"/": "be99f8bf96a00f8cb08d8575ddd8614e",
+"main.dart.js": "7821e5d5f2f31f3511cc236ebab7f5c2",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
