@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "e26caf8b558192a757817a121304b996",
+  "assets/AssetManifest.json": "677c7d4dc9a06b41aea09c5ae6bee16a",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -153,6 +153,7 @@ const RESOURCES = {
 "assets/images/background/map/forest_tile.png": "f00c0b0a613a30129f7732ecbeadb70b",
 "assets/images/background/map/grass_tile.png": "9eb047e8a8fd5288910d85938599d1b4",
 "assets/images/background/map/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/background/map/lake_tile.png": "c8efa6e545c31ac818d9daf80dbcb3a7",
 "assets/images/background/map/river_angle.png": "d192109b9d57d14c93b41d7e73216a37",
 "assets/images/background/map/river_tile.png": "66dbbb4956eae822d89ef492a612dc5a",
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
@@ -382,9 +383,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "17d860435ec9dfdc265b8b88da320610",
-"/": "17d860435ec9dfdc265b8b88da320610",
-"main.dart.js": "2453c284f07e9838be4624f63d0cedda",
+"index.html": "18c1e9ad9f838690875c78133b2fe861",
+"/": "18c1e9ad9f838690875c78133b2fe861",
+"main.dart.js": "52808d2c8f93013d5b8bf117ff5496a7",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
