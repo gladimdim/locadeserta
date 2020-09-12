@@ -153,7 +153,7 @@ const RESOURCES = {
 "assets/images/background/map/forest_tile.png": "f00c0b0a613a30129f7732ecbeadb70b",
 "assets/images/background/map/grass_tile.png": "9eb047e8a8fd5288910d85938599d1b4",
 "assets/images/background/map/imgui.ini": "225ba9004e939001679ded34841a0d7a",
-"assets/images/background/map/lake_tile.png": "c8efa6e545c31ac818d9daf80dbcb3a7",
+"assets/images/background/map/lake_tile.png": "d2812b710fe86d9a4963b48f6146c7cc",
 "assets/images/background/map/river_angle.png": "d192109b9d57d14c93b41d7e73216a37",
 "assets/images/background/map/river_tile.png": "66dbbb4956eae822d89ef492a612dc5a",
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
@@ -383,9 +383,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "59057675cc752b32031a368730c7abbb",
-"/": "59057675cc752b32031a368730c7abbb",
-"main.dart.js": "6631c4ab2b03cce2e42b01fb5756fc40",
+"index.html": "5a425af82c8251c56a55041f2f85bb21",
+"/": "5a425af82c8251c56a55041f2f85bb21",
+"main.dart.js": "704016d12e7a5619898c5f3377c1e934",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
