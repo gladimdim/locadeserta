@@ -8713,11 +8713,11 @@ this.b=b},
 WW:function WW(a){this.a=a},
 WX:function WX(){},
 WY:function WY(){},
-akG:function(a){var s=new M.IA(30,30)
+akG:function(a){var s=new M.IA(20,20)
 s.T9()
 s.At(new A.E3(2,2,2,2))
 s.a_f()
-X.afJ(30,s.ga_5())
+X.afJ(20,s.ga_5())
 X.afJ(8,s.ga_9())
 return new A.y5(a,s,null)},
 y5:function y5(a,b,c){this.c=a
