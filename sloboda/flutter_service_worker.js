@@ -384,9 +384,9 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "9141cb2d12d1c593df23a947c6e436cb",
-"/": "9141cb2d12d1c593df23a947c6e436cb",
-"main.dart.js": "541ba07bd2a6e9ce7987c96624358961",
+"index.html": "ed7fa4a20f2cc45a7da6fa54ccc4b964",
+"/": "ed7fa4a20f2cc45a7da6fa54ccc4b964",
+"main.dart.js": "f1ed1645cd92a6cffd600700a035134b",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
 };
 
