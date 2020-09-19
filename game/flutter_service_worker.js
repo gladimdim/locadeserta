@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "9f7a7afe949d0d84b049a640abe3ba4f",
+  "assets/AssetManifest.json": "839bed9af97ce8ab83c32d206e9a62d6",
 "assets/assets/stories/after_the_battle.json": "9dd778ded1ca30f70d918395ca9baa10",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
@@ -11,10 +11,11 @@ const RESOURCES = {
 "assets/assets/stories/kodak_night.json": "0ad253f16188e3506ba15abf120ee850",
 "assets/assets/stories/krivava_pastka.json": "b4002f19c2f7d47f0ad611abd0907f45",
 "assets/assets/stories/last_battle_at_berestechko.json": "cc80525a9f7d26f23ab087cbb2d56427",
+"assets/assets/stories/pereprava.json": "642ca5a57c7420db0b6c76138dbd8659",
 "assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
-"assets/assets/story_catalog.json": "ae079c2492ca987813f7f3d206a30a18",
-"assets/FontManifest.json": "22e886cc98169b38b22808336711cc7f",
-"assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/assets/story_catalog.json": "b02133c3120b6d9560e4ad173c1de589",
+"assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
+"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
 "assets/fonts/Raleway/Raleway-Bold.ttf": "2f99a85426a45e0c7f8707aae53af803",
 "assets/fonts/Raleway/Raleway-Regular.ttf": "84abe14c9756256a4b91300ba3e4ec62",
@@ -194,11 +195,12 @@ const RESOURCES = {
 "assets/images/background/river/c_7.jpg": "2049bd69f30732c7997212873c5ff848",
 "assets/images/background/river/c_8.jpg": "1b06791cae414bbe49b8185c8f88abed",
 "assets/images/background/river/c_9.jpg": "e05ab7c17f67c842a210cdf00d3553fa",
-"assets/NOTICES": "9cd8b7b1b1de8de50fbbd908c09e564a",
+"assets/NOTICES": "17d264629e1097154587e9103e607dc1",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "index.html": "50154c4d08298c9127292a65990a932f",
 "/": "50154c4d08298c9127292a65990a932f",
-"main.dart.js": "00ffbbbbb7662e5ff9113b8e6f08d0d5"
+"main.dart.js": "98d762d3be7e4aa567b4563f6b6aebf9",
+"version.json": "70159bbdd12b60867fc4b0bd02335516"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -210,13 +212,13 @@ const CORE = [
 "assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
-
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a no-cache param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'no-cache'})));
+      return cache.addAll(
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
@@ -231,7 +233,6 @@ self.addEventListener("activate", function(event) {
       var tempCache = await caches.open(TEMP);
       var manifestCache = await caches.open(MANIFEST);
       var manifest = await manifestCache.match('manifest');
-
       // When there is no prior manifest, clear the entire cache.
       if (!manifest) {
         await caches.delete(CACHE_NAME);
@@ -245,7 +246,6 @@ self.addEventListener("activate", function(event) {
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
         return;
       }
-
       var oldManifest = await manifest.json();
       var origin = self.location.origin;
       for (var request of await contentCache.keys()) {
@@ -283,24 +283,33 @@ self.addEventListener("activate", function(event) {
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
+  if (event.request.method !== 'GET') {
+    return;
+  }
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
-  if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
+  if (key.indexOf('?v=') != -1) {
+    key = key.split('?v=')[0];
+  }
+  if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
-  // If the URL is not the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list then return to signal that the
+  // browser should take over.
   if (!RESOURCES[key]) {
-    return event.respondWith(fetch(event.request));
+    return;
+  }
+  // If the URL is the index.html, perform an online-first request.
+  if (key == '/') {
+    return onlineFirst(event);
   }
   event.respondWith(caches.open(CACHE_NAME)
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache. Ensure the resources are not cached
-        // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'no-cache'});
-        return response || fetch(modifiedRequest).then((response) => {
+        // lazily populate the cache.
+        return response || fetch(event.request).then((response) => {
           cache.put(event.request, response.clone());
           return response;
         });
@@ -313,11 +322,12 @@ self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
   if (event.data === 'skipWaiting') {
-    return self.skipWaiting();
+    self.skipWaiting();
+    return;
   }
-
-  if (event.message === 'downloadOffline') {
+  if (event.data === 'downloadOffline') {
     downloadOffline();
+    return;
   }
 });
 
@@ -340,4 +350,26 @@ async function downloadOffline() {
     }
   }
   return contentCache.addAll(resources);
+}
+
+// Attempt to download the resource online before falling back to
+// the offline cache.
+function onlineFirst(event) {
+  return event.respondWith(
+    fetch(event.request).then((response) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+    }).catch((error) => {
+      return caches.open(CACHE_NAME).then((cache) => {
+        return cache.match(event.request).then((response) => {
+          if (response != null) {
+            return response;
+          }
+          throw error;
+        });
+      });
+    })
+  );
 }

@@ -351,7 +351,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappershouse.png": "f26b6b20b17737a6d14f69c08d5373fe",
 "assets/images/resource_buildings/trappershouse_64.png": "fae2016f031019b84c5287a4e70ed345",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/NOTICES": "9832aeff255d92b7acc2eb43b102fea4",
+"assets/NOTICES": "41da37fd820a73d0d27fe76f6bf6bfd3",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -384,10 +384,11 @@ const RESOURCES = {
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "1523107e3445c3fecd20e67b3109d97f",
-"/": "1523107e3445c3fecd20e67b3109d97f",
-"main.dart.js": "16c2576213f6e3b39f90f3399cf1b07c",
-"manifest.json": "4a1ced060193f4539b0cebff0f8dae1a"
+"index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
+"/": "2bda3d471e94c5c1f221d54a0cbb9295",
+"main.dart.js": "9b1f02107086958a2ded9e82a71ed661",
+"manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
+"version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -401,6 +402,7 @@ const CORE = [
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
@@ -469,6 +471,9 @@ self.addEventListener("activate", function(event) {
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
+  if (event.request.method !== 'GET') {
+    return;
+  }
   var origin = self.location.origin;
   var key = event.request.url.substring(origin.length + 1);
   // Redirect URLs to the index.html
@@ -478,9 +483,10 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#') || key == '') {
     key = '/';
   }
-  // If the URL is not the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list then return to signal that the
+  // browser should take over.
   if (!RESOURCES[key]) {
-    return event.respondWith(fetch(event.request));
+    return;
   }
   // If the URL is the index.html, perform an online-first request.
   if (key == '/') {
@@ -504,10 +510,12 @@ self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
   if (event.data === 'skipWaiting') {
-    return self.skipWaiting();
+    self.skipWaiting();
+    return;
   }
-  if (event.message === 'downloadOffline') {
+  if (event.data === 'downloadOffline') {
     downloadOffline();
+    return;
   }
 });
 
