@@ -198,7 +198,7 @@ const RESOURCES = {
 "assets/images/background/parallax/stable_3.png": "cddbb8d48cf328c48dc3903395d31588",
 "assets/images/background/parallax/steppe.jpg": "0bb9ab4bb286f316355785d0364eecfb",
 "assets/images/background/parallax/steppe_2.jpg": "abf58404e0e2bb4d2a5e2e0d71600eb3",
-"assets/images/background/parallax/sun_background.png": "ed5775b763a6fc17584019f503b9c29d",
+"assets/images/background/parallax/sun_background.png": "3e0fe349bd82ae658b76eb12c42f1b6d",
 "assets/images/background/parallax/tower.png": "f14caaab1015480f98466db6aec1f211",
 "assets/images/background/parallax/tower_1.png": "fec2b43656730eae2b4cda5304e1fa6d",
 "assets/images/background/parallax/tower_2.png": "710c1712d1b536fec13a74e1d912c39c",
@@ -387,7 +387,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "293b7a5c1cd3097f9f7dd3315863df0d",
+"main.dart.js": "ba7dc3909dfd8a98e566437cae527350",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
