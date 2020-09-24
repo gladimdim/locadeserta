@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "4c7413d76c984b374d24c9489abfa002",
+  "assets/AssetManifest.json": "1e956ea48f8d3e49331a01757e8e291f",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -159,6 +159,7 @@ const RESOURCES = {
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
 "assets/images/background/parallax/church_2.png": "b91b7ab5f49bf08f5dad476f8f80a9ec",
 "assets/images/background/parallax/church_3.png": "281d3c1a8166e9b2dacc04683e191489",
+"assets/images/background/parallax/empty_ground.png": "54050bdc506651c1a3cd6a52f7ed2fb0",
 "assets/images/background/parallax/field_1.png": "7fc5a276eab88d1e7f9b11ceac4ab4b6",
 "assets/images/background/parallax/field_2.png": "8e25bd09072b427cf6c15e783b976ccb",
 "assets/images/background/parallax/field_3.png": "81ed0387a829385b4f5f6122ef9896fa",
@@ -391,7 +392,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "5153be41a3d7254f99070ea22a409b55",
+"main.dart.js": "e8cc4151626e1e2602620f60cd5e24a1",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
