@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f0a5095950536109153858ef6e64c26f",
+  "assets/AssetManifest.json": "2742666e73551287c835a72cdbf027ae",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -150,7 +150,10 @@ const RESOURCES = {
 "assets/images/background/landing/c_6.jpg": "48167f5d9435666ca4939ceb8bf51f23",
 "assets/images/background/landing/c_7.jpg": "582c6ca7853ec0f40849e8213b912c50",
 "assets/images/background/map/boplan_map.jpg": "2b3a7d7394431a9bcd708c530bcbd8c6",
-"assets/images/background/map/forest_tile.png": "98b40c0c08e7180d6e1fe01ca014414f",
+"assets/images/background/map/forest_tile_0.png": "90ac86ade1b138bc22a2de07d071014a",
+"assets/images/background/map/forest_tile_1.png": "98b40c0c08e7180d6e1fe01ca014414f",
+"assets/images/background/map/forest_tile_2.png": "29993c13f896a6fc6b37f4f48deb6ab7",
+"assets/images/background/map/forest_tile_3.png": "3d58394e3e346eb6f70968dac558acdf",
 "assets/images/background/map/grass_tile.png": "abc8b720aba8968e7987fd39d47b6e88",
 "assets/images/background/map/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/background/map/lake_tile_1.png": "5347895c5d4507e6d47c0875259b36c5",
@@ -398,7 +401,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "c16fa787577e4b4991ae728576904009",
+"main.dart.js": "52242629c11523194f85144b76fbe081",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
