@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f4e9e13c1ac6758c31e5d81786cf8f97",
+  "assets/AssetManifest.json": "6212f8907a412fd880c5c29c004b40d5",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -330,6 +330,7 @@ const RESOURCES = {
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_128.png": "dbde99a0813b1db1015ec9c79ed4f520",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_2.png": "4efde9be93124c0dda73f993b7766022",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_3.png": "5012d0130f86147badfd87fbe6d3e702",
+"assets/images/events/treasure/treasure_icon_128.png": "fb3a8ea53a3ee4b8b48793357741161e",
 "assets/images/resources/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
 "assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
 "assets/images/resources/firearm.png": "90d29fd801ba296b8843585167232cbf",
@@ -408,7 +409,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "40a346914d28877b603b0f1f6ebdbe98",
+"main.dart.js": "41ee0d425fa4826b4aed4ea0a22d56e1",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
