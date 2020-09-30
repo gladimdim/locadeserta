@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6212f8907a412fd880c5c29c004b40d5",
+  "assets/AssetManifest.json": "634f4086f3565df1b6f98e339cbc2309",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -311,6 +311,7 @@ const RESOURCES = {
 "assets/images/events/failed_event/failed_event_2.png": "27beb67f84d995e2d399b534e2262309",
 "assets/images/events/failed_event/failed_event_3.png": "76aff286cc0ce0cc1dc9bbebc556881e",
 "assets/images/events/failed_event/failed_event_64.png": "20d7c9f25a88bd98de2566164051b764",
+"assets/images/events/hunting/hunting_icon_128.png": "a21a0b515d1f59c62a79da47b6cadbc9",
 "assets/images/events/merchant_visit/merchant_visit.png": "955a91c14dac00f9e5e386f0ba3e947b",
 "assets/images/events/merchant_visit/merchant_visit_0.png": "77d73708715c7df901f0b5bad84dd7e3",
 "assets/images/events/merchant_visit/merchant_visit_1.png": "2800ddcfab8c76f268c874f1fbe4ba8b",
@@ -409,7 +410,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "f52ef3678f682ebd8fd23e78728a89fa",
+"main.dart.js": "aab1b735977d763c63573164b33e1957",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
