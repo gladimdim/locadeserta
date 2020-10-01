@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "634f4086f3565df1b6f98e339cbc2309",
+  "assets/AssetManifest.json": "523da284e55b782532d6bb9b1d76f52f",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
@@ -331,6 +331,12 @@ const RESOURCES = {
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_128.png": "dbde99a0813b1db1015ec9c79ed4f520",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_2.png": "4efde9be93124c0dda73f993b7766022",
 "assets/images/events/tartar_attack_in_steppe/tartar_attack_in_steppe_3.png": "5012d0130f86147badfd87fbe6d3e702",
+"assets/images/events/treasure/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/events/treasure/treasure.png": "6b903751d377952dc668f5982ea9b1e3",
+"assets/images/events/treasure/treasure_0.png": "6b903751d377952dc668f5982ea9b1e3",
+"assets/images/events/treasure/treasure_1.png": "e5446c1dd8d7e17e74dd81d30ed5d00e",
+"assets/images/events/treasure/treasure_2.png": "bcdced0624e6e5faf2974bf5e4a516ad",
+"assets/images/events/treasure/treasure_3.png": "3aa256707a9554cee7ae74995231628b",
 "assets/images/events/treasure/treasure_icon_128.png": "fb3a8ea53a3ee4b8b48793357741161e",
 "assets/images/resources/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
 "assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
@@ -410,7 +416,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "2a806b989801b9af739d60295eb39eae",
+"main.dart.js": "e634f609bfec15d6d0bb8ab13b1b9741",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c1a8239ba546493e73ad640dad8ceddb"
 };
