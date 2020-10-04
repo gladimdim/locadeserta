@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "839bed9af97ce8ab83c32d206e9a62d6",
+  "assets/AssetManifest.json": "82c99f95d01a8f3bffb6c2c27b967b28",
 "assets/assets/stories/after_the_battle.json": "9dd778ded1ca30f70d918395ca9baa10",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
@@ -12,10 +12,11 @@ const RESOURCES = {
 "assets/assets/stories/krivava_pastka.json": "b4002f19c2f7d47f0ad611abd0907f45",
 "assets/assets/stories/last_battle_at_berestechko.json": "cc80525a9f7d26f23ab087cbb2d56427",
 "assets/assets/stories/pereprava.json": "642ca5a57c7420db0b6c76138dbd8659",
+"assets/assets/stories/wolf_trap.json": "18959cef43bbc70dc7095fa9913d9188",
 "assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
-"assets/assets/story_catalog.json": "b02133c3120b6d9560e4ad173c1de589",
+"assets/assets/story_catalog.json": "ad82b7c69ba5567f267352c97f3fe36f",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
-"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
 "assets/fonts/Raleway/Raleway-Bold.ttf": "2f99a85426a45e0c7f8707aae53af803",
 "assets/fonts/Raleway/Raleway-Regular.ttf": "84abe14c9756256a4b91300ba3e4ec62",
@@ -199,7 +200,7 @@ const RESOURCES = {
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "index.html": "50154c4d08298c9127292a65990a932f",
 "/": "50154c4d08298c9127292a65990a932f",
-"main.dart.js": "98d762d3be7e4aa567b4563f6b6aebf9",
+"main.dart.js": "78b00a160413f8dfa03212f95480979d",
 "version.json": "70159bbdd12b60867fc4b0bd02335516"
 };
 
