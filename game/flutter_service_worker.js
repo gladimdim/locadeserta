@@ -12,7 +12,7 @@ const RESOURCES = {
 "assets/assets/stories/krivava_pastka.json": "b4002f19c2f7d47f0ad611abd0907f45",
 "assets/assets/stories/last_battle_at_berestechko.json": "cc80525a9f7d26f23ab087cbb2d56427",
 "assets/assets/stories/pereprava.json": "642ca5a57c7420db0b6c76138dbd8659",
-"assets/assets/stories/wolf_trap.json": "18959cef43bbc70dc7095fa9913d9188",
+"assets/assets/stories/wolf_trap.json": "9658702b978630847d7b14036d736bac",
 "assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
 "assets/assets/story_catalog.json": "ad82b7c69ba5567f267352c97f3fe36f",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
