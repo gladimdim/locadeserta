@@ -3,8 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "67d08036e693714503a5ee2eab6323f9",
+  "assets/AssetManifest.json": "46ecf8a545a6e489813ebad159712dd9",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
+"assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
+"assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
 "assets/assets/sounds/event_add.mp3": "0bf025b38b381eb092c1bbc2917ddb1a",
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
 "assets/assets/sounds/event_choicable_complete.mp3": "af822329b6519b80e7aad7a5a13e85e9",
@@ -416,7 +418,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "e75a8b5c3f7bc17bd68d64b0db6161e7",
+"main.dart.js": "f6b5396467128e604bb12e2d29d42f00",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c642afdbdd8b5190e4049953d95bb893"
 };
