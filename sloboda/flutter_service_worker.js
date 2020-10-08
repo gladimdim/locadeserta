@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "89830da3a3df58e6eff75056e75032f8",
+  "assets/AssetManifest.json": "c68392429d27a25d6156d29db899c6cd",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -314,6 +314,12 @@ const RESOURCES = {
 "assets/images/events/failed_event/failed_event_2.png": "27beb67f84d995e2d399b534e2262309",
 "assets/images/events/failed_event/failed_event_3.png": "76aff286cc0ce0cc1dc9bbebc556881e",
 "assets/images/events/failed_event/failed_event_64.png": "20d7c9f25a88bd98de2566164051b764",
+"assets/images/events/horse/horse.png": "ec226f5f04706982d0b7c0bd2ed0161a",
+"assets/images/events/horse/horse_0.png": "ec226f5f04706982d0b7c0bd2ed0161a",
+"assets/images/events/horse/horse_1.png": "9d2ad063294c2a66b63a860a4025960f",
+"assets/images/events/horse/horse_2.png": "80c3a7a80c0c2f4ea936796c1795b90c",
+"assets/images/events/horse/horse_3.png": "6d45d7de4e340ec4bcb9d85b79faa63f",
+"assets/images/events/horse/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/events/hunting/hunting_icon_128.png": "a21a0b515d1f59c62a79da47b6cadbc9",
 "assets/images/events/merchant_visit/merchant_visit.png": "955a91c14dac00f9e5e386f0ba3e947b",
 "assets/images/events/merchant_visit/merchant_visit_0.png": "77d73708715c7df901f0b5bad84dd7e3",
@@ -419,7 +425,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "18b4feedea985209acbf00a15ddcf1a4",
+"main.dart.js": "342c047f29b3101c49ba25ce836f07fb",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c642afdbdd8b5190e4049953d95bb893"
 };
