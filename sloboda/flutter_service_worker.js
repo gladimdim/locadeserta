@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "46ecf8a545a6e489813ebad159712dd9",
+  "assets/AssetManifest.json": "89830da3a3df58e6eff75056e75032f8",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -11,6 +11,7 @@ const RESOURCES = {
 "assets/assets/sounds/event_choicable_add.mp3": "6881bf070ba8c5a7555e84e890d06a80",
 "assets/assets/sounds/event_choicable_complete.mp3": "af822329b6519b80e7aad7a5a13e85e9",
 "assets/assets/sounds/event_complete.mp3": "65d523a9b579bec58d710f0380b862de",
+"assets/assets/sounds/event_if_add.mp3": "90e8646eb71afaa48facd0ec7b60cb24",
 "assets/assets/sounds/new_year.mp3": "05592ee0fadfa1ac9ba3c4e3c104bb75",
 "assets/assets/sounds/task_complete.mp3": "fcd7e4b18857c15f56de5a238a6030e5",
 "assets/FontManifest.json": "ce7e5ed330de171fd19dfb6a7f56fc8f",
@@ -418,7 +419,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "f6b5396467128e604bb12e2d29d42f00",
+"main.dart.js": "18b4feedea985209acbf00a15ddcf1a4",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c642afdbdd8b5190e4049953d95bb893"
 };
