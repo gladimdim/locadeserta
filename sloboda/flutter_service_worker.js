@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "1b891a187ee728c6454f94ef07684fe9",
+  "assets/AssetManifest.json": "061ac8f81329fa1fdf1240b2fac3874e",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -378,6 +378,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/field_64.png": "02078c021498c44a8969ae2183249d42",
 "assets/images/resource_buildings/forest.png": "1685e1c293ed502daddca73894cd35f2",
 "assets/images/resource_buildings/forest_64.png": "9c2fa1139d9ee485a79db411140bdd4b",
+"assets/images/resource_buildings/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resource_buildings/iron_mine.png": "54cfea12407a18285e6ba75b8a80e1c0",
 "assets/images/resource_buildings/iron_mine_64.png": "388d333664ce8e4b9df75b6b6048154d",
 "assets/images/resource_buildings/mill.png": "b5dc4c1a43bcb775817be088b24f1e90",
