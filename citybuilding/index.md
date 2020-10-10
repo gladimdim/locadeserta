@@ -13,9 +13,11 @@
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.sloboda)
 
-### Версі для Windows:
+[Слобода APK](https://github.com/gladimdim/sloboda/releases/download/2.6.0/sloboda_2_6_0.apk)
 
-[Скачати](https://github.com/gladimdim/sloboda/releases/download/2.5.0/sloboda_windows.zip)
+### Версія для Windows:
+
+[Скачати](https://github.com/gladimdim/sloboda/releases/download/2.6.0/sloboda_2.6.0_windows.zip)
 
 ## Основний ігролад
 
