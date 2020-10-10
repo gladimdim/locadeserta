@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c68392429d27a25d6156d29db899c6cd",
+  "assets/AssetManifest.json": "6ddcd431bdb161ae5e5d846b4e3fb1f7",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -165,6 +165,9 @@ const RESOURCES = {
 "assets/images/background/map/river_angle_2.png": "fe8a73d35028c82f04d8e7c98e0b06eb",
 "assets/images/background/map/river_tile_1.png": "813ddf62451600d1ade7161b405bd88a",
 "assets/images/background/map/river_tile_2.png": "26acecf86f4c45d943349c4e4f55fbc5",
+"assets/images/background/parallax/cannon_house_1.png": "2f085f21b2267f95ef428b71765ec0d8",
+"assets/images/background/parallax/cannon_house_2.png": "2f085f21b2267f95ef428b71765ec0d8",
+"assets/images/background/parallax/cannon_house_3.png": "2f085f21b2267f95ef428b71765ec0d8",
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
 "assets/images/background/parallax/church_2.png": "b91b7ab5f49bf08f5dad476f8f80a9ec",
 "assets/images/background/parallax/church_3.png": "281d3c1a8166e9b2dacc04683e191489",
@@ -189,9 +192,9 @@ const RESOURCES = {
 "assets/images/background/parallax/landscape_forest.png": "7721dc1e6ebe8ac56f4ffd622fab4ce2",
 "assets/images/background/parallax/landscape_sands.png": "ca4408220a31f9c6066067b6751c205b",
 "assets/images/background/parallax/landscape_sea.png": "9c2c8eb2b71cdb5eafa202e375de15fc",
-"assets/images/background/parallax/mill_1.png": "9ffcf37dc3643facb362d0842c99215f",
-"assets/images/background/parallax/mill_2.png": "1d0e86db10c54edda76a6162940d4e1b",
-"assets/images/background/parallax/mill_3.png": "6156443e63cb347f15fa4cc77d5e5cfd",
+"assets/images/background/parallax/mill_1.png": "f84c2b1fa2394228e9e07ae7efe51703",
+"assets/images/background/parallax/mill_2.png": "0e341dbc5e57344b344154c8db7795a4",
+"assets/images/background/parallax/mill_3.png": "5ac3b1f7fe9d15003271a69a6ba800ac",
 "assets/images/background/parallax/powder_cellar.png": "17e252293a45fae37d122e4e5d39cc53",
 "assets/images/background/parallax/powder_cellar_1.png": "b01792fbcf6816f3993930fb485f620a",
 "assets/images/background/parallax/powder_cellar_2.png": "eea505c0d1af2f7087baabd874448218",
@@ -347,6 +350,7 @@ const RESOURCES = {
 "assets/images/events/treasure/treasure_2.png": "bcdced0624e6e5faf2974bf5e4a516ad",
 "assets/images/events/treasure/treasure_3.png": "3aa256707a9554cee7ae74995231628b",
 "assets/images/events/treasure/treasure_icon_128.png": "fb3a8ea53a3ee4b8b48793357741161e",
+"assets/images/resources/cannon_128.png": "4e3101de740cf3fc6590214ddba55a76",
 "assets/images/resources/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
 "assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
 "assets/images/resources/firearm.png": "90d29fd801ba296b8843585167232cbf",
@@ -425,9 +429,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "de41723eb3a8568cc33343588fa91859",
+"main.dart.js": "b89e6a8b0aeb4eb4b498f0979b1dfdef",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "c642afdbdd8b5190e4049953d95bb893"
+"version.json": "c0dfe6b4e21d43d3bf33fa65a792eb8d"
 };
 
 // The application shell files that are downloaded before a service worker can
