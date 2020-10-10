@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6ddcd431bdb161ae5e5d846b4e3fb1f7",
+  "assets/AssetManifest.json": "1b891a187ee728c6454f94ef07684fe9",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -166,8 +166,8 @@ const RESOURCES = {
 "assets/images/background/map/river_tile_1.png": "813ddf62451600d1ade7161b405bd88a",
 "assets/images/background/map/river_tile_2.png": "26acecf86f4c45d943349c4e4f55fbc5",
 "assets/images/background/parallax/cannon_house_1.png": "2f085f21b2267f95ef428b71765ec0d8",
-"assets/images/background/parallax/cannon_house_2.png": "2f085f21b2267f95ef428b71765ec0d8",
-"assets/images/background/parallax/cannon_house_3.png": "2f085f21b2267f95ef428b71765ec0d8",
+"assets/images/background/parallax/cannon_house_2.png": "b9f1935c127e6c5d6d8e10d161c7bd89",
+"assets/images/background/parallax/cannon_house_3.png": "21ed980140f7e3cf8063684111376deb",
 "assets/images/background/parallax/church_1.png": "bf2eb348680290d630a7bc866f55993a",
 "assets/images/background/parallax/church_2.png": "b91b7ab5f49bf08f5dad476f8f80a9ec",
 "assets/images/background/parallax/church_3.png": "281d3c1a8166e9b2dacc04683e191489",
@@ -373,6 +373,7 @@ const RESOURCES = {
 "assets/images/resources/stone_64.png": "86825e5bb98aa10e41a735f30969d19c",
 "assets/images/resources/wood.png": "bf320f06448ffa6cdc4de53f071010fa",
 "assets/images/resources/wood_64.png": "647a47152153b6e09f3098c9a262dc5f",
+"assets/images/resource_buildings/cannon_house.png": "b8ac1dc24ab1d6c5c21c4ae2d3f14cea",
 "assets/images/resource_buildings/field.png": "cbb2d29dd9ba1edb844d8d02249eb678",
 "assets/images/resource_buildings/field_64.png": "02078c021498c44a8969ae2183249d42",
 "assets/images/resource_buildings/forest.png": "1685e1c293ed502daddca73894cd35f2",
@@ -429,7 +430,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "b89e6a8b0aeb4eb4b498f0979b1dfdef",
+"main.dart.js": "f71a1b4e846dfa917a97b13b33151918",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "c0dfe6b4e21d43d3bf33fa65a792eb8d"
 };
