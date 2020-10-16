@@ -355,8 +355,8 @@ const RESOURCES = {
 "assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
 "assets/images/resources/firearm.png": "90d29fd801ba296b8843585167232cbf",
 "assets/images/resources/firearm_64.png": "60b2f0c847e6af33fd494f36c2832ed9",
-"assets/images/resources/fish.png": "02d00a26f5a9beaa0261f2358caa1e9d",
-"assets/images/resources/fish_64.png": "50df5ce69f8875f00a9330668c86dd7e",
+"assets/images/resources/fish.png": "a6228a4f191f815c57fec34a83c9785a",
+"assets/images/resources/fish_64.png": "0bcd0c687aeb770fdc792243201a2657",
 "assets/images/resources/food.png": "4e20614f9e9bb07b78546f3f23de5b8f",
 "assets/images/resources/food_64.png": "2da83275541a93aed6d554fdb55ae4b8",
 "assets/images/resources/fur.png": "f72a39afc139d3d439889e7d7b018deb",
@@ -431,7 +431,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "627fb2fc4b65491b4925641fc731937e",
+"main.dart.js": "053aa7048c338afd8e7f3e6ab6f28c70",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "aa84059e95a82a7894c5a3581b5d4994"
 };
