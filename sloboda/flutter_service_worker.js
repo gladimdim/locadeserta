@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "061ac8f81329fa1fdf1240b2fac3874e",
+  "assets/AssetManifest.json": "06f871b60498974e8d7ae7f8713133c8",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -296,8 +296,8 @@ const RESOURCES = {
 "assets/images/city_buildings/wall_64.png": "bc064cd82fd899f1098840f2bd0c80fb",
 "assets/images/city_buildings/watch_tower.png": "bb08f2eeb8a9dcd45b2cacfa25300255",
 "assets/images/city_buildings/watch_tower_64.png": "8700ee9b1dcdccbd7c3f732e35091a5a",
-"assets/images/city_props/citizen.png": "3d9b4be46bd2b09b98954c3a5b510862",
-"assets/images/city_props/citizen_64.png": "1509a1ea0bca710c4f6fd4aefabed05e",
+"assets/images/city_props/citizen.png": "d44248f52614a43c30139a0b2f9a58c2",
+"assets/images/city_props/citizen_64.png": "baaa149785110a7c931cac935aee7161",
 "assets/images/city_props/defense.png": "a3b6501459334b54c53299976d7ef726",
 "assets/images/city_props/defense_64.png": "eb65f047169b04e8daf528f7eb235c21",
 "assets/images/city_props/faith.png": "5e0577daa944e57e5167b35340d487fa",
@@ -351,8 +351,12 @@ const RESOURCES = {
 "assets/images/events/treasure/treasure_3.png": "3aa256707a9554cee7ae74995231628b",
 "assets/images/events/treasure/treasure_icon_128.png": "fb3a8ea53a3ee4b8b48793357741161e",
 "assets/images/resources/cannon_128.png": "4e3101de740cf3fc6590214ddba55a76",
-"assets/images/resources/cossack.png": "5a4298182c7eababe1b95d2cf3f17af9",
-"assets/images/resources/cossack_64.png": "08be1ab1c16f0898c5558e719fd2db69",
+"assets/images/resources/cossack.png": "419f2acb705feed7dfc63848ca41e7eb",
+"assets/images/resources/cossack_0.png": "419f2acb705feed7dfc63848ca41e7eb",
+"assets/images/resources/cossack_1.png": "8bed24498630c194dd98d5a56f50ce70",
+"assets/images/resources/cossack_2.png": "33e8df2b98fab63e0b55092acf37e53f",
+"assets/images/resources/cossack_3.png": "bcca34910a968e68f252a57c6c419412",
+"assets/images/resources/cossack_64.png": "d8b1cfc8d33f8296f271e46c011468c2",
 "assets/images/resources/firearm.png": "90d29fd801ba296b8843585167232cbf",
 "assets/images/resources/firearm_64.png": "60b2f0c847e6af33fd494f36c2832ed9",
 "assets/images/resources/fish.png": "a6228a4f191f815c57fec34a83c9785a",
@@ -374,6 +378,7 @@ const RESOURCES = {
 "assets/images/resources/wood.png": "bf320f06448ffa6cdc4de53f071010fa",
 "assets/images/resources/wood_64.png": "647a47152153b6e09f3098c9a262dc5f",
 "assets/images/resource_buildings/cannon_house.png": "b8ac1dc24ab1d6c5c21c4ae2d3f14cea",
+"assets/images/resource_buildings/cannon_house_128.png": "441dbf6ed05817ca3f705d77b847d94f",
 "assets/images/resource_buildings/field.png": "cbb2d29dd9ba1edb844d8d02249eb678",
 "assets/images/resource_buildings/field_64.png": "02078c021498c44a8969ae2183249d42",
 "assets/images/resource_buildings/forest.png": "1685e1c293ed502daddca73894cd35f2",
@@ -431,7 +436,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "56c5e7f878744995ce97d61a90c9e410",
+"main.dart.js": "47f7013a36616384baf4e0ba8aa44303",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "aa84059e95a82a7894c5a3581b5d4994"
 };
