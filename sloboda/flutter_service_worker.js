@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "06f871b60498974e8d7ae7f8713133c8",
+  "assets/AssetManifest.json": "a5cdbfe9d43e6207626cafd25d27de1d",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -365,6 +365,8 @@ const RESOURCES = {
 "assets/images/resources/food_64.png": "2da83275541a93aed6d554fdb55ae4b8",
 "assets/images/resources/fur.png": "f72a39afc139d3d439889e7d7b018deb",
 "assets/images/resources/fur_64.png": "d1ff36b160d0000e0538edae4be1310a",
+"assets/images/resources/grains.png": "f17fcb1024fbe3009638dea1cfb8773e",
+"assets/images/resources/grains_64.png": "255c1a353e4b0adea54772631f641cbf",
 "assets/images/resources/horse.png": "c3dc878fd08e2095dc708c274d3c44e2",
 "assets/images/resources/horse_64.png": "7c2e454ca2fec08e32953db4e18e9a09",
 "assets/images/resources/iron_ore.png": "1c9d6f30d35eb1b8632144b629f95285",
@@ -436,7 +438,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "e5e1e54c9bad06fc71da6c042dd88bc8",
+"main.dart.js": "3c71b663ad68f383712f86edea2e9cd2",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "4300548c8ef31dbe39afde1bd22d315d"
 };
