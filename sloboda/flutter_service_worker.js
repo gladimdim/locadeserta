@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "699618de48c3a3e925524007cf34ede9",
+  "assets/AssetManifest.json": "b2929e10d360be6af73c9550fdf278b1",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -397,10 +397,18 @@ const RESOURCES = {
 "assets/images/resources/money_64.png": "d8e729942b8b7c8ae70b48e5640422b1",
 "assets/images/resources/powder.png": "e9596b809227a6567f21d09a0358fd22",
 "assets/images/resources/powder_64.png": "251cfadc70a5fe14ceff815a502a17df",
-"assets/images/resources/stone.png": "6fa9cf8a4a2001272cb5ec12bf5a1f18",
-"assets/images/resources/stone_64.png": "86825e5bb98aa10e41a735f30969d19c",
-"assets/images/resources/wood.png": "bf320f06448ffa6cdc4de53f071010fa",
-"assets/images/resources/wood_64.png": "647a47152153b6e09f3098c9a262dc5f",
+"assets/images/resources/stone/stone.png": "2b57abe985e391e021a8e48851545bdd",
+"assets/images/resources/stone/stone_0.png": "2b57abe985e391e021a8e48851545bdd",
+"assets/images/resources/stone/stone_1.png": "cfb5b38961423b8beaad68c28a7cbd5b",
+"assets/images/resources/stone/stone_2.png": "68e619bdd75e6a51de34a8be6a668d93",
+"assets/images/resources/stone/stone_3.png": "c934a00da5347dbea84426af00ff5393",
+"assets/images/resources/stone/stone_64.png": "f7b69dae61014ad4ffab38d9f5dff1ee",
+"assets/images/resources/wood/wood.png": "41b7fc61feb9d337069f28944e870957",
+"assets/images/resources/wood/wood_0.png": "41b7fc61feb9d337069f28944e870957",
+"assets/images/resources/wood/wood_1.png": "b6b9274f260f8b8ec23be47b80f42a01",
+"assets/images/resources/wood/wood_2.png": "f963b36fdfd5b09f270cae8ee64a87dd",
+"assets/images/resources/wood/wood_3.png": "4769fe3b7d2b88fee1642d3ff8883ca4",
+"assets/images/resources/wood/wood_64.png": "dbe8d559a304d9371aa4de482f57034a",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry.png": "0c39b2b4c7d17eecb786210b6b93e87c",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_0.png": "0c39b2b4c7d17eecb786210b6b93e87c",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_1.png": "1d7c41c6af1a7afd24c673ce993a3be6",
@@ -516,7 +524,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "abe17bf2dc6718d4f407833825d42c2d",
+"main.dart.js": "32963e91a0827044df82abe2ed2ae09a",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "4300548c8ef31dbe39afde1bd22d315d"
 };

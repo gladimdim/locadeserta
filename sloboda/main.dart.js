@@ -63565,7 +63565,7 @@ gaa:function(){return C.an}}
 A.wb.prototype={
 j:function(a){return" H"},
 nN:function(a){var s=null
-return R.db(!1,!0,T.cs(C.S,H.b([U.bE("images/background/map/grass_tile.png",C.br,s,s,s),F.am9(M.bC(s,s,C.nR,s,s,s,s,s,s),C.BR),U.bE("images/city_buildings/church.png",C.br,s,s,s)],t.t),C.X),s,!0,s,s,s,s,s,s,s,s,s,new A.Zi(a),s,s,s)},
+return R.db(!1,!0,T.cs(C.S,H.b([U.bE("images/background/map/grass_tile.png",C.br,s,s,s),F.am9(M.bC(s,s,C.nR,s,s,s,s,s,s),C.BR),U.bE("images/city_buildings/church/church.png",C.br,s,s,s)],t.t),C.X),s,!0,s,s,s,s,s,s,s,s,s,new A.Zi(a),s,s,s)},
 gjl:function(a){return this.cx},
 gjm:function(a){return this.cy},
 gaa:function(){return C.bk}}
@@ -63795,14 +63795,14 @@ ga_:function(){return"resources.money"},
 gbh:function(){return"resources.moneyDescription"},
 gaa:function(){return C.A}}
 Y.t_.prototype={
-aZ:function(){return"images/resources/wood.png"},
-bd:function(){return"images/resources/wood_64.png"},
+aZ:function(){return"images/resources/wood/wood.png"},
+bd:function(){return"images/resources/wood/wood_64.png"},
 ga_:function(){return"resources.wood"},
 gbh:function(){return"resources.woodDescription"},
 gaa:function(){return C.n}}
 Y.rC.prototype={
-aZ:function(){return"images/resources/stone.png"},
-bd:function(){return"images/resources/stone_64.png"},
+aZ:function(){return"images/resources/stone/stone.png"},
+bd:function(){return"images/resources/stone/stone_64.png"},
 ga_:function(){return"resources.stone"},
 gbh:function(){return"resources.stoneDescription"},
 gaa:function(){return C.x}}
