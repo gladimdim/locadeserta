@@ -63764,8 +63764,8 @@ s.r9(null)
 return this.a.b.push(s)},
 $S:0}
 A.uR.prototype={
-aZ:function(){return"images/resources/cannon_128.png"},
-bd:function(){return"images/resources/cannon_128.png"},
+aZ:function(){return"images/resources/cannon/cannon.png"},
+bd:function(){return"images/resources/cannon/cannon_64.png"},
 ga_:function(){return"resources.cannon"},
 gbh:function(){return"resources.cannonDescription"},
 gaa:function(){return C.aO}}
