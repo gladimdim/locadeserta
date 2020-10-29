@@ -62129,8 +62129,8 @@ $S:459}
 S.dA.prototype={
 j:function(a){return this.b}}
 F.G_.prototype={
-b4:function(){return"images/city_buildings/house_64.png"},
-dt:function(){return"images/background/parallax/house_"+this.a+".png"},
+b4:function(){return"images/city_buildings/kurin/kurin_64.png"},
+dt:function(){return"images/background/parallax/kurin/kurin_"+this.a+".png"},
 b5:function(){return"images/city_buildings/kurin/kurin.png"},
 gaa:function(){return C.jZ},
 gcH:function(){return this.go},
@@ -62196,7 +62196,7 @@ gbo:function(){return this.k1}}
 S.Ge.prototype={
 b4:function(){return"images/resource_buildings/iron_mine/iron_mine_64.png"},
 b5:function(){return"images/resource_buildings/iron_mine/iron_mine.png"},
-dt:function(){return"images/background/parallax/iron_mine_"+this.a+".png"},
+dt:function(){return"images/background/parallax/iron_mine/iron_mine_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.ironMine"},
 gbh:function(){return"resourceBuildings.ironMineDescription"},
 gaa:function(){return C.jq},
@@ -62204,7 +62204,7 @@ gcH:function(){return this.id},
 gbo:function(){return this.k1}}
 M.GL.prototype={
 b4:function(){return"images/resource_buildings/marketplace/marketplace_64.png"},
-dt:function(){return"images/background/parallax/marketplace_"+this.a+".png"},
+dt:function(){return"images/background/parallax/marketplace/marketplace_"+this.a+".png"},
 b5:function(){return"images/resource_buildings/marketplace/marketplace.png"},
 ga_:function(){return"resourceBuildings.marketplace"},
 gbh:function(){return"resourceBuildings.marketplaceDescription"},
@@ -62232,7 +62232,7 @@ gbo:function(){return this.go}}
 T.IV.prototype={
 b4:function(){return"images/resource_buildings/river/river_64.png"},
 b5:function(){return"images/resource_buildings/river/river.png"},
-dt:function(){return"images/background/parallax/river_"+this.a+".png"},
+dt:function(){return"images/background/parallax/river/river_"+this.a+".png"},
 ga_:function(){return"natureResources.river"},
 gbh:function(){return"natureResources.riverDescription"},
 gaa:function(){return C.jl},
