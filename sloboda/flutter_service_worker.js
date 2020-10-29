@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a28fd77fac48949a30643fa40077b6a1",
+  "assets/AssetManifest.json": "8431eac32c7b42d1326cae23fd5a47e7",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -195,6 +195,9 @@ const RESOURCES = {
 "assets/images/background/parallax/marketplace/marketplace_1.png": "a381a56bd1ebeba0bbd1a3c7e71a6f3c",
 "assets/images/background/parallax/marketplace/marketplace_2.png": "2ecf62b27fa1b08f23da8fb2a6cfcfe2",
 "assets/images/background/parallax/marketplace/marketplace_3.png": "95cbf7909fc950bb158490455257fdcc",
+"assets/images/background/parallax/mill/mill_1.png": "02202dcc6332d34d6a01aa2dd2be44c0",
+"assets/images/background/parallax/mill/mill_2.png": "17559be614285e38e4884ea06352b867",
+"assets/images/background/parallax/mill/mill_3.png": "269f034187c27ca121d0abae2dec66b5",
 "assets/images/background/parallax/mill_1.png": "f84c2b1fa2394228e9e07ae7efe51703",
 "assets/images/background/parallax/mill_2.png": "744f92bcdb594479eb2e1388d67661df",
 "assets/images/background/parallax/mill_3.png": "e28b5c3f2b38e06328b40b1c1a5b57a8",
@@ -229,6 +232,9 @@ const RESOURCES = {
 "assets/images/background/parallax/trappershouse_1.png": "9e236c2adc19221dd9d9e8163216bdb4",
 "assets/images/background/parallax/trappershouse_2.png": "facac44c27ddeb9252d2647a5d8993e3",
 "assets/images/background/parallax/trappershouse_3.png": "95d6c1000857d0263da2c11b0ec28d0b",
+"assets/images/background/parallax/trappers_house/trappers_house_1.png": "ac3c8caa5ad0d65be79a4d64918da581",
+"assets/images/background/parallax/trappers_house/trappers_house_2.png": "4d1a3b440e95e9a18c4e70f18664e6b0",
+"assets/images/background/parallax/trappers_house/trappers_house_3.png": "ef5fecee322d4a0271bd6b56192011e5",
 "assets/images/background/parallax/wall_1.png": "4336f7fcefe73ee82d9c9117d851aacb",
 "assets/images/background/parallax/wall_2.png": "2ddce9d3f729e67815752973d846c03b",
 "assets/images/background/parallax/wall_3.png": "3c4934e97fdbdc70de79633c369c7a73",
@@ -568,7 +574,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "4e2dd381607fdf312a14375c2ae76d5e",
+"main.dart.js": "71f8e2cfa966113677df461cc5aafbac",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "4300548c8ef31dbe39afde1bd22d315d"
 };

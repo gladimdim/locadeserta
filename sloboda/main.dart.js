@@ -62187,7 +62187,7 @@ gaa:function(){return C.jp}}
 D.Kz.prototype={
 b4:function(){return"images/resource_buildings/trappers_house/trappershouse_64.png"},
 b5:function(){return"images/resource_buildings/trappers_house/trappers_house.png"},
-dt:function(){return"images/background/parallax/trappershouse_"+this.a+".png"},
+dt:function(){return"images/background/parallax/trappers_house/trappers_house_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.trapperCabin"},
 gbh:function(){return"resourceBuildings.trapperCabinDescription"},
 gaa:function(){return C.jm},
@@ -62214,7 +62214,7 @@ gaa:function(){return C.jv}}
 A.GZ.prototype={
 b4:function(){return"images/resource_buildings/mill/mill_64.png"},
 b5:function(){return"images/resource_buildings/mill/mill.png"},
-dt:function(){return"images/background/parallax/mill_"+this.a+".png"},
+dt:function(){return"images/background/parallax/mill/mill_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.mill"},
 gbh:function(){return"resourceBuildings.millDescription"},
 gaa:function(){return C.ju},
