@@ -62142,7 +62142,7 @@ sdQ:function(a){return this.k1=a}}
 F.Kt.prototype={
 b4:function(){return"images/city_buildings/tower/tower_64.png"},
 b5:function(){return"images/city_buildings/tower/tower.png"},
-dt:function(){return"images/background/parallax/tower_"+this.a+".png"},
+dt:function(){return"images/background/parallax/tower/tower_"+this.a+".png"},
 gcH:function(){return this.fy},
 gbo:function(){return this.go},
 gaa:function(){return C.ii},
@@ -62151,7 +62151,7 @@ gbh:function(){return"cityBuildings.towerDescription"}}
 S.KU.prototype={
 b4:function(){return"images/city_buildings/defense_wall/defense_wall_64.png"},
 b5:function(){return"images/city_buildings/defense_wall/defense_wall.png"},
-dt:function(){return"images/background/parallax/wall_"+this.a+".png"},
+dt:function(){return"images/background/parallax/wall/wall_"+this.a+".png"},
 gbo:function(){return this.fy},
 gaa:function(){return C.ij},
 gcH:function(){return this.k1},
@@ -62160,7 +62160,7 @@ gbh:function(){return"cityBuildings.wallDescription"}}
 Q.KV.prototype={
 b4:function(){return"images/city_buildings/watch_tower/watch_tower_64.png"},
 b5:function(){return"images/city_buildings/watch_tower/watch_tower.png"},
-dt:function(){return"images/background/parallax/watch_tower_"+this.a+".png"},
+dt:function(){return"images/background/parallax/watch_tower/watch_tower_"+this.a+".png"},
 gbo:function(){return this.fy},
 gaa:function(){return C.ik},
 gcH:function(){return this.k1},
@@ -62241,7 +62241,7 @@ gcH:function(){return this.go}}
 L.HP.prototype={
 b4:function(){return"images/resource_buildings/powder_cellar/powder_cellar_64.png"},
 b5:function(){return"images/resource_buildings/powder_cellar/powder_cellar.png"},
-dt:function(){return"images/background/parallax/powder_cellar_"+this.a+".png"},
+dt:function(){return"images/background/parallax/powder_cellar/powder_cellar_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.powderCellar"},
 gbh:function(){return"resourceBuildings.powderCellarDescription"},
 gaa:function(){return C.jn},
@@ -62250,7 +62250,7 @@ gbo:function(){return this.k1}}
 U.HZ.prototype={
 b4:function(){return"images/resource_buildings/quarry/quarry_64.png"},
 b5:function(){return"images/resource_buildings/quarry/quarry.png"},
-dt:function(){return"images/background/parallax/quarry_"+this.a+".png"},
+dt:function(){return"images/background/parallax/quarry/quarry_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.quarry"},
 gbh:function(){return"resourceBuildings.quarryDescription"},
 gaa:function(){return C.jr},
@@ -62316,7 +62316,7 @@ j:function(a){return this.b}}
 U.JK.prototype={
 b4:function(){return"images/resource_buildings/smith/smith_64.png"},
 b5:function(){return"images/resource_buildings/smith/smith.png"},
-dt:function(){return"images/background/parallax/smith_"+this.a+".png"},
+dt:function(){return"images/background/parallax//smith/smith_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.smith"},
 gbh:function(){return"resourceBuildings.smithDescription"},
 gaa:function(){return C.js},
@@ -62325,7 +62325,7 @@ gbo:function(){return this.k1}}
 G.JV.prototype={
 b4:function(){return"images/resource_buildings/stables/stables_64.png"},
 b5:function(){return"images/resource_buildings/stables/stables.png"},
-dt:function(){return"images/background/parallax/stable_"+this.a+".png"},
+dt:function(){return"images/background/parallax/stables/stable_"+this.a+".png"},
 ga_:function(){return"resourceBuildings.stables"},
 gbh:function(){return"resourceBuildings.stablesDescription"},
 gaa:function(){return C.jw},
@@ -62339,7 +62339,7 @@ s=t.z
 this.d.t(0,P.t(s,s))},
 b4:function(){return"images/resource_buildings/shooting_range/shooting_range_64.png"},
 b5:function(){return"images/resource_buildings/shooting_range/shooting_range.png"},
-dt:function(){return"images/background/parallax/shooting_range_"+this.a+".png"},
+dt:function(){return"images/background/parallax/shooting_range/shooting_range_"+this.a+".png"},
 gaa:function(){return C.jo},
 ga_:function(){return"cityBuildings.shootingRange"},
 gbh:function(){return"cityBuildings.shootingRangeDescription"},
