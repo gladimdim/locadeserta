@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ee1058eaa0a93a50989725a18c848ac1",
+  "assets/AssetManifest.json": "2a1ac3997ff9daeb954876ea6a552af3",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -217,6 +217,7 @@ const RESOURCES = {
 "assets/images/background/parallax/stables/stables_1.png": "5d108c4052eaf9ce6eef0264acf6ca67",
 "assets/images/background/parallax/stables/stables_2.png": "b3f5db225669f24490c7574748170268",
 "assets/images/background/parallax/stables/stables_3.png": "659af86b0e1129c8ef6474318316011e",
+"assets/images/background/parallax/sun.png": "c54bec8d3531b72ecb608cb9f835c7f7",
 "assets/images/background/parallax/tower/tower_1.png": "c7a1bac6d4998989872b3903f9d9a27a",
 "assets/images/background/parallax/tower/tower_2.png": "5faa0121eb23fd3236b6140b4d1290e2",
 "assets/images/background/parallax/tower/tower_3.png": "47b78290a516f26df2ee5e5b5e1c7ddd",
@@ -562,7 +563,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "b4a29a8b1e6ce9bf6da7ed8b6f27daf3",
+"main.dart.js": "052f254faf970e1e04c1d8a147ff43e2",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "4300548c8ef31dbe39afde1bd22d315d"
 };
