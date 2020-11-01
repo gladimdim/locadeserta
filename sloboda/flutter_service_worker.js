@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2a1ac3997ff9daeb954876ea6a552af3",
+  "assets/AssetManifest.json": "270be7dd304603bdedf2ea472d9a125b",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -207,6 +207,9 @@ const RESOURCES = {
 "assets/images/background/parallax/river/river_1.png": "044a0540f1208a2a2842fa4764519ea4",
 "assets/images/background/parallax/river/river_2.png": "17c5c30d388659452453aaf3d0d09db0",
 "assets/images/background/parallax/river/river_3.png": "2928cea51899410a172f07882996c8b4",
+"assets/images/background/parallax/sawmill/sawmill_1.png": "a60d2b1b178365abea51c64a5a383ea9",
+"assets/images/background/parallax/sawmill/sawmill_2.png": "d6412a2652b0fbcfe74051223d8d6a64",
+"assets/images/background/parallax/sawmill/sawmill_3.png": "b0b6aa198829d93976d01627a5bf32a4",
 "assets/images/background/parallax/shooting_range/shooting_range_1.png": "b0daecdcdc6b79f112a4f481321b9c8a",
 "assets/images/background/parallax/shooting_range/shooting_range_2.png": "4d364c299caabb844f610767814c64ac",
 "assets/images/background/parallax/shooting_range/shooting_range_3.png": "adc1c8bf669bd76edb65fcd2b3462d8b",
@@ -430,6 +433,8 @@ const RESOURCES = {
 "assets/images/resources/money/money_2.png": "baf07f23a1a9805748f74a6ac022cc61",
 "assets/images/resources/money/money_3.png": "12dd3979436f8d6fad04d2897d5068c4",
 "assets/images/resources/money/money_64.png": "d8e729942b8b7c8ae70b48e5640422b1",
+"assets/images/resources/planks/planks.png": "a2d86411933e97c94f508d5846a32982",
+"assets/images/resources/planks/planks_64.png": "dc469825b54a4385a064702e9e74db5d",
 "assets/images/resources/powder/powder.png": "ca37d23f2d5033c29c3573ea85c9b876",
 "assets/images/resources/powder/powder_0.png": "ca37d23f2d5033c29c3573ea85c9b876",
 "assets/images/resources/powder/powder_1.png": "ca37d23f2d5033c29c3573ea85c9b876",
@@ -503,6 +508,21 @@ const RESOURCES = {
 "assets/images/resource_buildings/river/river_2.png": "7526d5b00f81570a9e796ee7601fcaea",
 "assets/images/resource_buildings/river/river_3.png": "773bdb5aa9aebe80ebf83227f39a5666",
 "assets/images/resource_buildings/river/river_64.png": "05e79cb64e18c41933e706ad39fb69da",
+"assets/images/resource_buildings/sawmill/1/sawmill.png": "e90158bd8cc03682ab34d1a28d586300",
+"assets/images/resource_buildings/sawmill/1/sawmill_0.png": "e90158bd8cc03682ab34d1a28d586300",
+"assets/images/resource_buildings/sawmill/1/sawmill_1.png": "7acd143277d0669fb2e7f97684f6707b",
+"assets/images/resource_buildings/sawmill/1/sawmill_2.png": "b85b306754eac7fc01873da5d61da0ce",
+"assets/images/resource_buildings/sawmill/1/sawmill_3.png": "d7d8b4b79086b0af5973b08836db4e6b",
+"assets/images/resource_buildings/sawmill/2/sawmill.png": "ee574e7c4eee1aace115a6f841700e67",
+"assets/images/resource_buildings/sawmill/2/sawmill_0.png": "ee574e7c4eee1aace115a6f841700e67",
+"assets/images/resource_buildings/sawmill/2/sawmill_1.png": "c73e2e984796b22c0cf537b14269537f",
+"assets/images/resource_buildings/sawmill/2/sawmill_2.png": "445724abe696f3feccfa4f642e5dcac5",
+"assets/images/resource_buildings/sawmill/2/sawmill_3.png": "c5208b21fb74dc485d29ea86b2be08bb",
+"assets/images/resource_buildings/sawmill/3/sawmill.png": "3cd173c8f17f1c17f7904c5ce4dee2aa",
+"assets/images/resource_buildings/sawmill/3/sawmill_0.png": "3cd173c8f17f1c17f7904c5ce4dee2aa",
+"assets/images/resource_buildings/sawmill/3/sawmill_1.png": "971d6afaf87c1dac68f87f6d9bf95bf8",
+"assets/images/resource_buildings/sawmill/3/sawmill_2.png": "c7d93057c92689125f26da1df935c83e",
+"assets/images/resource_buildings/sawmill/3/sawmill_3.png": "8f36bef46170c686be143babdd6fa7b8",
 "assets/images/resource_buildings/shooting_range/shooting_range.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_0.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_1.png": "26fa11bc2592c6e5bf6d5cef531a3e48",
@@ -563,9 +583,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "052f254faf970e1e04c1d8a147ff43e2",
+"main.dart.js": "23781a3fcff377bd8e60aeaf497432dc",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "4300548c8ef31dbe39afde1bd22d315d"
+"version.json": "5f79c88f11582739c4c154346dbe6e01"
 };
 
 // The application shell files that are downloaded before a service worker can
