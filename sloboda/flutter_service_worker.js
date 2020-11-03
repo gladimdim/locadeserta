@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "babee655937e452a1f3d601debf4ae04",
+  "assets/AssetManifest.json": "af872900bbb86084ac69e964b46274e3",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -168,6 +168,9 @@ const RESOURCES = {
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_1.png": "306d4ef799f7a1351da01714047d7de6",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_2.png": "ab4b052dc7a1fcd3791dfff08f6e0957",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_3.png": "fdc1a5b08ed8409f029601a20b428733",
+"assets/images/background/parallax/charcoal_maker/charcoal_maker_1.png": "19dec071affb1038b1ac7216ea4ddb90",
+"assets/images/background/parallax/charcoal_maker/charcoal_maker_2.png": "62c31aa2f89d6b686b0085815b019781",
+"assets/images/background/parallax/charcoal_maker/charcoal_maker_3.png": "4d14e67a1b3307d17a4be8017757b0ae",
 "assets/images/background/parallax/church/church_1.png": "928972cd516f285ddf180cc0b0b17a1f",
 "assets/images/background/parallax/church/church_2.png": "8dd5e75f31dba96d8600ac4e0dc7db46",
 "assets/images/background/parallax/church/church_3.png": "7cb930f8551825ffddf3d8bc91ed94c6",
