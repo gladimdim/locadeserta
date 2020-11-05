@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "53940514ee914f8e3b89a05842c3bc18",
+  "assets/AssetManifest.json": "65bbf713e1512d9011c5a569ba2cb8b4",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -386,6 +386,13 @@ const RESOURCES = {
 "assets/images/resources/cannon/cannon_128.png": "4e3101de740cf3fc6590214ddba55a76",
 "assets/images/resources/cannon/cannon_2.png": "44f3b80db5df43f1ca6d592c6dbf7616",
 "assets/images/resources/cannon/cannon_3.png": "77fb17bee09160e54178cf5f835f8bd1",
+"assets/images/resources/cart/cart.png": "12d424c7e03811571a3a8b1353b83bd7",
+"assets/images/resources/cart/cart_0.png": "12d424c7e03811571a3a8b1353b83bd7",
+"assets/images/resources/cart/cart_1.png": "13b5c1ef93e8da3108494cc8cf418dc6",
+"assets/images/resources/cart/cart_2.png": "bed5105c6bf4a8c1e0728d932ca4dc64",
+"assets/images/resources/cart/cart_3.png": "99f36bf26c97b238c3678d7a42129599",
+"assets/images/resources/cart/cart_64.png": "9626411241600f3ad1e5133af91fa218",
+"assets/images/resources/cart/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resources/charcoal/charcoal.png": "ede3d8483c1d0c074fb07e4c54671c68",
 "assets/images/resources/charcoal/charcoal_0.png": "ede3d8483c1d0c074fb07e4c54671c68",
 "assets/images/resources/charcoal/charcoal_1.png": "e6570d1b8a47d8ddd86d6862c98878f9",
@@ -632,7 +639,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "261f0eb63bca21f4a7292fdcbe1f506b",
+"main.dart.js": "3987bd292c719217f85b68f89ac049b4",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "5f79c88f11582739c4c154346dbe6e01"
 };
