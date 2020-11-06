@@ -65964,13 +65964,13 @@ $C:"$2",
 $R:2,
 $S:68}
 U.ag6.prototype={
-$0:function(){var s,r="cityProps.citizens",q=this.a,p=this.b,o=t.u,n=t.B,m=q.a.d.cy.qN(X.K(P.h([C.y,p.c.a.d],o,n)).K(0,X.K(P.h([C.b8,p.c.c.d],o,n)))),l=!m?new K.ei(q.a.d.r_(X.K(P.h([C.y,p.c.a.d],o,n)).K(0,X.K(P.h([C.b8,p.c.c.d],o,n))))):null
+$0:function(){var s,r="cityProps.citizens",q=this.a,p=this.b,o=t.u,n=t.B,m=!q.a.d.cy.qN(X.K(P.h([C.y,p.c.a.d],o,n)).K(0,X.K(P.h([C.b8,p.c.c.d],o,n))))?new K.ei(q.a.d.r_(X.K(P.h([C.y,p.c.a.d],o,n)).K(0,X.K(P.h([C.b8,p.c.c.d],o,n))))):null
 o=p.c
-if(!(o.b.length>0&&o.c.d!==0&&m))l=new K.ei(P.h([M.bZ(r),0],t.X,n))
+if(!(o.c.d>0))if(o.b.length<=0)m=new K.ei(P.h([M.bZ(r),0],t.X,n))
 o=q.a.d
 s=p.c.b.length
-if(o.f.length<s)l=new K.ei(P.h([M.bZ(r),p.c.b.length-q.a.d.f.length],t.X,n))
-if(l!=null){$.al3().o4(l.nN(),L.ho(C.re,null,null),C.lA)
+if(o.f.length<s)m=new K.ei(P.h([M.bZ(r),p.c.b.length-q.a.d.f.length],t.X,n))
+if(m!=null){$.al3().o4(m.nN(),L.ho(C.re,null,null),C.lA)
 return}p.Q=C.br
 p.z.f.cE(p.gIE())
 p.z.hf(0)

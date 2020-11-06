@@ -501,7 +501,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/cart_maker/3/cart_maker_2.png": "e4d312282fcc731d194e736cd9f4344f",
 "assets/images/resource_buildings/cart_maker/3/cart_maker_3.png": "87b14e4a0331483233ba09fdb75fd314",
 "assets/images/resource_buildings/cart_maker/3/imgui.ini": "225ba9004e939001679ded34841a0d7a",
-"assets/images/resource_buildings/cart_maker/cart_maker_64.png": "70914b3b53f1b84913cec2d173a53b92",
+"assets/images/resource_buildings/cart_maker/cart_maker_64.png": "cb21bd7f3fda7c66889fc6293ed412b1",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_0.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_1.png": "c3272a57afec636b28a28ce44358467e",
@@ -582,7 +582,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/sawmill/3/sawmill_1.png": "971d6afaf87c1dac68f87f6d9bf95bf8",
 "assets/images/resource_buildings/sawmill/3/sawmill_2.png": "c7d93057c92689125f26da1df935c83e",
 "assets/images/resource_buildings/sawmill/3/sawmill_3.png": "8f36bef46170c686be143babdd6fa7b8",
-"assets/images/resource_buildings/sawmill/sawmill_64.png": "3cd173c8f17f1c17f7904c5ce4dee2aa",
+"assets/images/resource_buildings/sawmill/sawmill_64.png": "e5f7d152cbf697c7f1cddc2fd5e91f88",
 "assets/images/resource_buildings/shooting_range/shooting_range.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_0.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_1.png": "26fa11bc2592c6e5bf6d5cef531a3e48",
@@ -658,7 +658,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "06b3e36ba84cf684391f4b2709b01713",
+"main.dart.js": "531ffccd761df9c529eee02697a1d52a",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "5f79c88f11582739c4c154346dbe6e01"
 };
