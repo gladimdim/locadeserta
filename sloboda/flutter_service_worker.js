@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "65bbf713e1512d9011c5a569ba2cb8b4",
+  "assets/AssetManifest.json": "eb9adb23116466f94bcc8ceb0be34193",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -391,7 +391,7 @@ const RESOURCES = {
 "assets/images/resources/cart/cart_1.png": "13b5c1ef93e8da3108494cc8cf418dc6",
 "assets/images/resources/cart/cart_2.png": "bed5105c6bf4a8c1e0728d932ca4dc64",
 "assets/images/resources/cart/cart_3.png": "99f36bf26c97b238c3678d7a42129599",
-"assets/images/resources/cart/cart_64.png": "9626411241600f3ad1e5133af91fa218",
+"assets/images/resources/cart/cart_64.png": "e0d75381fce4494636d0b84b76f039c1",
 "assets/images/resources/cart/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resources/charcoal/charcoal.png": "ede3d8483c1d0c074fb07e4c54671c68",
 "assets/images/resources/charcoal/charcoal_0.png": "ede3d8483c1d0c074fb07e4c54671c68",
@@ -485,6 +485,11 @@ const RESOURCES = {
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_2.png": "4dfe934115cc260613d496b5aef0b5ef",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_3.png": "42de4e3419daec1c6d47550bfd9c2b7e",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_64.png": "a7d12c30137a95a02d11ed8e1ba20660",
+"assets/images/resource_buildings/cart_maker/1/cart_maker.png": "bfec26a082f106baea606a37e6a33580",
+"assets/images/resource_buildings/cart_maker/1/cart_maker_0.png": "bfec26a082f106baea606a37e6a33580",
+"assets/images/resource_buildings/cart_maker/1/cart_maker_1.png": "581a50f23d1faa24e014b1f3b2f4a60e",
+"assets/images/resource_buildings/cart_maker/1/cart_maker_2.png": "73f34d452fdeb5ef94112975f1359f9c",
+"assets/images/resource_buildings/cart_maker/1/cart_maker_3.png": "35caacbcacd8fe51e9cfa13f50150467",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_0.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_1.png": "c3272a57afec636b28a28ce44358467e",
