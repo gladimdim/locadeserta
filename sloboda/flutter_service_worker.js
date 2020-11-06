@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "eb9adb23116466f94bcc8ceb0be34193",
+  "assets/AssetManifest.json": "475ca0102eb2fccd6ad50f85b5ceb667",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -490,6 +490,18 @@ const RESOURCES = {
 "assets/images/resource_buildings/cart_maker/1/cart_maker_1.png": "581a50f23d1faa24e014b1f3b2f4a60e",
 "assets/images/resource_buildings/cart_maker/1/cart_maker_2.png": "73f34d452fdeb5ef94112975f1359f9c",
 "assets/images/resource_buildings/cart_maker/1/cart_maker_3.png": "35caacbcacd8fe51e9cfa13f50150467",
+"assets/images/resource_buildings/cart_maker/2/cart_maker.png": "81d93d79e314194566bb4117edc60ccc",
+"assets/images/resource_buildings/cart_maker/2/cart_maker_0.png": "81d93d79e314194566bb4117edc60ccc",
+"assets/images/resource_buildings/cart_maker/2/cart_maker_1.png": "8510b8638a9b4f70fb2d4fd968488d1c",
+"assets/images/resource_buildings/cart_maker/2/cart_maker_2.png": "396ab5f7c9806398f671863368fee737",
+"assets/images/resource_buildings/cart_maker/2/cart_maker_3.png": "f40e94725e69ea89798d2ebfc003a79f",
+"assets/images/resource_buildings/cart_maker/3/cart_maker.png": "70914b3b53f1b84913cec2d173a53b92",
+"assets/images/resource_buildings/cart_maker/3/cart_maker_0.png": "70914b3b53f1b84913cec2d173a53b92",
+"assets/images/resource_buildings/cart_maker/3/cart_maker_1.png": "274d20fe0881bf96b4963f95d0221f75",
+"assets/images/resource_buildings/cart_maker/3/cart_maker_2.png": "e4d312282fcc731d194e736cd9f4344f",
+"assets/images/resource_buildings/cart_maker/3/cart_maker_3.png": "87b14e4a0331483233ba09fdb75fd314",
+"assets/images/resource_buildings/cart_maker/3/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/resource_buildings/cart_maker/cart_maker_64.png": "70914b3b53f1b84913cec2d173a53b92",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_0.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/charcoal_maker/1/charcoal_maker_1.png": "c3272a57afec636b28a28ce44358467e",
@@ -505,6 +517,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/charcoal_maker/3/charcoal_maker_1.png": "27bce047bc1afd8cfec018a7d3808c0e",
 "assets/images/resource_buildings/charcoal_maker/3/charcoal_maker_2.png": "dcbe6bec265ffa1ec9adeb2336d2b9b2",
 "assets/images/resource_buildings/charcoal_maker/3/charcoal_maker_3.png": "0e87a428ccd7b531d39b386c996cdaf0",
+"assets/images/resource_buildings/charcoal_maker/charcoal_maker_64.png": "badd33e4c260d424ee2b1558ff026782",
 "assets/images/resource_buildings/field/field.png": "28138b3c855df88bf07fd70de1bd55da",
 "assets/images/resource_buildings/field/field_0.png": "28138b3c855df88bf07fd70de1bd55da",
 "assets/images/resource_buildings/field/field_1.png": "2bc6308f6f40ca2b5f3f2905a9655259",
@@ -569,6 +582,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/sawmill/3/sawmill_1.png": "971d6afaf87c1dac68f87f6d9bf95bf8",
 "assets/images/resource_buildings/sawmill/3/sawmill_2.png": "c7d93057c92689125f26da1df935c83e",
 "assets/images/resource_buildings/sawmill/3/sawmill_3.png": "8f36bef46170c686be143babdd6fa7b8",
+"assets/images/resource_buildings/sawmill/sawmill_64.png": "3cd173c8f17f1c17f7904c5ce4dee2aa",
 "assets/images/resource_buildings/shooting_range/shooting_range.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_0.png": "d196075c06f262a6df15d79e736b8401",
 "assets/images/resource_buildings/shooting_range/shooting_range_1.png": "26fa11bc2592c6e5bf6d5cef531a3e48",
@@ -644,7 +658,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "3987bd292c719217f85b68f89ac049b4",
+"main.dart.js": "06b3e36ba84cf684391f4b2709b01713",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "5f79c88f11582739c4c154346dbe6e01"
 };
