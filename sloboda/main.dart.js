@@ -16883,29 +16883,32 @@ break
 default:q=1}p=r.b
 p.d=p.d*q*2
 return r},
-aDB:function(a){var s,r,q,p,o,n,m,l=J.aa(a),k=t.TN.a(l.h(a,"suitableTypes")),j=l.h(a,"timeToDepletePerParty")
-if(j==null)j=60
-s=l.h(a,"depleteAmountPerWorker")
+aDB:function(a){var s,r,q,p,o,n,m,l,k=J.aa(a),j=t.TN.a(k.h(a,"suitableTypes")),i=k.h(a,"timeToDepletePerParty")
+if(i==null)i=60
+s=k.h(a,"depleteAmountPerWorker")
 if(s==null)s=10
-r=Y.a4w(l.h(a,"resourceType"))
-q=l.h(a,"failureProbability")
-p=l.h(a,"failureProbabilityDecreasePerCossack")
-o=J.bT(k,new E.a4v(),t.E3).bq(0)
-n=P.ar(0,0,0,0,l.h(a,"timeToTravelPerTile"))
-m=E.qU(null,null,q,p,r,o,P.ar(0,0,0,0,j),n)
-m.c=M.aDA(l.h(a,"party"))
-m.y=F.arD(l.h(a,"depleteTask"))
-m.z=F.arD(l.h(a,"travelTask"))
-m.dy=s
-m.Q=E.aJ5(l.h(a,"_state"))
-m.yh()
-m.z.f.cE(m.gIF())
-m.y.f.cE(m.gF5())
-if(m.z.c){m.Q=C.br
-m.cx.t(0,C.br)}if(m.z.d){m.Q=C.c_
-m.cx.t(0,C.c_)}if(m.y.c){m.Q=C.bK
-m.cx.t(0,C.bK)}if(m.y.d){m.Q=C.cB
-m.cx.t(0,C.cB)}return m},
+r=k.h(a,"depleteAmountPerCart")
+if(r==null)r=10
+q=Y.a4w(k.h(a,"resourceType"))
+p=k.h(a,"failureProbability")
+o=k.h(a,"failureProbabilityDecreasePerCossack")
+n=J.bT(j,new E.a4v(),t.E3).bq(0)
+m=P.ar(0,0,0,0,k.h(a,"timeToTravelPerTile"))
+l=E.qU(null,null,p,o,q,n,P.ar(0,0,0,0,i),m)
+l.c=M.aDA(k.h(a,"party"))
+l.y=F.arD(k.h(a,"depleteTask"))
+l.z=F.arD(k.h(a,"travelTask"))
+l.fr=r
+l.dy=s
+l.Q=E.aJ5(k.h(a,"_state"))
+l.yh()
+l.z.f.cE(l.gIF())
+l.y.f.cE(l.gF5())
+if(l.z.c){l.Q=C.br
+l.cx.t(0,C.br)}if(l.z.d){l.Q=C.c_
+l.cx.t(0,C.c_)}if(l.y.c){l.Q=C.bK
+l.cx.t(0,C.bK)}if(l.y.d){l.Q=C.cB
+l.cx.t(0,C.cB)}return l},
 ja:function ja(a){this.b=a},
 xM:function xM(a){this.b=a},
 kq:function kq(a,b,c,d,e,f,g,h,i,j,k){var _=this
@@ -64051,7 +64054,7 @@ th:function(){var s=this,r=s.c
 r.d.d=s.dy*r.b.length+s.fr*r.c.d
 s.cx.t(0,C.CF)},
 az:function(){var s=this,r=s.ch,q=H.Q(r).i("M<1,i*>")
-return P.h(["className","ResourceSpot","resourceType",s.b.az(),"party",s.c.az(),"failureProbability",s.f,"failureProbabilityDecreasePerCossack",s.x,"suitableTypes",P.J(new H.M(r,G.aJr(),q),!0,q.i("al.E")),"timeToTravelPerTile",C.d.cJ(s.dx.a,1e6),"timeToDepletePerParty",C.d.cJ(s.db.a,1e6),"depleteTask",s.y.az(),"travelTask",s.z.az(),"depleteAmountPerWorker",s.dy,"_state",E.aJ6(s.Q)],t.X,t.z)}}
+return P.h(["className","ResourceSpot","resourceType",s.b.az(),"party",s.c.az(),"failureProbability",s.f,"failureProbabilityDecreasePerCossack",s.x,"suitableTypes",P.J(new H.M(r,G.aJr(),q),!0,q.i("al.E")),"timeToTravelPerTile",C.d.cJ(s.dx.a,1e6),"timeToDepletePerParty",C.d.cJ(s.db.a,1e6),"depleteTask",s.y.az(),"travelTask",s.z.az(),"depleteAmountPerWorker",s.dy,"depleteAmountPerCart",s.fr,"_state",E.aJ6(s.Q)],t.X,t.z)}}
 E.a4v.prototype={
 $1:function(a){return G.auD(a)},
 $S:474}

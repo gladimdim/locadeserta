@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "475ca0102eb2fccd6ad50f85b5ceb667",
+  "assets/AssetManifest.json": "a5e3a7014eee2295811d7b4d4f2d2a83",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -168,6 +168,9 @@ const RESOURCES = {
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_1.png": "306d4ef799f7a1351da01714047d7de6",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_2.png": "ab4b052dc7a1fcd3791dfff08f6e0957",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_3.png": "fdc1a5b08ed8409f029601a20b428733",
+"assets/images/background/parallax/cart_maker/cart_maker_1.png": "076340adaaabeb2d0a64058723fcc83b",
+"assets/images/background/parallax/cart_maker/cart_maker_2.png": "5fd6ba716d528d5057603a36245b4838",
+"assets/images/background/parallax/cart_maker/cart_maker_3.png": "b23c3c24c83228cad95ce78813bfdc2e",
 "assets/images/background/parallax/charcoal_maker/charcoal_maker_1.png": "19dec071affb1038b1ac7216ea4ddb90",
 "assets/images/background/parallax/charcoal_maker/charcoal_maker_2.png": "62c31aa2f89d6b686b0085815b019781",
 "assets/images/background/parallax/charcoal_maker/charcoal_maker_3.png": "4d14e67a1b3307d17a4be8017757b0ae",
@@ -658,7 +661,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "b8ee63453c50e4f1407749d6d78eccf6",
+"main.dart.js": "86cf59793479225b38f1758f66e76920",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "5f79c88f11582739c4c154346dbe6e01"
 };
