@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a5e3a7014eee2295811d7b4d4f2d2a83",
+  "assets/AssetManifest.json": "07b112f3bd11bcfb13068f6ba93a9447",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -165,6 +165,7 @@ const RESOURCES = {
 "assets/images/background/map/river_angle_2.png": "fe8a73d35028c82f04d8e7c98e0b06eb",
 "assets/images/background/map/river_tile_1.png": "813ddf62451600d1ade7161b405bd88a",
 "assets/images/background/map/river_tile_2.png": "26acecf86f4c45d943349c4e4f55fbc5",
+"assets/images/background/ornament.jpg": "0bb081e3dafb6c1c4007993c52f66401",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_1.png": "306d4ef799f7a1351da01714047d7de6",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_2.png": "ab4b052dc7a1fcd3791dfff08f6e0957",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_3.png": "fdc1a5b08ed8409f029601a20b428733",
@@ -661,9 +662,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "19eff87af376c0706e585cd4fbd34cf3",
+"main.dart.js": "c10c07ce272245ebe047a0ae19ce11ad",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "5f79c88f11582739c4c154346dbe6e01"
+"version.json": "13090907d1f540b3dec8dec8899ce876"
 };
 
 // The application shell files that are downloaded before a service worker can
