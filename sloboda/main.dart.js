@@ -21880,12 +21880,14 @@ r[0]=s.gacc().ez(0,255)
 r[1]=s.gabF().ez(0,255)
 r[2]=s.gabN().ez(0,255)
 r[3]=s.gabM(s).ez(0,255)
-q=J.axp(l,r,$.alu()[m.b.a])
+m=m.b
+m.toString
+q=J.axp(l,r,$.alu()[m.a])
 break
 case 2:p=new Float32Array(20)
 m=m.c
 m.toString
-for(o=0;o<20;++o)p[o]=m.h(0,o)
+for(o=0;o<20;++o)p[o]=m[o]
 q=J.axv(J.SL($.cf?$.ce:H.f(H.x(n))),p)
 break
 case 3:q=J.axu(J.SL($.cf?$.ce:H.f(H.x(n))))
