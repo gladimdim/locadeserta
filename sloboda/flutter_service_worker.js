@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "81194a09a1ce0e20d687356d23263c0c",
+  "assets/AssetManifest.json": "cf49bfe83c7790b4832f6a503d4471e7",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -224,7 +224,6 @@ const RESOURCES = {
 "assets/images/background/parallax/smeltery/smeltery_1.png": "c38561dbc2c1915de8d4c7204aad1b55",
 "assets/images/background/parallax/smeltery/smeltery_2.png": "94d29a76e75f8a75c9d974f605ed0176",
 "assets/images/background/parallax/smeltery/smeltery_3.png": "62fed723c87fe06a5932dbbd26de12cc",
-"assets/images/background/parallax/smeltery/smeltery_64.png": "ccd342219cc649e9a9ae76f258fbde4f",
 "assets/images/background/parallax/smith/smith_1.png": "9e40add821cb7c1e0d670d0d8db949f4",
 "assets/images/background/parallax/smith/smith_2.png": "1b38006b10c7cef0269849519cf0ac2b",
 "assets/images/background/parallax/smith/smith_3.png": "a669d6dd20adb82f0cadaddb5a9ec079",
@@ -387,6 +386,7 @@ const RESOURCES = {
 "assets/images/research/double_plow/double_plow.png": "a4eb3e1902f12422621b5e2d1486e8de",
 "assets/images/research/double_plow/double_plow_0.png": "a4eb3e1902f12422621b5e2d1486e8de",
 "assets/images/research/double_plow/double_plow_1.png": "e77486d77cea1b65eec7d3a32cf2e591",
+"assets/images/research/double_plow/double_plow_128.png": "322b9a14481a964b74e93253bddce7d1",
 "assets/images/research/double_plow/double_plow_2.png": "67e9f9c0fb88c89c432a4402b61937c7",
 "assets/images/research/double_plow/double_plow_3.png": "01bb2759ef4fbe45ba25d3ee95e44c04",
 "assets/images/research/strong_net/strong_net.png": "0fefd38be50b7697a34bc30caae56856",
@@ -397,6 +397,7 @@ const RESOURCES = {
 "assets/images/research/vertical_saw/vertical_saw.png": "3c5deb178637fb443941c55b4e805610",
 "assets/images/research/vertical_saw/vertical_saw_0.png": "3c5deb178637fb443941c55b4e805610",
 "assets/images/research/vertical_saw/vertical_saw_1.png": "7004c5fc975b6c2d9bcd5b7da9a34707",
+"assets/images/research/vertical_saw/vertical_saw_128.png": "11823bdca23f6064f5147cff8b7412f7",
 "assets/images/research/vertical_saw/vertical_saw_2.png": "510d1b28d8a4695424b6f670507b2905",
 "assets/images/research/vertical_saw/vertical_saw_3.png": "926c116b2edd866378cbc40a960430ae",
 "assets/images/resources/cannon/cannon.png": "a36fe1f20d38d4e37bb2975505d88b5d",
@@ -623,6 +624,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/smeltery/3/smeltery_1.png": "06c6644a9ed1ca764f3543dcd5c63135",
 "assets/images/resource_buildings/smeltery/3/smeltery_2.png": "d495d3ebe3e9cbe456d0214acef3697a",
 "assets/images/resource_buildings/smeltery/3/smeltery_3.png": "3935a3509d1f815be48138357fabb062",
+"assets/images/resource_buildings/smeltery/smeltery_64.png": "ccd342219cc649e9a9ae76f258fbde4f",
 "assets/images/resource_buildings/smith/smith.png": "cfd2c929a3abac6de50557a619f66a00",
 "assets/images/resource_buildings/smith/smith_0.png": "cfd2c929a3abac6de50557a619f66a00",
 "assets/images/resource_buildings/smith/smith_1.png": "597b544a69af66bfc799229ba6fb1444",
@@ -677,7 +679,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "6492a3770b01412b6da4646883f23b98",
+"main.dart.js": "0acf1630d9b58006ee79239e7392dff7",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "13090907d1f540b3dec8dec8899ce876"
 };
