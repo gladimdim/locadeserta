@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5b7359be05eb19ce2ad7048bb2963f2e",
+  "assets/AssetManifest.json": "ddf40ae0463aae07812c69670ba5133c",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -479,6 +479,7 @@ const RESOURCES = {
 "assets/images/resources/money/money_2.png": "baf07f23a1a9805748f74a6ac022cc61",
 "assets/images/resources/money/money_3.png": "12dd3979436f8d6fad04d2897d5068c4",
 "assets/images/resources/money/money_64.png": "d8e729942b8b7c8ae70b48e5640422b1",
+"assets/images/resources/planks/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resources/planks/planks.png": "93c964b26bcb7884fe2ff091af7907b0",
 "assets/images/resources/planks/planks_1.png": "1e8009813a5d059c3ceb522b2cf088ec",
 "assets/images/resources/planks/planks_2.png": "06442cadb45d98bee41e0b28a29d6349",
@@ -682,7 +683,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "ce260a0de38a27d282d5c69e6b4bbf1b",
+"main.dart.js": "03cf008870190444b3ed9a13fe554f68",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "13090907d1f540b3dec8dec8899ce876"
 };
