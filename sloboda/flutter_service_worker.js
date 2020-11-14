@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8f21249969f8bfc5a86535a27efbbc6b",
+  "assets/AssetManifest.json": "3ad7a77f319edde4f92a12130dd00dec",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -395,6 +395,7 @@ const RESOURCES = {
 "assets/images/research/enhanced_anvil/enhanced_anvil_2.png": "245d4c77b0d91220e5da63b0918cbc87",
 "assets/images/research/enhanced_anvil/enhanced_anvil_3.png": "43c9a3aaf062b166dd96a8caff9104ba",
 "assets/images/research/enhanced_anvil/enhanced_anvil_icon.png": "9544ce4fa9d9e8a43f94f444f860e120",
+"assets/images/research/enhanced_anvil/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/research/horseshoe/horseshoe.png": "26e055dbd251bc4ddb5bdad2a58adf79",
 "assets/images/research/horseshoe/horseshoe_0.png": "26e055dbd251bc4ddb5bdad2a58adf79",
 "assets/images/research/horseshoe/horseshoe_1.png": "e5366abdc3418da952830e25cca8f0fd",
@@ -707,7 +708,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "36ddd6ed4ac6d3b77f3b7ef01379d0ae",
+"main.dart.js": "09043e3b736a0fcea62d2721b65cca74",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "13090907d1f540b3dec8dec8899ce876"
 };
