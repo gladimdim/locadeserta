@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "423638bfdcf1c76498f3ca62f3f2b70e",
+  "assets/AssetManifest.json": "405a7963925adbf65bac441066c2e96a",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -70,6 +70,15 @@ const RESOURCES = {
 "assets/images/background/buildings/forest/forest_7.png": "ce45fa5552ce1e202f73442a7dd510ea",
 "assets/images/background/buildings/forest/forest_8.png": "b9e9c17081bb75769e1ff80c8beb61aa",
 "assets/images/background/buildings/forest/forest_9.png": "02e8e833237b099299f3838229b76bb6",
+"assets/images/background/buildings/river/river_0.png": "37347dca0e0f35e69f256a8900f86f18",
+"assets/images/background/buildings/river/river_1.png": "27ccc174a1296b4d3988d3598c0eaa8d",
+"assets/images/background/buildings/river/river_2.png": "39c6ebf903eb82a912d630e3b4fc3711",
+"assets/images/background/buildings/river/river_3.png": "bb66b8365a7f689d562cc54f2fac5797",
+"assets/images/background/buildings/river/river_4.png": "8ab15cf031b34c481d395a7e5d84b6ae",
+"assets/images/background/buildings/river/river_5.png": "319d36be11b6d04b1f217d03dfab78b5",
+"assets/images/background/buildings/river/river_6.png": "30c112ee4817cef72992f3a09edfc9dc",
+"assets/images/background/buildings/river/river_7.png": "a301aba5bc196981fd51c1b34e876e07",
+"assets/images/background/buildings/river/river_8.png": "f16d7c4f8ec06463604c492c829a8140",
 "assets/images/background/bulrush/0.jpg": "411f1f7379a3d25c0345dfa11afc287a",
 "assets/images/background/bulrush/1.jpg": "f484f3f058cd278707b2cd554aa0588e",
 "assets/images/background/bulrush/10.jpg": "0d083150deb961dedefc2f0a8f20193c",
@@ -718,7 +727,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "8472b7d055cc798646c51098ea53ab21",
+"main.dart.js": "d3f03c46d96945284e0147e76c1188c9",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "13090907d1f540b3dec8dec8899ce876"
 };
