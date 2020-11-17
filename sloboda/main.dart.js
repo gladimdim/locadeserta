@@ -65186,7 +65186,7 @@ if(p!==0){p=$.ad
 o=$.a8()
 n=H.L(q).i("D<1,e*>")
 r.push(new T.I(C.k,T.ay(H.a([L.aC(H.c(J.y(p.h(0,o.gV(o)),"labelAffectsMapTiles"))+":",k,k,k,k,k),T.ay(P.Z(new H.D(q,new Q.a59(a),n),!0,n.i("ah.E")),C.i,C.o,C.e)],j),C.i,C.o,C.e),k))}return T.aD(H.a([new T.I(C.k,new X.aw(i,C.p,k),k),new M.cu(T.ay(H.a([s,T.tk(C.H,r,C.iu,C.q)],j),C.i,C.a5,C.e),5,k)],j),C.h7,C.o,C.e)},
-zL:function(a){var s=(1-a)*100,r=s>0?"+":""
+zL:function(a){var s=(a-1)*100,r=s>0?"+":""
 return r+C.d.j(C.f.hM(s))+"%"},
 an:function(){var s=this,r=s.a,q=H.L(r).i("D<1,i*>"),p=s.r,o=H.L(p).i("D<1,i*>")
 return P.h(["inputCoefficient",s.b,"outputCoefficient",s.c,"resourceBuildingTypes",P.Z(new H.D(r,new Q.a56(),q),!0,q.i("ah.E")),"taskCoefficient",s.d,"mapTileTypes",P.Z(new H.D(p,new Q.a57(),o),!0,o.i("ah.E")),"iconPath",s.e,"imagePath",s.f],t.X,t.z)}}
