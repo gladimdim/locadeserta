@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8e1fdf7c5f25aa2415f2d77e4f9db87c",
+  "assets/AssetManifest.json": "6691e0d7c76b3607c1aeae65c99ee8b8",
 "assets/assets/stories/after_the_battle.json": "9dd778ded1ca30f70d918395ca9baa10",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
@@ -196,11 +196,12 @@ const RESOURCES = {
 "assets/images/background/river/c_7.jpg": "268e6cf606e454b93a629557785b29c9",
 "assets/images/background/river/c_8.jpg": "5c7f5675b7d5413ac1e54632665caa96",
 "assets/images/background/river/c_9.jpg": "1b61c280392ddd0c53cad258bffbd683",
-"assets/NOTICES": "60150391ef6c49b618f329e5a80ce0e7",
+"assets/NOTICES": "298f8256fadd0ff0ad459936b2e629c3",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
+"assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
 "/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "0269017f6a517ce8a8f6d44c131a77cb",
+"main.dart.js": "1c134e7aceefc2cc98ddbab14d69fada",
 "version.json": "232d264d3711f8fdf1ff5cdfc2363911"
 };
 
