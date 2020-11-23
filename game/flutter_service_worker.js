@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "6691e0d7c76b3607c1aeae65c99ee8b8",
-"assets/assets/stories/after_the_battle.json": "9dd778ded1ca30f70d918395ca9baa10",
+"assets/assets/stories/after_the_battle.json": "10c703bc2c207f469e76c47fe7df0e3c",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
 "assets/assets/stories/hunting_bears.json": "570adeb111f0a4062a010e27e218eed5",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "assets/assets/stories/pereprava.json": "642ca5a57c7420db0b6c76138dbd8659",
 "assets/assets/stories/wolf_trap.json": "9658702b978630847d7b14036d736bac",
 "assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
-"assets/assets/story_catalog.json": "ad82b7c69ba5567f267352c97f3fe36f",
+"assets/assets/story_catalog.json": "1cdc1c6462eee51d385280c0ca5e05ac",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
@@ -201,7 +201,7 @@ const RESOURCES = {
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
 "/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "ab6e4a443d0aa43c6f34eb32cd32f673",
+"main.dart.js": "8b01e770310521e3760c8acaa1be6d84",
 "version.json": "232d264d3711f8fdf1ff5cdfc2363911"
 };
 
