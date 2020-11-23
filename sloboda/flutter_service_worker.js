@@ -691,7 +691,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_2.png": "8a57a3be54899db075da0117928d726b",
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/NOTICES": "547231971a8a65308572617ca23d680e",
+"assets/NOTICES": "e1d5ea3792b95366b87705f528491bb6",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -726,7 +726,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "da75213d25413a54c1f68f810ec2f5dc",
+"main.dart.js": "850cd5e4037afb172ad9a7a500575ec9",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "85a58a2e1c2a532b23cbc094ddb8aac3"
 };
