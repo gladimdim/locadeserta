@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "6691e0d7c76b3607c1aeae65c99ee8b8",
-"assets/assets/stories/after_the_battle.json": "10c703bc2c207f469e76c47fe7df0e3c",
+"assets/assets/stories/after_the_battle.json": "0efd5c800d60123ac493c178b118b9eb",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
 "assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
 "assets/assets/stories/hunting_bears.json": "570adeb111f0a4062a010e27e218eed5",
