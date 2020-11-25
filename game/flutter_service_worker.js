@@ -6,14 +6,14 @@ const RESOURCES = {
   "assets/AssetManifest.json": "6691e0d7c76b3607c1aeae65c99ee8b8",
 "assets/assets/stories/after_the_battle.json": "0efd5c800d60123ac493c178b118b9eb",
 "assets/assets/stories/fire_in_steppe.json": "d14e2994e9246c456943f57b1c9272e7",
-"assets/assets/stories/hotinska_riznya.json": "2eb184de1066137497f9f1ad6fcfcc8c",
+"assets/assets/stories/hotinska_riznya.json": "db69d6adcf597faf4fd52d260180f065",
 "assets/assets/stories/hunting_bears.json": "570adeb111f0a4062a010e27e218eed5",
 "assets/assets/stories/kodak_night.json": "0ad253f16188e3506ba15abf120ee850",
-"assets/assets/stories/krivava_pastka.json": "b4002f19c2f7d47f0ad611abd0907f45",
-"assets/assets/stories/last_battle_at_berestechko.json": "cc80525a9f7d26f23ab087cbb2d56427",
+"assets/assets/stories/krivava_pastka.json": "7b8871ca3f83e1931eedc4fa519b52d9",
+"assets/assets/stories/last_battle_at_berestechko.json": "966bbc2227e20c2b9b16d75f8614793e",
 "assets/assets/stories/pereprava.json": "642ca5a57c7420db0b6c76138dbd8659",
 "assets/assets/stories/wolf_trap.json": "9658702b978630847d7b14036d736bac",
-"assets/assets/stories/zustrich_v_stepu.json": "124edf2729f6e855339c425440bf04fe",
+"assets/assets/stories/zustrich_v_stepu.json": "aab1e0551d45ba7e90c3b7ef6960e93c",
 "assets/assets/story_catalog.json": "1cdc1c6462eee51d385280c0ca5e05ac",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -201,7 +201,7 @@ const RESOURCES = {
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
 "/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "00b199b4687d81b8606236c9d26caf65",
+"main.dart.js": "5e8971985205c5ad7e3e4873608c5af5",
 "version.json": "7a4df6d2e5d49f5aa14e722cc1cd0153"
 };
 
