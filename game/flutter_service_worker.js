@@ -196,12 +196,12 @@ const RESOURCES = {
 "assets/images/background/river/c_7.jpg": "268e6cf606e454b93a629557785b29c9",
 "assets/images/background/river/c_8.jpg": "5c7f5675b7d5413ac1e54632665caa96",
 "assets/images/background/river/c_9.jpg": "1b61c280392ddd0c53cad258bffbd683",
-"assets/NOTICES": "aef77fbf26bf8e05a5fc6565965d6310",
+"assets/NOTICES": "595f4fd2476f5fc02b97414d6151518b",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
 "/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "5e8971985205c5ad7e3e4873608c5af5",
+"main.dart.js": "09acf86d0a8799f6b11094543cd4fa12",
 "version.json": "7a4df6d2e5d49f5aa14e722cc1cd0153"
 };
 
