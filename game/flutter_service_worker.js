@@ -201,7 +201,7 @@ const RESOURCES = {
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
 "/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "e2b8148d0aeeb3537c2be6cd8d4de8ed",
+"main.dart.js": "1d86bd5eeb913614e5cb93e3805b42c7",
 "version.json": "f90442067ca003f5e4e207d31d0f1501"
 };
 
