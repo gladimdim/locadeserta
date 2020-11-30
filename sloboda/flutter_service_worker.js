@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "13f006ec0e043e4148bb3a8073e5fcd8",
+  "assets/AssetManifest.json": "ab428c53c0d656821cf21ccd4ab1137b",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -692,8 +692,10 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_2.png": "8a57a3be54899db075da0117928d726b",
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/images/worlds/south_ukraine/map.png": "2cb21967134f0b7bb518fedbf4c7d3f1",
-"assets/images/worlds/south_ukraine/map_bw.png": "872bcfbc7afa0fade4536b765ab31ae7",
+"assets/images/worlds/south_ukraine/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/worlds/south_ukraine/map.png": "8f31af31fa1dfbae1c18290511e390c3",
+"assets/images/worlds/south_ukraine/map_bw.png": "33ddad7867a7e984eea13fb2851d4e6e",
+"assets/images/worlds/south_ukraine/spots/river/1.png": "7c63b59abb6729ca9876ea357a807ce8",
 "assets/NOTICES": "45882b5dfec31046ad0315a4f5e58d0d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
@@ -729,7 +731,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "473314ee0bb1c2bb9a6c1e77cee836cd",
+"main.dart.js": "1a4ac52f8005dbfa70055049340401ac",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "85a58a2e1c2a532b23cbc094ddb8aac3"
 };
