@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ab428c53c0d656821cf21ccd4ab1137b",
+  "assets/AssetManifest.json": "c1abf528dfdcfb721f2d474815025b47",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -696,6 +696,17 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/map.png": "8f31af31fa1dfbae1c18290511e390c3",
 "assets/images/worlds/south_ukraine/map_bw.png": "33ddad7867a7e984eea13fb2851d4e6e",
 "assets/images/worlds/south_ukraine/spots/river/1.png": "7c63b59abb6729ca9876ea357a807ce8",
+"assets/images/worlds/south_ukraine/spots/river/river_background_0.png": "b26ea40cdeb8ed6a9a9248103e7e9128",
+"assets/images/worlds/south_ukraine/spots/river/river_background_1.png": "9d96cd76c1818d859b1bfdecc9eb0ccc",
+"assets/images/worlds/south_ukraine/spots/river/river_background_2.png": "8181fab5f6f5e3033cceea409c576475",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower.png": "824ad0ae65cefa2102eda4ab86d7db42",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_0.png": "824ad0ae65cefa2102eda4ab86d7db42",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_1.png": "c87677c929bb866d087f5580ec71faf7",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_2.png": "85b97a0e78ae7b7354921520f98b631c",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_3.png": "1fd57be5ef067f0692c6b5b5bdd2758a",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_0.png": "f6c6582182c4d9909abe076cad5fbd7c",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_1.png": "6adcb1c7c2fc82aa3276b80503bacaec",
+"assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_2.png": "888c2f20e0f51e8e2bf33c6452433ed4",
 "assets/NOTICES": "45882b5dfec31046ad0315a4f5e58d0d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
@@ -731,7 +742,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "ff0c8e834978adc9254001661743f7fe",
+"main.dart.js": "0fdc8ea9523f6bae6520011b4307974e",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "cbc4b2205ea0a147fc27378d3796b66e"
 };
