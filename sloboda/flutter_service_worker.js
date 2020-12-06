@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b59c7990620f2439a49ef4242e8cd4db",
+  "assets/AssetManifest.json": "ae6ffdf45c75175edafddd5e634c0f3a",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -703,6 +703,7 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/forest/forest_spot_1.png": "b8eba93ff1ed73ff62a28b6026f3f988",
 "assets/images/worlds/south_ukraine/spots/forest/forest_spot_2.png": "e0e5a44e26f01917dcd368a45ce60b04",
 "assets/images/worlds/south_ukraine/spots/forest/forest_spot_3.png": "ee27d36f439998072130a5c1329ad943",
+"assets/images/worlds/south_ukraine/spots/forest/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/worlds/south_ukraine/spots/river/background/river_background_0.png": "4de3509c21623d4572e408958b28407d",
 "assets/images/worlds/south_ukraine/spots/river/background/river_background_1.png": "8dc8294c9f5f5220fe9b9a1263176797",
 "assets/images/worlds/south_ukraine/spots/river/background/river_background_2.png": "d65d2f88fee0219f2ffa36ec7456f71e",
@@ -754,7 +755,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "b04a97dffd2ca93909a201ca4f356097",
+"main.dart.js": "e52235de04dc54c36dfabbbdc5cb433d",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "cbc4b2205ea0a147fc27378d3796b66e"
 };
