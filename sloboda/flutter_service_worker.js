@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "802fcdd54e0f571b94d8b818b638e31d",
+  "assets/AssetManifest.json": "a88029cbe110db729e11fcb27640405a",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -556,6 +556,18 @@ const RESOURCES = {
 "assets/images/resources/wood/wood_2.png": "19461efaac0f12c134412955b88dd05f",
 "assets/images/resources/wood/wood_3.png": "84b15565fa09849c7dd3348251fe212c",
 "assets/images/resources/wood/wood_64.png": "1faa872fe05e0af47dbe7a14d2c01f76",
+"assets/images/resource_buildings/boat_maker/1/boat_maker_0.png": "98eb3c89455cf2f7163097f29061c499",
+"assets/images/resource_buildings/boat_maker/1/boat_maker_1.png": "9c5121713dc5b933e36c4ac188609f16",
+"assets/images/resource_buildings/boat_maker/1/boat_maker_2.png": "88bac0b1116acd69643132156820d68c",
+"assets/images/resource_buildings/boat_maker/1/boat_maker_3.png": "3dddb44671539d046a02ae4d7243b5eb",
+"assets/images/resource_buildings/boat_maker/2/boat_maker_0.png": "db96a1097f6f86dd03f0cc0b6292160d",
+"assets/images/resource_buildings/boat_maker/2/boat_maker_1.png": "03017336d36b205c522219994bdc262c",
+"assets/images/resource_buildings/boat_maker/2/boat_maker_2.png": "fe03aa5ba5683aa858e05703a90fec0a",
+"assets/images/resource_buildings/boat_maker/2/boat_maker_3.png": "9b7f6b19c82b6d11a41484a562bcf26d",
+"assets/images/resource_buildings/boat_maker/3/boat_maker_0.png": "54035643a8828cc0ab78d157e3afa444",
+"assets/images/resource_buildings/boat_maker/3/boat_maker_1.png": "c6f16938347fb9dae032dcc2f2e329f4",
+"assets/images/resource_buildings/boat_maker/3/boat_maker_2.png": "cad96ef59c973f9b084ab2988070269a",
+"assets/images/resource_buildings/boat_maker/3/boat_maker_3.png": "be5e75ea896d38ec2fa5a64eae1fcd4a",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry.png": "1c3640540ab48f9c491e28a4812d04ca",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_0.png": "1c3640540ab48f9c491e28a4812d04ca",
 "assets/images/resource_buildings/cannon_foundry/cannon_foundry_1.png": "729c9ef14504bad375fba6ddc2ff6f84",
@@ -799,7 +811,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "90742f0b248296ad32107639c039bec9",
+"main.dart.js": "ba7e21cbbdffd536a4c2bffd0a076b37",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "d81351ff2b03454fdeb97bd6a245d8ef"
 };
