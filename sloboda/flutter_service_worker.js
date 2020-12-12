@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c93b1d1bf0d9bf63397a5fd430d26dc9",
+  "assets/AssetManifest.json": "802fcdd54e0f571b94d8b818b638e31d",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -184,6 +184,9 @@ const RESOURCES = {
 "assets/images/background/map/river_tile_1.png": "8d663e1e4e5c278cf627d5cd8a8b2296",
 "assets/images/background/map/river_tile_2.png": "baadd53b9a2a3c7912cf1a0f3313af71",
 "assets/images/background/ornament.jpg": "0bb081e3dafb6c1c4007993c52f66401",
+"assets/images/background/parallax/boat_maker/boat_maker_1.png": "79a3d1f8ed5a4bf0bc91a12881fb1e34",
+"assets/images/background/parallax/boat_maker/boat_maker_2.png": "e3c90cc64751952269d6c28156b1b453",
+"assets/images/background/parallax/boat_maker/boat_maker_3.png": "b44897af5d9acd1b2ae27e4c2bd608ea",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_1.png": "544ab329b13fdcd9da4213b2e72bfde0",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_2.png": "6e10506118e07b443411e39a3829583e",
 "assets/images/background/parallax/cannon_foundry/cannon_foundry_3.png": "b25b2779d6939e51043cd173b1016e6e",
@@ -238,7 +241,7 @@ const RESOURCES = {
 "assets/images/background/parallax/shooting_range/shooting_range_1.png": "e3a45c78b2dd73bb50e2f979ca37a5dc",
 "assets/images/background/parallax/shooting_range/shooting_range_2.png": "3fabc1e3a55882e3d60500b641318dbf",
 "assets/images/background/parallax/shooting_range/shooting_range_3.png": "7fa26f2420ae5c4b5728981d6530ab3b",
-"assets/images/background/parallax/sich.png": "48cae9c5831d154760b467ac076f3828",
+"assets/images/background/parallax/sich.png": "baef928b091bfa5dc3baacef072c777a",
 "assets/images/background/parallax/smeltery/smeltery_1.png": "902695ccb453abb6436b3481a225224b",
 "assets/images/background/parallax/smeltery/smeltery_2.png": "6108bd6c0c4470c38a8b85770af2e1fc",
 "assets/images/background/parallax/smeltery/smeltery_3.png": "e1e89a3adff24006423c29dba9382f03",
@@ -444,6 +447,12 @@ const RESOURCES = {
 "assets/images/research/vertical_saw/vertical_saw_128.png": "3b7adfc84da9e77cb63af9c5cad41d6a",
 "assets/images/research/vertical_saw/vertical_saw_2.png": "384cde507681ac8c10df09cd8b0e1d48",
 "assets/images/research/vertical_saw/vertical_saw_3.png": "ca1ea92f27b5c3db3531d117c1b3d184",
+"assets/images/resources/boat/boat.png": "6d6c226c5a6183f6a7798ddc2ea6d4e6",
+"assets/images/resources/boat/boat_0.png": "6d6c226c5a6183f6a7798ddc2ea6d4e6",
+"assets/images/resources/boat/boat_1.png": "3dffbf12928da1bc353b96a00ea668b9",
+"assets/images/resources/boat/boat_128.png": "0d54ec26f0c0501da763eb30c16d8448",
+"assets/images/resources/boat/boat_2.png": "0fbf526203bedbafaa4bd1965be5abc5",
+"assets/images/resources/boat/boat_3.png": "4e439eb496827c55c1be2871403315a2",
 "assets/images/resources/cannon/cannon.png": "04d73ea1779a3a81f5859c8803994090",
 "assets/images/resources/cannon/cannon_0.png": "04d73ea1779a3a81f5859c8803994090",
 "assets/images/resources/cannon/cannon_1.png": "6f5581d86f8aea468fe1d9a4810f1d77",
@@ -693,8 +702,9 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
 "assets/images/worlds/south_ukraine/imgui.ini": "225ba9004e939001679ded34841a0d7a",
-"assets/images/worlds/south_ukraine/map.png": "3bee92780fc5ebe8bd6c047cacdb9a9e",
+"assets/images/worlds/south_ukraine/map.png": "ce993e9acd8fa16d6d3277e3e875b777",
 "assets/images/worlds/south_ukraine/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
+"assets/images/worlds/south_ukraine/map_squared.png": "016f83e222ffcec674b5d4a391622c69",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves.png": "7305cd6d938869ab39dec61f40503a6f",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves_0.png": "7305cd6d938869ab39dec61f40503a6f",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves_1.png": "711b4fe2ad36ccba658c665e94046dff",
@@ -789,9 +799,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "571ffd93c32ba2048d2070e023e8e8fa",
+"main.dart.js": "90742f0b248296ad32107639c039bec9",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "cbc4b2205ea0a147fc27378d3796b66e"
+"version.json": "d81351ff2b03454fdeb97bd6a245d8ef"
 };
 
 // The application shell files that are downloaded before a service worker can
