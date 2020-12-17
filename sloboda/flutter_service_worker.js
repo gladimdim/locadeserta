@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a88029cbe110db729e11fcb27640405a",
+  "assets/AssetManifest.json": "c482e46bdbcdcedea21d6c83ba509513",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -714,9 +714,9 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
 "assets/images/worlds/south_ukraine/imgui.ini": "225ba9004e939001679ded34841a0d7a",
-"assets/images/worlds/south_ukraine/map.png": "ce993e9acd8fa16d6d3277e3e875b777",
+"assets/images/worlds/south_ukraine/map.png": "a5815b87ce91949a692b14e7d902f6b1",
 "assets/images/worlds/south_ukraine/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
-"assets/images/worlds/south_ukraine/map_squared.png": "016f83e222ffcec674b5d4a391622c69",
+"assets/images/worlds/south_ukraine/map_squared.png": "1b83bb2bc90a79a8c0380ecab989a274",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves.png": "7305cd6d938869ab39dec61f40503a6f",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves_0.png": "7305cd6d938869ab39dec61f40503a6f",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/ancient_graves_1.png": "711b4fe2ad36ccba658c665e94046dff",
@@ -727,9 +727,11 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/ancient_graves/background/ancient_graves_background_1.png": "e2e60aee6af3277467718837084e2cbc",
 "assets/images/worlds/south_ukraine/spots/ancient_graves/background/ancient_graves_background_2.png": "dd059678176b2fa99e0a210742dc5522",
 "assets/images/worlds/south_ukraine/spots/defense_tower/background/defense_tower_background.png": "6fca4b82568ee003f4f0365717d02a92",
+"assets/images/worlds/south_ukraine/spots/defense_tower/background/defense_tower_background_0.png": "6fca4b82568ee003f4f0365717d02a92",
 "assets/images/worlds/south_ukraine/spots/defense_tower/background/defense_tower_background_1.png": "cb2b9a2ca1e232dd727ed2963f5d0ab5",
 "assets/images/worlds/south_ukraine/spots/defense_tower/background/defense_tower_background_2.png": "3561813b1623731906a163e9ca46c3f8",
 "assets/images/worlds/south_ukraine/spots/defense_tower/defense_tower.png": "aa51b33ae3561b632d00e4fbeacaad15",
+"assets/images/worlds/south_ukraine/spots/defense_tower/defense_tower_0.png": "aa51b33ae3561b632d00e4fbeacaad15",
 "assets/images/worlds/south_ukraine/spots/defense_tower/defense_tower_1.png": "37ded3e211aa3dec1166b55924bfa76c",
 "assets/images/worlds/south_ukraine/spots/defense_tower/defense_tower_2.png": "67b8a1ed1e087b8e0b481390b778e5be",
 "assets/images/worlds/south_ukraine/spots/defense_tower/defense_tower_3.png": "98cdb48e4e4b6d2aa6169e94557ee1ac",
@@ -811,9 +813,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "a6565268d858b0ec10317d78e4b091e3",
+"main.dart.js": "9ed2d46ba8978c0c36588430188fdecf",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "d81351ff2b03454fdeb97bd6a245d8ef"
+"version.json": "dc711e98857acb55f18362285f3d5a3c"
 };
 
 // The application shell files that are downloaded before a service worker can
