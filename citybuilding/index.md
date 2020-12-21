@@ -22,7 +22,7 @@
 
 ### Версія для Windows:
 
-[Скачати](https://github.com/gladimdim/locadeserta/releases/download/2.9.0-sloboda/sloboda_290.zip)
+[Скачати](https://github.com/gladimdim/locadeserta/releases/download/3.0.1/sloboda_301_windows.zip)
 
 ## Основний ігролад
 
