@@ -15,7 +15,7 @@
 
 ### Версія длі iOS:
 
-[![Скачати з Apple App Store](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk)
+[![Скачати з Apple App Store](images/appstore.svg)](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk)
 
 [Слобода APK](https://github.com/gladimdim/locadeserta/releases/download/2.9.0-sloboda/sloboda_2.9.0.apk)
 
