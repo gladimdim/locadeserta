@@ -13,7 +13,7 @@
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.sloboda)
 
-### Версія длі iOS:
+### Версія для iOS:
 
 [![Скачати з Apple App Store](../images/appstore.svg)](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk)
 
