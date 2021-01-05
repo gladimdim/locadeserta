@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c482e46bdbcdcedea21d6c83ba509513",
+  "assets/AssetManifest.json": "985166a1bc0b62f1ee4c0f1d9d82c1a0",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -620,6 +620,16 @@ const RESOURCES = {
 "assets/images/resource_buildings/forest/forest_3.png": "fa7c38e9b5c142f5fd685d1957bc2c85",
 "assets/images/resource_buildings/forest/forest_64.png": "9a73f5a0e6aec352258f5da529010283",
 "assets/images/resource_buildings/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/resource_buildings/iron_mine/1/iron_mine.png": "2c153c3dca42fb7baec23d29349ce844",
+"assets/images/resource_buildings/iron_mine/1/iron_mine_0.png": "2c153c3dca42fb7baec23d29349ce844",
+"assets/images/resource_buildings/iron_mine/1/iron_mine_1.png": "a226d38f6d1cbbe501365c2db36edc19",
+"assets/images/resource_buildings/iron_mine/1/iron_mine_2.png": "d29007f9fe3c515196c72ff4f7a914d2",
+"assets/images/resource_buildings/iron_mine/1/iron_mine_3.png": "4e7718ca6ff562b87f183d147f372213",
+"assets/images/resource_buildings/iron_mine/2/iron_mine.png": "86ab3073a7910f2d0adef3cbf5a17cb6",
+"assets/images/resource_buildings/iron_mine/2/iron_mine_0.png": "86ab3073a7910f2d0adef3cbf5a17cb6",
+"assets/images/resource_buildings/iron_mine/2/iron_mine_1.png": "61dbaaca76dbff7b258d3dda8071b652",
+"assets/images/resource_buildings/iron_mine/2/iron_mine_2.png": "f970dc9649d0eec137770b733341adb5",
+"assets/images/resource_buildings/iron_mine/2/iron_mine_3.png": "144a7eeb6451f5758f0c9b9526f7094d",
 "assets/images/resource_buildings/iron_mine/iron_mine.png": "116936a248b48885d5c99c97d6ae6857",
 "assets/images/resource_buildings/iron_mine/iron_mine_0.png": "116936a248b48885d5c99c97d6ae6857",
 "assets/images/resource_buildings/iron_mine/iron_mine_1.png": "71a11c7905e0f83f5821d26d32e9ec4f",
@@ -778,7 +788,7 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_0.png": "651573074b3ae69b1ea8ffeb4825da42",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_1.png": "ae4c34adc9abe7d56229ea61126f1169",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_2.png": "13c009289b6196bc9aea689d0e66fee0",
-"assets/NOTICES": "45882b5dfec31046ad0315a4f5e58d0d",
+"assets/NOTICES": "e085527337368d46900be545b02d5317",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -813,7 +823,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "9ed2d46ba8978c0c36588430188fdecf",
+"main.dart.js": "8aac602a18408c08d96c729ec932e774",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "dc711e98857acb55f18362285f3d5a3c"
 };
