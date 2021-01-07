@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "985166a1bc0b62f1ee4c0f1d9d82c1a0",
+  "assets/AssetManifest.json": "1d0f2c80c4c6bfe2a724eb49378c7afe",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -625,11 +625,17 @@ const RESOURCES = {
 "assets/images/resource_buildings/iron_mine/1/iron_mine_1.png": "a226d38f6d1cbbe501365c2db36edc19",
 "assets/images/resource_buildings/iron_mine/1/iron_mine_2.png": "d29007f9fe3c515196c72ff4f7a914d2",
 "assets/images/resource_buildings/iron_mine/1/iron_mine_3.png": "4e7718ca6ff562b87f183d147f372213",
+"assets/images/resource_buildings/iron_mine/2/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resource_buildings/iron_mine/2/iron_mine.png": "86ab3073a7910f2d0adef3cbf5a17cb6",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_0.png": "86ab3073a7910f2d0adef3cbf5a17cb6",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_1.png": "61dbaaca76dbff7b258d3dda8071b652",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_2.png": "f970dc9649d0eec137770b733341adb5",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_3.png": "144a7eeb6451f5758f0c9b9526f7094d",
+"assets/images/resource_buildings/iron_mine/3/iron_mine.png": "726615b061b97f035a70332f7cd01267",
+"assets/images/resource_buildings/iron_mine/3/iron_mine_0.png": "726615b061b97f035a70332f7cd01267",
+"assets/images/resource_buildings/iron_mine/3/iron_mine_1.png": "8409ee85801804944db8a142bbe503ce",
+"assets/images/resource_buildings/iron_mine/3/iron_mine_2.png": "75dde97c9cf8f832ad3cba865be685cc",
+"assets/images/resource_buildings/iron_mine/3/iron_mine_3.png": "d0c090341fca404f842e9ab9020abcea",
 "assets/images/resource_buildings/iron_mine/iron_mine.png": "116936a248b48885d5c99c97d6ae6857",
 "assets/images/resource_buildings/iron_mine/iron_mine_0.png": "116936a248b48885d5c99c97d6ae6857",
 "assets/images/resource_buildings/iron_mine/iron_mine_1.png": "71a11c7905e0f83f5821d26d32e9ec4f",
@@ -823,7 +829,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "8aac602a18408c08d96c729ec932e774",
+"main.dart.js": "3eae153861c1e78a31b083839ed21a0f",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "dc711e98857acb55f18362285f3d5a3c"
 };

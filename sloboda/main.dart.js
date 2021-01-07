@@ -65326,8 +65326,7 @@ gce:function(){return this.k3},
 gbk:function(){return this.k4}}
 S.HZ.prototype={
 aM:function(){return"images/resource_buildings/iron_mine/iron_mine_64.png"},
-aN:function(){var s=this.a
-return"images/resource_buildings/iron_mine/"+(s===3?2:s)+"/iron_mine.png"},
+aN:function(){return"images/resource_buildings/iron_mine/"+this.a+"/iron_mine.png"},
 cT:function(){return"images/background/parallax/iron_mine/iron_mine_"+this.a+".png"},
 gW:function(){return"resourceBuildings.ironMine"},
 gaU:function(){return"resourceBuildings.ironMineDescription"},
