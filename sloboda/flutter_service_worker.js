@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "1d0f2c80c4c6bfe2a724eb49378c7afe",
+  "assets/AssetManifest.json": "8cbffa4b7f26bf7152b81309953a74d9",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -631,6 +631,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/iron_mine/2/iron_mine_1.png": "61dbaaca76dbff7b258d3dda8071b652",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_2.png": "f970dc9649d0eec137770b733341adb5",
 "assets/images/resource_buildings/iron_mine/2/iron_mine_3.png": "144a7eeb6451f5758f0c9b9526f7094d",
+"assets/images/resource_buildings/iron_mine/3/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resource_buildings/iron_mine/3/iron_mine.png": "726615b061b97f035a70332f7cd01267",
 "assets/images/resource_buildings/iron_mine/3/iron_mine_0.png": "726615b061b97f035a70332f7cd01267",
 "assets/images/resource_buildings/iron_mine/3/iron_mine_1.png": "8409ee85801804944db8a142bbe503ce",
@@ -794,7 +795,7 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_0.png": "651573074b3ae69b1ea8ffeb4825da42",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_1.png": "ae4c34adc9abe7d56229ea61126f1169",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_2.png": "13c009289b6196bc9aea689d0e66fee0",
-"assets/NOTICES": "e085527337368d46900be545b02d5317",
+"assets/NOTICES": "86039362426be5bc1e0985f225688355",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -829,7 +830,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "3eae153861c1e78a31b083839ed21a0f",
+"main.dart.js": "cea09c3fab567780b923f9ed19b31c62",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "dc711e98857acb55f18362285f3d5a3c"
 };
@@ -975,7 +976,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
