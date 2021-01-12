@@ -795,7 +795,7 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_0.png": "651573074b3ae69b1ea8ffeb4825da42",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_1.png": "ae4c34adc9abe7d56229ea61126f1169",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_2.png": "13c009289b6196bc9aea689d0e66fee0",
-"assets/NOTICES": "86039362426be5bc1e0985f225688355",
+"assets/NOTICES": "948d473e0843dbd00e5bc34927c05d56",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -830,7 +830,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "cea09c3fab567780b923f9ed19b31c62",
+"main.dart.js": "e04a90fa2d84f319e04ebcc08915d4b5",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "dc711e98857acb55f18362285f3d5a3c"
 };
