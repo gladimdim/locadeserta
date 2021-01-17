@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b5313bd0b14ed2e19aa0c179ef7dc33a",
+  "assets/AssetManifest.json": "a6bf656642e60f97f38daedad6f7e4b1",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -730,6 +730,7 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_2.png": "8a57a3be54899db075da0117928d726b",
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
+"assets/images/worlds/outer_map/outer_map.png": "c9fa25c12ee379c70ec5c431faaa29a3",
 "assets/images/worlds/south_ukraine/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/worlds/south_ukraine/map.png": "a5815b87ce91949a692b14e7d902f6b1",
 "assets/images/worlds/south_ukraine/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
@@ -829,7 +830,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "9ab8ff1232982d6bf811f76d07ca2020",
+"main.dart.js": "e7fb10df92a7c2db6faef616b74ef109",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "dc711e98857acb55f18362285f3d5a3c"
 };
