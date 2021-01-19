@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a6bf656642e60f97f38daedad6f7e4b1",
+  "assets/AssetManifest.json": "cbb6e2972eddc5498a7820a17b7c2153",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -730,7 +730,8 @@ const RESOURCES = {
 "assets/images/resource_buildings/trappers_house/trappers_house_2.png": "8a57a3be54899db075da0117928d726b",
 "assets/images/resource_buildings/trappers_house/trappers_house_3.png": "0d12e87c0de7db241511b0933a11c087",
 "assets/images/ui/arrow_right.png": "fd27b0b4e8ac342d73d84e08ed7f4ac8",
-"assets/images/worlds/outer_map/outer_map.png": "c9fa25c12ee379c70ec5c431faaa29a3",
+"assets/images/worlds/outer_map/imgui.ini": "225ba9004e939001679ded34841a0d7a",
+"assets/images/worlds/outer_map/outer_map.png": "bae05f38bd4ad10d9c6f8c4a0649b9d4",
 "assets/images/worlds/south_ukraine/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/worlds/south_ukraine/map.png": "a5815b87ce91949a692b14e7d902f6b1",
 "assets/images/worlds/south_ukraine/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
@@ -796,7 +797,7 @@ const RESOURCES = {
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_0.png": "651573074b3ae69b1ea8ffeb4825da42",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_1.png": "ae4c34adc9abe7d56229ea61126f1169",
 "assets/images/worlds/south_ukraine/spots/scout_tower/scout_tower_background_2.png": "13c009289b6196bc9aea689d0e66fee0",
-"assets/NOTICES": "b13968e931766880cf16551241aa4687",
+"assets/NOTICES": "5d6b83a87f84ea74a4250e0bdc3e43ab",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "favicons/android-icon-144x144.png": "ce78a4e571fd11b76b764254a5e2e378",
@@ -830,9 +831,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "77f198e238ebe4bef7db3d0edb863c07",
+"main.dart.js": "c296c86999f21d2540118eba33bbcf17",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
-"version.json": "dc711e98857acb55f18362285f3d5a3c"
+"version.json": "f2b3584b0cb98f45cbae7c575e5220ff"
 };
 
 // The application shell files that are downloaded before a service worker can
