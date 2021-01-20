@@ -48242,14 +48242,14 @@ s=P.ax(s,!0,H.I(s).j("k.E"))
 r=H.a9(s).j("av<1,ft*>")
 C.b.G(o,P.ax(new H.av(s,new Y.VH(q,n,m),r),!0,r.j("aZ.E")))
 return new T.pq(T.rf(C.h4,o,C.h_),!1,5,0.1,q.d,p)},
-vS:function(a){if(this.e===a)return this.a.d
+vS:function(a){if(this.e===a)return-this.a.d*4/2
 else return 0},
 pj:function(a){var s=this.e,r=this.a
 return a===s?r.d*5:r.d}}
 Y.VH.prototype={
 $1:function(a){var s=null,r=this.b/2,q=this.c,p=a.a,o=this.a,n=o.vS(a),m=Math.sin(1.0471975511965976),l=a.b,k=o.vS(a),j=o.pj(a),i=o.pj(a),h=P.c8(0,150),g=o.pj(a),f=o.a.e,e=o.e
 j=S.le(i,j)
-return T.P3(s,new G.nY(new M.pf(a,new P.cI(r,r,t.kZ),g,f,new Y.VG(o,a),e==a,s),s,j,C.eN,h,s,s),s,s,r-q*3/4*p*1.01-n,s,r-q*m*l-q/2.4*p*1.01-k,s)},
+return T.P3(s,new G.nY(new M.pf(a,new P.cI(r,r,t.kZ),g,f,new Y.VG(o,a),e==a,s),s,j,C.eN,h,s,s),s,s,r-q*3/4*p*1.01+n,s,r-q*m*l-q/2.4*p*1.01+k,s)},
 $S:313}
 Y.VG.prototype={
 $1:function(a){var s=this.a
