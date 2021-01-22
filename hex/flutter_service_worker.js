@@ -3,9 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "3584b3ce788a80db732c76ad9d278ca7",
+  "assets/AssetManifest.json": "f1a73c972489864ccafc359e145d3dc4",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/images/background/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
+"assets/images/background/map_squared.png": "1b83bb2bc90a79a8c0380ecab989a274",
 "assets/images/resources/boat.png": "6d6c226c5a6183f6a7798ddc2ea6d4e6",
 "assets/images/resources/boat_128.png": "0d54ec26f0c0501da763eb30c16d8448",
 "assets/images/resources/cannon.png": "04d73ea1779a3a81f5859c8803994090",
@@ -28,6 +30,7 @@ const RESOURCES = {
 "assets/images/resources/grains_128.png": "1778287ff454ef140b0675b293940504",
 "assets/images/resources/horse.png": "2ebaa601a2b1c0f7dfb9f7775951e169",
 "assets/images/resources/horse_128.png": "b5258f46b324b6a8b0a5acf06f57a7db",
+"assets/images/resources/imgui.ini": "225ba9004e939001679ded34841a0d7a",
 "assets/images/resources/metalParts.png": "b65462169c95d43b85804fc2c91b42e8",
 "assets/images/resources/metalParts_128.png": "3e9aa2966572e8a80f5afd4caf79f99f",
 "assets/images/resources/money.png": "435f14f87b73919df587248ca7d96131",
@@ -49,7 +52,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2436fc33214b9f22bb65bb41ad34ca09",
 "/": "2436fc33214b9f22bb65bb41ad34ca09",
-"main.dart.js": "16d5510a8de0dc0fb19f08537c7a97d3",
+"main.dart.js": "cd97dea8b384df7e0d4f5352847edfae",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
