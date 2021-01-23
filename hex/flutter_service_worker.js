@@ -3,11 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "e4106339b68583084df4be4f84cfd8e1",
+  "assets/AssetManifest.json": "d2a91204a9e5e4e1bc3cd3c30cde09b4",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
-"assets/assets/sounds/cannon_gathered.mp3": "a4b6b3f0a5b77d053cee880363a4dbdd",
+"assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
+"assets/assets/sounds/cossack_gathered.mp3": "168a4646b5afe07611f4f51fc87ade8a",
 "assets/assets/sounds/firearm_gathered.mp3": "9dff2b658e3d56c81aa26f2780cb5852",
 "assets/assets/sounds/fish_gathered.mp3": "4d8fc61ecaca4494eea647b7f3377180",
+"assets/assets/sounds/food_gathered.mp3": "bffcf8953dfd6e9af3d07b93377cc73e",
 "assets/assets/sounds/grains_gathered.mp3": "944611943b877cd751b1e7ab4eed03aa",
 "assets/assets/sounds/horse_gathered.mp3": "f14c3fbb9aafbd42e24ef41cbd6b5dea",
 "assets/assets/sounds/money_gathered.mp3": "01657b2ecee878c59306215eec2e92bf",
@@ -62,7 +64,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "5eab00af80b8745a8acab1fbcc1c8c2b",
+"main.dart.js": "928b8538d094f85732b456d5bb0265d3",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
