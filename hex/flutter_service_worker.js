@@ -3,12 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "62f268b3cb0eeffb5cf44899e232df46",
+  "assets/AssetManifest.json": "e4106339b68583084df4be4f84cfd8e1",
+"assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
+"assets/assets/sounds/cannon_gathered.mp3": "a4b6b3f0a5b77d053cee880363a4dbdd",
 "assets/assets/sounds/firearm_gathered.mp3": "9dff2b658e3d56c81aa26f2780cb5852",
+"assets/assets/sounds/fish_gathered.mp3": "4d8fc61ecaca4494eea647b7f3377180",
 "assets/assets/sounds/grains_gathered.mp3": "944611943b877cd751b1e7ab4eed03aa",
 "assets/assets/sounds/horse_gathered.mp3": "f14c3fbb9aafbd42e24ef41cbd6b5dea",
+"assets/assets/sounds/money_gathered.mp3": "01657b2ecee878c59306215eec2e92bf",
+"assets/assets/sounds/planks_gathered.mp3": "a4b6b3f0a5b77d053cee880363a4dbdd",
 "assets/assets/sounds/stone_gathered.mp3": "c85a25204a4aefb7755a97aef9223c6d",
-"assets/assets/sounds/wood_gathered.mp3": "b7bee27fb119b2435945c2ada3b94dfc",
+"assets/assets/sounds/wood_gathered.mp3": "c590fa80dbcab88c69c82b31d199b701",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/images/background/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
@@ -57,7 +62,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "4b17d29739f7187e842c33fc5736efcf",
+"main.dart.js": "5eab00af80b8745a8acab1fbcc1c8c2b",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
