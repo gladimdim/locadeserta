@@ -3,7 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f1a73c972489864ccafc359e145d3dc4",
+  "assets/AssetManifest.json": "62f268b3cb0eeffb5cf44899e232df46",
+"assets/assets/sounds/firearm_gathered.mp3": "9dff2b658e3d56c81aa26f2780cb5852",
+"assets/assets/sounds/grains_gathered.mp3": "944611943b877cd751b1e7ab4eed03aa",
+"assets/assets/sounds/horse_gathered.mp3": "f14c3fbb9aafbd42e24ef41cbd6b5dea",
+"assets/assets/sounds/stone_gathered.mp3": "c85a25204a4aefb7755a97aef9223c6d",
+"assets/assets/sounds/wood_gathered.mp3": "b7bee27fb119b2435945c2ada3b94dfc",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/images/background/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
@@ -45,14 +50,14 @@ const RESOURCES = {
 "assets/images/resources/stone_128.png": "cd66fb6c415052a31ecd567f007f9a3b",
 "assets/images/resources/wood.png": "7ef19197b45be9e520e9c552cafb6e82",
 "assets/images/resources/wood_128.png": "1faa872fe05e0af47dbe7a14d2c01f76",
-"assets/NOTICES": "ddee82c51e3aeb1d910f1c369f54560d",
+"assets/NOTICES": "c37951bac8614d2e0ab9cc3d70cbc285",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2436fc33214b9f22bb65bb41ad34ca09",
-"/": "2436fc33214b9f22bb65bb41ad34ca09",
-"main.dart.js": "cd97dea8b384df7e0d4f5352847edfae",
+"index.html": "f0a26e9191e740181812701ff2cd01e8",
+"/": "f0a26e9191e740181812701ff2cd01e8",
+"main.dart.js": "4b17d29739f7187e842c33fc5736efcf",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
