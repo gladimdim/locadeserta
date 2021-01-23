@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bbfbdf5eeade670d7663a8ff9d315b06",
+  "assets/AssetManifest.json": "c6472b592d85d7876d27f7d719a47911",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
 "assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
 "assets/assets/sounds/cart_gathered.mp3": "1f52ed1183e8b528eb1a95316652d8c5",
@@ -60,16 +60,17 @@ const RESOURCES = {
 "assets/images/resources/powder_128.png": "9da6bdd2bb01d22492f7e41bc64e6523",
 "assets/images/resources/stone.png": "e44482fb82895c9fdfc4bcaddd3cbd04",
 "assets/images/resources/stone_128.png": "cd66fb6c415052a31ecd567f007f9a3b",
+"assets/images/resources/tower.png": "aa51b33ae3561b632d00e4fbeacaad15",
 "assets/images/resources/wood.png": "7ef19197b45be9e520e9c552cafb6e82",
 "assets/images/resources/wood_128.png": "1faa872fe05e0af47dbe7a14d2c01f76",
-"assets/NOTICES": "c37951bac8614d2e0ab9cc3d70cbc285",
+"assets/NOTICES": "40bc2823e9fc021d40e8cfe8490d5c5c",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "7247e5f242eb9c4c8aec76cd7d81ad6e",
+"main.dart.js": "c20ab72c5df898b4e74bec7029857cfd",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
