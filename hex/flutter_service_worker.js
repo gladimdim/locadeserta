@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c6472b592d85d7876d27f7d719a47911",
+  "assets/AssetManifest.json": "8584e16d796b36ab5b171737832e9ba4",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
 "assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
 "assets/assets/sounds/cart_gathered.mp3": "1f52ed1183e8b528eb1a95316652d8c5",
@@ -25,6 +25,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/images/background/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
 "assets/images/background/map_squared.png": "1b83bb2bc90a79a8c0380ecab989a274",
+"assets/images/buildings/home.png": "bdbaa763390a38aa8af4431afcd3842c",
 "assets/images/resources/boat.png": "6d6c226c5a6183f6a7798ddc2ea6d4e6",
 "assets/images/resources/boat_128.png": "0d54ec26f0c0501da763eb30c16d8448",
 "assets/images/resources/cannon.png": "04d73ea1779a3a81f5859c8803994090",
@@ -70,7 +71,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "5b9e276f632d0066ffadd581b655cb95",
+"main.dart.js": "f65ad8c934fa552f43866811baa88f43",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
