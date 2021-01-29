@@ -20,7 +20,7 @@
 
 
 <p align="center">
-<a style="font-size: 36px" href="locadesertahex/">Дике Поле: Ґекс
+<a style="font-size: 36px" href="locadesertahex/">Дике Поле: Ґекс>
   <p align="center">
  <img src="images/sloboda/sloboda_thumbnail.jpg" 
   </p>
