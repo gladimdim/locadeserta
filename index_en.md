@@ -1,8 +1,4 @@
-[🇺🇸English](index_en.md)
 [🇺🇦Українською](index.md)
-
-[🇺🇸English](index_en.md)
-
 
 <p align="center">
 <a style="font-size: 36px" href="interactive">Interactive Fiction Stories about Cossack Times</a>

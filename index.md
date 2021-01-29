@@ -2,7 +2,11 @@
 
 
 <p align="center">
-<a style="font-size: 36px" href="interactive">Інтерактивні історії про часи козаччини</a>
+<a style="font-size: 36px" href="interactive">Інтерактивні історії про часи козаччини
+  <p align="center">
+    <img src="images/sloboda/sloboda_thumbnail.jpg" width="350">
+  </p>
+</a>
 </p>
 
 
@@ -18,7 +22,7 @@
 <p align="center">
 <a style="font-size: 36px" href="locadesertahex/">Дике Поле: Ґекс
   <p align="center">
-    <img src="images/hex/thumbnail.jpg" width="350">
+ <img src="images/sloboda/sloboda_thumbnail.jpg" 
   </p>
 </a>
 </p>
