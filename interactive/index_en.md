@@ -1,6 +1,5 @@
 [🇺🇸English](index_en.md)
 [🇺🇦Українською](index.md)
-[🇵🇱Polski](index_pl.md)
 
 # Loca Deserta
 
@@ -17,9 +16,9 @@
 
 ### The game is available in Google Play Store and Apple App Store:
 
-[![Download from Google Play](images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+[![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-[![Download from App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
+[![Download from App Store](../images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta/id1468068398)
 
 # What's it about
 
@@ -43,10 +42,10 @@ Both the web and mobile versions of the game allow users to create stories. You 
 
 
 <p align="center">
-  <img src="images/en/screen1.png" width="350">
-  <img src="images/en/screen2.png" width="350">
-  <img src="images/en/screen3.png" width="350">
-  <img src="images/en/screen4.png" width="350">
+  <img src="../images/en/screen1.png" width="350">
+  <img src="../images/en/screen2.png" width="350">
+  <img src="../images/en/screen3.png" width="350">
+  <img src="../images/en/screen4.png" width="350">
 </p>
 
 
