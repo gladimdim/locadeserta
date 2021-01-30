@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d075e8fe35c95dffb4262cce08a9c9de",
+  "assets/AssetManifest.json": "bd8991a035f808d6452c4b6232d42061",
 "assets/assets/city_names.json": "abfc1152f5a2afa6f9d727244c902168",
 "assets/assets/sounds/building_remove.mp3": "4be7e8125b9ccfacc854f3095ff4eeff",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
@@ -18,6 +18,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/google_fonts/Play-Bold.ttf": "24a97beb3c5cd00f70f29ff1dcd1da37",
 "assets/google_fonts/Play-Regular.ttf": "e9e488dd8b58512bd46ce94e57359ac7",
+"assets/google_fonts/RobotoSlab-Bold.ttf": "b3954db228ca7701bf36469cf6c31c57",
 "assets/google_fonts/RubikMonoOne-Regular.ttf": "e1437cc0de0b01787ba656236aaaa075",
 "assets/google_fonts/RuslanDisplay-Regular.ttf": "3be2e45fd85c6d6b53ad6644edf2bd74",
 "assets/images/background/boat/0.jpg": "fec7cb1d460f57945b3b6769be2e6735",
@@ -824,7 +825,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "2bda3d471e94c5c1f221d54a0cbb9295",
 "/": "2bda3d471e94c5c1f221d54a0cbb9295",
-"main.dart.js": "fd2e8369eb61bd137e2545731abc9de3",
+"main.dart.js": "f30b2457c8b9e5ebf3a49a4361a5cd7a",
 "manifest.json": "4a1ced060193f4539b0cebff0f8dae1a",
 "version.json": "aa7f2e1e214170239bad19a6e5f687fc"
 };
