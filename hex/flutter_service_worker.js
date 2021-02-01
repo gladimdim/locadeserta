@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "3df686d0d046205ed0547c8eeb3671c7",
+  "assets/AssetManifest.json": "7f0d8a2fbf89e9ed1405dcba4476b88e",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
 "assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
 "assets/assets/sounds/cart_gathered.mp3": "1f52ed1183e8b528eb1a95316652d8c5",
@@ -19,6 +19,7 @@ const RESOURCES = {
 "assets/assets/sounds/money_gathered.mp3": "01657b2ecee878c59306215eec2e92bf",
 "assets/assets/sounds/planks_gathered.mp3": "a4b6b3f0a5b77d053cee880363a4dbdd",
 "assets/assets/sounds/powder_gathered.mp3": "c07b82e7e43e396c5703fa27f28d0dae",
+"assets/assets/sounds/reject.mp3": "5ce93967d5c41d41ea31b37489ace14d",
 "assets/assets/sounds/stone_gathered.mp3": "c85a25204a4aefb7755a97aef9223c6d",
 "assets/assets/sounds/wood_gathered.mp3": "c590fa80dbcab88c69c82b31d199b701",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -72,7 +73,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "c6a81d72334485cdbe511ecaacbb951c",
+"main.dart.js": "df0a09ec130add29ec0982860713fc0e",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
