@@ -29,7 +29,7 @@ const RESOURCES = {
 "assets/images/resources/boat.png": "6d6c226c5a6183f6a7798ddc2ea6d4e6",
 "assets/images/resources/boat_128.png": "0d54ec26f0c0501da763eb30c16d8448",
 "assets/images/resources/cannon.png": "04d73ea1779a3a81f5859c8803994090",
-"assets/images/resources/cannon_128.png": "8df030360b7d318d6892620301fef31f",
+"assets/images/resources/cannon_128.png": "7c9b1a172a34a70fcda40afcfdc78d8f",
 "assets/images/resources/cart.png": "b4e55858ae935c7935fda44786c4e63d",
 "assets/images/resources/cart_128.png": "210af9fb50404fdcb7713321c6f0f9a4",
 "assets/images/resources/charcoal.png": "f643b7689d8fd62537a0c1fbc116cb0d",
@@ -72,7 +72,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "f0a26e9191e740181812701ff2cd01e8",
 "/": "f0a26e9191e740181812701ff2cd01e8",
-"main.dart.js": "30c4cfc92cdc367b2b4644a58f2abd0a",
+"main.dart.js": "c6a81d72334485cdbe511ecaacbb951c",
 "manifest.json": "70293e76ed441e5915d49ca32de5e287",
 "version.json": "3641ee9c377e125686b4e5b1824d06b6"
 };
