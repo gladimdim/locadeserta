@@ -1,5 +1,4 @@
-[🇺🇸English](index_en.md)
-[🇺🇦Українською](index.md)
+[Головна](../)
 
 # Слобода. Стратегічна гра в стилі "розбудуй селище"
 
@@ -18,11 +17,11 @@
 [![Скачати з Apple App Store](../images/appstore.svg)](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk)
 
 
-[Слобода APK](https://github.com/gladimdim/locadeserta/releases/download/3.0.1/sloboda_301.apk)
+[Слобода APK](https://github.com/gladimdim/locadeserta/releases/download/sloboda-3.0.7/sloboda_307.apk)
 
 ### Версія для Windows:
 
-[Скачати](https://github.com/gladimdim/locadeserta/releases/download/3.0.1/sloboda_301_windows.zip)
+[Скачати](https://github.com/gladimdim/locadeserta/releases/download/sloboda-3.0.7/sloboda_windows_307.zip)
 
 ### Розробницький блог:
 

@@ -22,7 +22,7 @@
 <p align="center">
 <a style="font-size: 36px" href="locadesertahex">Дике Поле: Ґекс
   <p align="center">
- <img src="images/sloboda/sloboda_thumbnail.jpg" width="350">
+ <img src="locadesertahex\images\hex_thumbnail.jpg" width="350">
   </p>
 </a>
 </p>
