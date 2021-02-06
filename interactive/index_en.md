@@ -37,8 +37,3 @@ Both the web and mobile versions of the game allow users to create stories. You 
 </p>
 
 
-## Who are we
-
-Product is developed by Dmytro Gladkyi and Boytsov Kostyantin
-
-

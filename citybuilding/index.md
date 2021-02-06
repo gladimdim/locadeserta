@@ -135,17 +135,17 @@
 
 Ця мапа містить дуже багато інших селищ. Потрібно їх заселити і тоді зможете з ними торгувати на дуже гарних умовах. Кожен курінь на мапі має унікальну історію та виробляє конкретний ресурс.
 
-<p align="center">Sich Map</p>
+<p align="center">Мапа Війська Запорозького</p>
 <p align="center">
 <img src="./images/uk/sich_map_en.jpeg" width="512"/>
 </p>
 
-<p align="center">Capturing new spots</p>
+<p align="center">Заселення</p>
 <p align="center">
 <img src="./images/uk/sich_map_occupy.jpeg" width="512"/>
 </p>
 
-<p align="center">Trading with spots</p>
+<p align="center">Торгівля з поселеннями</p>
 <p align="center">
 <img src="./images/uk/sich_map_trade.jpeg" width="512"/>
 </p>
