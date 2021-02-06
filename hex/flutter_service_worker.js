@@ -53,7 +53,7 @@ const RESOURCES = {
 "assets/images/resources/metalParts_128.png": "3e9aa2966572e8a80f5afd4caf79f99f",
 "assets/images/resources/fur.png": "95912afd8c89c858c7c9aab08a7eaa85",
 "assets/images/resources/fish.png": "d28056520405141757d9658cb99be567",
-"assets/AssetManifest.json": "bf95ab010105779911cbd51b11a40bf8",
+"assets/AssetManifest.json": "dd91c0f7d4c72d01a28fd75d82d0d91c",
 "assets/NOTICES": "867b9c7ac485533bb1f4b48392bc5954",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -76,8 +76,9 @@ const RESOURCES = {
 "assets/assets/sounds/metal_parts_gathered.mp3": "9c918e8972f260238b6abd1cf9e8fddf",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
 "assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
-"assets/google_fonts/Rubik-VariableFont_wght.ttf": "86eb98635233be43f682f26bad629f11",
+"assets/google_fonts/Roboto-Regular.ttf": "11eabca2251325cfc5589c9c6fb57b46",
 "assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
+"assets/google_fonts/Rubik-Black.ttf": "86eb98635233be43f682f26bad629f11",
 "assets/google_fonts/OFL.txt": "2d3c5170042b2d08a5ac28031f0cdd5e"
 };
 
