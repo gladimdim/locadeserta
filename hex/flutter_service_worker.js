@@ -6,7 +6,7 @@ const RESOURCES = {
   "version.json": "3641ee9c377e125686b4e5b1824d06b6",
 "index.html": "1b82743ba88495b30dd5f68572681f71",
 "/": "1b82743ba88495b30dd5f68572681f71",
-"main.dart.js": "522637f751f346061318d7f3fa7e2ef9",
+"main.dart.js": "9439455a0b395e71c36fa1166fe94384",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -53,8 +53,8 @@ const RESOURCES = {
 "assets/images/resources/metalParts_128.png": "3e9aa2966572e8a80f5afd4caf79f99f",
 "assets/images/resources/fur.png": "95912afd8c89c858c7c9aab08a7eaa85",
 "assets/images/resources/fish.png": "d28056520405141757d9658cb99be567",
-"assets/AssetManifest.json": "7f0d8a2fbf89e9ed1405dcba4476b88e",
-"assets/NOTICES": "b3790f88bbc17e1a5b4fb7f99f08c4e2",
+"assets/AssetManifest.json": "bf95ab010105779911cbd51b11a40bf8",
+"assets/NOTICES": "0bcc9a6853bc01f25291f9ef0840d37e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -75,7 +75,10 @@ const RESOURCES = {
 "assets/assets/sounds/firearm_gathered.mp3": "9dff2b658e3d56c81aa26f2780cb5852",
 "assets/assets/sounds/metal_parts_gathered.mp3": "9c918e8972f260238b6abd1cf9e8fddf",
 "assets/assets/sounds/boat_gathered.mp3": "fa73bc935daad8a588b638cd76c89377",
-"assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70"
+"assets/assets/sounds/cannon_gathered.mp3": "2ad756011c24cc08eefa8a0df2e5ce70",
+"assets/google_fonts/Rubik-VariableFont_wght.ttf": "86eb98635233be43f682f26bad629f11",
+"assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
+"assets/google_fonts/OFL.txt": "2d3c5170042b2d08a5ac28031f0cdd5e"
 };
 
 // The application shell files that are downloaded before a service worker can
