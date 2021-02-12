@@ -6,7 +6,7 @@ const RESOURCES = {
   "version.json": "e7c9bc6ecb170129e31872371eb8454c",
 "index.html": "032e50a5d9d0a5b072300039e84e49fe",
 "/": "032e50a5d9d0a5b072300039e84e49fe",
-"main.dart.js": "d7674b09ef2c7655e1651f41cebd0b23",
+"main.dart.js": "d0d3cec853ece77a2f7ba79c233f6199",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -24,7 +24,7 @@ const RESOURCES = {
 "assets/images/resources/grains_128.png": "1778287ff454ef140b0675b293940504",
 "assets/images/resources/metalParts.png": "b65462169c95d43b85804fc2c91b42e8",
 "assets/images/resources/cart_128.png": "210af9fb50404fdcb7713321c6f0f9a4",
-"assets/images/resources/cossack.png": "f41fd551b07456b762c82d4e21d9752a",
+"assets/images/resources/cossack.png": "0d49878fc3b5003ee22d65476dcaf702",
 "assets/images/resources/money_128.png": "5a2ff4afeb3900e0e4d52e2dcf720192",
 "assets/images/resources/horse_128.png": "b5258f46b324b6a8b0a5acf06f57a7db",
 "assets/images/resources/boat_128.png": "0d54ec26f0c0501da763eb30c16d8448",
@@ -54,7 +54,7 @@ const RESOURCES = {
 "assets/images/resources/fur.png": "95912afd8c89c858c7c9aab08a7eaa85",
 "assets/images/resources/fish.png": "d28056520405141757d9658cb99be567",
 "assets/AssetManifest.json": "5f081a614476d948029eab70c61e28ce",
-"assets/NOTICES": "867b9c7ac485533bb1f4b48392bc5954",
+"assets/NOTICES": "6b8a840bfcb69e04e3497705763c989e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -96,7 +96,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
