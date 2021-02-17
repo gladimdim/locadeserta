@@ -56664,7 +56664,7 @@ T.Lo.prototype={
 K:function(a,b){var s,r,q,p,o=null,n=t.mk,m=L.dr(b,C.am,n),l=$.eG
 m=m.a
 s=t.a
-m=T.lM(H.a([new X.iF(l.h(0,m.gaY(m)).h(0,"labelAbout"),o),L.fy("1.0.3",o,o,o)],s),C.ag,C.oT)
+m=T.lM(H.a([new X.iF(l.h(0,m.gaY(m)).h(0,"labelAbout"),o),L.fy("1.0.4",o,o,o)],s),C.ag,C.oT)
 l=L.dr(b,C.am,n)
 r=$.eG
 l=l.a
