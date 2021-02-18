@@ -4,6 +4,16 @@
 
 Треття гра з всесвіту [Дике Поле](https://locadeserta.com). Спробуйте себе в цьому захопливому пазлі та перевір, скільки зможеш здобути очок!
 
+# Скачати
+
+## Версія для Android:
+
+[![Зкачати з Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex)
+
+## Версія для iOS:
+
+[![Скачати з Apple App Store](../images/appstore.svg)](https://apps.apple.com/ua/app/loca-deserta-hex/id1553674081)
+
 ## Онлайн версія для браузера:
 
 [Дике Поле: Ґекс Онлайн](https://locadeserta.com/hex)

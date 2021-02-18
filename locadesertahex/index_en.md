@@ -4,6 +4,16 @@
 
 Third game in the [Loca Deserta](https://locadeserta.com) universe. Try yourself in this time killer puzzle and see how many points you can get!
 
+# Скачати
+
+## Версія для Android:
+
+[![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex)
+
+## Версія для iOS:
+
+[![Download from Apple App Store](../images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta-hex/id1553674081)
+
 ## Online version in browser:
 
 [Loca Deserta: Hex Online](https://locadeserta.com/hex)
