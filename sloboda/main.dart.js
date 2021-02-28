@@ -73974,8 +73974,10 @@ s=M.bE(r,r,r,r,r,r,r,r,r)
 q.a=s
 N.aCG(new V.a9w(q,c,b,a),this.e,C.wC,new P.l(0,1))},
 Vm:function(a,b){return this.m9(a,b,C.mM)},
-pq:function(a,b){var s=a.b,r=s.a
-if(!r.gR(r))this.Ho(0,"",C.mM,V.e_(!0,null,s,null,t.u))}}
+pq:function(a,b){var s,r=a.b
+if(r!=null){s=r.a
+s=!s.gR(s)}else s=!1
+if(s)this.Ho(0,"",C.mM,V.e_(!0,null,r,null,t.u))}}
 V.a9s.prototype={
 $1:function(a){return C.b.w(this.a.x,a.a)},
 $S:108}
@@ -74984,7 +74986,7 @@ gct:function(){return this.k3},
 ga1:function(){return C.kw}}
 A.LJ.prototype={
 aZ:function(){return"images/resource_buildings/mill/mill_64.png"},
-b2:function(){return"images/resource_buildings/mill/mill.png"},
+b2:function(){return"images/resource_buildings/mill/"+this.a+"/mill.png"},
 dc:function(){return"images/background/parallax/mill/mill_"+this.a+".png"},
 gX:function(){return"resourceBuildings.mill"},
 gb7:function(){return"resourceBuildings.millDescription"},
