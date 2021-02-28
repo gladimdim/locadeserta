@@ -33,7 +33,7 @@ const RESOURCES = {
 "favicons/apple-icon-120x120.png": "e82d6cdb3558fb0818e7f04b60a6e813",
 "favicons/favicon-32x32.png": "83e952207a9e7e2f7e0f5071a1190d89",
 "favicons/ms-icon-70x70.png": "9df62e0f9601818c9ff4e008233f6eb4",
-"main.dart.js": "cf1aac4c736e3dfc1fcdf16739845323",
+"main.dart.js": "db8b6cff9b3559e2186f5c3bdb5cb065",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -687,6 +687,9 @@ const RESOURCES = {
 "assets/images/resources/firearm/firearm_2.png": "fc0a1d073088db7d6cfcbf524904171e",
 "assets/images/resources/firearm/firearm.png": "3523ef00821416d601ec861647fd6a8e",
 "assets/images/resources/firearm/firearm_64.png": "fb1d8f0924ae937103fbae33b2010227",
+"assets/images/other/loca_deserta.png": "ec66d640f3bfe5f425af0ba1c8c90526",
+"assets/images/other/sloboda.png": "0076fd4c2ce677ab062b91652ace54df",
+"assets/images/other/locadeserta_hex.png": "dd5d15ac5e2328e6fa96a69f0755b2c9",
 "assets/images/worlds/outer_map/imgui.ini": "2fc08d17046bced78f564ff0d3609fbb",
 "assets/images/worlds/outer_map/outer_map.png": "bae05f38bd4ad10d9c6f8c4a0649b9d4",
 "assets/images/worlds/south_ukraine/map_bw.png": "2c5ac1537cced24886863d8198806cdb",
@@ -812,8 +815,8 @@ const RESOURCES = {
 "assets/images/events/horse/horse_2.png": "d4613f8424dc9274b1b9ceab0013b04f",
 "assets/images/events/horse/horse_3.png": "5b16cb091bc25adc6f9680d0586b951c",
 "assets/images/events/successful_event.png": "ba864e11e9633c950046d5461f5f52c6",
-"assets/AssetManifest.json": "8ada6102eeab009d7382800fc54e2b3d",
-"assets/NOTICES": "b856c15803aeb9f1784d9bf6e121e444",
+"assets/AssetManifest.json": "961de439995f32abd73d4ed723a09444",
+"assets/NOTICES": "1bebeac51fe67498824518925896d03c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
@@ -849,7 +852,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
