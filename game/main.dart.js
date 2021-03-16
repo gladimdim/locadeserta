@@ -9869,9 +9869,11 @@ this.b=b},
 aeV:function aeV(a){this.a=a},
 VG:function VG(){},
 CY:function CY(){},
-l8:function l8(a,b,c){this.c=a
-this.d=b
-this.a=c},
+l8:function l8(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.e=c
+_.a=d},
 NX:function NX(a){this.a=null
 this.b=a
 this.c=null},
@@ -9887,7 +9889,8 @@ this.b=b},
 acr:function acr(a){this.a=a},
 acy:function acy(a,b){this.a=a
 this.b=b},
-Go:function Go(a){this.a=a},
+Go:function Go(a,b){this.a=a
+this.b=b},
 pP:function pP(a){this.a=a},
 rW:function rW(a,b,c,d,e,f,g){var _=this
 _.c=a
@@ -67325,7 +67328,7 @@ var $async$$0=P.J(function(a,b){if(a===1)return P.M(b,r)
 while(true)switch(s){case 0:p=q.a
 p.dr(0)
 s=2
-return P.L(K.bL(q.b).h8("/play",new T.Go(p),t.X),$async$$0)
+return P.L(K.bL(q.b).h8("/play",new T.Go(p,!0),t.X),$async$$0)
 case 2:p.dr(0)
 return P.N(null,r)}})
 return P.O($async$$0,r)},
@@ -67395,14 +67398,14 @@ q.toString
 q=J.G(q,"labelConvertToMarkdown")
 q.toString
 q=H.a([new K.d6(new T.acu(b),m),new K.d6(new T.acv(p,b),s),new K.d6(new T.acw(p,b),r),new K.d6(new T.acx(p,b),q)],t.a)
-if(p.a.d!=null){n=$.aj
+if(!p.a.e){n=$.aj
 m=$.af()
 m=n.h(0,m.ga4(m))
 m.toString
 m=J.G(m,"labelEditStory")
 m.toString
 q.push(new K.d6(new T.acy(p,b),m))}n=p.a
-return new E.ds(new T.as(C.zQ,new Y.z8(n.c,n.d==null,null),null),q,o,!0,null)},
+return new E.ds(new T.as(C.zQ,new Y.z8(n.c,n.e,null),null),q,o,!0,null)},
 S8:function(){var s,r,q=this.a.d
 if(q!=null)return q.a
 else{s=$.aj
@@ -67475,7 +67478,7 @@ return P.O($async$$0,r)},
 $S:16}
 T.Go.prototype={}
 T.pP.prototype={
-D:function(a,b){return new T.l8(t.eZ.a(T.hS(b,t.X).b.b).a,null,null)}}
+D:function(a,b){return new T.l8(t.eZ.a(T.hS(b,t.X).b.b).a,null,!0,null)}}
 M.q5.prototype={
 a1:function(){return new M.Nx(C.j)},
 aec:function(a){return this.d.$1(a)}}
@@ -68215,7 +68218,7 @@ s=5
 break
 case 2:s=1
 break
-case 5:j=K.al9(new T.l8(m,a,null))
+case 5:j=K.al9(new T.l8(m,a,!1,null))
 K.bL(b).h7(j)
 return P.N(null,r)
 case 1:return P.M(p,r)}})
@@ -68751,7 +68754,7 @@ n=T
 m=B
 s=2
 return P.L(R.Dc(q.a[a]),$async$$1)
-case 2:p=o.al9(new n.l8(m.oi(c,null),null,null))
+case 2:p=o.al9(new n.l8(m.oi(c,null),null,!1,null))
 K.bL(q.b).h7(p)
 return P.N(null,r)}})
 return P.O($async$$1,r)},
@@ -68783,7 +68786,7 @@ n=T
 m=B
 s=2
 return P.L(R.Dc(q.a[q.b]),$async$$0)
-case 2:p=o.al9(new n.l8(m.oi(b,null),null,null))
+case 2:p=o.al9(new n.l8(m.oi(b,null),null,!1,null))
 K.bL(q.c).h7(p)
 return P.N(null,r)}})
 return P.O($async$$0,r)},
