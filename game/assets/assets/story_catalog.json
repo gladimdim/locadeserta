@@ -2,6 +2,13 @@
   "stories": [
     {
       "author": "Дмитро Гладкий",
+      "description": "Пошесть викосила всіх козаків з нової слободи. Залишився лише один. Зробіть правильні вибори, щоб провести останнього до порятунку.",
+      "storyPath": "assets/stories/ostannij.json",
+      "title": "Останній",
+      "year": "1574"
+    },
+    {
+      "author": "Дмитро Гладкий",
       "description": "Черговий татарський наліт на прикордонні Канівські землі. Роз'їзд козаків на чолі з отаманом Іваном вирішив влаштувати засідку на татар, що відступали. Перемога буде за українцями, але якої ціною? Все залежить від ваших виборів під час проходження історії.",
       "storyPath": "assets/stories/zustrich_v_stepu.json",
       "title": "Зустріч в степу",
@@ -63,7 +70,6 @@
       "title": "Вовча пастка",
       "year": "1580"
     },
-
     {
       "author": "Konstantin Boytsov, Anastasiia Tsapenko",
       "description": "At the beginning of the XVII century a confrontation flares up between the Polish-Lithuanian Commonwealth and the Ottoman Empire. As a result of a devastating defeat at the Battle of Cecora, a lot of noblemen, Cossacks, and soldiers are killed or captured by Turks and Tatars. The fate of a young Cossack, wayfaring through the Wild Fields in a desperate attempt to escape from captivity, depends on the choices of the reader of this interactive fiction. All the challenges are equally hard: surviving in the steppe, avoiding the revenge of the Tatars, winning the trust of the Cossack fisherman and returning home. But the battle that will change the course of history is fast approaching. Will the main character be able to participate in it and stay alive? And how will his life go from there? – Only you know the answer!",

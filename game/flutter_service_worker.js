@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "f90442067ca003f5e4e207d31d0f1501",
+  "version.json": "cf38829bb0d4f73ee4e1a70356ff1710",
 "index.html": "4c77d48802ae9228e635d2da5a5488c6",
 "/": "4c77d48802ae9228e635d2da5a5488c6",
-"main.dart.js": "3b3065738b4e00a5518957c7382964c3",
+"main.dart.js": "952ac72831f54c8dd4a105354827a03e",
 "manifest.json": "c958ca5434f6095be662080eccfd40ea",
 "assets/images/background/forest/c_4.jpg": "c5270b93ae73a406b27b4db242fcc4d5",
 "assets/images/background/forest/c_5.jpg": "f746dc40a118a70d815ff76904826b06",
@@ -184,7 +184,7 @@ const RESOURCES = {
 "assets/images/background/cossack_0.jpg": "1a11633dad6bd62846bc34e51af99f67",
 "assets/images/other/locadeserta_sloboda.png": "dc60c4cd06118bd3a02d74a9be013ef3",
 "assets/images/other/locadeserta_hex.png": "dd5d15ac5e2328e6fa96a69f0755b2c9",
-"assets/AssetManifest.json": "cc7684bf1eaaf0b47f9b6c33baa5b9e1",
+"assets/AssetManifest.json": "dc37bcd919d51fc30da6cbee94f92cf1",
 "assets/NOTICES": "f28c06642e4798c5a6f4e630c7d4e283",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
@@ -198,13 +198,14 @@ const RESOURCES = {
 "assets/assets/stories/wolf_trap.json": "7d81e561c42bef04ff8ac67caae08f70",
 "assets/assets/stories/krivava_pastka.json": "5b9bb40abd63fdb8d511612764243b6d",
 "assets/assets/stories/fire_in_steppe.json": "7e6c2356601f0aac3bc914fdbd22b349",
+"assets/assets/stories/ostannij.json": "e0ced34d612888f0cf00f52b17ea8461",
 "assets/assets/stories/last_battle_at_berestechko.json": "581306b551723d53d1b877a9c154fae1",
 "assets/assets/stories/hunting_bears.json": "3f1ec82282fd6d286cb66646432af99b",
 "assets/assets/stories/after_the_battle.json": "eb989253b7997a18bda9e552877fb1f9",
 "assets/assets/stories/kodak_night.json": "b5d36b32bb758ab5ac261a7b80d6be42",
 "assets/assets/stories/hotinska_riznya.json": "1412fb16888e9e8ad7d0b97b4b06956f",
 "assets/assets/stories/zustrich_v_stepu.json": "083530e48db7532582712ffeacce6746",
-"assets/assets/story_catalog.json": "978ea8b52d29d13a7fd8f21b804b57a7"
+"assets/assets/story_catalog.json": "cdbac7ee7fc7a8d5cbd089905d463c9c"
 };
 
 // The application shell files that are downloaded before a service worker can
