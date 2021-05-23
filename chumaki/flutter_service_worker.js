@@ -6,7 +6,7 @@ const RESOURCES = {
   "version.json": "5f6dcf92ae94738bc4b9255faa096d74",
 "index.html": "5889d2738ed0034b3211e8e3b14a4d3d",
 "/": "5889d2738ed0034b3211e8e3b14a4d3d",
-"main.dart.js": "054f18d2d47563453cfc29c21744997b",
+"main.dart.js": "971b223e9a90da8c5a4bce79ac79a2e7",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -118,17 +118,23 @@ const RESOURCES = {
 "assets/images/cities/avatars/kaniv.png": "181b9cf4308ce53a524dc62f5a8d29bd",
 "assets/images/cities/avatars/sich.png": "5e118264ecdf37c35468c99071c7eddd",
 "assets/images/cities/avatars/kyiv.png": "7adb548c3015e2bb0d568528fce9cb91",
-"assets/images/cities/avatars/ochakiv.png": "b9be2c5808583ffc820e834dad3e5a74",
+"assets/images/cities/avatars/ochakiv.png": "2efe1fa88b64cd2d117b005a281a771d",
 "assets/images/cities/avatars/cherkasy.png": "8d5624242d7b4c3c129c81f935453dce",
+"assets/images/icons/market/market2.png": "6c15095a6e6aba293a23507368daf622",
+"assets/images/icons/market/market.png": "2bbc29ad13b6c46eeb1dbb1824b1a896",
 "assets/images/boplan_map_huge.jpg": "fefbe113f18a83d3633dc5f8796add26",
 "assets/images/wagon/cart_64.png": "210af9fb50404fdcb7713321c6f0f9a4",
 "assets/images/wagon/cart.png": "b4e55858ae935c7935fda44786c4e63d",
+"assets/images/wagon/wheel.png": "210af9fb50404fdcb7713321c6f0f9a4",
 "assets/images/wagon/wagon.png": "3fe8946e555d9bfad3a5a69b9462e023",
-"assets/AssetManifest.json": "425cee32d7fa98979e964980c04f15b8",
-"assets/NOTICES": "a90f99ce0ff45d0754aa7e6b291ac278",
+"assets/AssetManifest.json": "75ba4bd0917e2553a7f2be0d16207413",
+"assets/NOTICES": "e3a3a34c79e89404965ed8e9ccd61839",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/google_fonts/Roboto-Regular.ttf": "11eabca2251325cfc5589c9c6fb57b46",
+"assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
+"assets/google_fonts/Montserrat-SemiBold.ttf": "c641dbee1d75892e4d88bdc31560c91b"
 };
 
 // The application shell files that are downloaded before a service worker can
