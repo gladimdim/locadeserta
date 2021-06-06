@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "5f6dcf92ae94738bc4b9255faa096d74",
-"index.html": "4dbb9e04dd7cce77ef5466d47c2fc3e0",
-"/": "4dbb9e04dd7cce77ef5466d47c2fc3e0",
-"main.dart.js": "e361c0ca6873b517dcb354c18e5c3448",
+"index.html": "6d41441c219a7ce4eb9e99eb47f1aa71",
+"/": "6d41441c219a7ce4eb9e99eb47f1aa71",
+"main.dart.js": "cf15fd520661e0c8db6b6e4b914e7b11",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -112,7 +112,7 @@ const RESOURCES = {
 "assets/images/resources/firearm/firearm_64.png": "fb1d8f0924ae937103fbae33b2010227",
 "assets/images/cities/church.png": "bdbaa763390a38aa8af4431afcd3842c",
 "assets/images/cities/sich.png": "4b0eba609809bd10adb78c00b1d36e73",
-"assets/images/cities/avatars/berdychiv.png": "db9545187250b42e785c970b30fba9d2",
+"assets/images/cities/avatars/berdychiv.png": "d086e2da91a752ca02d2a9d53c933065",
 "assets/images/cities/avatars/zhytomir.png": "f1de5f90b90d580c6cdd1246f7f44c02",
 "assets/images/cities/avatars/bilatserkva.png": "6dc1eda1b4f6a9853611312712662d65",
 "assets/images/cities/avatars/pereyaslav.png": "d9cfa612fc7337c11d8b364a4d32f242",
