@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "a89861f5e63486281d3a87df713001d7",
+  "assets/AssetManifest.json": "a9bbee11bbae20c6299c39d26cb994a6",
 "assets/NOTICES": "95396faa5c992c7e67fe3b471d4e57fe",
 "assets/google_fonts/Montserrat-SemiBold.ttf": "c641dbee1d75892e4d88bdc31560c91b",
 "assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
@@ -146,9 +146,11 @@ const RESOURCES = {
 "assets/images/cities/avatars/nizhin.png": "c57340b08ab40a670999eb76fba53893",
 "assets/images/cities/avatars/korsun.png": "3ee9f63166423b5eb137ddb9ca86f357",
 "assets/images/cities/avatars/zhytomir.png": "f1de5f90b90d580c6cdd1246f7f44c02",
+"assets/images/cities/avatars/pryluky.png": "3127ecb038f80400f597cd04462d7b92",
 "assets/images/cities/avatars/berdychiv.png": "d086e2da91a752ca02d2a9d53c933065",
 "assets/images/cities/avatars/cherkasy.png": "8d5624242d7b4c3c129c81f935453dce",
 "assets/images/cities/avatars/chigirin.png": "3a1272cb3662493da6ec4fddaa2e6626",
+"assets/images/cities/avatars/pyryatin.png": "e8d869f9bc8180ef18ab7baa404f0a3a",
 "assets/images/cities/avatars/pereyaslav.png": "d9cfa612fc7337c11d8b364a4d32f242",
 "assets/images/cities/avatars/ochakiv.png": "2efe1fa88b64cd2d117b005a281a771d",
 "assets/images/cities/avatars/chernigiv.png": "c5506089430cc90bcfa067c97038cc7a",
@@ -181,10 +183,10 @@ const RESOURCES = {
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"index.html": "35b90e0c8a6cbdc53800bbd46362f430",
-"/": "35b90e0c8a6cbdc53800bbd46362f430",
+"index.html": "e0ef475221f41968842445c39a703cb9",
+"/": "e0ef475221f41968842445c39a703cb9",
 "manifest.json": "8728394e0e2c4ccc497cfc39164bd9c9",
-"main.dart.js": "4e4f33d4681def0632bea6443b74ad7a",
+"main.dart.js": "6ee2df97666109966f0984c581f60db8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "5f6dcf92ae94738bc4b9255faa096d74"
 };
