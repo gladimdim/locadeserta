@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "9f60860f0500b218b65e0794cc69e257",
+  "assets/AssetManifest.json": "a89861f5e63486281d3a87df713001d7",
 "assets/NOTICES": "95396faa5c992c7e67fe3b471d4e57fe",
 "assets/google_fonts/Montserrat-SemiBold.ttf": "c641dbee1d75892e4d88bdc31560c91b",
 "assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
@@ -112,6 +112,7 @@ const RESOURCES = {
 "assets/images/wagon/cart.png": "b4e55858ae935c7935fda44786c4e63d",
 "assets/images/icons/lock/lock.png": "124c98bd184e56b55d0f9094f303bfa8",
 "assets/images/icons/resources/resources.png": "04d3bb69a9ce60fff961178dac42be8e",
+"assets/images/icons/unknown/unknown.png": "062cc96a0befafe571015edb89720f0d",
 "assets/images/icons/cloths/cloths.png": "375c0c3a52c9ce8aa3e35b32135bcf06",
 "assets/images/icons/luxury/luxury.png": "45f71eaf8eca04af989db8513e47ed95",
 "assets/images/icons/money/money.png": "016c3862d48b6befdf04a6597474ef3e",
@@ -180,10 +181,10 @@ const RESOURCES = {
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"index.html": "f5b2cbdff3e0ed92fa95d3233832d17a",
-"/": "f5b2cbdff3e0ed92fa95d3233832d17a",
+"index.html": "35b90e0c8a6cbdc53800bbd46362f430",
+"/": "35b90e0c8a6cbdc53800bbd46362f430",
 "manifest.json": "8728394e0e2c4ccc497cfc39164bd9c9",
-"main.dart.js": "082116f6d91c8dd72f6cf505fe998a10",
+"main.dart.js": "4e4f33d4681def0632bea6443b74ad7a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "5f6dcf92ae94738bc4b9255faa096d74"
 };
