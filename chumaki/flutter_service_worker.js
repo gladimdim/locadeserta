@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "76888231df0e0d2beac9206835db06e9",
-"assets/NOTICES": "d048738f13490fa7ea900da0252eced0",
+  "assets/AssetManifest.json": "c0f2b2d4fcb9cfa95c261f78d44d7045",
+"assets/NOTICES": "c1fc16d299e6d67646f0fb8c218686ab",
 "assets/assets/sounds/money.mp3": "01657b2ecee878c59306215eec2e92bf",
 "assets/assets/sounds/write_on_paper.mp3": "90e8646eb71afaa48facd0ec7b60cb24",
 "assets/assets/sounds/local_market.mp3": "d94921a2005c4bae96f311c1fcf21fbd",
@@ -119,6 +119,9 @@ const RESOURCES = {
 "assets/images/wagon/wheel.png": "210af9fb50404fdcb7713321c6f0f9a4",
 "assets/images/wagon/wagon.png": "3fe8946e555d9bfad3a5a69b9462e023",
 "assets/images/wagon/cart.png": "b4e55858ae935c7935fda44786c4e63d",
+"assets/images/other/sloboda.png": "0076fd4c2ce677ab062b91652ace54df",
+"assets/images/other/locadeserta_hex.png": "dd5d15ac5e2328e6fa96a69f0755b2c9",
+"assets/images/other/loca_deserta.png": "ec66d640f3bfe5f425af0ba1c8c90526",
 "assets/images/icons/lock/lock.png": "124c98bd184e56b55d0f9094f303bfa8",
 "assets/images/icons/resources/resources.png": "04d3bb69a9ce60fff961178dac42be8e",
 "assets/images/icons/wagon/wagon_2d.png": "b8153806322282c60b9e54876f3b44bf",
@@ -135,7 +138,9 @@ const RESOURCES = {
 "assets/images/icons/market/market.png": "2bbc29ad13b6c46eeb1dbb1824b1a896",
 "assets/images/icons/market/market2.png": "6c15095a6e6aba293a23507368daf622",
 "assets/images/ui/main_view_background.png": "819e16be77fefc2d2baa2abb249f601d",
+"assets/images/ui/bandura.png": "f0209a127058da5c8f75b373e57500ac",
 "assets/images/ui/persons_on_a_map.png": "abd12e43f7c856c493cf3bb5a678c92f",
+"assets/images/ui/bandura_back.png": "c554df03d94e845f7323485db8ea1e25",
 "assets/images/leaders/leader3.png": "d7a0d52fc354001a732640692de22577",
 "assets/images/leaders/leader7.png": "110c11b11ade7ee75551bb76e734629a",
 "assets/images/leaders/leader9.png": "a7bea4fc800f16fdcf7940f10bd85af4",
@@ -198,10 +203,10 @@ const RESOURCES = {
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"index.html": "7386944b2c27de190d06f43615f06cba",
-"/": "7386944b2c27de190d06f43615f06cba",
+"index.html": "788a499a60cd3ee42167adbd470d8a92",
+"/": "788a499a60cd3ee42167adbd470d8a92",
 "manifest.json": "8728394e0e2c4ccc497cfc39164bd9c9",
-"main.dart.js": "d815279314cfa5fe9fa806d3e84fadff",
+"main.dart.js": "6aa0d007c945c2c4700ee02196e8cb6d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "5f6dcf92ae94738bc4b9255faa096d74"
 };
