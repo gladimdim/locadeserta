@@ -333,9 +333,9 @@ const RESOURCES = {
 "assets/images/resources/amber/amber.png": "cc433a749aa93b3f5270493803343ef2",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/NOTICES": "c14cbbb5cdb636dbf8be84e43d671db6",
-"index.html": "23321fb4729c3306878e3196cd2df71c",
-"/": "23321fb4729c3306878e3196cd2df71c",
-"main.dart.js": "7c673742633ee1b825d8124617f64509",
+"index.html": "2eb178e5cc33ff0bb18cdb58c40859ca",
+"/": "2eb178e5cc33ff0bb18cdb58c40859ca",
+"main.dart.js": "bf3a735d5fc2d4150629d81c2d85a91f",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1"
 };
