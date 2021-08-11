@@ -335,10 +335,10 @@ const RESOURCES = {
 "assets/images/resources/horse/horse_3.png": "c8a9766dc8235c2329e09cbe6aec94ba",
 "assets/images/resources/amber/amber.png": "cc433a749aa93b3f5270493803343ef2",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/NOTICES": "c8758ab0965e14046647e308efed7049",
-"index.html": "c4d304279c9f1a1434f2251a93b1777f",
-"/": "c4d304279c9f1a1434f2251a93b1777f",
-"main.dart.js": "6e87704da918cd013f359eb33196c3f5",
+"assets/NOTICES": "3c375dbc58c337d19c0fcce7d5d798b2",
+"index.html": "6e335284b98215c8d8a381c092d71176",
+"/": "6e335284b98215c8d8a381c092d71176",
+"main.dart.js": "a3791ab6e1155e7612d6d8ce828ef4b3",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1"
 };
