@@ -4,9 +4,6 @@
 
 Четверта гра з всесвіту [Дике Поле](https://locadeserta.com). Спробуйте себе в ролі торговця в Україні XVII сторіччя!
 
-[Дике Поле: Чумаки (ДЕВЕЛОПЕРСЬКА ВЕРСІЯ)](https://locadeserta.com/chumaki)
-
-
 <p align="center">
 <a style="font-size: 36px" href="./">Дике Поле: Чумаки
   <p align="center">
