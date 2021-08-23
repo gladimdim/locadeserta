@@ -8,6 +8,11 @@ The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
 
+Or download APK file:
+
+[Chumaki APK](
+https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_1.0.apk)
+
 ## Version for Windows:
 
 [Download VC++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) pacakage before launching. (I guess you already have it installed).

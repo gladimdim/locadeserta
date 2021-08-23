@@ -8,6 +8,11 @@
 
 [![Зкачати з Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
 
+Або ж напряму через файл APK:
+
+[Чумаки APK](
+https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_1.0.apk)
+
 ## Збірка для Windows:
 
 [Зкачайте VC++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) пакет перед запуском (скоріш за все у вас він уже є).
