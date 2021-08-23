@@ -15,6 +15,11 @@
 Скачайте, розпакуйте архів і запустіть chumaki.exe:
 [Збірка для Windows 10](https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_windows_1.0.zip)
 
+## Версія для macOS:
+
+Скачайте, розпакуйте архів і запустіть chumaki.app:
+[Збірка для macOS](https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_macos_1.0.zip)
+
 # Телеграм канал
  Цікаво слідкувати за розробкою цієї гри? Ласкаво прошу на мій телеграм канал: [Розробка ігор з Всесвіту Дикого Поля](https://t.me/locadesertachumaki)
 

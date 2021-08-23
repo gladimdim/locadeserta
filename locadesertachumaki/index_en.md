@@ -8,12 +8,17 @@ The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
 
-## Build for Windows:
+## Version for Windows:
 
 [Download VC++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) pacakage before launching. (I guess you already have it installed).
 
 Download, unpack and launch chumaki.exe:
 [Chumaki for Windows 10](https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_windows_1.0.zip)
+
+## Version for macOS:
+
+Download, unpack and launch chumaki.app:
+[Build for macOS](https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_macos_1.0.zip)
 
 # Gameplay
 <p align="center">
