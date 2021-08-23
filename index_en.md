@@ -1,7 +1,7 @@
 [🇺🇦Українською](index.md)
 
 <p align="center">
-<a style="font-size: 36px" href="locadesertachumaki">Loca Deserta: Chumaki
+<a style="font-size: 36px" href="locadesertachumaki/index_en">Loca Deserta: Chumaki
   <p align="center">
  <img src="locadesertachumaki/images/thumbnails.png" width="350">
   </p>
