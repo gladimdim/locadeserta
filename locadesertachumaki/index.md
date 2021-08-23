@@ -7,7 +7,7 @@
 <p align="center">
 <a style="font-size: 36px" href="./">Дике Поле: Чумаки
   <p align="center">
- <img src="images/thumbnail.png" width="350">
+ <img src="images/thumbnails.png" width="350">
   </p>
 </a>
 </p>

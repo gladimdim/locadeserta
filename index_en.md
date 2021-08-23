@@ -1,6 +1,14 @@
 [🇺🇦Українською](index.md)
 
 <p align="center">
+<a style="font-size: 36px" href="locadesertachumaki">Loca Deserta: Chumaki
+  <p align="center">
+ <img src="locadesertachumaki/images/thumbnails.png" width="350">
+  </p>
+</a>
+</p>
+
+<p align="center">
 <a style="font-size: 36px" href="interactive/index_en">Interactive Fiction About Ukraine in XVI-XVII
   <p align="center">
     <img src="interactive/images/thumbnail.jpg" width="350">

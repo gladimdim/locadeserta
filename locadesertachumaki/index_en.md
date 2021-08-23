@@ -2,12 +2,12 @@
 
 # Loca Deserta: Chumaki
 
-The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en.md). Try yoruself as a trader in Ukraine in XVII century!
+The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en.md). Try yourself as a trader in Ukraine in XVII century!
 
 <p align="center">
 <a style="font-size: 36px" href="./">Loca Deserta: Chumaki
   <p align="center">
- <img src="images/thumbnail.png" width="350">
+ <img src="images/thumbnails.png" width="350">
   </p>
 </a>
 </p>
@@ -16,7 +16,7 @@ The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
 
-## Built for Windows:
+## Build for Windows:
 
 [Download VC++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) pacakage before launching. (I guess you already have it installed).
 

@@ -3,7 +3,7 @@
 <p align="center">
 <a style="font-size: 36px" href="locadesertachumaki">Дике Поле: Чумаки
   <p align="center">
- <img src="locadesertachumaki/images/thumbnail.png" width="350">
+ <img src="locadesertachumaki/images/thumbnails.png" width="350">
   </p>
 </a>
 </p>
