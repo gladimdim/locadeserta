@@ -13,6 +13,10 @@ Or download APK file:
 [Chumaki APK](
 https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_1.0.apk)
 
+## Version for iOS:
+
+[![Downlaod from Apple App Store](../images/appstore.svg)](https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648)
+
 ## Version for Windows:
 
 [Download VC++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) pacakage before launching. (I guess you already have it installed).
