@@ -15,7 +15,7 @@ https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_
 
 ## Версія для iOS:
 
-[![Скачати з Apple App Store](../images/appstore.svg)](https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648)
+[![Скачати з Apple App Store](../images/appstore.svg)](https://apps.apple.com/us/app/чумаки/id1582158648)
 
 
 ## Збірка для Windows:
