@@ -12464,6 +12464,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 path_provider
 path_provider_windows
 plugin_platform_interface
+share
 shared_preferences
 url_launcher
 url_launcher_platform_interface

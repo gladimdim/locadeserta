@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b404bd863e8926b3e57c761a679507d7",
+  "assets/AssetManifest.json": "9eb636bc09960818f82c0a1522f8a96d",
 "assets/assets/sounds/achievement.mp3": "d7f10308b4247953295dfb398552556f",
 "assets/assets/sounds/building_upgrade.mp3": "2c12f9f49efa3510570c85a0494383f5",
 "assets/assets/sounds/cart_bought.mp3": "1f52ed1183e8b528eb1a95316652d8c5",
@@ -22,7 +22,7 @@ const RESOURCES = {
 "assets/google_fonts/TenorSans-Regular.ttf": "4dbbdcd595dcd961a2cab5bd9d026c80",
 "assets/google_fonts/Vollkorn-Bold.ttf": "bbcde547c5e8bbaac2643fc77d8f3d46",
 "assets/google_fonts/Vollkorn-Regular.ttf": "9f55320c1243ba395eebca1d9af717dc",
-"assets/images/appstore.png": "05150cb4e0ff50d4d1ff1968dd327bc5",
+"assets/images/appstore.png": "ec78f215e5c85dd470870890009bd815",
 "assets/images/boplan_map_huge.jpg": "fefbe113f18a83d3633dc5f8796add26",
 "assets/images/chumaki_app_icon.png": "bc217f168d0b9ff579a192712dafae2c",
 "assets/images/cities/avatars/berdychiv.png": "d086e2da91a752ca02d2a9d53c933065",
@@ -254,7 +254,7 @@ const RESOURCES = {
 "assets/images/other/locadeserta_hex.png": "dd5d15ac5e2328e6fa96a69f0755b2c9",
 "assets/images/other/loca_deserta.png": "ec66d640f3bfe5f425af0ba1c8c90526",
 "assets/images/other/sloboda.png": "0076fd4c2ce677ab062b91652ace54df",
-"assets/images/playstore.png": "dc267c274c9037a8704317f93e15d3ec",
+"assets/images/playstore.png": "f4d63fae81e23408ab947ca1d0fbd107",
 "assets/images/resources/amber/amber.png": "cc433a749aa93b3f5270493803343ef2",
 "assets/images/resources/bread/bread.png": "1a4d7a5d7db7755ff9b5f804d17cb18f",
 "assets/images/resources/bread/bread_0.png": "1a4d7a5d7db7755ff9b5f804d17cb18f",
@@ -348,6 +348,7 @@ const RESOURCES = {
 "assets/images/resources/wood/wood_3.png": "84b15565fa09849c7dd3348251fe212c",
 "assets/images/resources/wood/wood_64.png": "1faa872fe05e0af47dbe7a14d2c01f76",
 "assets/images/resources/wool/wool.png": "cc865e4cbb52e5db01fc99b191ecc919",
+"assets/images/twitter_icon.png": "072692aaa9a15b0ae5014a2572857ea1",
 "assets/images/ui/bandura.png": "f0209a127058da5c8f75b373e57500ac",
 "assets/images/ui/bandura_back.png": "c554df03d94e845f7323485db8ea1e25",
 "assets/images/ui/glory.png": "a839c28e98aca2270488af111611b67a",
@@ -358,16 +359,16 @@ const RESOURCES = {
 "assets/images/wagon/cart.png": "b4e55858ae935c7935fda44786c4e63d",
 "assets/images/wagon/wagon.png": "3fe8946e555d9bfad3a5a69b9462e023",
 "assets/images/wagon/wheel.png": "210af9fb50404fdcb7713321c6f0f9a4",
-"assets/NOTICES": "19de77422052d9f0ed35c727a5f54f3d",
+"assets/NOTICES": "acbfb620776d48daf1b003b72074b4a0",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c0a740b7a1073eef9d55aa00a2c14e8c",
-"/": "c0a740b7a1073eef9d55aa00a2c14e8c",
-"main.dart.js": "ff1d5aa21fa1a05f59ce28d624d1b11f",
+"index.html": "eb218db56d1bc8de23f5524e5317f2cc",
+"/": "eb218db56d1bc8de23f5524e5317f2cc",
+"main.dart.js": "5c8d8c7d04a4ddd7a254f7b778446607",
 "manifest.json": "be711522f1483c9f2cb7063276a9894c",
-"version.json": "e9b12a5a7b3a2b255bff0b331802fbef"
+"version.json": "9e22242a33692f50b7e5999a1cfc981a"
 };
 
 // The application shell files that are downloaded before a service worker can
