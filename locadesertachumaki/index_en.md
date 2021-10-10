@@ -4,6 +4,11 @@
 
 The fourth game from Universe of [Loca Deserta](https://locadeserta.com/index_en.md). Try yourself as a trader in Ukraine in XVII century!
 
+
+## Web version
+
+[Chumaki Online](https://locadeserta.com/chumaki)
+
 ## Version for Android:
 
 [![Download from Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)

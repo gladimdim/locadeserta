@@ -4,6 +4,10 @@
 
 Четверта гра з всесвіту [Дике Поле](https://locadeserta.com). Спробуйте себе в ролі торговця в Україні XVII сторіччя!
 
+## Веб версія
+
+[Чумаки Онлайн](https://locadeserta.com/chumaki)
+
 ## Версія для Android:
 
 [![Зкачати з Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
