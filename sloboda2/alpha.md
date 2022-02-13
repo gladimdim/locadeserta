@@ -31,7 +31,7 @@ I am pleased to share with you the alpha builds of my game.
 Please be patient, soon I will add support for Windows/macOS. You can play on these platforms but all the controls are touch/mouse based!
 
 ---
-## Alpha #4
+## [Alpha #4. Download links](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-4)
 
 What's included
 
