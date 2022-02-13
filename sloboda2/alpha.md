@@ -37,11 +37,17 @@ What's included
 
 - 🧈 Butter smooth camera movement.
 - 🎥 Enhanced the camera logic to follow player in more natural accelaration
-- 🆙 The larger the tree the more logs you cut from it 
+- 🆙 The larger the tree the more logs you cut from it
+
 ![alpha4](./alpha_4_large_tree.png)
 ![alpha4_cut](./alpha_4_large_tree_cut.png)
+
 - 😝 Locked 'free' access to the bottom area 
+
 ![alpha_access](./alpha_4_access.png)
+
 - Introduced circular progress indicator of the current action
+
 ![alpha_progress](./alpha_4_progress.png)
+
 - Increased the lighting strength. The scene has more light
