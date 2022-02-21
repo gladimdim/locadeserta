@@ -31,6 +31,16 @@ I am pleased to share with you the alpha builds of my game.
 Please be patient, soon I will add support for Windows/macOS. You can play on these platforms but all the controls are touch/mouse based!
 
 ---
+## [Alpha #6, Download links](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-6)
+
+What's included
+
+- Added bucket tool
+- Bucket can be applied to stumps to renew trees
+- New separate zones to build and produce
+- Dozen of bug fixes
+
+---
 ## [Alpha #4. Download links](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-4)
 
 What's included
