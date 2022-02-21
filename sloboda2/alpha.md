@@ -35,9 +35,14 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 What's included
 
+- 10 New Sound Voice Reactions to player actions!
 - Added bucket tool
+![bucket](./alpha_6_bucket.png)
 - Bucket can be applied to stumps to renew trees
+![bucket_gif](./alpha_6_pour_bucket.gif)
 - New separate zones to build and produce
+![build](./alpha_6_build_zone.png)
+![produce](./alpha_6_build_produce.png)
 - Dozen of bug fixes
 
 ---
