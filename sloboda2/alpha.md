@@ -42,9 +42,11 @@ New Features:
 ![coal_maker_animation](https://user-images.githubusercontent.com/448179/160286525-86e0f4ba-d53b-4448-aa69-d8f499ad0f39.gif)
 
 - Production animation for Mill:
+- 
 ![grains_animation_2](https://user-images.githubusercontent.com/448179/160286540-7cb8829f-33c6-4fbf-a8fe-fcb0cb225517.gif)
 
 - Production Animation for Iron Mine:
+- 
 ![iron_mine_production_animated](https://user-images.githubusercontent.com/448179/160286561-0e4da71e-6742-4dcc-8b91-04cfc0627996.gif)
 
 - Production animation for Field:
@@ -52,6 +54,7 @@ New Features:
 ![grains_animation](https://user-images.githubusercontent.com/448179/160286577-8df57477-9f7c-4cb0-aca1-a055e3e96ebf.gif)
 
 - new Terrains, removed rectangular placeholders:
+- 
 ![Screenshot 2022-03-27 170425](https://user-images.githubusercontent.com/448179/160286602-e27bd9ef-a617-470c-b72d-bff2df330a80.png)
 
 ![Screenshot 2022-03-27 170443](https://user-images.githubusercontent.com/448179/160286606-1aa4f96b-6845-45bd-bcf5-11cc29b9113f.png)
