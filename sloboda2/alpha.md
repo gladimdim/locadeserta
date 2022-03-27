@@ -32,7 +32,7 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
-## [Alpha #8, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-9)
+## [Alpha #9, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-9)
 
 Alpha #9 includes several big new features and numerous bug fixes.
 
