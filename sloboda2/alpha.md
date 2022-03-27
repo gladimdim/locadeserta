@@ -31,6 +31,39 @@ I am pleased to share with you the alpha builds of my game.
 Please be patient, soon I will add support for Windows/macOS. You can play on these platforms but all the controls are touch/mouse based!
 
 ---
+## [Alpha #8, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-8)
+
+This alpha build includes translations for all Help NPCs and for UI menus.
+
+Ukrainian:
+![image](https://user-images.githubusercontent.com/448179/159181918-087ca630-7999-41e4-9ac1-babb3d969b90.png)
+![image](https://user-images.githubusercontent.com/448179/159182385-8a3e0705-9582-4b61-937a-5a9471e9a0bf.png)
+
+Polish:
+![image](https://user-images.githubusercontent.com/448179/159182036-5af0a21e-b060-44cb-a651-c15666ad663b.png)
+![image](https://user-images.githubusercontent.com/448179/159182488-fbf84b51-2461-43b5-9900-268c4e867d51.png)
+
+
+German:
+![image](https://user-images.githubusercontent.com/448179/159182132-c55409bd-4086-4f22-9b53-f76deafb98cd.png)
+![image](https://user-images.githubusercontent.com/448179/159182260-66104d0d-4966-45bc-9893-4c231c107c8b.png)
+
+
+Online WebGL: build: https://gladimdim.github.io/Sloboda2_WebGL/
+
+---
+
+## [Alpha #7, Download links](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-7)
+
+Includes new feature:
+
+- [x] NPC Helper. Stand near an NPC with "?" mark and read the basic gameplay instructions for each section
+![screen3](https://user-images.githubusercontent.com/448179/158458882-6e8ffa0c-0f0c-42c8-a2b3-bb5fcded1bed.gif)
+
+- [x] Numerous bug fixes and balance.
+
+
+---
 ## [Alpha #6, Download links](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-6)
 
 What's included
