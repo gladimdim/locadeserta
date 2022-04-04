@@ -32,6 +32,27 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
+## [Alpha #10, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-10)
+
+What's new:
+
+- New Animations for Powder Hut production:
+![powder_animation](https://user-images.githubusercontent.com/448179/161597366-016059f8-bf94-42a8-8400-daf86dfcaf34.gif)
+
+- New animations for Smeltery production:
+
+![smeltery_production](https://user-images.githubusercontent.com/448179/161597429-603a9abe-f0c4-43b8-b3b9-5b9d13e03fb4.gif)
+
+- Buckets visualy represent how much water is inside
+![refill_bucket_level](https://user-images.githubusercontent.com/448179/161597349-5ea5c68a-b1ad-45ae-a881-7fa8521c282c.gif)
+
+- Terrains instead of placeholders:
+![Screenshot 2022-03-27 170425](https://user-images.githubusercontent.com/448179/161598207-47a99793-6320-4651-9d35-acbd710e173c.png)
+
+![Screenshot 2022-03-27 170443](https://user-images.githubusercontent.com/448179/161598224-fd4ca4f9-5cb7-4105-92ce-2f6cc79fd2e7.png)
+
+
+
 ## [Alpha #9, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-9)
 
 Alpha #9 includes several big new features and numerous bug fixes.
