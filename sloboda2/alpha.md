@@ -37,7 +37,7 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 What's new:
 
 - New Animations for Powder Hut production:
-- 
+
 ![powder_animation](https://user-images.githubusercontent.com/448179/161597366-016059f8-bf94-42a8-8400-daf86dfcaf34.gif)
 
 - New animations for Smeltery production:
@@ -48,7 +48,7 @@ What's new:
 ![refill_bucket_level](https://user-images.githubusercontent.com/448179/161597349-5ea5c68a-b1ad-45ae-a881-7fa8521c282c.gif)
 
 - Terrains instead of placeholders:
-- 
+
 ![Screenshot 2022-03-27 170425](https://user-images.githubusercontent.com/448179/161598207-47a99793-6320-4651-9d35-acbd710e173c.png)
 
 ![Screenshot 2022-03-27 170443](https://user-images.githubusercontent.com/448179/161598224-fd4ca4f9-5cb7-4105-92ce-2f6cc79fd2e7.png)
