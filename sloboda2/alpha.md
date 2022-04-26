@@ -37,15 +37,24 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 What's included:
 
 - new zone with lake and river
+![in-game-3](https://user-images.githubusercontent.com/448179/165300128-0ea00275-7ada-4402-a96a-a586818589f5.png)
+
 -🎣you can go fishing at lake
 -🐟fish spots are depleted, use 🍞bread to restore fish spot
 - bug fixes
 - new terrain
+![bird_view](https://user-images.githubusercontent.com/448179/165300153-52352908-ec2a-475e-beee-5731d499951c.png)
+
 - performance improvements
 - new tool: fishing rod 🎣
 - new resource: 🐟
 - fixed bucket refill logic
+![bringing](https://user-images.githubusercontent.com/448179/165300177-dbaa81bd-6e1b-4d7f-a63c-b8f645ed1009.png)
+
 - terrain adjustments
+![low_view](https://user-images.githubusercontent.com/448179/165300213-d9943d42-d166-462c-a765-da5a7a9a3bd4.png)
+
+
 
 ---
 
