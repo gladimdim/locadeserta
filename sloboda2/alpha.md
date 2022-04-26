@@ -32,6 +32,23 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
+## [Alpha #12, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-12)
+
+What's included:
+
+- new zone with lake and river
+-🎣you can go fishing at lake
+-🐟fish spots are depleted, use 🍞bread to restore fish spot
+- bug fixes
+- new terrain
+- performance improvements
+- new tool: fishing rod 🎣
+- new resource: 🐟
+- fixed bucket refill logic
+- terrain adjustments
+
+---
+
 ## [Alpha #10, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-10)
 
 What's new:
