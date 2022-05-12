@@ -17,7 +17,7 @@ const RESOURCES = {
 "assets/assets/stories/zustrich_v_stepu.json": "aab1e0551d45ba7e90c3b7ef6960e93c",
 "assets/assets/story_catalog.json": "70fc3a5fb2ed29ffb642ec7212be5079",
 "assets/FontManifest.json": "96792178f73389fd3a2f5e525cc36fb0",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/fonts/Raleway/Raleway-Black.ttf": "3469d4a9bf3b8f9db8f3e5c69e3fce8e",
 "assets/fonts/Raleway/Raleway-Bold.ttf": "2f99a85426a45e0c7f8707aae53af803",
 "assets/fonts/Raleway/Raleway-Regular.ttf": "84abe14c9756256a4b91300ba3e4ec62",
@@ -200,20 +200,25 @@ const RESOURCES = {
 "assets/images/other/locadeserta_chumaki.png": "dc267c274c9037a8704317f93e15d3ec",
 "assets/images/other/locadeserta_hex.png": "dd5d15ac5e2328e6fa96a69f0755b2c9",
 "assets/images/other/locadeserta_sloboda.png": "dc60c4cd06118bd3a02d74a9be013ef3",
-"assets/NOTICES": "1acdc8d75f014435e3f48b12aee029fd",
+"assets/NOTICES": "4c0eac0e87d442650c3589092373c208",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"index.html": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"/": "bdb59328970caa2ff0f8e9e6da1be7b1",
-"main.dart.js": "fe406b3ca4e5aac4a9cdbe3b4fc93639",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"index.html": "ccaf04740404262d4cf57a1e89acf0fe",
+"/": "ccaf04740404262d4cf57a1e89acf0fe",
+"main.dart.js": "78df5866c594a8bd0c4860a2fcaedcaa",
 "manifest.json": "eff7e805f97f6465b2894c43013e888c",
-"version.json": "3e01d76f1e815c4629f63700a0ea8962"
+"styles.css": "af85ba74509641f3051f38990a8320f2",
+"version.json": "993db0cbf2fccffddca46342617df404"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",

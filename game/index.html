@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
@@ -16,27 +15,66 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/favicons/manifest.json">
+
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="styles.css">
 
     <title>Loca Deserta</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139608005-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-139608005-1');
-
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-139608005-1');
     </script>
+    <link rel="manifest" href="/favicons/manifest.json">
 
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '249530836';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
-
 <body>
-<script src="main.dart.js" type="application/javascript"></script>
-</body>
 
+<div class="middle">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+    <div class="bar bar4"></div>
+    <div class="bar bar5"></div>
+    <div class="bar bar6"></div>
+    <div class="bar bar7"></div>
+    <div class="bar bar8"></div>
+    <div id="loader" style="text-align: center">Вантажимо</div>
+</div>
+<script>
+    window.addEventListener('load', function (ev) {
+        var loading = document.querySelector('#loader');
+        loading.textContent = "Летимо на Дике Поле...";
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+            serviceWorker: {
+                serviceWorkerVersion: serviceWorkerVersion,
+            }
+        }).then(function (engineInitializer) {
+            loading.textContent = "Шукаємо козаків в Дикому Полі...";
+            return engineInitializer.initializeEngine();
+        }).then(function (appRunner) {
+            loading.textContent = "До зброї!";
+
+            return appRunner.runApp();
+        }).then(function() {
+            var loadingIndicator = document.querySelector('.middle');
+            loadingIndicator.remove();
+
+        });
+    });
+</script>
+</body>
 </html>
