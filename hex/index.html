@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--    <base href="hex">-->
-
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="Loca Deserta: Hex.">
-
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Loca Deserta: Hex">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-    
     <link rel="apple-touch-icon" sizes="180x180" href="/hex/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/hex/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/hex/icons/favicon-16x16.png">
@@ -24,30 +20,62 @@
     <meta name="msapplication-config" content="/hex/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Loca Deserta: Hex.</title>
+    <link rel="stylesheet" href="styles.css">
 
+    <title>Loca Deserta: Hex.</title>
     <script src="https://cdn.jsdelivr.net/npm/howler@2.1.3/dist/howler.min.js"></script>
     <script type="application/javascript">
-      var audio;
-      function playAudio(path) {
-        audio= new Howl({
-          src: [path]
-        });
-        audio.play();
-      }
-    </script>
+        var audio;
 
-    <link rel="manifest" href="/hex/manifest.json">
+        function playAudio(path) {
+            audio = new Howl({
+                src: [path]
+            });
+            audio.play();
+        }
+    </script>
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+        // The value below is injected by flutter build, do not touch.
+        var serviceWorkerVersion = '378514445';
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
 </head>
 <body>
+<div class="middle">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+    <div class="bar bar4"></div>
+    <div class="bar bar5"></div>
+    <div class="bar bar6"></div>
+    <div class="bar bar7"></div>
+    <div class="bar bar8"></div>
+    <div id="loader" style="text-align: center">Loading</div>
+</div>
 <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('/hex/flutter_service_worker.js');
-      });
-    }
+    window.addEventListener('load', function (ev) {
+        var loading = document.querySelector('#loader');
+        loading.textContent = "Loading puzzle pieces...";
+        // Download main.dart.js
+        _flutter.loader.loadEntrypoint({
+            serviceWorker: {
+                serviceWorkerVersion: serviceWorkerVersion,
+            }
+        }).then(function (engineInitializer) {
+            loading.textContent = "Matching puzzles...";
+            return engineInitializer.initializeEngine();
+        }).then(function (appRunner) {
+            loading.textContent = "Go!";
 
+            return appRunner.runApp();
+        }).then(function() {
+            var loadingIndicator = document.querySelector('.middle');
+            loadingIndicator.remove();
+        });
+    });
 </script>
-<script src="/hex/main.dart.js" type="application/javascript"></script>
 </body>
 </html>
