@@ -32,7 +32,7 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
-## [Alpha #13, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-12)
+## [Alpha #13, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-13)
 
 New huge feature was added: Quests!
 
