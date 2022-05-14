@@ -32,6 +32,28 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
+## [Alpha #13, Downlaod link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-12)
+
+New huge feature was added: Quests!
+
+Alpha #13 includes:
+
+- ❗Find an NPC with exclamation mark to get quest assignments.
+
+![Screenshot 2022-05-14 150024](https://user-images.githubusercontent.com/448179/168424780-dc579869-5875-44c0-a17c-f4ded2a1609f.png)
+
+
+- ⁉️ Quests are designed in such way that players can be gradually introduced to the gameplay mechanics.
+
+![Screenshot 2022-05-14 150827](https://user-images.githubusercontent.com/448179/168425021-874bf558-9863-446e-adbb-a951a1ad9b5a.png)
+
+![Screenshot 2022-05-14 150857](https://user-images.githubusercontent.com/448179/168425025-b48425e0-58af-4f0e-80dd-80044a0cb468.png)
+
+- 🏛️🏗️🏢 Dozens of adjustments to 3D models/layout/UI
+- ⛔No more free resources scattered around the terrain ;)
+
+
+
 ## [Alpha #12, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-12)
 
 What's included:
