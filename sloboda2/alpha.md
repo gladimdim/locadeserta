@@ -14,6 +14,11 @@ They are used to unlock next areas with more sophisticated production lines.
 
 ---
 
+# Discord Server
+
+Join my discord server with lots of screenshots, videos, gameplays, daily news/screenshots and just to chat:
+https://discord.gg/5cFhY9XeUR
+
 # Dev blog
 Follow official telegram channel: [https://t.me/locadesertachumaki](https://t.me/locadesertachumaki) to get daily dev blogs and updates
 
