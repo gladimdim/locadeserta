@@ -22,6 +22,13 @@ https://discord.gg/5cFhY9XeUR
 # Dev blog
 Follow official telegram channel: [https://t.me/locadesertachumaki](https://t.me/locadesertachumaki) to get daily dev blogs and updates
 
+# The GDWC
+
+My game has been selected for The Game Development Championship!
+Please give it a try and leave a like on the page. This will help to spread the world about it to more people!
+
+[https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a](https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a)
+
 ---
 **DEV! WebGL Build**
 [https://gladimdim.github.io/Sloboda2_WebGL/](https://gladimdim.github.io/Sloboda2_WebGL/)
