@@ -44,6 +44,50 @@ Please be patient, soon I will add support for Windows/macOS. You can play on th
 
 ---
 
+## [Alpha #14, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-14)
+
+# Huge content refresh with dozens new particles, effects, animations, fixes and new area with production chain!
+
+What's new:
+
+- 🎠New steppe area. Horses are available for breeding :)
+
+![image](https://user-images.githubusercontent.com/448179/172471427-7fd6bbf7-19f5-4d96-8d16-4bdde3571979.png)
+
+- ` Particles. Everywhere. All actions are now animated or launch particles to engage player
+New resource spawn:
+
+![bread_spawn](https://user-images.githubusercontent.com/448179/172470346-52175d98-4323-4870-b32a-b934227371a9.gif)
+
+Building upgrade:
+
+- New action progress animation:
+
+![new_progress_particles](https://user-images.githubusercontent.com/448179/172470309-21c5f2fb-8543-4216-95a2-4fb493b685f4.gif)
+
+- All tools and resources (basically anything that is actionable) is now outlined and you will always find it behind buildings or in the deep forest:
+
+![outline_resources](https://user-images.githubusercontent.com/448179/172470673-c6631572-bd7c-4367-af26-9f6dce3760d1.gif)
+
+- 🆙 Enhanced animations of the production processes
+New animation for smeltery:
+
+![smeltery_particles](https://user-images.githubusercontent.com/448179/172470884-c1fdee6a-9700-4f51-aafa-dab1e22d656b.gif)
+
+- 🙄 Gorgeous area unlock animation:
+![unlock_tower_cannon_shot](https://user-images.githubusercontent.com/448179/172470984-fbcba0db-156b-4d0c-9fd2-0c8cd83fedcb.gif)
+
+- Jaw-dropping river spline
+![river_flow_1](https://user-images.githubusercontent.com/448179/172471058-15e0bf8e-1a47-464c-b9aa-68fb2491a417.gif)
+
+- 💯🔟 Dozens of bug fixes
+
+- ♻️ Rebalanced EVERYTHING.
+
+I've played my game from 0 to hero for almost 2 hours. Found all 'heavy' production spots and decided to ease the requirements to build/produce as the game should give a joy and not running from one corner to the other...
+
+
+---
 ## [Alpha #13, Download link](https://github.com/gladimdim/locadeserta/releases/tag/sloboda-remake-alpha-13)
 
 New huge feature was added: Quests!
