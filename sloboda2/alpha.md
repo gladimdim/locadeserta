@@ -75,9 +75,11 @@ New animation for smeltery:
 ![smeltery_particles](https://user-images.githubusercontent.com/448179/172470884-c1fdee6a-9700-4f51-aafa-dab1e22d656b.gif)
 
 - 🙄 Gorgeous area unlock animation:
+
 ![unlock_tower_cannon_shot](https://user-images.githubusercontent.com/448179/172470984-fbcba0db-156b-4d0c-9fd2-0c8cd83fedcb.gif)
 
 - Jaw-dropping river spline
+
 ![river_flow_1](https://user-images.githubusercontent.com/448179/172471058-15e0bf8e-1a47-464c-b9aa-68fb2491a417.gif)
 
 - 💯🔟 Dozens of bug fixes
