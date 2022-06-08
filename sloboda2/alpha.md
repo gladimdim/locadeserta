@@ -30,7 +30,7 @@ Please give it a try and leave a like on the page. This will help to spread the 
 [https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a](https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a)
 
 ---
-**DEV! WebGL Build**
+**DEV! WebGL Broken Build**
 [https://gladimdim.github.io/Sloboda2_WebGL/](https://gladimdim.github.io/Sloboda2_WebGL/)
 
 ---
