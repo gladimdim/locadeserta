@@ -27,7 +27,7 @@ Follow official telegram channel: [https://t.me/locadesertachumaki](https://t.me
 My game has been selected for The Game Development Championship!
 Please give it a try and leave a like on the page. This will help to spread the world about it to more people!
 
-[https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a](https://thegdwc.com/pages/game.php?game_guid=6b6da42e-9889-4b52-a27e-9b0b6965ee7a)
+[https://thegdwc.com/games/locadesertasloboda](https://thegdwc.com/games/locadesertasloboda)
 
 ---
 **DEV! WebGL Broken Build**
