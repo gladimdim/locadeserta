@@ -1,8 +1,11 @@
 # Loca Deserta: Sloboda 2
 
-This is a remake of [Loca Deserta: Sloboda](https://locadeserta.com/citybuilding/index_en.html) game.
+# 🚨 The Alpha has ended 🚨 | Visit [Official page🔗](../index_en.md) to check the release date and more info! Thank you for attention!
 
-# About the Game
+
+# This is a remake of [Loca Deserta: Sloboda](https://locadeserta.com/citybuilding/index_en.html) game.
+
+## About the Game
 
 You must build a settlement. You start with just two tools 🪓⛏, a forest 🌲 and some stone🗿. 
 Cut the trees, mine stone, build buildings, produce new materials, unlock areas.
@@ -14,15 +17,15 @@ They are used to unlock next areas with more sophisticated production lines.
 
 ---
 
-# Discord Server
+## Discord Server
 
 Join my discord server with lots of screenshots, videos, gameplays, daily news/screenshots and just to chat:
 https://discord.gg/5cFhY9XeUR
 
-# Dev blog
+## Dev blog
 Follow official telegram channel: [https://t.me/locadesertachumaki](https://t.me/locadesertachumaki) to get daily dev blogs and updates
 
-# The GDWC
+## The GDWC
 
 My game has been selected for The Game Development Championship!
 Please give it a try and leave a like on the page. This will help to spread the world about it to more people!
