@@ -14,10 +14,10 @@
 
 ## Посилання
 
-- <a style="font-size: 12px" href="https://www.tiktok.com/@locadeserta">Слобода на Тікток
-  <p align="center">
+- Tiktok
+
+<a style="font-size: 12px" href="https://www.tiktok.com/@locadeserta">
  <img src="sloboda2/images/tiktok_logo.png" width="180">
-  </p>
 </a>
 
 - Twitter: [https://twitter.com/locadeserta](https://twitter.com/locadeserta)
@@ -62,9 +62,12 @@
 
 <img src="sloboda2/images/uk/cannon.png" width="350">
 
-## Розширення Слободи
+## Коли випуск?
 
-Гра включає в себе 6 долин, до яких треба отримати доступ.
+Випуск запланований на зиму 2022.
 
-<img src="sloboda2/images/uk/map_overview.png" width="500">
+## Які платформи?
 
+Поки що акцент іде на платформи від Apple. Гра буде доступна на iPhone, iPad та Apple TV!
+
+## Підтримка джойстиків 🎮
