@@ -1,6 +1,6 @@
 # Loca Deserta: Sloboda 2
 
-# 🚨 The Alpha has ended 🚨 | Visit [Official page🔗](../index_en.md) to check the release date and more info! Thank you for attention!
+# 🚨 The Alpha has ended 🚨 | Visit [Official page🔗](../index_uk.md) to check the release date and more info! Thank you for attention!
 
 
 # This is a remake of [Loca Deserta: Sloboda](https://locadeserta.com/citybuilding/index_en.html) game.

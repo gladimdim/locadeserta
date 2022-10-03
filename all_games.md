@@ -1,7 +1,8 @@
-[🇺🇸English](all_games_en.md)
+
+[🇺🇦Українською](all_games_uk.md)
 
 <p align="center">
-<a style="font-size: 36px" href="sloboda2">Слобода. Розбудуй селище у Війську Запорізькому
+<a style="font-size: 36px" href="index">Sloboda. A Build+Craft Game
   <p align="center">
  <img src="sloboda2/images/thumbnail.png" width="350">
   </p>
@@ -9,7 +10,7 @@
 </p>
 
 <p align="center">
-<a style="font-size: 36px" href="locadesertachumaki">Дике Поле: Чумаки
+<a style="font-size: 36px" href="locadesertachumaki/index_en">Loca Deserta: Chumaki
   <p align="center">
  <img src="locadesertachumaki/images/thumbnails.png" width="350">
   </p>
@@ -17,7 +18,7 @@
 </p>
 
 <p align="center">
-<a style="font-size: 36px" href="interactive">Інтерактивні історії про часи козаччини
+<a style="font-size: 36px" href="interactive/index_en">Interactive Fiction About Ukraine in XVI-XVII
   <p align="center">
     <img src="interactive/images/thumbnail.jpg" width="350">
   </p>
@@ -26,7 +27,7 @@
 
 
 <p align="center">
-<a style="font-size: 36px" href="citybuilding">Дике Поле: Слобода
+<a style="font-size: 36px" href="citybuilding/index_en">Loca Deserta: Sloboda. A City Building Game.
   <p align="center">
     <img src="citybuilding/images/sloboda_thumbnail.jpg" width="350">
   </p>
@@ -35,7 +36,7 @@
 
 
 <p align="center">
-<a style="font-size: 36px" href="locadesertahex">Дике Поле: Ґекс
+<a style="font-size: 36px" href="locadesertahex/index_en">Loca Deserta: Hex. A Puzzle Game.
   <p align="center">
  <img src="locadesertahex\images\hex_thumbnail.jpg" width="350">
   </p>
@@ -44,6 +45,6 @@
 
 ## Хто цим займається
 
-Продуктом займається Гладкий Дмитро
+Продуктом займається Гладкий Дмитро та Костянтин Бойцов
 
 

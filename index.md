@@ -1,18 +1,16 @@
-[🇺🇸English](index_en.md)
+[🇺🇦 Українською](index_uk.md)
 
-[Інші ігри](all_games.md)
+[Other Games](all_games.md)
 
-# Слобода. Розбудуй селище у Війську Запорізькому
+# Sloboda. Build a settlement in XVII century
 
 ![cover.png](sloboda2/images/thumbnail.png)
 
-# Про гру
+# About the Game
 
-**Колись мріяли пограти за козаків з Війська Запорозького?** Тоді ця гра для вас! Візьміть на себе роль старости нової Слободи, яку тільки-но поставили у Війську Запорізькому. Збирайте ресурси, будуйте будівлі, захоплюйте нові долини та розширюйте вплив Слободи на навколишні землі. Виконуйте більше ніж 30 квестів від допомоги козакам під Азовом і до формування невеликих загонів для рейдів в степу.
+Take a role of a head of a freshly settled town in southern part of Ukraine called Loca Deserta (Wild Lands). Gather resources, build manufacturings, open new valleys, get access to Black Sea. Finish quests that slowly guide you through the gameplay mechanics. All set in lowpoly art style with more than 40 buildings, 14 production chains and dozens of animations
 
-Ваша задача збирати ресурси за допомогою кайла та сокири, збудувати нові виробництва та відкрити нові долини, де знаходяться ще більше виробництв, які необхідно збудувати. В грі доступно 17 будівель, 6 долин для розширення селища та 35 завдань, які занурять в життя старости Війська Запорозького в XVII столітті.
-
-## Посилання
+# Links
 
 - Tiktok
 
@@ -24,50 +22,53 @@
 - Telegram: [https://t.me/locadesertachumaki](https://t.me/locadesertachumaki)
 
 
-## Гра поєднує в собі два жанри
+## The game is done in two genres
 
-- 🏠розбудуй селище
-- ⚒️виробничий симулятор
+- 🏠 build a settlement, or city-building
+- ⚒️ production simulation
 
-## Що за жанр розбудуй селище?
+## What's the city building genre?
 
-Це жанр, де гравці будують селище десь у лісі і починають з примітивних ресурсів, такі як камінь та дерево. Щось на кшталт Майнкрафту, але не від першої особи 😘. Поступово зводячі все нові і більш складні будівлі, гравці постійно відкривають нові будівлі та долини. Загалом в грі доступно для побудови 17 будівель, при чому кожна з них може бути покращена тричі, для збільшення обсягу економіки.
+In this genre players build settlements somewhere in wild lands. They start with primitive tools and resources like logs or stones picked on the map. Something like Minecraft but not as a first person :-). Slowly players build manufacturings that allow production of more sophisticated materials and goods like cannons, metal, ships, etc. Each building can be upgraded three times to increase the output. 
 
-Кожна з будівель має унікальний арт для кожного з рівня покращень.
+Each building in game has unique lowpoly style with three levels of upgrades.
 
-Наприклад, Лісопилка 🪚:
+Take an example, Sawmill 🪚. Three levels of buildings all different but recognizable:
 
 <img src="sloboda2/images/uk/sawmill_1.png" width="250"> ➡️ <img src="sloboda2/images/uk/sawmill_2.png" width="250"> ➡️ <img src="sloboda2/images/uk/sawmill_3.png" width="250">
 
+## What's about production simulation?
 
-## Що за жанр Виробничий симулятор?
+In this genre players have to form a production chain flow of primitive goods to be processed into something more sophisticated.
 
-У виробничих симуляторах гравець має будувати і забезпечувати виробничі ланцюги на виробництвах.
+An example will help!
 
-Наприклад, щоб виготовити гармату <img src="sloboda2/images/uk/cannon.png" width="120">, треба метал, дошки, порох та дерево: <img src="sloboda2/images/uk/cannon_production.png" width="280">.
+To produce a cannon <img src="sloboda2/images/uk/cannon.png" width="120">, players need: a metal, planks, gun powder and logs: <img src="sloboda2/images/uk/cannon_production.png" width="280">.
 
-Щоб отримати метал, треба залізо та вугілля:
+To get metal parts players need iron ore and coal:
 
 <img src="sloboda2/images/uk/metal_production.png" width="350">.
 
-Щоб отрмати залізо, треба їжа для шахтаря:
+To get iron ore players need to provide workers with food at Iron Ore Mine:
+
 
 <img src="sloboda2/images/uk/iron_production.png" width="350">.
 
-Щоб отримати вугілля, треба дерево для вуглярки:
+To get coal, players need to burn logs:
 
 <img src="sloboda2/images/uk/coal_production.png" width="350">.
 
-І в кінці виробничого ланцюгу гравець отримує гармату:
+And in the end of this productino chain players get a cannon:
 
 <img src="sloboda2/images/uk/cannon.png" width="350">
 
-## Коли випуск?
+## Release date
 
-Випуск запланований на зиму 2022.
+Planned for this winter 2022 ❄️
 
-## Які платформи?
+## On what platforms?
 
-Поки що акцент іде на платформи від Apple. Гра буде доступна на iPhone, iPad та Apple TV!
+So far we have plans to release only on Apple Platforms. The game will be available on App Store for iPhones, macOS, iPads and Apple TV!
 
-## Підтримка джойстиків 🎮
+## Game has full external gaming controller support 🎮
+
