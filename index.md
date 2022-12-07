@@ -6,6 +6,8 @@
 
 ![cover.png](sloboda2/images/thumbnail.png)
 
+[![Download from the App Store](images/appstore.svg)](https://apps.apple.com/us/app/loca-deserta-sloboda-2/id1642505646)
+
 # About the Game
 
 Take a role of a head of a freshly settled town in southern part of Ukraine called Loca Deserta (Wild Lands). Gather resources, build manufacturings, open new valleys, get access to Black Sea. Finish quests that slowly guide you through the gameplay mechanics. All set in lowpoly art style with more than 40 buildings, 14 production chains and dozens of animations
