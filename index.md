@@ -70,9 +70,9 @@ And in the end of this productino chain players get a cannon:
 
 Planned for this winter 2022 ❄️
 
-## On what platforms?
+## Licenses
 
-So far we have plans to release only on Apple Platforms. The game will be available on App Store for iPhones, macOS, iPads and Apple TV!
+Sloboda 2 contains materials licensed under appropriate licenses as seen at: [Licenses](sloboda2_licenses.html)
 
 ## Game has full external gaming controller support 🎮
 
