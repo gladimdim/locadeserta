@@ -45,9 +45,6 @@ Take an example, Sawmill 🪚. Three levels of buildings all different but recog
 
 In this genre players have to form a production chain flow of primitive goods to be processed into something more sophisticated.
 
-## Release date
-
-Planned for this winter 2022 ❄️
 
 ## Licenses
 
