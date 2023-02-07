@@ -45,27 +45,6 @@ Take an example, Sawmill 🪚. Three levels of buildings all different but recog
 
 In this genre players have to form a production chain flow of primitive goods to be processed into something more sophisticated.
 
-An example will help!
-
-To produce a cannon <img src="sloboda2/images/uk/cannon.png" width="120">, players need: a metal, planks, gun powder and logs: <img src="sloboda2/images/uk/cannon_production.png" width="280">.
-
-To get metal parts players need iron ore and coal:
-
-<img src="sloboda2/images/uk/metal_production.png" width="350">.
-
-To get iron ore players need to provide workers with food at Iron Ore Mine:
-
-
-<img src="sloboda2/images/uk/iron_production.png" width="350">.
-
-To get coal, players need to burn logs:
-
-<img src="sloboda2/images/uk/coal_production.png" width="350">.
-
-And in the end of this productino chain players get a cannon:
-
-<img src="sloboda2/images/uk/cannon.png" width="350">
-
 ## Release date
 
 Planned for this winter 2022 ❄️
