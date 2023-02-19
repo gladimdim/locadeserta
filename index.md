@@ -12,7 +12,15 @@
 
 # About the Game
 
-Take a role of a head of a freshly settled town in southern part of Ukraine called Loca Deserta (Wild Lands). Gather resources, build manufacturings, open new valleys, get access to Black Sea. Finish quests that slowly guide you through the gameplay mechanics. All set in lowpoly art style with more than 40 buildings, 14 production chains and dozens of animations
+Loca Deserta is a strategy game that puts you in the role of the head of a freshly settled town in southern Ukraine. Your mission is to gather resources, build manufacturing facilities, open up new valleys, and gain access to the Black Sea. You'll face a variety of challenges as you work to turn your town into a thriving metropolis.
+
+The game takes place in the wild lands of southern Ukraine, an area known for its rugged terrain and unforgiving climate. Despite the challenges, you are determined to make a new life for yourself and your people.
+
+As you play, you'll take on quests that guide you through the gameplay mechanics. You'll need to manage your resources carefully in order to build the town's infrastructure and keep your citizens fed and happy. You'll also need to establish a variety of production chains, from agriculture and fishing to mining and manufacturing.
+
+With more than 40 buildings to construct, 14 production chains to manage, and dozens of animations, Loca Deserta offers a rich and immersive gameplay experience. The game's low-poly art style gives it a charming and unique look, while the intricate mechanics will keep you engaged for hours on end.
+
+Can you turn a small settlement into a thriving town in the wilds of southern Ukraine? Play Loca Deserta to find out!
 
 # Links
 
