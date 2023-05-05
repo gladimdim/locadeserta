@@ -1,7 +1,7 @@
 [🇺🇸English](all_games.md)
 
 <p align="center">
-<a style="font-size: 36px" href="sloboda2/index_uk">Слобода. Розбудуй селище у Війську Запорізькому
+<a style="font-size: 36px" href="index_uk">Слобода. Розбудуй селище у Війську Запорізькому
   <p align="center">
  <img src="sloboda2/images/thumbnail.png" width="350">
   </p>
