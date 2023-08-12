@@ -6,7 +6,17 @@
 ## So far, we have published 6 games. Check them out!
 
 <p align="center">
-<a style="font-size: 36px" href="index">Sloboda 2. Build and Craft in Lowpoly World!
+<a style="font-size: 36px" href="./odesa/index.md">Loca Deserta: Odesa. Build. Craft. Explore!
+  <p align="center">
+ <img src="odesa/images/secret_place.jpg" width="350">
+  </p>
+</a>
+</p>
+
+---
+
+<p align="center">
+<a style="font-size: 36px" href="./sloboda2/index.md">Loca Deserta: Sloboda 2. Build and Craft in Lowpoly World!
   <p align="center">
  <img src="sloboda2/images/thumbnail.png" width="350">
   </p>
