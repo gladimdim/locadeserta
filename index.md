@@ -1,5 +1,5 @@
 
-[🇺🇦Українською](all_games_uk.md)
+[🇺🇦Українською](index_uk)
 
 # Loca Deserta Game Universe!
 
