@@ -5,7 +5,7 @@
 ## Ми опублікували уже 6 ігор!
 
 <p align="center">
-<a style="font-size: 36px" href="./odesa/index_uk">Loca Deserta: Odesa. Build. Craft. Explore!
+<a style="font-size: 36px" href="./odesa/index_uk">Дике Поле: Одеса. Заселяємо південь України!
   <p align="center">
  <img src="odesa/images/secret_place.jpg" width="350">
   </p>
