@@ -8,7 +8,7 @@
 
 [![Придбати на Apple App Store](../images/appstore.svg)](https://apps.apple.com/ua/app/loca-deserta-odesa/id6449617200)
 
-[![Придбати на Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda)
+[![Придбати на Google Play](../images/play_store_badge.png)](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa)
 
 # Про гру
 
