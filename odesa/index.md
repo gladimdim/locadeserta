@@ -1,6 +1,6 @@
 [🇺🇦 Українською](./index_uk.md)
 
-[Other Games](all_games.md)
+[Other Games](/index.md)
 
 # Loca Deserta: Odesa. Help cossacks settle in Odesa lands!
 
