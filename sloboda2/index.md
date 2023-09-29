@@ -1,6 +1,6 @@
 [🇺🇦 Українською](./index_uk.md)
 
-[Other Games](all_games.md)
+[Other Games](/index.md)
 
 # Sloboda. Build a settlement in XVII century
 

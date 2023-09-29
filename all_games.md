@@ -1,5 +1,5 @@
 
-[🇺🇦Українською](all_games_uk.md)
+[🇺🇦Українською](/index_uk.md)
 
 <p align="center">
 <a style="font-size: 36px" href="index">Sloboda. A Build+Craft Game

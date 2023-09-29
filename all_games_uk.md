@@ -1,4 +1,4 @@
-[🇺🇸English](all_games.md)
+[🇺🇸English](/index.md)
 
 <p align="center">
 <a style="font-size: 36px" href="index_uk">Слобода. Розбудуй селище у Війську Запорізькому
