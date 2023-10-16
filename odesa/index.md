@@ -12,25 +12,24 @@
 
 # About the Game
 
-Welcome to our charming lowpoly settlement, where you become the mighty chieftain in charge of leading it to prosperity! Explore the rugged terrain of southern Ukraine, gather resources, mine stones, and build manufacturings to craft your way to the top. With access to the Black Sea and six valleys to explore, there's no limit to your success!
+We are settling the south of Ukraine! In our new game from the “Wild Field” universe. This time you will have to help the settlers in Khadjibey-Odessa.
 
 ![gather.png](images/gather.png)
 
+The game has 100% Ukrainian and English languages support, including voice acting and bombastic Ukrainian songs 🇺🇦.
 
-Upgrade your buildings up to three times to produce more goods, and witness the unique lowpoly art and animation for each manufacturing building. With a total of 47 lowpoly building models, you're in for an immersive and gorgeous gaming experience.
+Take on the role of a simple Cossack who helps build the economy of a new region. Also, find all five treasures hidden on the map
 
 ![quests.png](images/quests.png)
 
-Unlock 21 Game Center achievements with awesome and breathtaking art, and enjoy the sounds of Ukraine with three magnificent Ukrainian songs recorded just for the game. Find bards on the map and listen to their concerts while exploring the wilderness.
+More than 70 quests, from helping the Cossack chieftain restore his strength after a campaign, to helping Budjak Tatars settle in Khadjibey. Quests are interconnected: to complete some quests, you first need to complete tasks of other Cossacks and Cossack womenю
 
 ![treasures.png](images/treasures.png)
 
 
-Embark on over 40 quests, each offering a unique challenge and guiding you through the intricate gameplay mechanics. The game offers a production chain that's six levels deep, allowing you to produce over 17 types of materials in total. Each valley you unlock provides new opportunities for goods production and lets you produce new types of goods.
+All non-playable characters are interactive. They will tell you about the features of the game, or who is rummaging around the cemetery at night with a candle (hint: they are also looking for treasures ✊🏻).
 
 ![quests.png](images/quests.png)
 
 
-The game also supports external controllers, and all buttons are mapped to the controls for a seamless experience. You can even hide all on-screen controls from the menu, taking your gameplay to the next level.
-
-Join our lowpoly settlement, and see if you have what it takes to become a legendary chieftain and lead our town to glory!
+By completing tasks, you will eventually get information about buried treasures. Take a shovel in your hand and run to dig it up! Then bring it to the center of the island to the Cossack Tomb, where Chieftain collects all Ukrainian artifacts.

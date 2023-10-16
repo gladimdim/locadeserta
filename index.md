@@ -3,6 +3,10 @@
 
 # Loca Deserta Game Universe!
 
+[<img src="images/discord.svg" width="125">](https://discord.gg/87kKhw9Q) [<img src="images/Telegram_logo.svg" width="125">](https://t.me/locadesertachumaki) [<img src="images/playstore-icon.svg" width="125">](https://play.google.com/store/apps/dev?id=7035097424361510326
+) [<img src="images/appstore_icon.svg" width="125">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
+) [<img src="images/Logo_of_Twitter.svg" width="125">](https://twitter.com/locadeserta)
+
 ## So far, we have published 6 games. Check them out!
 
 <p align="center">
