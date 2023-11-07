@@ -6,7 +6,10 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@locadeserta)
 
+<iframe src="https://store.steampowered.com/widget/2637950/" frameborder="0" width="646" height="190"></iframe>
+
 ## Ми опублікували уже 6 ігор!
+
 
 <p align="center">
 <a style="font-size: 36px" href="./odesa/index_uk">Дике Поле: Одеса. Заселяємо південь України!
