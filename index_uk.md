@@ -2,9 +2,9 @@
 
 # Всесвіт Дикого Поля!
 
-[<img src="images/discord.svg" width="85">](https://discord.gg/NThUaS3ajR) [<img src="images/Telegram_logo.svg" width="85">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="85">](https://store.steampowered.com/app/2637950/_/) [<img src="images/playstore-icon.svg" width="85">](https://play.google.com/store/apps/dev?id=7035097424361510326
-) [<img src="images/appstore_icon.svg" width="85">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
-) [<img src="images/Logo_of_Twitter.svg" width="85">](https://twitter.com/locadeserta)
+[<img src="images/discord.svg" width="65">](https://discord.gg/NThUaS3ajR) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/) [<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
+) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
+) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@locadeserta)
 
 ## Ми опублікували уже 6 ігор!
 
