@@ -8,6 +8,8 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@locadeserta)
 
+[<img src="images/Logo_of_Epic_Store.png" width="128">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
+
 <div id="steam_widget">
 <iframe src="https://store.steampowered.com/widget/2637950/" frameborder="0" width="646" height="190"></iframe>
 </div>
