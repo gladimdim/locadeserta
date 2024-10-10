@@ -9,12 +9,12 @@
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)
 [<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
-## Our Fortnite Games. Seach by author [@DmytroGladkyi](www.fortnite.com/@dmytrogladkyi)
+## Our Fortnite Games. Seach by author [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 
 We have published 9 different Fortnite Islands, including games from our new universe - Loca Deserta Sci-Fi.
 
 <p align="center">
-<a style="font-size: 36px" href="www.fortnite.com/@dmytrogladkyi">All Our Games from Fortnite
+<a style="font-size: 36px" href="https://www.fortnite.com/@dmytrogladkyi">All Our Games from Fortnite
   <p align="center">
  <img src="images/Fortnite_Games.png" width="350">
   </p>

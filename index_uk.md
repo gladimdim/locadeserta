@@ -8,12 +8,12 @@
 
 
 
-## Розробляємо ігри у всесвіті Fortnite! Шукай по назві автора [@DmytroGladkyi](www.fortnite.com/@dmytrogladkyi)
+## Розробляємо ігри у всесвіті Fortnite! Шукай по назві автора [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 
 Наразі уже опубліковано 9 різноманітних ігор, включаючи наш новий всесвіт - Loca Deserta Sci-Fi
 
 <p align="center">
-<a style="font-size: 36px" href="www.fortnite.com/@dmytrogladkyi">Всі наші ігри у Фортнайті
+<a style="font-size: 36px" href="https://www.fortnite.com/@dmytrogladkyi">Всі наші ігри у Фортнайті
   <p align="center">
  <img src="images/Fortnite_Games.png" width="350">
   </p>
