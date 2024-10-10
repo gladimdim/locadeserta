@@ -6,7 +6,7 @@
 
 [<img src="images/discord.svg" width="65">](https://discord.gg/NThUaS3ajR) [<img src="images/youtube.svg" width="65">](https://www.youtube.com/@dmytrogladkyi) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki)  [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/) [<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
-) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@locadeserta)
+) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)
 
 [<img src="images/Logo_of_Epic_Store.png" width="128">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
@@ -14,7 +14,20 @@
 <iframe src="https://store.steampowered.com/widget/2637950/" frameborder="0" width="646" height="190"></iframe>
 </div>
 
-## So far, we have published 6 games. Check them out!
+## Our Forntite Games. Search by @dmytrogladkyi author in Fortnite!
+
+We have published 9 different Fortnite Islands, including games from our new universe - Loca Deserta Sci-Fi.
+
+<p align="center">
+<a style="font-size: 36px" href="www.fortnite.com/@dmytrogladkyi">All Our Games from Fortnite
+  <p align="center">
+ <img src="images/Fortnite_Games.png" width="350">
+  </p>
+</a>
+</p>
+
+
+## So far, we have published 6 games on Mobiles and Steam. Check them out!
 
 <p align="center">
 <a style="font-size: 36px" href="./odesa/index">Loca Deserta: Odesa. Build. Craft. Explore!
