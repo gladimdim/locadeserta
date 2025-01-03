@@ -9,6 +9,15 @@
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)
 [<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## Jan 3, 2025
+
+Loca Deserta is coming to Roblox!
+
+We are glad to announce that we have decided to make next game from the Loca Deserta game universe in Roblox!
+This will be a multiplayer team-based shooter game with objectives on a map! Follow us on social medias or jump directly into the daily dev build:
+
+[Loca Deserta @ Roblox ](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5)
+
 ## Our Fortnite Games. Seach by author [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 
 We have published 9 different Fortnite Islands, including games from our new universe - Loca Deserta Sci-Fi.

@@ -6,7 +6,15 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta) [<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi) [<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## 3 Січня, 2025
 
+Дике Поле приходить в Роблокс!
+
+Раді сповістити вас, що вирішили зробити наступну гру з серії Дике Поле в Роблоксі! Це буде командний шутер 20 на 20, козаки проти татар, купа зброї, скінінів, прокачка і...штурм Керчі!
+
+Все це доступно уже зараз на щоденних білдах розробника тут:
+
+[Дике Поле @ Roblox ](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5)
 
 ## Розробляємо ігри у всесвіті Fortnite! Шукай по назві автора [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 
