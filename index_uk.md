@@ -28,6 +28,8 @@
 </a>
 </p>
 
+[<img src="images/Logo_of_Epic_Store.png" width="128">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
+
 <iframe src="https://store.steampowered.com/widget/2637950/" frameborder="0" width="646" height="190"></iframe>
 
 ## Ми опублікували уже 6 ігор на Мобілках та Steam!

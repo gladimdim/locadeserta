@@ -30,6 +30,8 @@ We have published 9 different Fortnite Islands, including games from our new uni
 </a>
 </p>
 
+[<img src="images/Logo_of_Epic_Store.png" width="128">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
+
 <div id="steam_widget">
 <iframe src="https://store.steampowered.com/widget/2637950/" frameborder="0" width="646" height="190"></iframe>
 </div>
