@@ -15,6 +15,8 @@
 Все це доступно уже зараз на щоденних білдах розробника тут:
 
 [Дике Поле @ Roblox ](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5)
+[Дике Поле @ Roblox Спільнота](https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about)
+[Ігри Дикого Поля @ Guilded](https://www.guilded.gg/i/EA3wamqk)
 
 ## Розробляємо ігри у всесвіті Fortnite! Шукай по назві автора [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 

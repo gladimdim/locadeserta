@@ -18,6 +18,10 @@ This will be a multiplayer team-based shooter game with objectives on a map! Fol
 
 [Loca Deserta @ Roblox ](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5)
 
+[Loca Deserta @ Roblox Community](https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about)
+
+[Loca Deserta Games @ Guilded](https://www.guilded.gg/i/EA3wamqk)
+
 ## Our Fortnite Games. Seach by author [@DmytroGladkyi](https://www.fortnite.com/@dmytrogladkyi)
 
 We have published 9 different Fortnite Islands, including games from our new universe - Loca Deserta Sci-Fi.
