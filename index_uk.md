@@ -2,9 +2,23 @@
 
 # Всесвіт Дикого Поля!
 
-[<img src="images/discord.svg" width="65">](https://discord.gg/NThUaS3ajR)[<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)[<img src="images/youtube.svg" width="65">](https://www.youtube.com/@dmytrogladkyi)[<img src="images/guilded.svg" width="65">](https://www.guilded.gg/i/EA3wamqk) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/)[<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
+[<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)[<img src="images/youtube.svg" width="65">](https://www.youtube.com/@dmytrogladkyi)[<img src="images/guilded.svg" width="65">](https://www.guilded.gg/i/EA3wamqk) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/)[<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
+
+## 19 Січня 2025
+### <a name="discord-access"></a> Мій супер Дискорд по розробці Fortnite + Roblox
+
+Щогли, у зв'язку з величезним напливом на мій сервер дискорду по розробці Фортнайту та Роблокса, вирішив припинити інвайти. Для покращення якості щоглів, які хочуть урвати бабла, тепер для доступу до сервера
+необхідно:
+- придбати будь-яку мою гру на будь-якій платформі (лінки зверху)
+- написати мені в лічку: [<img src="images/discord.svg" width="35">](https://discordapp.com/users/374843758837104651) або шукайте Батька Українського Ігроробства '**dmytrogladkyi**'
+- вислати скрін з покупкою
+- отримаєте інвайт на сервер з елітою розробки Фортнайту та Роблокса.
+
+Це збереже нерви поточних щоглів, які змушені терпіти "арбітражників" і "де тут ввести картку хочу грошей уже".
+
+☝️ Раз в тиждень з сервера вилітають всі, хто не був онлайн 30 днів. Я за числами не гонюсь, мені головне якість і активна спільнота💡
 
 ## 3 Січня, 2025
 

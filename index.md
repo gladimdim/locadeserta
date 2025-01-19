@@ -3,7 +3,7 @@
 
 # Loca Deserta Game Universe!
 
-[<img src="images/discord.svg" width="65">](https://discord.gg/NThUaS3ajR)[<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)[<img src="images/youtube.svg" width="65">](https://www.youtube.com/@dmytrogladkyi)[<img src="images/guilded.svg" width="65">](https://www.guilded.gg/i/EA3wamqk) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/)[<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
+[<img src="images/logo-tiktok.svg" width="65">](https://tiktok.com/@dmytrogladkyi)[<img src="images/youtube.svg" width="65">](https://www.youtube.com/@dmytrogladkyi)[<img src="images/guilded.svg" width="65">](https://www.guilded.gg/i/EA3wamqk) [<img src="images/Telegram_logo.svg" width="65">](https://t.me/locadesertachumaki) [<img src="images/Steam_icon_logo.svg.png" width="65">](https://store.steampowered.com/app/2637950/_/)[<img src="images/playstore-icon.svg" width="65">](https://play.google.com/store/apps/dev?id=7035097424361510326
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
