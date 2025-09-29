@@ -6,6 +6,11 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## 29 Вересеня 2025
+Нарешті дописав свою книгу "Зоряний Гетьманат" та виклав її на Apple Books + Booknet!
+
+[Залітай на його сторінку!](/locadesertascifi/index.md)
+
 ## 19 Січня 2025
 ### <a name="discord-access"></a> Мій супер Дискорд по розробці Fortnite + Roblox
 
