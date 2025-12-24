@@ -14,6 +14,14 @@
 </a>
 </p>
 
+## Або прямо з цього сайту:
+
+<p align="center">
+  <a href="books/Zoryanij_Getmanat.md">
+    <img src="./images/cover.jpg" width="150">
+</a>
+</p> 
+
 ## Або придбати на Apple Books (доступно лише за межами України): [Зоряний Гетьманат на Apple Books](https://books.apple.com/us/book/зоряний-гетьманат/id6752848228?ls=1):
 
 <p align="center">
@@ -21,6 +29,9 @@
     <img src="./images/applebooks_image.png" width="350">
 </a>
 </p>
+
+## Або ж скачати EPUB 
+[Скачати Зоряний Гетьманат в EPUB форматі](https://github.com/gladimdim/locadeserta/releases/download/space-getmanate/Zoryanij_Getmanat.epub)
 
 # Про книгу
 
