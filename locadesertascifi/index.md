@@ -6,6 +6,8 @@
   <img src="./images/cover.jpg" width="350">
 </p>
 
+## Вікі-портал всесвіту Дикого Поля Sci-Fi: [https://gladimdim.github.io/LocaDesertaSciFi/](https://gladimdim.github.io/LocaDesertaSciFi/)
+
 ## Ви можете читати книгу абсолютно безкоштовно з Booknet: [Зоряний Гетьманат на Booknet](https://booknet.ua/book/zoryanii-getmanat-b442821).
 
 <p align="center">
