@@ -6,7 +6,9 @@
   <img src="./images/cover.jpg" width="350">
 </p>
 
-## Вікі-портал всесвіту Дикого Поля Sci-Fi: [https://gladimdim.github.io/LocaDesertaSciFi/](https://gladimdim.github.io/LocaDesertaSciFi/)
+## Вікі-портал всесвіту Дикого Поля Sci-Fi: [scifi.locadeserta.com](https://scifi.locadeserta.com/)
+
+## Гра у цьому всесвіті — Loca Deserta: Settlers. Грай безкоштовно в браузері: [settlers.locadeserta.com](https://settlers.locadeserta.com/)
 
 ## Ви можете читати книгу абсолютно безкоштовно з Booknet: [Зоряний Гетьманат на Booknet](https://booknet.ua/book/zoryanii-getmanat-b442821).
 

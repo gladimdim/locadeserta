@@ -6,6 +6,14 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## 14 Липня 2026
+
+Нова гра у всесвіті Дике Поле Sci-Fi — **Loca Deserta: Settlers**! Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас.
+
+Грати можна безкоштовно прямо в браузері: [settlers.locadeserta.com](https://settlers.locadeserta.com)
+
+Збірки для Windows, macOS та Linux: [завантажити з GitHub Releases](https://github.com/gladimdim/LocaDeserta_Settlers/releases)
+
 ## 29 Вересеня 2025
 Нарешті дописав свою книгу "Зоряний Гетьманат" та виклав її на Apple Books + Booknet!
 

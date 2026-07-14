@@ -7,6 +7,14 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## Jul 14, 2026
+
+A new game in the Loca Deserta Sci-Fi universe — **Loca Deserta: Settlers**! A macro-economic space colony builder inspired by The Settlers III/IV: harvest asteroids, chain production buildings, expand your territory with Towers, and colonise planets named after Ukrainian places — Podillia, Zhovti Vody, Kryvbas.
+
+Play for free right in your browser: [settlers.locadeserta.com](https://settlers.locadeserta.com)
+
+Windows, macOS, and Linux builds: [download from GitHub Releases](https://github.com/gladimdim/LocaDeserta_Settlers/releases)
+
 ## Jan 3, 2025
 
 Loca Deserta is coming to Roblox!
