@@ -6,6 +6,12 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## 31 Липня 2026
+
+Виклав другу книгу у всесвіті Дике Поле Sci-Fi — **«Вістря Кулаку»**! Історія про термінаторів Федерації Гетьманату, орбітальні десанти та братерство, обпалене вакуумом і плазмою.
+
+[📖 Читати на сайті](/locadesertascifi/books/Vistrya_Kulaku.md) | [📚 Booknet](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
+
 ## 14 Липня 2026
 
 Нова гра у всесвіті Дике Поле Sci-Fi — **Loca Deserta: Settlers**! Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас.

@@ -1,5 +1,29 @@
 # Всесвіт Дикого Поля Sci-Fi
 
+## 🆕 Нова книга — «Вістря Кулаку»! (31 Липня 2026)
+
+Третя книга у всесвіті Дикого Поля Sci-Fi уже тут! Зустрічайте «Вістря Кулаку» — історію про термінаторів Федерації Гетьманату, орбітальні десанти та братерство, обпалене вакуумом і плазмою.
+
+<p align="center">
+  <a href="./books/Vistrya_Kulaku.md">
+    <img src="./images/vistrya_kulaku_cover.jpg" width="350">
+  </a>
+</p>
+
+<p align="center">
+  <a href="./books/Vistrya_Kulaku.md" style="font-size: 24px">📖 Читати на сайті</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://booknet.ua/book/vstrya-kulaku-b457200" style="font-size: 24px">📚 Читати на Booknet</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="http://books.apple.com/us/book/id6796759290" style="font-size: 24px">🍎 Apple Books</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku" style="font-size: 24px">⬇️ GitHub (EPUB)</a>
+</p>
+
+---
+
+## «Зоряний Гетьманат» — перша книга всесвіту
+
 Здорово, щогли! Вперше публікую свою книгу із всесвіту Дикого Поля Sci-Fi "Зоряний Гетьманат". 
 
 <p align="center">

@@ -7,6 +7,12 @@
 ) [<img src="images/appstore_icon.svg" width="65">](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466
 ) [<img src="images/Logo_of_Twitter.svg" width="65">](https://twitter.com/locadeserta)[<img src="images/Logo_of_Epic_Store.png" width="65">](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b)
 
+## Jul 31, 2026
+
+Released the third book in the Loca Deserta Sci-Fi universe — **«Vistrya Kulaku» (Fist's Edge)**! A story about the Hetmanate Federation terminators, orbital drops, and brotherhood forged in vacuum and plasma.
+
+[📖 Read on the site (UA)](/locadesertascifi/books/Vistrya_Kulaku.md) | [📚 Booknet (UA)](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
+
 ## Jul 14, 2026
 
 A new game in the Loca Deserta Sci-Fi universe — **Loca Deserta: Settlers**! A macro-economic space colony builder inspired by The Settlers III/IV: harvest asteroids, chain production buildings, expand your territory with Towers, and colonise planets named after Ukrainian places — Podillia, Zhovti Vody, Kryvbas.
