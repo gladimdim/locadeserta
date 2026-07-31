@@ -12,6 +12,10 @@
 
 [📖 Читати на сайті](/locadesertascifi/books/Vistrya_Kulaku.html) | [📚 Booknet](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
 
+Також виклав ще одну книгу — **«Зустріч в Степу»**! Історія про пластунів-розвідників на планеті Дике Поле-17, бот-коней та козацьке братерство в тилу Імперії Сонця.
+
+[📖 Читати на сайті](/locadesertascifi/books/Zustrich_v_Stepu.html) | [📚 Booknet](https://booknet.ua/book/zustrch-v-stepu-b446432) | [🍎 Apple Books](http://books.apple.com/us/book/id6796818751) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/encounter_in_steppe)
+
 ## 14 Липня 2026
 
 Нова гра у всесвіті Дике Поле Sci-Fi — **Loca Deserta: Settlers**! Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас.

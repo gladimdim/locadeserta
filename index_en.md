@@ -13,6 +13,10 @@ Released the third book in the Loca Deserta Sci-Fi universe — **«Vistrya Kula
 
 [📖 Read on the site (UA)](/locadesertascifi/books/Vistrya_Kulaku.html) | [📚 Booknet (UA)](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
 
+Also released another book — **«Zustrich v Stepu» (Encounter in the Steppe)**! A story about scout platoons on planet Dyke Pole-17, bot-horses, and Cossack brotherhood behind enemy lines.
+
+[📖 Read on the site (UA)](/locadesertascifi/books/Zustrich_v_Stepu.html) | [📚 Booknet (UA)](https://booknet.ua/book/zustrch-v-stepu-b446432) | [🍎 Apple Books](http://books.apple.com/us/book/id6796818751) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/encounter_in_steppe)
+
 ## Jul 14, 2026
 
 A new game in the Loca Deserta Sci-Fi universe — **Loca Deserta: Settlers**! A macro-economic space colony builder inspired by The Settlers III/IV: harvest asteroids, chain production buildings, expand your territory with Towers, and colonise planets named after Ukrainian places — Podillia, Zhovti Vody, Kryvbas.

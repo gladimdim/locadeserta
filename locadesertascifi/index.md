@@ -22,6 +22,28 @@
 
 ---
 
+## 🆕 Нова книга — «Зустріч в Степу»! (31 Липня 2026)
+
+Ще одна новинка у всесвіті Дикого Поля Sci-Fi! «Зустріч в Степу» — історія про пластунів-розвідників, бот-коней та козацьке братерство на планеті Дике Поле-17.
+
+<p align="center">
+  <a href="./books/Zustrich_v_Stepu.html">
+    <img src="./images/zustrich_v_stepu_cover.jpg" width="350">
+  </a>
+</p>
+
+<p align="center">
+  <a href="./books/Zustrich_v_Stepu.html" style="font-size: 24px">📖 Читати на сайті</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://booknet.ua/book/zustrch-v-stepu-b446432" style="font-size: 24px">📚 Читати на Booknet</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="http://books.apple.com/us/book/id6796818751" style="font-size: 24px">🍎 Apple Books</a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gladimdim/locadeserta/releases/tag/encounter_in_steppe" style="font-size: 24px">⬇️ GitHub (EPUB)</a>
+</p>
+
+---
+
 ## «Зоряний Гетьманат» — перша книга всесвіту
 
 Здорово, щогли! Вперше публікую свою книгу із всесвіту Дикого Поля Sci-Fi "Зоряний Гетьманат". 
