@@ -5,13 +5,13 @@
 Третя книга у всесвіті Дикого Поля Sci-Fi уже тут! Зустрічайте «Вістря Кулаку» — історію про термінаторів Федерації Гетьманату, орбітальні десанти та братерство, обпалене вакуумом і плазмою.
 
 <p align="center">
-  <a href="./books/Vistrya_Kulaku.md">
+  <a href="./books/Vistrya_Kulaku.html">
     <img src="./images/vistrya_kulaku_cover.jpg" width="350">
   </a>
 </p>
 
 <p align="center">
-  <a href="./books/Vistrya_Kulaku.md" style="font-size: 24px">📖 Читати на сайті</a>
+  <a href="./books/Vistrya_Kulaku.html" style="font-size: 24px">📖 Читати на сайті</a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://booknet.ua/book/vstrya-kulaku-b457200" style="font-size: 24px">📚 Читати на Booknet</a>
   &nbsp;&nbsp;&nbsp;

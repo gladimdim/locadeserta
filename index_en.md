@@ -11,7 +11,7 @@
 
 Released the third book in the Loca Deserta Sci-Fi universe — **«Vistrya Kulaku» (Fist's Edge)**! A story about the Hetmanate Federation terminators, orbital drops, and brotherhood forged in vacuum and plasma.
 
-[📖 Read on the site (UA)](/locadesertascifi/books/Vistrya_Kulaku.md) | [📚 Booknet (UA)](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
+[📖 Read on the site (UA)](/locadesertascifi/books/Vistrya_Kulaku.html) | [📚 Booknet (UA)](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
 
 ## Jul 14, 2026
 

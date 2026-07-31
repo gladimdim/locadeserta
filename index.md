@@ -10,7 +10,7 @@
 
 Виклав другу книгу у всесвіті Дике Поле Sci-Fi — **«Вістря Кулаку»**! Історія про термінаторів Федерації Гетьманату, орбітальні десанти та братерство, обпалене вакуумом і плазмою.
 
-[📖 Читати на сайті](/locadesertascifi/books/Vistrya_Kulaku.md) | [📚 Booknet](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
+[📖 Читати на сайті](/locadesertascifi/books/Vistrya_Kulaku.html) | [📚 Booknet](https://booknet.ua/book/vstrya-kulaku-b457200) | [🍎 Apple Books](http://books.apple.com/us/book/id6796759290) | [⬇️ GitHub (EPUB)](https://github.com/gladimdim/locadeserta/releases/tag/vistrya_kulaku)
 
 ## 14 Липня 2026
 

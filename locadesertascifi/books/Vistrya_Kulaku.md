@@ -4,7 +4,7 @@ layout: default
 
 # Вістря Кулаку
 
-[← Назад до всесвіту Дике Поле Sci-Fi](../index.md)
+[← Назад до всесвіту Дике Поле Sci-Fi](../)
 
 <p align="center">
   <img src="../images/vistrya_kulaku_cover.jpg" width="350">
