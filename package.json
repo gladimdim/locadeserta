@@ -1,0 +1,10 @@
+{
+  "name": "locadeserta-site",
+  "version": "2.0.0",
+  "description": "Self-contained bilingual static website generator for the Loca Deserta (Дике Поле) game & sci-fi book universe",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "python3 -m http.server 8080"
+  }
+}
