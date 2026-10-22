@@ -30,7 +30,6 @@ const UI = {
     navGames: 'Games',
     navSciFi: 'Sci-Fi & Books',
     navEcosystems: 'Fortnite & Roblox',
-    navWiki: 'Sloboda Guide',
     navSocials: 'Socials & Stores',
     playBrowser: 'Play in Browser',
     learnMore: 'Game Page',
@@ -53,7 +52,6 @@ const UI = {
     navGames: 'Ігри',
     navSciFi: 'Sci-Fi та Книги',
     navEcosystems: 'Fortnite і Roblox',
-    navWiki: 'Енциклопедія Слободи',
     navSocials: 'Соцмережі та Магазини',
     playBrowser: 'Грати в браузері',
     learnMore: 'Сторінка гри',
@@ -205,7 +203,6 @@ const GAMES = [
       actions: [
         { label: '▶ Play Online (/sloboda)', href: '/sloboda/', cls: 'btn-primary' },
         { label: 'Game Guide', href: '/citybuilding/index_en.html', cls: 'btn-outline' },
-        { label: 'Buildings Wiki', href: '/sloboda-wiki.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk', cls: 'btn-outline' },
         { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda', cls: 'btn-outline' }
       ]
@@ -218,7 +215,6 @@ const GAMES = [
       actions: [
         { label: '▶ Грати Онлайн (/sloboda)', href: '/sloboda/', cls: 'btn-primary' },
         { label: 'Опис Ігроладу', href: '/citybuilding/', cls: 'btn-outline' },
-        { label: 'Енциклопедія Будівель', href: '/uk/sloboda-wiki.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk', cls: 'btn-outline' },
         { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda', cls: 'btn-outline' }
       ]
@@ -459,16 +455,24 @@ function renderLayout({
   breadcrumbs = [],
   jsonLd = [],
   activeNav = '',
+  // Pages that exist in one language only (books, devlog) must not claim a translation in hreflang
+  singleLanguage = false,
   bodyContent
 }) {
   const t = UI[lang];
   const homeUrl = lang === 'uk' ? '/uk/' : '/';
   const scifiUrl = lang === 'uk' ? '/locadesertascifi/' : '/locadesertascifi/index_en.html';
-  const wikiUrl = lang === 'uk' ? '/uk/sloboda-wiki.html' : '/sloboda-wiki.html';
   const canonicalFull = `${SITE_URL}${canonicalPath}`;
   const enFull = `${SITE_URL}${altEnPath}`;
   const ukFull = `${SITE_URL}${altUkPath}`;
   const ogImgFull = ogImage.startsWith('http') ? ogImage : `${SITE_URL}${ogImage}`;
+  const ogImgType = /\.png$/i.test(ogImage) ? 'image/png' : 'image/jpeg';
+  const hreflangLinks = singleLanguage
+    ? `<link rel="alternate" hreflang="${lang}" href="${canonicalFull}">
+  <link rel="alternate" hreflang="x-default" href="${canonicalFull}">`
+    : `<link rel="alternate" hreflang="en" href="${enFull}">
+  <link rel="alternate" hreflang="uk" href="${ukFull}">
+  <link rel="alternate" hreflang="x-default" href="${enFull}">`;
   const safeTitle = title.replace(/"/g, '&quot;');
   const safeDesc = description.replace(/"/g, '&quot;');
 
@@ -554,9 +558,7 @@ function renderLayout({
 
   <!-- Canonical & Bilingual Hreflang for Google & AI Search -->
   <link rel="canonical" href="${canonicalFull}">
-  <link rel="alternate" hreflang="en" href="${enFull}">
-  <link rel="alternate" hreflang="uk" href="${ukFull}">
-  <link rel="alternate" hreflang="x-default" href="${enFull}">
+  ${hreflangLinks}
   <link rel="help" type="text/plain" href="/llms.txt" title="LLM Context Summary">
   <link rel="help" type="text/plain" href="/llms-full.txt" title="LLM Full Knowledge Base">
 
@@ -568,7 +570,7 @@ function renderLayout({
   <meta property="og:url" content="${canonicalFull}">
   <meta property="og:image" content="${ogImgFull}">
   <meta property="og:image:secure_url" content="${ogImgFull}">
-  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:type" content="${ogImgType}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="${safeTitle}">
@@ -617,7 +619,6 @@ ${JSON.stringify(defaultJsonLd, null, 2)}
         <a href="${homeUrl}#games" class="nav-link ${activeNav === 'games' ? 'active' : ''}">${t.navGames}</a>
         <a href="${scifiUrl}" class="nav-link scifi-badge ${activeNav === 'scifi' ? 'active' : ''}">🚀 ${t.navSciFi}</a>
         <a href="${homeUrl}#ecosystems" class="nav-link">${t.navEcosystems}</a>
-        <a href="${wikiUrl}" class="nav-link ${activeNav === 'wiki' ? 'active' : ''}">${t.navWiki}</a>
         <a href="${homeUrl}#socials" class="nav-link">${t.navSocials}</a>
       </nav>
 
@@ -677,7 +678,6 @@ ${bodyContent}
         <div class="footer-col">
           <h4>${t.footerLegal}</h4>
           <ul class="footer-links">
-            <li><a href="${wikiUrl}">${t.navWiki}</a></li>
             <li><a href="/privacy_policy.html">Privacy Policy (Interactive)</a></li>
             <li><a href="/privacy_policy_for_odesa.html">Privacy Policy (Odesa)</a></li>
             <li><a href="/privacy_policy_sloboda.html">Privacy Policy (Sloboda 2)</a></li>

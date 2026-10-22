@@ -1,28 +1,29 @@
+# Loca Deserta — search engines and AI agents are welcome to read, cite and summarise this site.
+# AI-friendly summaries: https://locadeserta.com/llms.txt and https://locadeserta.com/llms-full.txt
+
 User-agent: *
-Allow: /
-
 User-agent: Googlebot
-Allow: /
-
 User-agent: Bingbot
-Allow: /
-
+User-agent: Applebot
+User-agent: DuckDuckBot
+User-agent: YandexBot
 User-agent: GPTBot
-Allow: /
-
 User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: PerplexityBot
-Allow: /
-
+User-agent: Perplexity-User
 User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: CCBot
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
+Disallow: /family_dashboard/
 
 Sitemap: https://locadeserta.com/sitemap.xml

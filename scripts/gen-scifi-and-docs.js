@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
+const { execFileSync } = require('child_process');
 const { ROOT, SITE_URL, BOOKS, renderLayout } = require('./site-core');
 
 function simpleMarkdownToHtml(md) {
@@ -68,6 +70,30 @@ function simpleMarkdownToHtml(md) {
 
   if (inList) out.push('</ul>');
   return out.join('\n');
+}
+
+// Books exported from the editor embed illustrations as base64 PNGs (~4 MB each), which bloats
+// the HTML past what search engines and AI crawlers will parse. Extract them into cached JPEG files.
+function externalizeImages(md, { imageDir, altText }) {
+  let n = 0;
+  return md
+    // A heading that only holds an image is an illustration, not a chapter title
+    .replace(/^#+\s*(!\[[^\]]*\]\(data:image[^)]*\))\s*$/gm, '$1')
+    .replace(/!\[([^\]]*)\]\(data:image\/(\w+);base64,([^)]+)\)/g, (match, alt, ext, b64) => {
+      n++;
+      const hash = crypto.createHash('sha1').update(b64).digest('hex').slice(0, 12);
+      const relFile = `${imageDir}/${hash}.jpg`;
+      const outFile = path.join(ROOT, relFile);
+      if (!fs.existsSync(outFile)) {
+        fs.mkdirSync(path.dirname(outFile), { recursive: true });
+        execFileSync('magick', [`${ext}:-`, '-strip', '-resize', '1200x1600>', '-quality', '82', outFile], {
+          input: Buffer.from(b64, 'base64')
+        });
+        console.log(`Extracted image: ${relFile}`);
+      }
+      return `![${alt || `${altText} — ілюстрація ${n}`}](/${relFile})`;
+    })
+    .replace(/<img (?![^>]*\balt=)/g, `<img alt="${altText}" loading="lazy" `);
 }
 
 function formatInline(str) {
@@ -179,7 +205,10 @@ function buildSciFiHubPage(lang) {
 
 function buildBookPage({ filename, titleUk, titleEn, cover, ogImage, booknetUrl, appleUrl, epubUrl, descUk, descEn }) {
   const mdPath = path.join(ROOT, 'locadesertascifi', 'books', filename);
-  const rawMd = fs.readFileSync(mdPath, 'utf8');
+  const rawMd = externalizeImages(fs.readFileSync(mdPath, 'utf8'), {
+    imageDir: `locadesertascifi/images/books/${filename.replace(/\.md$/, '')}`,
+    altText: titleUk
+  });
   const renderedContent = simpleMarkdownToHtml(rawMd);
 
   const bodyContent = `
@@ -223,6 +252,7 @@ function buildBookPage({ filename, titleUk, titleEn, cover, ogImage, booknetUrl,
     canonicalPath,
     altEnPath: '/locadesertascifi/index_en.html',
     altUkPath: canonicalPath,
+    singleLanguage: true,
     ogImage: ogImage || '/assets/og/og-scifi.jpg',
     ogType: 'book',
     breadcrumbs: [
@@ -250,65 +280,6 @@ function buildBookPage({ filename, titleUk, titleEn, cover, ogImage, booknetUrl,
   });
 }
 
-function buildSlobodaWikiPage(lang) {
-  const isUk = lang === 'uk';
-  const mdFile = isUk ? 'README_UK.md' : 'README.md';
-  const rawMd = fs.readFileSync(path.join(ROOT, mdFile), 'utf8');
-
-  // Parse building sections separated by ---
-  const htmlContent = simpleMarkdownToHtml(
-    rawMd.replace(/\(sloboda\/assets\//g, '(/sloboda/assets/')
-  );
-
-  const bodyContent = `
-    <section class="section">
-      <div class="container">
-        <nav class="breadcrumbs" aria-label="Breadcrumb">
-          <a href="${isUk ? '/uk/' : '/'}">${isUk ? 'Головна' : 'Home'}</a> <span>/</span>
-          <a href="${isUk ? '/citybuilding/' : '/citybuilding/index_en.html'}">${isUk ? 'Дике Поле: Слобода' : 'Loca Deserta: Sloboda'}</a> <span>/</span>
-          <span>${isUk ? 'Енциклопедія Будівель та Ресурсів' : 'Buildings & Resources Guide'}</span>
-        </nav>
-
-        <div class="section-header">
-          <div>
-            <span class="eyebrow">📚 ${isUk ? 'Офіційна Документація Гри' : 'Official Game Reference'}</span>
-            <h1 class="section-title">${isUk ? 'Енциклопедія Будівель та Ресурсів «Дике Поле: Слобода»' : 'Loca Deserta: Sloboda — Buildings & Resources Wiki'}</h1>
-            <p class="section-desc">
-              ${isUk
-                ? 'Повний довідник вартості будівництва, необхідних ресурсів для виробництва та ліміту робітників для кожної споруди у Слободі.'
-                : 'Complete production chain requirements, construction costs, outputs, and worker capacities for every building in Loca Deserta: Sloboda.'}
-            </p>
-          </div>
-          <a href="/sloboda/" class="btn btn-primary">▶ ${isUk ? 'Грати в Слободу Онлайн' : 'Play Sloboda Online'}</a>
-        </div>
-
-        <div class="prose" style="background: var(--bg-card); padding: 2rem 2.5rem; border-radius: var(--radius-lg); border: 1px solid var(--border-subtle);">
-          ${htmlContent}
-        </div>
-      </div>
-    </section>
-  `;
-
-  return renderLayout({
-    lang,
-    title: isUk ? 'Енциклопедія Будівель та Ресурсів — Дике Поле: Слобода' : 'Buildings & Production Chains Wiki — Loca Deserta: Sloboda',
-    description: isUk
-      ? 'Довідник усіх ресурсів та будівель гри «Дике Поле: Слобода»: Кузня, Поле, Млин, Каменярня, Конюшня, Рудня, Хата уходника, Пороховий льох, Курінь, Церква, Башта.'
-      : 'User documentation and building recipes for Loca Deserta: Sloboda — Smith, Field, Mill, Quarry, Stables, Iron Mine, Trapper Cabin, Powder Cellar, Church, and Towers.',
-    canonicalPath: isUk ? '/uk/sloboda-wiki.html' : '/sloboda-wiki.html',
-    altEnPath: '/sloboda-wiki.html',
-    altUkPath: '/uk/sloboda-wiki.html',
-    ogImage: '/assets/og/og-sloboda.jpg',
-    breadcrumbs: [
-      { name: isUk ? 'Головна' : 'Home', url: isUk ? '/uk/' : '/' },
-      { name: isUk ? 'Дике Поле: Слобода' : 'Loca Deserta: Sloboda', url: isUk ? '/citybuilding/' : '/citybuilding/index_en.html' },
-      { name: isUk ? 'Енциклопедія Будівель' : 'Buildings Wiki', url: isUk ? '/uk/sloboda-wiki.html' : '/sloboda-wiki.html' }
-    ],
-    activeNav: 'wiki',
-    bodyContent
-  });
-}
-
 function buildSloboda2AlphaPage() {
   const rawMd = fs.readFileSync(path.join(ROOT, 'sloboda2', 'alpha.md'), 'utf8');
   const htmlContent = simpleMarkdownToHtml(rawMd);
@@ -321,6 +292,7 @@ function buildSloboda2AlphaPage() {
           <a href="/sloboda2/">Loca Deserta: Sloboda 2</a> <span>/</span>
           <span>Alpha Devlog Archive</span>
         </nav>
+        <h1 class="section-title">Loca Deserta: Sloboda 2 — Alpha Devlog Archive</h1>
         <div class="prose" style="background: var(--bg-card); padding: 2rem 2.5rem; border-radius: var(--radius-lg); border: 1px solid var(--border-subtle);">
           ${htmlContent}
         </div>
@@ -335,6 +307,7 @@ function buildSloboda2AlphaPage() {
     canonicalPath: '/sloboda2/alpha.html',
     altEnPath: '/sloboda2/alpha.html',
     altUkPath: '/sloboda2/index_uk.html',
+    singleLanguage: true,
     ogImage: '/sloboda2/images/thumbnail.png',
     activeNav: 'games',
     bodyContent
@@ -344,6 +317,5 @@ function buildSloboda2AlphaPage() {
 module.exports = {
   buildSciFiHubPage,
   buildBookPage,
-  buildSlobodaWikiPage,
   buildSloboda2AlphaPage
 };

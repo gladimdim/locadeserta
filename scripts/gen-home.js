@@ -415,11 +415,11 @@ function buildHomePage(lang) {
   return renderLayout({
     lang,
     title: isUk
-      ? 'Всесвіт Дикого Поля (Loca Deserta) — Українські Ігри про Козаків, Книги та Дике Поле Sci-Fi | Дмитро Гладкий'
-      : 'Loca Deserta (Wild Field) — Ukrainian Cossack Games & Sci-Fi Universe by Dmytro Gladkyi',
+      ? 'Дике Поле (Loca Deserta) — ігри про козаків та книги Sci-Fi'
+      : 'Loca Deserta (Wild Field) — Ukrainian Cossack Games & Sci-Fi',
     description: isUk
-      ? 'Офіційний сайт всесвіту «Дике Поле» (Loca Deserta) Дмитра Гладкого: ігри про козаків XVII ст. (Одеса, Слобода 2, Чумаки, Слобода, Ґекс, Інтерактивні історії), космічна стратегія Loca Deserta: Settlers та книги серії «Зоряний Гетьманат».'
-      : 'Official portal of the Loca Deserta (Wild Field) universe by Dmytro Gladkyi: XVII-century Ukrainian Cossack games (Odesa, Sloboda 2, Chumaki, Sloboda, Hex, Interactive Stories), Loca Deserta: Settlers space strategy, and Star Hetmanate Sci-Fi novels.',
+      ? 'Всесвіт «Дике Поле» Дмитра Гладкого: ігри про козаків XVII ст. (Одеса, Слобода 2, Чумаки), стратегія Settlers та книги «Зоряний Гетьманат».'
+      : 'Ukrainian Cossack games by Dmytro Gladkyi — Odesa, Sloboda 2, Chumaki, Settlers — plus the Star Hetmanate military sci-fi novels. Play online free.',
     canonicalPath: isUk ? '/uk/' : '/',
     altEnPath: '/',
     altUkPath: '/uk/',

@@ -341,7 +341,6 @@ function buildCitybuildingPage(lang) {
             </p>
             <div class="btn-group">
               <a href="/sloboda/" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн (/sloboda)' : 'Play Online (/sloboda)'}</a>
-              <a href="${isUk ? '/uk/sloboda-wiki.html' : '/sloboda-wiki.html'}" class="btn btn-scifi">📖 ${isUk ? 'Енциклопедія Будівель та Ресурсів' : 'Buildings & Resources Wiki'}</a>
               <a href="https://play.google.com/store/apps/details?id=com.gladimdim.sloboda" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
               <a href="https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store</a>
               <a href="https://github.com/gladimdim/locadeserta/releases/download/sloboda-3.0.7/sloboda_windows_307.zip" class="btn btn-outline">💻 Windows ZIP</a>

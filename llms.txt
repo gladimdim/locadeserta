@@ -1,39 +1,59 @@
-# Loca Deserta (Дике Поле) — Ukrainian Game & Sci-Fi Universe
+# Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: "Дике Поле" / "Wild Field") is an independent Ukrainian video game and military space sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). Official website: https://locadeserta.com
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
-## Overview
-The Loca Deserta universe spans two interconnected eras:
-1. **Historical XVII-Century Cossack Era ("Дике Поле")**: Video games set in the Ukrainian Wild Field, Zaporozhian Sich, and Khadjibey-Odesa during the 16th and 17th centuries.
-2. **Loca Deserta Sci-Fi ("Дике Поле Sci-Fi" / "Зоряний Гетьманат")**: An alternate-history 25th-century (2424 AD / 281 Star Era) military space opera where Hetman Ivan Vyhovskyi preserved and expanded the Cossack Hetmanate into the interstellar **Hetmanate Federation** with its capital at **Star Sich** in the Virgo Supercluster.
+The universe spans two eras:
 
-## Games in the Loca Deserta Universe
-- **Loca Deserta: Settlers (2026)** — Macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Play free in browser at https://settlers.locadeserta.com or download Windows/macOS/Linux builds at https://github.com/gladimdim/LocaDeserta_Settlers/releases
-- **Loca Deserta: Odesa (Дике Поле: Одеса)** — Adventure, crafting, and quest RPG about settling Khadjibey-Odesa in southern Ukraine. Features 70+ interconnected quests, 5 buried Ukrainian treasures, and 100% Ukrainian & English voice acting. Available on Steam (https://store.steampowered.com/app/2637950/_/), Epic Games Store (https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b), iOS App Store, and Google Play. Page: https://locadeserta.com/odesa/
-- **Loca Deserta: Sloboda 2 (Дике Поле: Слобода 2)** — 3D low-poly settlement builder and production chain simulator set in the Zaporozhian Host. Features 40+ buildings with 3 upgrade tiers, 14 production chains, 6 valleys, 35+ quests, and gamepad support. Page: https://locadeserta.com/sloboda2/
-- **Loca Deserta: Chumaki (Дике Поле: Чумаки)** — XVII-century Ukrainian merchant/trader simulator across 25+ historical towns on the Boplan map. Play online at https://locadeserta.com/chumaki/ or read guide at https://locadeserta.com/locadesertachumaki/index_en.html
-- **Loca Deserta: Sloboda (Дике Поле: Слобода)** — Classic city-building and seasonal strategy game at the edge of the Great Meadow with a global online Zaporozhian Sich hub and 24 random events. Play online at https://locadeserta.com/sloboda/ or read guide at https://locadeserta.com/citybuilding/index_en.html
-- **Loca Deserta: Interactive Stories (Дике Поле: Інтерактивні Історії)** — Branching historical interactive fiction with 9+ stories (including "After the Battle" with 18 endings, "Khotyn Massacre", "Bloody Trap at Zhovti Vody", "Kodak Night") + cross-platform Story Creator and Telegram bot (@locadesertabot). Play online at https://locadeserta.com/game/?lang=en
-- **Loca Deserta: Hex (Дике Поле: Ґекс)** — Hexagonal strategy and resource puzzle game. Play online at https://locadeserta.com/hex/
-- **Loca Deserta in Fortnite** — 9 published custom UEFN Fortnite Islands by creator @DmytroGladkyi: https://www.fortnite.com/@dmytrogladkyi
-- **Loca Deserta in Roblox** — 20v20 multiplayer team shooter (Cossacks vs. Tatars, Assault on Kerch): https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5
+- **Historical Cossack era**: games set in the Ukrainian Wild Field, the Zaporozhian Sich and Khadjibey (Odesa) during the 16th–17th centuries.
+- **Loca Deserta Sci-Fi** («Дике Поле Sci-Fi»): an alternate history where Hetman Ivan Vyhovskyi preserved the Cossack Hetmanate in 1657, which grows into the interstellar Hetmanate Federation with its capital Star Sich in the Virgo Supercluster (25th century, Star Era 281 = 2424 AD).
 
-## Books in the Loca Deserta Sci-Fi Series (by Dmytro Gladkyi)
-- **Book 1: «Zoryanij Hetmanat» (Зоряний Гетьманат / Star Hetmanate)** — Full text online: https://locadeserta.com/locadesertascifi/books/Zoryanij_Getmanat.html | Booknet: https://booknet.ua/book/zoryanii-getmanat-b442821 | Apple Books: https://books.apple.com/us/book/id6752848228
-- **Book 2: «Zustrich v Stepu» (Зустріч в Степу / Encounter in the Steppe, 2026)** — About Cossack Plastun scouts on bot-horses on planet Wild Field-17. Page: https://locadeserta.com/locadesertascifi/books/Zustrich_v_Stepu.html | Booknet: https://booknet.ua/book/zustrch-v-stepu-b446432 | Apple Books: http://books.apple.com/us/book/id6796818751
-- **Book 3: «Vistrya Kulaku» (Вістря Кулаку / Fist's Edge, 2026)** — About Hetmanate Federation Terminators conducting orbital drops against the Empire of the Sun. Page: https://locadeserta.com/locadesertascifi/books/Vistrya_Kulaku.html | Booknet: https://booknet.ua/book/vstrya-kulaku-b457200 | Apple Books: http://books.apple.com/us/book/id6796759290
-- **Sci-Fi Lore Wiki Portal**: https://scifi.locadeserta.com/
+The website is bilingual: English at https://locadeserta.com/ and Ukrainian at https://locadeserta.com/uk/. The books are written in Ukrainian.
 
-## Official Author & Social Links
-- Creator: Dmytro Gladkyi (Дмитро Гладкий)
-- Website (EN): https://locadeserta.com/
-- Website (UK): https://locadeserta.com/uk/
-- Full AI Knowledge Base: https://locadeserta.com/llms-full.txt
-- TikTok: https://tiktok.com/@dmytrogladkyi & https://www.tiktok.com/@locadeserta
-- YouTube: https://www.youtube.com/@dmytrogladkyi
-- Telegram Channel: https://t.me/locadesertachumaki
-- Telegram Interactive Story Bot: https://t.me/locadesertabot
-- X / Twitter: https://twitter.com/locadeserta
-- Discord: https://discordapp.com/users/374843758837104651 (dmytrogladkyi)
-- Guilded: https://www.guilded.gg/i/EA3wamqk
-- GitHub: https://github.com/gladimdim/locadeserta
+## Games
+
+- [Loca Deserta: Settlers](https://settlers.locadeserta.com): A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Platforms: Web Browser (Free), Windows, macOS, Linux.
+- [Loca Deserta: Odesa](https://locadeserta.com/odesa/): Settle the south of Ukraine in Khadjibey-Odesa! Take on the role of a Cossack pioneer: complete 70+ interconnected quests, help Budjak Tatars and Cossack chieftains, dig up 5 ancient Ukrainian treasures, and enjoy 100% Ukrainian & English voice acting and songs. Platforms: Steam, Epic Games Store, iOS App Store, Google Play.
+- [Loca Deserta: Sloboda 2](https://locadeserta.com/sloboda2/): A 3D low-poly settlement builder and production simulator set in the Zaporozhian Host. Start with an axe and pickaxe, construct 40+ buildings with 3 upgrade tiers, manage 14 production chains (from timber to cannons & ships), and unlock 6 valleys to the Black Sea. Platforms: Steam, iOS App Store, Google Play, Gamepad Support.
+- [Loca Deserta: Chumaki](https://locadeserta.com/locadesertachumaki/index_en.html): Become a XVII-century Ukrainian Chumak salt-and-goods trader! Start at Zaporozhian Sich with one wagon, analyze market margins across 25+ historical towns (Chyhyryn, Kaniv, Cherkasy, Baturyn), hire Otamans, unlock trade perks, and build town manufactories. Platforms: Web Browser, Android, iOS, Windows, macOS.
+- [Loca Deserta: Sloboda](https://locadeserta.com/citybuilding/index_en.html): The classic turn-and-season strategy game at the edge of the Great Meadow (Velykyi Luh). Manage workers, build smithies and powder cellars, train armed Cossacks, send aid to the central Sich server, and explore two handcrafted maps through changing seasons. Platforms: Web Browser, Android, iOS, Windows, Cross-Device Sync.
+- [Loca Deserta: Interactive Stories](https://locadeserta.com/interactive/index_en.html): The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator and Telegram Bot. Platforms: Web Browser, iOS App Store, Google Play, Telegram Bot.
+- [Loca Deserta: Hex](https://locadeserta.com/locadesertahex/index_en.html): A tactical hexagonal puzzle and territory expansion game. Start from a single central hex, harvest free grain tiles, combine resources to recruit Cossacks, cannons, wagons, and boats, and break through the 15th-ring enemy fortress walls! Platforms: Web Browser, iOS App Store, Google Play.
+- [Loca Deserta in Fortnite (@DmytroGladkyi)](https://www.fortnite.com/@dmytrogladkyi): Explore 9 custom Fortnite Islands created by @DmytroGladkyi — featuring action maps set in both the historical Cossack Wild Field and the futuristic Loca Deserta Sci-Fi universe. Platforms: Fortnite (PC, Consoles, Mobile).
+- [Loca Deserta @ Roblox](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5): A team-based 20v20 multiplayer action shooter in Roblox! Cossacks vs. Tatars, objective-based warfare, weapon progression, custom skins, and the Assault on Kerch. Platforms: Roblox (PC, Mobile, Console).
+
+## Books (Loca Deserta Sci-Fi series, in Ukrainian)
+
+- [«Zoryanij Hetmanat» (Star Hetmanate) / «Зоряний Гетьманат»](https://locadeserta.com/locadesertascifi/books/Zoryanij_Getmanat.html): The foundational novel of Ukrainian military space sci-fi. In Star Era 281 (2424 AD), the Hetmanate Federation establishes secret colony "Wild Field 17" guarded by three regiments of Space Haiduks. In SE 323, all contact with the colony is lost...
+- [«Zustrich v Stepu» (Encounter in the Steppe) / «Зустріч в Степу»](https://locadeserta.com/locadesertascifi/books/Zustrich_v_Stepu.html): Planet Wild Field-17. Otaman Bohdan Tytar leads three Plastun scouts on bot-horses armed with a heavy "Hornet" flamethrower deep behind Empire of the Sun lines to destroy an enemy melta-convoy.
+- [«Vistrya Kulaku» (Fist’s Edge) / «Вістря Кулаку»](https://locadeserta.com/locadesertascifi/books/Vistrya_Kulaku.html): When elite Samanaks of the Empire of the Sun seize a warp station on an abandoned moon, 2nd-grade Terminator Ivan Donets and the Hetmanate assault regiment launch an orbital drop into a plasma-scorched labyrinth.
+- [Loca Deserta Sci-Fi hub](https://locadeserta.com/locadesertascifi/index_en.html): overview of the sci-fi universe, timeline and all books.
+- [Sci-Fi lore wiki](https://scifi.locadeserta.com/): factions, history and technology of the sci-fi universe.
+
+## Play in the browser
+
+- [Loca Deserta: Settlers](https://settlers.locadeserta.com): free sci-fi colony builder.
+- [Loca Deserta: Sloboda](https://locadeserta.com/sloboda/): Cossack settlement strategy game.
+- [Loca Deserta: Chumaki](https://locadeserta.com/chumaki/): XVII-century trading simulator.
+- [Loca Deserta: Interactive Stories](https://locadeserta.com/game/?lang=en): branching historical stories.
+- [Loca Deserta: Hex](https://locadeserta.com/hex/): hexagonal strategy puzzle.
+
+## Creator
+
+- [Dmytro Gladkyi](https://gladimdim.org): Ukrainian game developer and sci-fi author, creator of the whole Loca Deserta universe.
+- [Steam: Loca Deserta: Odesa](https://store.steampowered.com/app/2637950/_/)
+- [Apple App Store developer page](https://apps.apple.com/ua/developer/dmytro-gladkyi/id578141466)
+- [Google Play developer page](https://play.google.com/store/apps/dev?id=7035097424361510326)
+
+## Optional
+
+- [Full knowledge base](https://locadeserta.com/llms-full.txt): every game and book in English and Ukrainian, sci-fi lore, Sloboda game mechanics and a list of all pages.
+- [Ukrainian homepage](https://locadeserta.com/uk/)
+- [TikTok (Author)](https://tiktok.com/@dmytrogladkyi): @dmytrogladkyi
+- [TikTok (Universe)](https://www.tiktok.com/@locadeserta): @locadeserta
+- [YouTube Channel](https://www.youtube.com/@dmytrogladkyi): @dmytrogladkyi
+- [Telegram Channel](https://t.me/locadesertachumaki): @locadesertachumaki (Devlog)
+- [Telegram Story Bot](https://t.me/locadesertabot): @locadesertabot (Play in Chat)
+- [X / Twitter](https://twitter.com/locadeserta): @locadeserta
+- [Discord (Author & UEFN/Roblox)](https://discordapp.com/users/374843758837104651): dmytrogladkyi
+- [Guilded Community](https://www.guilded.gg/i/EA3wamqk): Loca Deserta Games Server
+- [GitHub Releases & Code](https://github.com/gladimdim/locadeserta): github.com/gladimdim
