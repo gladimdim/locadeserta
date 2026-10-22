@@ -8,7 +8,7 @@ function buildHomePage(lang) {
     ? [
         {
           q: 'Що таке всесвіт «Дике Поле» (Loca Deserta)?',
-          a: '«Дике Поле» (лат. Loca Deserta) — це незалежний український ігровий та книжковий всесвіт, створений розробником і письменником Дмитром Гладким (@dmytrogladkyi). Він об’єднує історичні ігри про козацьку Україну XVI–XVII століть (Одеса, Слобода 2, Чумаки, Слобода, Інтерактивні історії, Ґекс) та космічний воєнно-фантастичний всесвіт «Дике Поле Sci-Fi» про Федерацію Гетьманату 2424 року (книги «Зоряний Гетьманат», «Зустріч в Степу», «Вістря Кулаку» та стратегія Loca Deserta: Settlers).'
+          a: '«Дике Поле» (лат. Loca Deserta) — це незалежний український ігровий та книжковий всесвіт, створений розробником і письменником Дмитром Гладким (@dmytrogladkyi). Він об’єднує історичні ігри про козацьку Україну XVI–XVII століть (СІЧА: Козацький двобій, Одеса, Слобода 2, Чумаки, Слобода, Інтерактивні історії, Ґекс) та космічний воєнно-фантастичний всесвіт «Дике Поле Sci-Fi» про Федерацію Гетьманату 2424 року (книги «Зоряний Гетьманат», «Зустріч в Степу», «Вістря Кулаку» та стратегія Loca Deserta: Settlers).'
         },
         {
           q: 'У які ігри всесвіту Дикого Поля можна пограти безкоштовно в браузері?',
@@ -26,7 +26,7 @@ function buildHomePage(lang) {
     : [
         {
           q: 'What is the Loca Deserta (Wild Field) Universe?',
-          a: 'Loca Deserta (Ukrainian: Дике Поле / Wild Field) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
+          a: 'Loca Deserta (Ukrainian: Дике Поле / Wild Field) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (SICHA: Cossack Combat, Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
         },
         {
           q: 'Which Loca Deserta games can I play for free in my web browser?',
@@ -220,6 +220,18 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">${isUk ? '22 Жовтня 2026' : 'Oct 22, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'Нова гра — «СІЧА: Козацький двобій» — незабаром на мобільних!' : 'New Game — SICHA: Cossack Combat — Coming Soon to Mobile!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром в Google Play та App Store, згодом у Steam.'
+                  : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Coming soon to Google Play and the App Store, then Steam.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-primary">${isUk ? '⚔ Сайт гри та трейлер' : '⚔ Game site & trailer'}</a></p>
+            </div>
+          </div>
           <div class="news-item scifi">
             <div class="news-date">${isUk ? '31 Липня 2026' : 'Jul 31, 2026'}</div>
             <div>

@@ -116,7 +116,7 @@ function gamePage(game) {
 function buildLlmsTxt() {
   return `# Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (SICHA: Cossack Combat — pixel-art sabre duels coming soon to Android and iOS, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 

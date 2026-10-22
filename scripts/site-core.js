@@ -73,6 +73,32 @@ const UI = {
 // Structured Data for All Games
 const GAMES = [
   {
+    id: 'sicha',
+    categories: 'historical mobilepc',
+    badgeClass: '',
+    image: '/assets/og/og-sicha.jpg',
+    en: {
+      badge: 'Sabre Duels • Coming Soon',
+      title: 'SICHA — Cossack Combat',
+      desc: 'Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.',
+      platforms: ['Android (Soon)', 'iOS (Soon)', 'Steam (Soon)'],
+      actions: [
+        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/', cls: 'btn-primary' },
+        { label: '▶ Watch the Trailer', href: 'https://sicha.locadeserta.com/#trailer', cls: 'btn-outline' }
+      ]
+    },
+    uk: {
+      badge: 'Двобої на Шаблях • Скоро',
+      title: 'СІЧА — Козацький двобій',
+      desc: 'Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.',
+      platforms: ['Android (Скоро)', 'iOS (Скоро)', 'Steam (Скоро)'],
+      actions: [
+        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-primary' },
+        { label: '▶ Дивитися трейлер', href: 'https://sicha.locadeserta.com/uk/#trailer', cls: 'btn-outline' }
+      ]
+    }
+  },
+  {
     id: 'settlers',
     categories: 'scifi browser',
     badgeClass: 'scifi',

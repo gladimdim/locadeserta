@@ -1,6 +1,6 @@
 # Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (SICHA: Cossack Combat — pixel-art sabre duels coming soon to Android and iOS, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 
@@ -11,6 +11,7 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 
 ## Games
 
+- [SICHA — Cossack Combat](https://sicha.locadeserta.com/): Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam. Platforms: Android (Soon), iOS (Soon), Steam (Soon).
 - [Loca Deserta: Settlers](https://settlers.locadeserta.com): A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Platforms: Web Browser (Free), Windows, macOS, Linux.
 - [Loca Deserta: Odesa](https://locadeserta.com/odesa/): Settle the south of Ukraine in Khadjibey-Odesa! Take on the role of a Cossack pioneer: complete 70+ interconnected quests, help Budjak Tatars and Cossack chieftains, dig up 5 ancient Ukrainian treasures, and enjoy 100% Ukrainian & English voice acting and songs. Platforms: Steam, Epic Games Store, iOS App Store, Google Play.
 - [Loca Deserta: Sloboda 2](https://locadeserta.com/sloboda2/): A 3D low-poly settlement builder and production simulator set in the Zaporozhian Host. Start with an axe and pickaxe, construct 40+ buildings with 3 upgrade tiers, manage 14 production chains (from timber to cannons & ships), and unlock 6 valleys to the Black Sea. Platforms: Steam, iOS App Store, Google Play, Gamepad Support.
@@ -63,6 +64,17 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 # Detailed Knowledge Base (EN / UK)
 
 ## Games in detail
+
+### SICHA — Cossack Combat (СІЧА — Козацький двобій)
+
+- Page: https://sicha.locadeserta.com/
+- Type: Sabre Duels • Coming Soon
+- Platforms: Android (Soon), iOS (Soon), Steam (Soon)
+- Links: [sicha.locadeserta.com](https://sicha.locadeserta.com/), [Watch the Trailer](https://sicha.locadeserta.com/#trailer)
+
+Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.
+
+Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.
 
 ### Loca Deserta: Settlers (Loca Deserta: Settlers)
 
