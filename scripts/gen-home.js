@@ -16,7 +16,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'У які ігри всесвіту Дикого Поля можна пограти безкоштовно в браузері?',
-          a: 'Прямо у веб-браузері без встановлення доступні 5 ігор: космічна стратегія Loca Deserta: Settlers (settlers.locadeserta.com), торговий симулятор «Дике Поле: Чумаки» (locadeserta.com/chumaki), класична стратегія «Дике Поле: Слобода» (locadeserta.com/sloboda), «Інтерактивні історії» (locadeserta.com/game/?lang=uk) та гексагональний пазл «Дике Поле: Ґекс» (locadeserta.com/hex).'
+          a: 'Прямо у веб-браузері без встановлення доступні 4 гри: торговий симулятор «Дике Поле: Чумаки» (locadeserta.com/chumaki), класична стратегія «Дике Поле: Слобода» (locadeserta.com/sloboda), «Інтерактивні історії» (locadeserta.com/game/?lang=uk) та гексагональний пазл «Дике Поле: Ґекс» (locadeserta.com/hex).'
         },
         {
           q: 'Де придбати ігри для ПК (Steam / Epic) та смартфонів (iOS / Android)?',
@@ -38,7 +38,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'Which Loca Deserta games can I play for free in my web browser?',
-          a: 'Five games are playable directly in your browser with zero installation: Loca Deserta: Settlers (settlers.locadeserta.com), Loca Deserta: Chumaki (locadeserta.com/chumaki), Loca Deserta: Sloboda (locadeserta.com/sloboda), Loca Deserta Interactive Stories (locadeserta.com/game/?lang=en), and Loca Deserta: Hex (locadeserta.com/hex).'
+          a: 'Four games are playable directly in your browser with zero installation: Loca Deserta: Chumaki (locadeserta.com/chumaki), Loca Deserta: Sloboda (locadeserta.com/sloboda), Loca Deserta Interactive Stories (locadeserta.com/game/?lang=en), and Loca Deserta: Hex (locadeserta.com/hex).'
         },
         {
           q: 'Where can I get Loca Deserta games on Steam, Epic Games, iOS, Android, and Roblox?',
@@ -161,7 +161,7 @@ function buildHomePage(lang) {
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 ${isUk ? 'Дослідити всі ігри' : 'Explore All Games'}</a>
               <a href="${isUk ? '/locadesertascifi/' : '/locadesertascifi/index_en.html'}" class="btn btn-scifi">🚀 ${isUk ? 'Всесвіт Sci-Fi та Книги' : 'Sci-Fi Universe & Books'}</a>
-              <a href="https://settlers.locadeserta.com" class="btn btn-outline">🪐 ${isUk ? 'Грати в Settlers (Браузер)' : 'Play Settlers (Browser)'}</a>
+              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-outline" target="_blank" rel="noopener">🪐 ${isUk ? 'Settlers: попередня реєстрація в Google Play' : 'Pre-register Settlers on Google Play'}</a>
             </div>
 
             <div class="stats-grid">
@@ -195,7 +195,7 @@ function buildHomePage(lang) {
             <a href="https://settlers.locadeserta.com" class="showcase-card scifi">
               <img src="/locadesertascifi/images/cover.jpg" alt="Loca Deserta: Settlers & Star Hetmanate">
               <div class="showcase-card-body">
-                <span class="showcase-tag scifi">Sci-Fi 2424 AD • Web &amp; PC</span>
+                <span class="showcase-tag scifi">Sci-Fi 2424 AD • Android</span>
                 <div class="showcase-title">Loca Deserta: Settlers</div>
               </div>
             </a>
@@ -240,6 +240,18 @@ function buildHomePage(lang) {
               <p style="margin-top: 0.5rem;"><a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-primary">${isUk ? '🐂 Сайт гри' : '🐂 Game site'}</a></p>
             </div>
           </div>
+          <div class="news-item scifi">
+            <div class="news-date">${isUk ? '23 Жовтня 2026' : 'Oct 23, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'Loca Deserta: Settlers — попередня реєстрація в Google Play!' : 'Loca Deserta: Settlers — Pre-registration Open on Google Play!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети Поділля, Жовті Води, Кривбас. Гра безкоштовна, а повну версію відкриває покупка в застосунку. Виходить лише на мобільних: спершу на телефонах і планшетах з Android, згодом в App Store.'
+                  : 'A macro-economic space colony builder inspired by The Settlers III/IV. Free to play, with an in-app purchase that unlocks the full game. Mobile only: coming first to Android phones and tablets, then the App Store.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Попередня реєстрація в Google Play' : '▶ Pre-register on Google Play'}</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">${isUk ? '22 Жовтня 2026' : 'Oct 22, 2026'}</div>
             <div>
@@ -260,17 +272,6 @@ function buildHomePage(lang) {
                 ${isUk
                   ? 'Історії про термінаторів Федерації Гетьманату під час орбітального десанту та пластунів-розвідників на бот-конях у тилу Імперії Сонця на планеті Дике Поле-17. Доступні безкоштовно на сайті, Booknet, Apple Books та в EPUB.'
                   : 'Stories about Hetmanate Federation terminators in orbital drops and Cossack Plastun scouts on bot-horses on planet Dyke Pole-17. Read on the site, Booknet, Apple Books, or download EPUB.'}
-              </p>
-            </div>
-          </div>
-          <div class="news-item scifi">
-            <div class="news-date">${isUk ? '14 Липня 2026' : 'Jul 14, 2026'}</div>
-            <div>
-              <strong>${isUk ? 'Реліз гри Loca Deserta: Settlers!' : 'Loca Deserta: Settlers Released!'}</strong>
-              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
-                ${isUk
-                  ? 'Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети Поділля, Жовті Води, Кривбас. Грай у браузері на settlers.locadeserta.com або завантажуй для Windows, macOS і Linux.'
-                  : 'A macro-economic space colony builder inspired by The Settlers III/IV. Play free in your browser at settlers.locadeserta.com or download native builds for Windows, macOS, and Linux.'}
               </p>
             </div>
           </div>

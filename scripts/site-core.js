@@ -150,27 +150,27 @@ const GAMES = [
   },
   {
     id: 'settlers',
-    categories: 'scifi browser',
+    categories: 'scifi mobilepc',
     badgeClass: 'scifi',
     image: '/locadesertascifi/images/cover.jpg',
     en: {
-      badge: 'Sci-Fi Strategy • New 2026',
+      badge: 'Sci-Fi Strategy • Coming to Android',
       title: 'Loca Deserta: Settlers',
-      desc: 'A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas.',
-      platforms: ['Web Browser (Free)', 'Windows', 'macOS', 'Linux'],
+      desc: 'A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Free on Android phones and tablets, with an in-app purchase that unlocks the full game. Mobile only: pre-registration is open on Google Play; the App Store follows.',
+      platforms: ['Android (Free, Pre-registration)', 'iOS (Coming Soon)'],
       actions: [
-        { label: '▶ Play at settlers.locadeserta.com', href: 'https://settlers.locadeserta.com', cls: 'btn-scifi' },
-        { label: '⬇ PC / Mac / Linux Builds', href: 'https://github.com/gladimdim/LocaDeserta_Settlers/releases', cls: 'btn-outline' }
+        { label: '▶ Pre-register on Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers', cls: 'btn-scifi' },
+        { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Космічна Стратегія • Новинка 2026',
+      badge: 'Космічна Стратегія • Скоро на Android',
       title: 'Loca Deserta: Settlers',
-      desc: 'Космічна економічна стратегія в дусі The Settlers III/IV у всесвіті Дике Поле Sci-Fi: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас.',
-      platforms: ['Браузер (Безкоштовно)', 'Windows', 'macOS', 'Linux'],
+      desc: 'Космічна економічна стратегія в дусі The Settlers III/IV у всесвіті Дике Поле Sci-Fi: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас. Безкоштовно на телефонах і планшетах з Android, повну гру відкриває покупка в застосунку. Лише на мобільних: у Google Play вже відкрито попередню реєстрацію; згодом — App Store.',
+      platforms: ['Android (Безкоштовно, попередня реєстрація)', 'iOS (Скоро)'],
       actions: [
-        { label: '▶ Грати на settlers.locadeserta.com', href: 'https://settlers.locadeserta.com', cls: 'btn-scifi' },
-        { label: '⬇ Збірки Windows / macOS / Linux', href: 'https://github.com/gladimdim/LocaDeserta_Settlers/releases', cls: 'btn-outline' }
+        { label: '▶ Попередня реєстрація в Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk', cls: 'btn-scifi' },
+        { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com/uk/', cls: 'btn-outline' }
       ]
     }
   },
@@ -479,7 +479,7 @@ const SOCIAL_HUB = [
   { name: 'Discord (Author & UEFN/Roblox)', handle: 'dmytrogladkyi', url: 'https://discordapp.com/users/374843758837104651', icon: '/images/discord.svg' },
   { name: 'Roblox Community', handle: 'Loca Deserta Games Group', url: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', icon: '/logo.jpg' },
   { name: 'Sci-Fi Wiki Portal', handle: 'scifi.locadeserta.com', url: 'https://scifi.locadeserta.com/', icon: '/locadesertascifi/images/cover.jpg' },
-  { name: 'Settlers Web Game', handle: 'settlers.locadeserta.com', url: 'https://settlers.locadeserta.com/', icon: '/locadesertascifi/images/cover.jpg' },
+  { name: 'Loca Deserta: Settlers', handle: 'settlers.locadeserta.com (Android)', url: 'https://settlers.locadeserta.com/', icon: '/locadesertascifi/images/cover.jpg' },
   { name: 'Booknet Profile', handle: 'Read Sci-Fi Books Free', url: 'https://booknet.ua/book/zoryanii-getmanat-b442821', icon: '/locadesertascifi/images/booknet_image-min.png' },
   { name: 'Apple Books', handle: 'Star Hetmanate Series', url: 'https://books.apple.com/us/book/%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D0%B9-%D0%B3%D0%B5%D1%82%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%82/id6752848228?ls=1', icon: '/locadesertascifi/images/applebooks_image.png' },
   { name: 'GitHub Releases & Code', handle: 'github.com/gladimdim', url: 'https://github.com/gladimdim/locadeserta', icon: '/favicons/favicon-96x96.png' },
@@ -694,7 +694,7 @@ ${bodyContent}
         <div class="footer-col">
           <h4>${t.footerGames}</h4>
           <ul class="footer-links">
-            <li><a href="https://settlers.locadeserta.com">Loca Deserta: Settlers (Web/PC)</a></li>
+            <li><a href="https://settlers.locadeserta.com">Loca Deserta: Settlers (Android)</a></li>
             <li><a href="${lang === 'uk' ? '/odesa/index_uk.html' : '/odesa/'}">Loca Deserta: Odesa</a></li>
             <li><a href="${lang === 'uk' ? '/sloboda2/index_uk.html' : '/sloboda2/'}">Loca Deserta: Sloboda 2</a></li>
             <li><a href="${lang === 'uk' ? '/locadesertachumaki/' : '/locadesertachumaki/index_en.html'}">Loca Deserta: Chumaki</a></li>

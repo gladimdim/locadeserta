@@ -158,11 +158,11 @@ function buildSciFiHubPage(lang) {
             <h1 class="hero-title">${isUk ? 'Всесвіт Дикого Поля <span class="text-gradient-scifi">Sci-Fi</span>' : 'The Loca Deserta <span class="text-gradient-scifi">Sci-Fi</span> Universe'}</h1>
             <p class="hero-lead">
               ${isUk
-                ? 'Федерація Гетьманату, Зоряна Січ у надскупченні Діви, орбітальні десанти термінаторів, пластуни на бот-конях та колонія «Дике Поле-17». Читайте книги серії безкоштовно, досліджуйте Вікі-портал та грайте в космічну стратегію Loca Deserta: Settlers!'
-                : 'The Hetmanate Federation, Star Sich in the Virgo Supercluster, orbital drops by Cossack Terminators, Plastun scouts on bot-horses, and colony "Wild Field-17". Read the novels, explore the Lore Wiki, and play Loca Deserta: Settlers in your browser!'}
+                ? 'Федерація Гетьманату, Зоряна Січ у надскупченні Діви, орбітальні десанти термінаторів, пластуни на бот-конях та колонія «Дике Поле-17». Читайте книги серії безкоштовно, досліджуйте Вікі-портал і зареєструйтеся заздалегідь у Google Play на безкоштовну космічну стратегію Loca Deserta: Settlers для Android!'
+                : 'The Hetmanate Federation, Star Sich in the Virgo Supercluster, orbital drops by Cossack Terminators, Plastun scouts on bot-horses, and colony "Wild Field-17". Read the novels, explore the Lore Wiki, and pre-register on Google Play for Loca Deserta: Settlers, coming free to Android!'}
             </p>
             <div class="btn-group">
-              <a href="https://settlers.locadeserta.com" class="btn btn-scifi">🪐 ${isUk ? 'Грати в Loca Deserta: Settlers' : 'Play Loca Deserta: Settlers'}</a>
+              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-scifi" target="_blank" rel="noopener">🪐 ${isUk ? 'Settlers: попередня реєстрація в Google Play' : 'Pre-register Settlers on Google Play'}</a>
               <a href="https://scifi.locadeserta.com" class="btn btn-outline">🌐 ${isUk ? 'Вікі-портал (scifi.locadeserta.com)' : 'Sci-Fi Lore Wiki'}</a>
               <a href="/locadesertascifi/books/Zoryanij_Getmanat.html" class="btn btn-outline">📖 ${isUk ? 'Читати «Зоряний Гетьманат»' : 'Read «Star Hetmanate»'}</a>
             </div>

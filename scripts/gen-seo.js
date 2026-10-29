@@ -137,7 +137,6 @@ ${BOOKS.map(b => `- [${b.en.title} / ${b.uk.title}](${absUrl(b.en.links[0].href)
 
 ## Play in the browser
 
-- [Loca Deserta: Settlers](https://settlers.locadeserta.com): free sci-fi colony builder.
 - [Loca Deserta: Sloboda](${SITE_URL}/sloboda/): Cossack settlement strategy game.
 - [Loca Deserta: Chumaki](${SITE_URL}/chumaki/): XVII-century trading simulator.
 - [Loca Deserta: Interactive Stories](${SITE_URL}/game/?lang=en): branching historical stories.
