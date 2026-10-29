@@ -1,6 +1,6 @@
 # Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (SICHA: Cossack Combat — pixel-art sabre duels coming soon to Android and iOS, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (3 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 
@@ -12,14 +12,15 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 ## Games
 
 - [SICHA — Cossack Combat](https://sicha.locadeserta.com/): Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam. Platforms: Android (Soon), iOS (Soon), Steam (Soon).
+- [Valka: The Salt Road](https://valka.locadeserta.com/): A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS. Platforms: Android (Soon), iOS (Soon).
+- [Eastern Wars](https://ew.locadeserta.com/): Real-time tactics in the battles of Khmelnytsky's war, 1648–1655. Command regiments of the Cossack Hetmanate, the Polish–Lithuanian Commonwealth and the Ottoman Empire, where terrain and morale decide the fight: a 12-battle campaign from Zhovti Vody to Okhmativ, skirmishes and two-phone battles over Wi-Fi. Coming soon to Google Play. Platforms: Android (Soon).
 - [Loca Deserta: Settlers](https://settlers.locadeserta.com): A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Platforms: Web Browser (Free), Windows, macOS, Linux.
 - [Loca Deserta: Odesa](https://locadeserta.com/odesa/): Settle the south of Ukraine in Khadjibey-Odesa! Take on the role of a Cossack pioneer: complete 70+ interconnected quests, help Budjak Tatars and Cossack chieftains, dig up 5 ancient Ukrainian treasures, and enjoy 100% Ukrainian & English voice acting and songs. Platforms: Steam, Epic Games Store, iOS App Store, Google Play.
 - [Loca Deserta: Sloboda 2](https://locadeserta.com/sloboda2/): A 3D low-poly settlement builder and production simulator set in the Zaporozhian Host. Start with an axe and pickaxe, construct 40+ buildings with 3 upgrade tiers, manage 14 production chains (from timber to cannons & ships), and unlock 6 valleys to the Black Sea. Platforms: Steam, iOS App Store, Google Play, Gamepad Support.
 - [Loca Deserta: Chumaki](https://locadeserta.com/locadesertachumaki/index_en.html): Become a XVII-century Ukrainian Chumak salt-and-goods trader! Start at Zaporozhian Sich with one wagon, analyze market margins across 25+ historical towns (Chyhyryn, Kaniv, Cherkasy, Baturyn), hire Otamans, unlock trade perks, and build town manufactories. Platforms: Web Browser, Android, iOS, Windows, macOS.
 - [Loca Deserta: Sloboda](https://locadeserta.com/citybuilding/index_en.html): The classic turn-and-season strategy game at the edge of the Great Meadow (Velykyi Luh). Manage workers, build smithies and powder cellars, train armed Cossacks, send aid to the central Sich server, and explore two handcrafted maps through changing seasons. Platforms: Web Browser, Android, iOS, Windows, Cross-Device Sync.
-- [Loca Deserta: Interactive Stories](https://locadeserta.com/interactive/index_en.html): The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator and Telegram Bot. Platforms: Web Browser, iOS App Store, Google Play, Telegram Bot.
+- [Loca Deserta: Interactive Stories](https://locadeserta.com/interactive/index_en.html): The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator. Platforms: Web Browser, iOS App Store, Google Play.
 - [Loca Deserta: Hex](https://locadeserta.com/locadesertahex/index_en.html): A tactical hexagonal puzzle and territory expansion game. Start from a single central hex, harvest free grain tiles, combine resources to recruit Cossacks, cannons, wagons, and boats, and break through the 15th-ring enemy fortress walls! Platforms: Web Browser, iOS App Store, Google Play.
-- [Loca Deserta in Fortnite (@DmytroGladkyi)](https://www.fortnite.com/@dmytrogladkyi): Explore 9 custom Fortnite Islands created by @DmytroGladkyi — featuring action maps set in both the historical Cossack Wild Field and the futuristic Loca Deserta Sci-Fi universe. Platforms: Fortnite (PC, Consoles, Mobile).
 - [Loca Deserta @ Roblox](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5): A team-based 20v20 multiplayer action shooter in Roblox! Cossacks vs. Tatars, objective-based warfare, weapon progression, custom skins, and the Assault on Kerch. Platforms: Roblox (PC, Mobile, Console).
 
 ## Books (Loca Deserta Sci-Fi series, in Ukrainian)
@@ -53,10 +54,7 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 - [TikTok (Universe)](https://www.tiktok.com/@locadeserta): @locadeserta
 - [YouTube Channel](https://www.youtube.com/@dmytrogladkyi): @dmytrogladkyi
 - [Telegram Channel](https://t.me/locadesertachumaki): @locadesertachumaki (Devlog)
-- [Telegram Story Bot](https://t.me/locadesertabot): @locadesertabot (Play in Chat)
-- [X / Twitter](https://twitter.com/locadeserta): @locadeserta
 - [Discord (Author & UEFN/Roblox)](https://discordapp.com/users/374843758837104651): dmytrogladkyi
-- [Guilded Community](https://www.guilded.gg/i/EA3wamqk): Loca Deserta Games Server
 - [GitHub Releases & Code](https://github.com/gladimdim/locadeserta): github.com/gladimdim
 
 ---
@@ -75,6 +73,28 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.
 
 Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.
+
+### Valka: The Salt Road (Валка: Чумацький Шлях)
+
+- Page: https://valka.locadeserta.com/
+- Type: Caravan Defence • In Development
+- Platforms: Android (Soon), iOS (Soon)
+- Links: [valka.locadeserta.com](https://valka.locadeserta.com/), [Bestiary](https://valka.locadeserta.com/#bestiary)
+
+A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS.
+
+Піксельна гра з видом збоку про оборону чумацької валки, у дусі Kingdom Two Crowns. Проведи валку 1130 км від Керчі до Києва: удень торгуй і наймай охорону, уночі захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос. Спершу на Android, згодом на iOS.
+
+### Eastern Wars (Eastern Wars)
+
+- Page: https://ew.locadeserta.com/
+- Type: Real-Time Tactics • Coming Soon
+- Platforms: Android (Soon)
+- Links: [ew.locadeserta.com](https://ew.locadeserta.com/), [Trailers](https://ew.locadeserta.com/#trailers)
+
+Real-time tactics in the battles of Khmelnytsky's war, 1648–1655. Command regiments of the Cossack Hetmanate, the Polish–Lithuanian Commonwealth and the Ottoman Empire, where terrain and morale decide the fight: a 12-battle campaign from Zhovti Vody to Okhmativ, skirmishes and two-phone battles over Wi-Fi. Coming soon to Google Play.
+
+Тактика в реальному часі в битвах війни Хмельницького, 1648–1655. Командуй полками Козацького Гетьманату, Речі Посполитої та Османської імперії, де все вирішують рельєф і бойовий дух: кампанія з 12 битв від Жовтих Вод до Охматова, окремі бої та двобої на двох телефонах через Wi-Fi. Незабаром у Google Play.
 
 ### Loca Deserta: Settlers (Loca Deserta: Settlers)
 
@@ -135,10 +155,10 @@ The classic turn-and-season strategy game at the edge of the Great Meadow (Velyk
 
 - Page: https://locadeserta.com/interactive/index_en.html
 - Type: Interactive Fiction • Story Editor
-- Platforms: Web Browser, iOS App Store, Google Play, Telegram Bot
-- Links: [Play Online (EN)](https://locadeserta.com/game/?lang=en), [Story List & Info](https://locadeserta.com/interactive/index_en.html), [Telegram Bot](https://t.me/locadesertabot), [iOS](https://apps.apple.com/us/app/loca-deserta/id1468068398), [Android](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+- Platforms: Web Browser, iOS App Store, Google Play
+- Links: [Play Online (EN)](https://locadeserta.com/game/?lang=en), [Story List & Info](https://locadeserta.com/interactive/index_en.html), [iOS](https://apps.apple.com/us/app/loca-deserta/id1468068398), [Android](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
-The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator and Telegram Bot.
+The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator.
 
 Перша гра всесвіту! Серія нелінійних інтерактивних оповідань про добу козаччини: «Хотинська різанина», «Після битви» (18 кінцівок), «Кривава пастка», «Останній бій під Берестечком», «Кодацька ніч» та вбудований кросплатформний редактор власних історій.
 
@@ -153,23 +173,12 @@ A tactical hexagonal puzzle and territory expansion game. Start from a single ce
 
 Захоплива гексагональна стратегія-головоломка. Розширюйте володіння слободи гекс за гексом, комбінуйте ресурси для найму козаків, гармат, возів і чайки та проривайте кільце ворожих укріплень і таємних фортець на 15-му радіусі!
 
-### Loca Deserta in Fortnite (@DmytroGladkyi) (Ігри Дикого Поля у Fortnite (@DmytroGladkyi))
-
-- Page: https://www.fortnite.com/@dmytrogladkyi
-- Type: 9 Published Islands • UEFN
-- Platforms: Fortnite (PC, Consoles, Mobile)
-- Links: [Explore Islands on Fortnite.com](https://www.fortnite.com/@dmytrogladkyi)
-
-Explore 9 custom Fortnite Islands created by @DmytroGladkyi — featuring action maps set in both the historical Cossack Wild Field and the futuristic Loca Deserta Sci-Fi universe.
-
-Вже опубліковано 9 різноманітних ігор та островів у всесвіті Fortnite за авторством @DmytroGladkyi — включно з картами у новому всесвіті Loca Deserta Sci-Fi.
-
 ### Loca Deserta @ Roblox (Дике Поле @ Roblox)
 
 - Page: https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5
 - Type: 20v20 Multiplayer Shooter • Roblox
 - Platforms: Roblox (PC, Mobile, Console)
-- Links: [Play on Roblox](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5), [Roblox Community](https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about), [Guilded Server](https://www.guilded.gg/i/EA3wamqk)
+- Links: [Play on Roblox](https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5), [Roblox Community](https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about)
 
 A team-based 20v20 multiplayer action shooter in Roblox! Cossacks vs. Tatars, objective-based warfare, weapon progression, custom skins, and the Assault on Kerch.
 

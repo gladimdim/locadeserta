@@ -441,12 +441,11 @@ function buildInteractivePage(lang) {
             <h1 class="hero-title">${isUk ? 'Дике Поле: Інтерактивні Історії про Козаччину' : 'Loca Deserta: Interactive Stories of Cossack Ukraine'}</h1>
             <p class="hero-lead">
               ${isUk
-                ? 'Серія нелінійних інтерактивних оповідань про події в Україні XVI–XVII століть. Обирайте власний шлях розвитку сюжету, грайте прямо в браузері чи Телеграм-боті або створюйте власні історії у вбудованому редакторі!'
-                : 'A branching interactive fiction series set in XVI–XVII century Cossack Ukraine. Every choice shapes your survival. Play directly in your web browser, via our interactive Telegram Bot, or craft your own stories with the built-in cross-device editor!'}
+                ? 'Серія нелінійних інтерактивних оповідань про події в Україні XVI–XVII століть. Обирайте власний шлях розвитку сюжету, грайте прямо в браузері або створюйте власні історії у вбудованому редакторі!'
+                : 'A branching interactive fiction series set in XVI–XVII century Cossack Ukraine. Every choice shapes your survival. Play directly in your web browser or craft your own stories with the built-in cross-device editor!'}
             </p>
             <div class="btn-group">
               <a href="/game/?lang=${isUk ? 'uk' : 'en'}" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн у Браузері' : 'Play Online in Browser'}</a>
-              <a href="https://t.me/locadesertabot" class="btn btn-scifi" target="_blank" rel="noopener">🤖 ${isUk ? 'Грати в Telegram-Боті (@locadesertabot)' : 'Play in Telegram Bot (@locadesertabot)'}</a>
               <a href="https://apps.apple.com/us/app/loca-deserta/id1468068398" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store</a>
               <a href="https://play.google.com/store/apps/details?id=gladimdim.locadeserta" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
             </div>
@@ -477,8 +476,8 @@ function buildInteractivePage(lang) {
     lang,
     title: isUk ? 'Дике Поле: Інтерактивні Історії — Козацькі Текстові Квести Онлайн' : 'Loca Deserta: Interactive Stories — Historical Ukrainian Interactive Fiction',
     description: isUk
-      ? 'Грайте в «Дике Поле: Інтерактивні історії» онлайн у браузері, Telegram-боті (@locadesertabot), на iOS та Android. 9+ історій про козаків та редактор сюжетів.'
-      : 'Play Loca Deserta Interactive Stories online in your browser, via Telegram Bot, or on iOS & Android. Branching historical adventures set in XVII-century Ukraine.',
+      ? 'Грайте в «Дике Поле: Інтерактивні історії» онлайн у браузері, на iOS та Android. 9+ історій про козаків та редактор сюжетів.'
+      : 'Play Loca Deserta Interactive Stories online in your browser or on iOS & Android. Branching historical adventures set in XVII-century Ukraine.',
     canonicalPath: isUk ? '/interactive/' : '/interactive/index_en.html',
     altEnPath: '/interactive/index_en.html',
     altUkPath: '/interactive/',
@@ -491,7 +490,7 @@ function buildInteractivePage(lang) {
       '@type': 'VideoGame',
       name: isUk ? 'Дике Поле: Інтерактивні історії' : 'Loca Deserta: Interactive Stories',
       genre: ['Interactive Fiction', 'Role-Playing', 'Historical'],
-      gamePlatform: ['Web Browser', 'Android', 'iOS', 'Telegram'],
+      gamePlatform: ['Web Browser', 'Android', 'iOS'],
       applicationCategory: 'Game',
       operatingSystem: 'Web, Android, iOS',
       inLanguage: ['uk', 'en', 'pl'],

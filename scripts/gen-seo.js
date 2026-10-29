@@ -116,7 +116,7 @@ function gamePage(game) {
 function buildLlmsTxt() {
   return `# Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It includes historical games about XVI–XVII-century Ukrainian Cossacks (SICHA: Cossack Combat — pixel-art sabre duels coming soon to Android and iOS, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), custom Fortnite and Roblox games, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (3 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 
@@ -154,7 +154,7 @@ ${BOOKS.map(b => `- [${b.en.title} / ${b.uk.title}](${absUrl(b.en.links[0].href)
 
 - [Full knowledge base](${SITE_URL}/llms-full.txt): every game and book in English and Ukrainian, sci-fi lore, Sloboda game mechanics and a list of all pages.
 - [Ukrainian homepage](${SITE_URL}/uk/)
-${SOCIAL_HUB.filter(s => /TikTok|YouTube|Telegram|Twitter|Discord|Guilded|GitHub/.test(s.name)).map(s => `- [${s.name}](${s.url}): ${s.handle}`).join('\n')}
+${SOCIAL_HUB.filter(s => /TikTok|YouTube|Telegram|Discord|GitHub/.test(s.name)).map(s => `- [${s.name}](${s.url}): ${s.handle}`).join('\n')}
 `;
 }
 
@@ -272,7 +272,6 @@ function webAppSeoBlock(app) {
     <meta property="og:url" content="${url}">
     <meta property="og:image" content="${image}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@locadeserta">
     <link rel="help" type="text/plain" href="/llms.txt" title="LLM Context Summary">
     <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
     <!-- seo:end -->`;

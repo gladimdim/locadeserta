@@ -29,7 +29,6 @@ const UI = {
     siteSubtitle: 'Wild Field Universe',
     navGames: 'Games',
     navSciFi: 'Sci-Fi & Books',
-    navEcosystems: 'Fortnite & Roblox',
     navSocials: 'Socials & Stores',
     playBrowser: 'Play in Browser',
     learnMore: 'Game Page',
@@ -51,7 +50,6 @@ const UI = {
     siteSubtitle: 'Всесвіт Loca Deserta',
     navGames: 'Ігри',
     navSciFi: 'Sci-Fi та Книги',
-    navEcosystems: 'Fortnite і Roblox',
     navSocials: 'Соцмережі та Магазини',
     playBrowser: 'Грати в браузері',
     learnMore: 'Сторінка гри',
@@ -95,6 +93,58 @@ const GAMES = [
       actions: [
         { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-primary' },
         { label: '▶ Дивитися трейлер', href: 'https://sicha.locadeserta.com/uk/#trailer', cls: 'btn-outline' }
+      ]
+    }
+  },
+  {
+    id: 'valka',
+    categories: 'historical mobilepc',
+    badgeClass: '',
+    image: '/assets/og/og-valka.jpg',
+    en: {
+      badge: 'Caravan Defence • In Development',
+      title: 'Valka: The Salt Road',
+      desc: 'A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS.',
+      platforms: ['Android (Soon)', 'iOS (Soon)'],
+      actions: [
+        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/', cls: 'btn-primary' },
+        { label: 'Bestiary', href: 'https://valka.locadeserta.com/#bestiary', cls: 'btn-outline' }
+      ]
+    },
+    uk: {
+      badge: 'Оборона Валки • У Розробці',
+      title: 'Валка: Чумацький Шлях',
+      desc: 'Піксельна гра з видом збоку про оборону чумацької валки, у дусі Kingdom Two Crowns. Проведи валку 1130 км від Керчі до Києва: удень торгуй і наймай охорону, уночі захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос. Спершу на Android, згодом на iOS.',
+      platforms: ['Android (Скоро)', 'iOS (Скоро)'],
+      actions: [
+        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/uk/', cls: 'btn-primary' },
+        { label: 'Бестіарій', href: 'https://valka.locadeserta.com/uk/#bestiary', cls: 'btn-outline' }
+      ]
+    }
+  },
+  {
+    id: 'eastern-wars',
+    categories: 'historical mobilepc',
+    badgeClass: '',
+    image: '/assets/og/og-eastern-wars.jpg',
+    en: {
+      badge: 'Real-Time Tactics • Coming Soon',
+      title: 'Eastern Wars',
+      desc: 'Real-time tactics in the battles of Khmelnytsky\'s war, 1648–1655. Command regiments of the Cossack Hetmanate, the Polish–Lithuanian Commonwealth and the Ottoman Empire, where terrain and morale decide the fight: a 12-battle campaign from Zhovti Vody to Okhmativ, skirmishes and two-phone battles over Wi-Fi. Coming soon to Google Play.',
+      platforms: ['Android (Soon)'],
+      actions: [
+        { label: '⚔ ew.locadeserta.com', href: 'https://ew.locadeserta.com/', cls: 'btn-primary' },
+        { label: '▶ Trailers', href: 'https://ew.locadeserta.com/#trailers', cls: 'btn-outline' }
+      ]
+    },
+    uk: {
+      badge: 'Тактика в Реальному Часі • Скоро',
+      title: 'Eastern Wars',
+      desc: 'Тактика в реальному часі в битвах війни Хмельницького, 1648–1655. Командуй полками Козацького Гетьманату, Речі Посполитої та Османської імперії, де все вирішують рельєф і бойовий дух: кампанія з 12 битв від Жовтих Вод до Охматова, окремі бої та двобої на двох телефонах через Wi-Fi. Незабаром у Google Play.',
+      platforms: ['Android (Скоро)'],
+      actions: [
+        { label: '⚔ ew.locadeserta.com', href: 'https://ew.locadeserta.com/uk/', cls: 'btn-primary' },
+        { label: '▶ Трейлери', href: 'https://ew.locadeserta.com/uk/#trailers', cls: 'btn-outline' }
       ]
     }
   },
@@ -254,12 +304,11 @@ const GAMES = [
     en: {
       badge: 'Interactive Fiction • Story Editor',
       title: 'Loca Deserta: Interactive Stories',
-      desc: 'The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator and Telegram Bot.',
-      platforms: ['Web Browser', 'iOS App Store', 'Google Play', 'Telegram Bot'],
+      desc: 'The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator.',
+      platforms: ['Web Browser', 'iOS App Store', 'Google Play'],
       actions: [
         { label: '▶ Play Online (EN)', href: '/game/?lang=en', cls: 'btn-primary' },
         { label: 'Story List & Info', href: '/interactive/index_en.html', cls: 'btn-outline' },
-        { label: 'Telegram Bot', href: 'https://t.me/locadesertabot', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/loca-deserta/id1468068398', cls: 'btn-outline' },
         { label: 'Android', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta', cls: 'btn-outline' }
       ]
@@ -268,11 +317,10 @@ const GAMES = [
       badge: 'Інтерактивні Історії • Редактор Історій',
       title: 'Дике Поле: Інтерактивні Історії',
       desc: 'Перша гра всесвіту! Серія нелінійних інтерактивних оповідань про добу козаччини: «Хотинська різанина», «Після битви» (18 кінцівок), «Кривава пастка», «Останній бій під Берестечком», «Кодацька ніч» та вбудований кросплатформний редактор власних історій.',
-      platforms: ['Браузер Онлайн', 'iOS App Store', 'Google Play', 'Телеграм-Бот'],
+      platforms: ['Браузер Онлайн', 'iOS App Store', 'Google Play'],
       actions: [
         { label: '▶ Грати Онлайн (UA)', href: '/game/?lang=uk', cls: 'btn-primary' },
         { label: 'Усі Історії та Опис', href: '/interactive/', cls: 'btn-outline' },
-        { label: 'Телеграм-Бот', href: 'https://t.me/locadesertabot', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/loca-deserta/id1468068398', cls: 'btn-outline' },
         { label: 'Android', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta', cls: 'btn-outline' }
       ]
@@ -309,30 +357,6 @@ const GAMES = [
     }
   },
   {
-    id: 'fortnite',
-    categories: 'scifi historical',
-    badgeClass: 'scifi',
-    image: '/images/Fortnite_Games.png',
-    en: {
-      badge: '9 Published Islands • UEFN',
-      title: 'Loca Deserta in Fortnite (@DmytroGladkyi)',
-      desc: 'Explore 9 custom Fortnite Islands created by @DmytroGladkyi — featuring action maps set in both the historical Cossack Wild Field and the futuristic Loca Deserta Sci-Fi universe.',
-      platforms: ['Fortnite (PC, Consoles, Mobile)'],
-      actions: [
-        { label: 'Explore Islands on Fortnite.com', href: 'https://www.fortnite.com/@dmytrogladkyi', cls: 'btn-scifi' }
-      ]
-    },
-    uk: {
-      badge: '9 Опублікованих Островів • UEFN',
-      title: 'Ігри Дикого Поля у Fortnite (@DmytroGladkyi)',
-      desc: 'Вже опубліковано 9 різноманітних ігор та островів у всесвіті Fortnite за авторством @DmytroGladkyi — включно з картами у новому всесвіті Loca Deserta Sci-Fi.',
-      platforms: ['Fortnite (ПК, Консолі, Мобільні)'],
-      actions: [
-        { label: 'Всі ігри на Fortnite.com', href: 'https://www.fortnite.com/@dmytrogladkyi', cls: 'btn-scifi' }
-      ]
-    }
-  },
-  {
     id: 'roblox',
     categories: 'historical',
     badgeClass: '',
@@ -344,8 +368,7 @@ const GAMES = [
       platforms: ['Roblox (PC, Mobile, Console)'],
       actions: [
         { label: '▶ Play on Roblox', href: 'https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5', cls: 'btn-primary' },
-        { label: 'Roblox Community', href: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', cls: 'btn-outline' },
-        { label: 'Guilded Server', href: 'https://www.guilded.gg/i/EA3wamqk', cls: 'btn-outline' }
+        { label: 'Roblox Community', href: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', cls: 'btn-outline' }
       ]
     },
     uk: {
@@ -355,8 +378,7 @@ const GAMES = [
       platforms: ['Roblox (ПК, Мобільні, Консолі)'],
       actions: [
         { label: '▶ Грати в Roblox', href: 'https://www.roblox.com/games/105150009083536/Loca-Deserta-DEV-0-0-5', cls: 'btn-primary' },
-        { label: 'Спільнота Roblox', href: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', cls: 'btn-outline' },
-        { label: 'Сервер Guilded', href: 'https://www.guilded.gg/i/EA3wamqk', cls: 'btn-outline' }
+        { label: 'Спільнота Roblox', href: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', cls: 'btn-outline' }
       ]
     }
   }
@@ -454,11 +476,7 @@ const SOCIAL_HUB = [
   { name: 'TikTok (Universe)', handle: '@locadeserta', url: 'https://www.tiktok.com/@locadeserta', icon: '/images/logo-tiktok.svg' },
   { name: 'YouTube Channel', handle: '@dmytrogladkyi', url: 'https://www.youtube.com/@dmytrogladkyi', icon: '/images/youtube.svg' },
   { name: 'Telegram Channel', handle: '@locadesertachumaki (Devlog)', url: 'https://t.me/locadesertachumaki', icon: '/images/Telegram_logo.svg' },
-  { name: 'Telegram Story Bot', handle: '@locadesertabot (Play in Chat)', url: 'https://t.me/locadesertabot', icon: '/images/Telegram_logo.svg' },
-  { name: 'X / Twitter', handle: '@locadeserta', url: 'https://twitter.com/locadeserta', icon: '/images/Logo_of_Twitter.svg' },
   { name: 'Discord (Author & UEFN/Roblox)', handle: 'dmytrogladkyi', url: 'https://discordapp.com/users/374843758837104651', icon: '/images/discord.svg' },
-  { name: 'Guilded Community', handle: 'Loca Deserta Games Server', url: 'https://www.guilded.gg/i/EA3wamqk', icon: '/images/guilded.svg' },
-  { name: 'Fortnite Creator Portal', handle: '@dmytrogladkyi (9 Islands)', url: 'https://www.fortnite.com/@dmytrogladkyi', icon: '/logo.jpg' },
   { name: 'Roblox Community', handle: 'Loca Deserta Games Group', url: 'https://www.roblox.com/communities/35449027/Loca-Deserta-Games#!/about', icon: '/logo.jpg' },
   { name: 'Sci-Fi Wiki Portal', handle: 'scifi.locadeserta.com', url: 'https://scifi.locadeserta.com/', icon: '/locadesertascifi/images/cover.jpg' },
   { name: 'Settlers Web Game', handle: 'settlers.locadeserta.com', url: 'https://settlers.locadeserta.com/', icon: '/locadesertascifi/images/cover.jpg' },
@@ -520,6 +538,8 @@ function renderLayout({
         '@id': `${SITE_URL}/#organization`,
         name: 'Loca Deserta (Дике Поле)',
         alternateName: ['Всесвіт Дикого Поля', 'Loca Deserta Game Universe', 'Дике Поле Sci-Fi', 'Зоряний Гетьманат'],
+        description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 3 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
+        knowsAbout: ['Ukrainian Cossacks', 'Zaporozhian Sich', 'Cossack Hetmanate', 'Khmelnytsky Uprising', 'Chumaks', 'Wild Fields', 'Games about Cossacks', 'Ігри про козаків'],
         url: SITE_URL,
         logo: {
           '@type': 'ImageObject',
@@ -535,10 +555,8 @@ function renderLayout({
           sameAs: [
             'https://tiktok.com/@dmytrogladkyi',
             'https://www.youtube.com/@dmytrogladkyi',
-            'https://twitter.com/locadeserta',
             'https://t.me/locadesertachumaki',
-            'https://github.com/gladimdim',
-            'https://www.fortnite.com/@dmytrogladkyi'
+            'https://github.com/gladimdim'
           ]
         },
         sameAs: SOCIAL_HUB.map(s => s.url)
@@ -605,8 +623,6 @@ function renderLayout({
 
   <!-- Twitter / X Large Summary Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@locadeserta">
-  <meta name="twitter:creator" content="@locadeserta">
   <meta name="twitter:domain" content="locadeserta.com">
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDesc}">
@@ -644,7 +660,6 @@ ${JSON.stringify(defaultJsonLd, null, 2)}
       <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
         <a href="${homeUrl}#games" class="nav-link ${activeNav === 'games' ? 'active' : ''}">${t.navGames}</a>
         <a href="${scifiUrl}" class="nav-link scifi-badge ${activeNav === 'scifi' ? 'active' : ''}">🚀 ${t.navSciFi}</a>
-        <a href="${homeUrl}#ecosystems" class="nav-link">${t.navEcosystems}</a>
         <a href="${homeUrl}#socials" class="nav-link">${t.navSocials}</a>
       </nav>
 
@@ -697,7 +712,6 @@ ${bodyContent}
             <li><a href="/locadesertascifi/books/Zustrich_v_Stepu.html">Зустріч в Степу (Encounter in Steppe)</a></li>
             <li><a href="/locadesertascifi/books/Vistrya_Kulaku.html">Вістря Кулаку (Fist's Edge)</a></li>
             <li><a href="https://scifi.locadeserta.com">Sci-Fi Lore Wiki</a></li>
-            <li><a href="https://www.fortnite.com/@dmytrogladkyi">Fortnite Islands (@DmytroGladkyi)</a></li>
           </ul>
         </div>
 

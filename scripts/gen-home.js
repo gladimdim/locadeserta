@@ -8,7 +8,11 @@ function buildHomePage(lang) {
     ? [
         {
           q: 'Що таке всесвіт «Дике Поле» (Loca Deserta)?',
-          a: '«Дике Поле» (лат. Loca Deserta) — це незалежний український ігровий та книжковий всесвіт, створений розробником і письменником Дмитром Гладким (@dmytrogladkyi). Він об’єднує історичні ігри про козацьку Україну XVI–XVII століть (СІЧА: Козацький двобій, Одеса, Слобода 2, Чумаки, Слобода, Інтерактивні історії, Ґекс) та космічний воєнно-фантастичний всесвіт «Дике Поле Sci-Fi» про Федерацію Гетьманату 2424 року (книги «Зоряний Гетьманат», «Зустріч в Степу», «Вістря Кулаку» та стратегія Loca Deserta: Settlers).'
+          a: '«Дике Поле» (лат. Loca Deserta) — це незалежний український ігровий та книжковий всесвіт, створений розробником і письменником Дмитром Гладким (@dmytrogladkyi). Він об’єднує історичні ігри про козацьку Україну XVI–XVII століть (СІЧА: Козацький двобій, Eastern Wars, Валка: Чумацький Шлях, Одеса, Слобода 2, Чумаки, Слобода, Інтерактивні історії, Ґекс) та космічний воєнно-фантастичний всесвіт «Дике Поле Sci-Fi» про Федерацію Гетьманату 2424 року (книги «Зоряний Гетьманат», «Зустріч в Степу», «Вістря Кулаку» та стратегія Loca Deserta: Settlers).'
+        },
+        {
+          q: 'Які є ігри про українських козаків?',
+          a: '«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, і ще 3 нові зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.'
         },
         {
           q: 'У які ігри всесвіту Дикого Поля можна пограти безкоштовно в браузері?',
@@ -16,7 +20,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'Де придбати ігри для ПК (Steam / Epic) та смартфонів (iOS / Android)?',
-          a: 'Ігри «Дике Поле: Одеса» та «Дике Поле: Слобода 2» доступні в Steam, Epic Games Store, Apple App Store та Google Play. Також у магазині Fortnite за тегом автора @dmytrogladkyi опубліковано 9 островів, а в Roblox розробляється командний шутер 20 на 20.'
+          a: 'Ігри «Дике Поле: Одеса» та «Дике Поле: Слобода 2» доступні в Steam, Epic Games Store, Apple App Store та Google Play. Також у Roblox розробляється командний шутер 20 на 20.'
         },
         {
           q: 'Де читати книги всесвіту «Дике Поле Sci-Fi»?',
@@ -26,15 +30,19 @@ function buildHomePage(lang) {
     : [
         {
           q: 'What is the Loca Deserta (Wild Field) Universe?',
-          a: 'Loca Deserta (Ukrainian: Дике Поле / Wild Field) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (SICHA: Cossack Combat, Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
+          a: 'Loca Deserta (Ukrainian: Дике Поле / Wild Field) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (SICHA: Cossack Combat, Eastern Wars, Valka: The Salt Road, Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
+        },
+        {
+          q: 'What are the best games about Ukrainian Cossacks?',
+          a: 'Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 3 new ones in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky\'s war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.'
         },
         {
           q: 'Which Loca Deserta games can I play for free in my web browser?',
           a: 'Five games are playable directly in your browser with zero installation: Loca Deserta: Settlers (settlers.locadeserta.com), Loca Deserta: Chumaki (locadeserta.com/chumaki), Loca Deserta: Sloboda (locadeserta.com/sloboda), Loca Deserta Interactive Stories (locadeserta.com/game/?lang=en), and Loca Deserta: Hex (locadeserta.com/hex).'
         },
         {
-          q: 'Where can I get Loca Deserta games on Steam, Epic Games, iOS,Android, Fortnite, and Roblox?',
-          a: 'Loca Deserta: Odesa and Loca Deserta: Sloboda 2 are available on Steam, Epic Games Store, Apple App Store, and Google Play. In addition, 9 custom Fortnite Islands are published under creator code @dmytrogladkyi, and a 20v20 Cossacks vs. Tatars multiplayer shooter is playable on Roblox.'
+          q: 'Where can I get Loca Deserta games on Steam, Epic Games, iOS, Android, and Roblox?',
+          a: 'Loca Deserta: Odesa and Loca Deserta: Sloboda 2 are available on Steam, Epic Games Store, Apple App Store, and Google Play. In addition, a 20v20 Cossacks vs. Tatars multiplayer shooter is playable on Roblox.'
         },
         {
           q: 'Where can I read the Loca Deserta Sci-Fi books?',
@@ -147,8 +155,8 @@ function buildHomePage(lang) {
             </h1>
             <p class="hero-lead">
               ${isUk
-                ? 'Від козацьких степів, слобід, чумацьких ватаг і розбудови Одеси XVII століття — до орбітальних десантів Федерації Гетьманату 2424 року. Створено Дмитром Гладким (@dmytrogladkyi).'
-                : 'From XVII-century Cossack steppes, Chumak trade caravans, and settling Khadjibey-Odesa — to orbital drops of the Hetmanate Federation in 2424 AD. Created by Dmytro Gladkyi (@dmytrogladkyi).'}
+                ? 'Найактивніший сучасний розробник ігор про українських козаків: 10 ігор з 2019 року, з них 3 нові зараз у розробці. 10 жанрів: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія та інтерактивні історії. Від козацьких степів, слобід, чумацьких ватаг і розбудови Одеси XVII століття — до орбітальних десантів Федерації Гетьманату 2424 року. Створено Дмитром Гладким (@dmytrogladkyi).'
+                : 'The most active modern developer of games about Ukrainian Cossacks: 10 games since 2019, with 3 new ones in development now. 10 genres: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy and interactive fiction. From XVII-century Cossack steppes, Chumak trade caravans, and settling Khadjibey-Odesa — to orbital drops of the Hetmanate Federation in 2424 AD. Created by Dmytro Gladkyi (@dmytrogladkyi).'}
             </p>
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 ${isUk ? 'Дослідити всі ігри' : 'Explore All Games'}</a>
@@ -158,16 +166,16 @@ function buildHomePage(lang) {
 
             <div class="stats-grid">
               <div class="stat-card">
-                <div class="stat-val">7+</div>
-                <div class="stat-label">${isUk ? 'Оригінальних ігор на ПК, Мобільних і в Браузері' : 'Standalone PC, Mobile & Web Games'}</div>
+                <div class="stat-val">10</div>
+                <div class="stat-label">${isUk ? 'Ігор про козаків у 10 жанрах' : 'Cossack Games in 10 Genres'}</div>
               </div>
               <div class="stat-card">
                 <div class="stat-val cyan">3</div>
                 <div class="stat-label">${isUk ? 'Книги у всесвіті Дике Поле Sci-Fi' : 'Novels in the Loca Deserta Sci-Fi Series'}</div>
               </div>
               <div class="stat-card">
-                <div class="stat-val">9</div>
-                <div class="stat-label">${isUk ? 'Островів у Fortnite + Шутер у Roblox' : 'Fortnite Islands + Roblox 20v20 Shooter'}</div>
+                <div class="stat-val">3</div>
+                <div class="stat-label">${isUk ? 'Нові мобільні ігри в розробці: СІЧА, Валка та Eastern Wars' : 'New Mobile Games in Development: SICHA, Valka & Eastern Wars'}</div>
               </div>
               <div class="stat-card">
                 <div class="stat-val cyan">100%</div>
@@ -220,6 +228,18 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">${isUk ? '29 Жовтня 2026' : 'Oct 29, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'Розробляємо нову гру — «Валка: Чумацький Шлях»!' : 'In Development — Valka: The Salt Road!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Піксельна гра з видом збоку про оборону чумацької валки, у дусі Kingdom Two Crowns. Проведи валку 1130 км від Керчі до Києва: удень торгуй і наймай охорону, уночі захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос. Спершу на Android, згодом на iOS.'
+                  : 'A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-primary">${isUk ? '🐂 Сайт гри' : '🐂 Game site'}</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">${isUk ? '22 Жовтня 2026' : 'Oct 22, 2026'}</div>
             <div>
@@ -289,8 +309,8 @@ function buildHomePage(lang) {
             <h2 class="section-title">${isUk ? 'Усі ігри «Дикого Поля» (Loca Deserta)' : 'All Games in the Loca Deserta Universe'}</h2>
             <p class="section-desc">
               ${isUk
-                ? 'Згруповано за епохами та платформами: обирайте історичні стратегії про козаччину XVII ст., космічну економіку або ігри, доступні прямо у веб-браузері.'
-                : 'Grouped by era and platform: filter between XVII-century Cossack strategy & RPG titles, Sci-Fi colony builders, or instant web-browser games.'}
+                ? 'Усі наші ігри про українських козаків: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія, інтерактивні історії, головоломка та шутер. Фільтруйте за епохою та платформою.'
+                : 'All our games about Ukrainian Cossacks: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy, interactive fiction, puzzle and shooter. Filter by era and platform.'}
             </p>
           </div>
           <div class="filter-tabs" role="tablist" aria-label="Game Category Filter">
@@ -333,29 +353,17 @@ function buildHomePage(lang) {
       </div>
     </section>
 
-    <!-- FORTNITE, ROBLOX, STEAM & DISCORD COMMUNITY -->
+    <!-- ROBLOX, STEAM & DISCORD COMMUNITY -->
     <section class="section" id="ecosystems">
       <div class="container">
         <div class="section-header">
           <div>
-            <span class="eyebrow">🔥 ${isUk ? 'Мультиплеєр, UEFN, Roblox та Steam' : 'Multiplayer, UEFN, Roblox & Steam'}</span>
-            <h2 class="section-title">${isUk ? 'Екосистеми Fortnite, Roblox та Закрита Спільнота' : 'Fortnite Islands, Roblox Shooter & Developer Community'}</h2>
+            <span class="eyebrow">🔥 ${isUk ? 'Мультиплеєр, Roblox та Steam' : 'Multiplayer, Roblox & Steam'}</span>
+            <h2 class="section-title">${isUk ? 'Roblox та Закрита Спільнота' : 'Roblox Shooter & Developer Community'}</h2>
           </div>
         </div>
 
         <div class="cards-grid-3">
-          <div class="game-card scifi" style="padding: 1.5rem;">
-            <span class="eyebrow scifi">Fortnite Creator • @DmytroGladkyi</span>
-            <h3 class="game-card-title">${isUk ? '9 Островів у Fortnite' : '9 Fortnite Islands'}</h3>
-            <p class="game-card-desc">
-              ${isUk
-                ? 'Шукайте у Fortnite за кодом автора @DmytroGladkyi! Вже опубліковано 9 різноманітних ігор, включно з картами у всесвіті Loca Deserta Sci-Fi.'
-                : 'Search in Fortnite by creator @DmytroGladkyi! 9 published islands featuring combat and exploration across the Loca Deserta & Sci-Fi universes.'}
-            </p>
-            <img src="/images/Fortnite_Games.png" alt="Fortnite Games by DmytroGladkyi" style="border-radius: 10px; margin-bottom: 1rem; height: 160px; object-fit: cover;">
-            <a href="https://www.fortnite.com/@dmytrogladkyi" class="btn btn-scifi btn-sm" target="_blank" rel="noopener">Fortnite.com/@dmytrogladkyi ↗</a>
-          </div>
-
           <div class="game-card" style="padding: 1.5rem;">
             <span class="eyebrow">Roblox • 20 vs 20 Shooter</span>
             <h3 class="game-card-title">${isUk ? 'Дике Поле у Roblox: Штурм Керчі' : 'Loca Deserta in Roblox: Kerch Assault'}</h3>
@@ -430,8 +438,8 @@ function buildHomePage(lang) {
       ? 'Дике Поле (Loca Deserta) — ігри про козаків та книги Sci-Fi'
       : 'Loca Deserta (Wild Field) — Ukrainian Cossack Games & Sci-Fi',
     description: isUk
-      ? 'Всесвіт «Дике Поле» Дмитра Гладкого: ігри про козаків XVII ст. (Одеса, Слобода 2, Чумаки), стратегія Settlers та книги «Зоряний Гетьманат».'
-      : 'Ukrainian Cossack games by Dmytro Gladkyi — Odesa, Sloboda 2, Chumaki, Settlers — plus the Star Hetmanate military sci-fi novels. Play online free.',
+      ? 'Сучасні ігри про українських козаків: 10 ігор у 10 жанрах від Дмитра Гладкого: СІЧА, Eastern Wars, Валка, Одеса, Слобода 2, Чумаки. Грайте безкоштовно в браузері.'
+      : 'Modern games about Ukrainian Cossacks: 10 games in 10 genres by Dmytro Gladkyi: SICHA, Eastern Wars, Valka, Odesa, Sloboda 2, Chumaki. Play free in your browser.',
     canonicalPath: isUk ? '/uk/' : '/',
     altEnPath: '/',
     altUkPath: '/uk/',
