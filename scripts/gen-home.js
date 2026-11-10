@@ -354,13 +354,13 @@ function buildHomePage(lang) {
       </div>
     </section>
 
-    <!-- ROBLOX, STEAM & DISCORD COMMUNITY -->
+    <!-- ROBLOX COMMUNITY -->
     <section class="section" id="ecosystems">
       <div class="container">
         <div class="section-header">
           <div>
             <span class="eyebrow">🔥 ${isUk ? 'Мультиплеєр, Roblox та Steam' : 'Multiplayer, Roblox & Steam'}</span>
-            <h2 class="section-title">${isUk ? 'Roblox та Закрита Спільнота' : 'Roblox Shooter & Developer Community'}</h2>
+            <h2 class="section-title">${isUk ? 'Дике Поле у Roblox' : 'Loca Deserta in Roblox'}</h2>
           </div>
         </div>
 
@@ -379,7 +379,21 @@ function buildHomePage(lang) {
             </div>
           </div>
 
-          <div class="game-card" id="discord-access" style="padding: 1.5rem;">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCORD ACCESS -->
+    <section class="section" id="discord-access" style="scroll-margin-top: 6rem;">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Discord • UEFN &amp; Roblox</span>
+            <h2 class="section-title">${isUk ? 'Доступ до Discord' : 'Discord Access'}</h2>
+          </div>
+        </div>
+          <div class="game-card" style="padding: 1.5rem;">
             <span class="eyebrow">Discord • UEFN &amp; Roblox Dev</span>
             <h3 class="game-card-title">${isUk ? 'Закритий Discord-сервер розробників' : 'Private Fortnite & Roblox Dev Discord'}</h3>
             <p class="game-card-desc">
@@ -388,11 +402,10 @@ function buildHomePage(lang) {
                 : 'High-signal community for Fortnite (UEFN) and Roblox creators. To request an invite: purchase Loca Deserta: Odesa or Sloboda 2 on any platform and DM your receipt screenshot to Dmytro Gladkyi (dmytrogladkyi) on Discord.'}
             </p>
             <div class="card-actions" style="margin-top: auto;">
-              <a href="https://discordapp.com/users/374843758837104651" class="btn btn-primary btn-sm" target="_blank" rel="noopener">💬 DM dmytrogladkyi on Discord</a>
+              <a href="https://discordapp.com/users/374843758837104651" class="btn btn-primary btn-sm" target="_blank" rel="noopener">💬 ${isUk ? 'Написати dmytrogladkyi у Discord' : 'Message dmytrogladkyi on Discord'}</a>
               <a href="https://store.steampowered.com/app/2637950/_/" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Steam Store</a>
             </div>
           </div>
-        </div>
       </div>
     </section>
 

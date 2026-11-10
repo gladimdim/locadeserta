@@ -660,6 +660,7 @@ ${JSON.stringify(defaultJsonLd, null, 2)}
       <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
         <a href="${homeUrl}#games" class="nav-link ${activeNav === 'games' ? 'active' : ''}">${t.navGames}</a>
         <a href="${scifiUrl}" class="nav-link scifi-badge ${activeNav === 'scifi' ? 'active' : ''}">🚀 ${t.navSciFi}</a>
+        <a href="${homeUrl}#discord-access" class="nav-link">Discord</a>
         <a href="${homeUrl}#socials" class="nav-link">${t.navSocials}</a>
       </nav>
 
