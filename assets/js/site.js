@@ -148,10 +148,21 @@
     // Theme Toggle
     var themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) {
+      function updateThemeButton() {
+        var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        themeBtn.querySelector('span').textContent = isLight ? '🌚' : '🌞';
+        var label = isUkPage
+          ? (isLight ? 'Увімкнути темну тему' : 'Увімкнути світлу тему')
+          : (isLight ? 'Switch to dark theme' : 'Switch to light theme');
+        themeBtn.setAttribute('aria-label', label);
+        themeBtn.title = label;
+      }
+      updateThemeButton();
       themeBtn.addEventListener('click', function () {
         var current = document.documentElement.getAttribute('data-theme') || 'dark';
         var next = current === 'light' ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', next);
+        updateThemeButton();
         try {
           localStorage.setItem(STORAGE_THEME_KEY, next);
         } catch (e) {}

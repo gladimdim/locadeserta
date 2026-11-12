@@ -284,6 +284,14 @@ img {
   transition: all 0.2s ease;
 }
 
+.theme-toggle {
+  padding: 0;
+  font-family: 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
 .theme-toggle:hover, .mobile-menu-btn:hover {
   border-color: var(--gold);
   color: var(--gold);

@@ -709,7 +709,7 @@ ${JSON.stringify(defaultJsonLd, null, 2)}
           <a href="${altEnPath}?lang=en" data-set-lang="en" class="lang-btn ${lang === 'en' ? 'active' : ''}" title="Switch to English">EN</a>
           <a href="${altUkPath}?lang=uk" data-set-lang="uk" class="lang-btn ${lang === 'uk' ? 'active' : ''}" title="Перемкнути на українську">УКР</a>
         </div>
-        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle Light/Dark Theme" title="Toggle Theme">◐</button>
+        <button type="button" id="theme-toggle" class="theme-toggle" aria-label="${lang === 'uk' ? 'Увімкнути світлу тему' : 'Switch to light theme'}" title="${lang === 'uk' ? 'Увімкнути світлу тему' : 'Switch to light theme'}"><span aria-hidden="true">🌞</span></button>
         <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">☰</button>
       </div>
     </div>
