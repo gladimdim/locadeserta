@@ -48,8 +48,8 @@
   <meta name="theme-color" content="#0a0d14">
 
   <!-- Self-Hosted Styles & Locale Controller -->
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <script src="/assets/js/site.js"></script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=19d4caa6cb8c">
+  <script src="/assets/js/site.js?v=ffaa15546751"></script>
 
   <!-- Structured Data (Schema.org JSON-LD) for Google & AI Search Engines -->
   <script type="application/ld+json">
@@ -66,7 +66,7 @@
         "Дике Поле Sci-Fi",
         "Зоряний Гетьманат"
       ],
-      "description": "Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 3 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.",
+      "description": "Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 2 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.",
       "knowsAbout": [
         "Ukrainian Cossacks",
         "Zaporozhian Sich",
@@ -161,8 +161,24 @@
     },
     {
       "@type": "VideoGame",
+      "name": "DefendUS",
+      "description": "Тримай небо. Збережи світло. Піксельна гра про протиповітряну оборону: керуй мобільними вогневими групами, захищай українські міста від хвиль дронів і ракет та посилюй оборону на світанку. Кампанія на 40 ночей від Краматорська до Києва. Незабаром на Android.",
+      "image": "https://locadeserta.com/assets/og/og-defendus.png",
+      "author": {
+        "@type": "Person",
+        "name": "Dmytro Gladkyi"
+      },
+      "publisher": {
+        "@id": "https://locadeserta.com/#organization"
+      },
+      "applicationCategory": "Game",
+      "operatingSystem": "Android (Незабаром)",
+      "url": "https://defendus.locadeserta.com/uk/"
+    },
+    {
+      "@type": "VideoGame",
       "name": "СІЧА — Козацький двобій",
-      "description": "Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.",
+      "description": "Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на Android. Згодом на iOS і Steam.",
       "image": "https://locadeserta.com/assets/og/og-sicha.jpg",
       "author": {
         "@type": "Person",
@@ -172,8 +188,8 @@
         "@id": "https://locadeserta.com/#organization"
       },
       "applicationCategory": "Game",
-      "operatingSystem": "Android (Скоро), iOS (Скоро), Steam (Скоро)",
-      "url": "https://sicha.locadeserta.com/uk/"
+      "operatingSystem": "Android, iOS (Скоро), Steam (Скоро)",
+      "url": "https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk"
     },
     {
       "@type": "VideoGame",
@@ -387,7 +403,7 @@
           "name": "Які є ігри про українських козаків?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, і ще 3 нові зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері."
+            "text": "«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, з них 2 зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері."
           }
         },
         {
@@ -420,7 +436,7 @@
 }
   </script>
 </head>
-<body>
+<body class="home-gaming">
   <header class="site-header">
     <div class="nav-inner">
       <a href="/uk/" class="brand">
@@ -451,73 +467,64 @@
 
   <main>
 
+    <div class="universe-backdrop" aria-hidden="true">
+      <video data-ambient-video data-desktop-only data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" tabindex="-1" disablepictureinpicture></video>
+    </div>
+    <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false" hidden>
+      <span class="motion-icon" aria-hidden="true">Ⅱ</span>
+      <span data-motion-label>Призупинити відео</span>
+    </button>
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero hero-gaming">
       <div class="container">
         <div class="hero-grid">
-          <div>
-            <span class="eyebrow">⚔️ Український Ігровий та Книжковий Всесвіт</span>
+          <div class="hero-copy">
+            <span class="eyebrow">Незалежні українські ігри • З 2019</span>
             <h1 class="hero-title">
-              Всесвіт <span class="text-gradient-gold">Дикого Поля</span> та <span class="text-gradient-scifi">Зоряного Гетьманату</span>
+              Твоя наступна<br><span class="text-gradient-gold">пригода.</span><br>Наші <span class="text-gradient-scifi">світи.</span>
             </h1>
             <p class="hero-lead">
-              Найактивніший сучасний розробник ігор про українських козаків: 10 ігор з 2019 року, з них 3 нові зараз у розробці. 10 жанрів: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія та інтерактивні історії. Від козацьких степів, слобід, чумацьких ватаг і розбудови Одеси XVII століття — до орбітальних десантів Федерації Гетьманату 2424 року. Створено Дмитром Гладким (@dmytrogladkyi).
+              Схрести шаблі. Тримай небо. Збудуй новий світ. Ігри та книги всесвіту Loca Deserta: від козацького Дикого Поля до Зоряного Гетьманату. Створено в Україні Дмитром Гладким.
             </p>
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 Дослідити всі ігри</a>
               <a href="/locadesertascifi/" class="btn btn-scifi">🚀 Всесвіт Sci-Fi та Книги</a>
-              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk" class="btn btn-outline" target="_blank" rel="noopener">🪐 Settlers: попередня реєстрація в Google Play</a>
-            </div>
-
-            <div class="stats-grid">
-              <div class="stat-card">
-                <div class="stat-val">10</div>
-                <div class="stat-label">Ігор про козаків у 10 жанрах</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">3</div>
-                <div class="stat-label">Книги у всесвіті Дике Поле Sci-Fi</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val">3</div>
-                <div class="stat-label">Нові мобільні ігри в розробці: СІЧА, Валка та Eastern Wars</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">100%</div>
-                <div class="stat-label">Український колорит, озвучка та лор</div>
-              </div>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk" class="hero-release">СІЧА вже на Android <span aria-hidden="true">↗</span></a>
             </div>
           </div>
 
-          <div class="hero-showcase">
-            <a href="/odesa/index_uk.html" class="showcase-card">
-              <img src="/odesa/images/secret_place.jpg" alt="Loca Deserta: Odesa">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">XVII Century • Steam &amp; Mobile</span>
-                <div class="showcase-title">Дике Поле: Одеса</div>
-              </div>
-            </a>
-            <a href="https://settlers.locadeserta.com" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/cover.jpg" alt="Loca Deserta: Settlers & Star Hetmanate">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">Sci-Fi 2424 AD • Android</span>
-                <div class="showcase-title">Loca Deserta: Settlers</div>
-              </div>
-            </a>
-            <a href="/sloboda2/index_uk.html" class="showcase-card">
-              <img src="/sloboda2/images/thumbnail.png" alt="Loca Deserta: Sloboda 2">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">3D City Builder</span>
-                <div class="showcase-title">Дике Поле: Слобода 2</div>
-              </div>
-            </a>
-            <a href="/locadesertascifi/books/Vistrya_Kulaku.html" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/vistrya_kulaku_cover.jpg" alt="Vistrya Kulaku Sci-Fi Book">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">Нова книга 2026</span>
-                <div class="showcase-title">«Вістря Кулаку»</div>
-              </div>
-            </a>
+          <div class="hero-cinema">
+            <div class="cinema-heading"><span class="signal-dot" aria-hidden="true"></span>З наших ігрових світів<span class="cinema-index">01 — 05</span></div>
+            <div class="cinema-screen">
+              <video data-ambient-video data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video>
+              <div class="cinema-corners" aria-hidden="true"></div>
+            </div>
+            <div class="cinema-caption">Від двобою на шаблях до битви за галактику.</div>
+            <div class="featured-games">
+              <a href="https://sicha.locadeserta.com/uk/"><span class="featured-number">01</span><span><strong>СІЧА</strong><small class="status-live">Уже на Android</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://defendus.locadeserta.com/uk/"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>Незабаром</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://valka.locadeserta.com/uk/"><span class="featured-number">03</span><span><strong>Валка</strong><small>У розробці</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://settlers.locadeserta.com/uk/"><span class="featured-number">04</span><span><strong>Settlers</strong><small>Попередня реєстрація</small></span><span aria-hidden="true">↗</span></a>
+              <a href="/odesa/index_uk.html"><span class="featured-number">05</span><span><strong>Одеса</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-val">10</div>
+            <div class="stat-label">Ігор про козаків у 10 жанрах</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">3</div>
+            <div class="stat-label">Книги у всесвіті Дике Поле Sci-Fi</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">3</div>
+            <div class="stat-label">Нові мобільні ігри в розробці: DefendUS, Валка та Eastern Wars</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">100%</div>
+            <div class="stat-label">Український колорит, озвучка та лор</div>
           </div>
         </div>
       </div>
@@ -533,6 +540,26 @@
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">12 Листопада 2026</div>
+            <div>
+              <strong>Нова гра — DefendUS — незабаром на Android!</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                Тримай небо. Збережи світло. Керуй мобільними вогневими групами, захищай українські міста від дронів і ракет та посилюй оборону на світанку. Піксельна кампанія на 40 ночей від Краматорська до Києва.
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://defendus.locadeserta.com/uk/" class="btn btn-sm btn-primary">🛡 Сайт гри</a></p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">5 Листопада 2026</div>
+            <div>
+              <strong>«СІЧА: Козацький двобій» — уже на Android!</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже в Google Play. Згодом на iOS і Steam.
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk" class="btn btn-sm btn-primary">▶ Завантажити з Google Play</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">29 Жовтня 2026</div>
             <div>
@@ -551,16 +578,6 @@
                 Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети Поділля, Жовті Води, Кривбас. Гра безкоштовна, а повну версію відкриває покупка в застосунку. Виходить лише на мобільних: спершу на телефонах і планшетах з Android, згодом в App Store.
               </p>
               <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">▶ Попередня реєстрація в Google Play</a></p>
-            </div>
-          </div>
-          <div class="news-item">
-            <div class="news-date">22 Жовтня 2026</div>
-            <div>
-              <strong>Нова гра — «СІЧА: Козацький двобій» — незабаром на мобільних!</strong>
-              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
-                Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром в Google Play та App Store, згодом у Steam.
-              </p>
-              <p style="margin-top: 0.5rem;"><a href="https://sicha.locadeserta.com/uk/" class="btn btn-sm btn-primary">⚔ Сайт гри та трейлер</a></p>
             </div>
           </div>
           <div class="news-item scifi">
@@ -602,7 +619,7 @@
             <span class="eyebrow">🎮 Каталог Ігор Всесвіту</span>
             <h2 class="section-title">Усі ігри «Дикого Поля» (Loca Deserta)</h2>
             <p class="section-desc">
-              Усі наші ігри про українських козаків: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія, інтерактивні історії, головоломка та шутер. Фільтруйте за епохою та платформою.
+              Від ігор про українських козаків до сучасної протиповітряної оборони DefendUS та космічних стратегій: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля та інтерактивні історії. Фільтруйте за епохою та платформою.
             </p>
           </div>
           <div class="filter-tabs" role="tablist" aria-label="Game Category Filter">
@@ -616,18 +633,33 @@
 
         <div class="cards-grid">
           
+      <article class="game-card " data-category="mobilepc">
+        <div class="game-card-media">
+          <img src="/assets/og/og-defendus.png" alt="DefendUS" loading="lazy">
+          <div class="card-badges">
+            <span class="badge ">Протиповітряна оборона • Незабаром</span>
+          </div>
+        </div>
+        <div class="game-card-body">
+          <h3 class="game-card-title">DefendUS</h3>
+          <p class="game-card-desc">Тримай небо. Збережи світло. Піксельна гра про протиповітряну оборону: керуй мобільними вогневими групами, захищай українські міста від хвиль дронів і ракет та посилюй оборону на світанку. Кампанія на 40 ночей від Краматорська до Києва. Незабаром на Android.</p>
+          <div class="platform-pills"><span class="pill">Android (Незабаром)</span></div>
+          <div class="card-actions"><a href="https://defendus.locadeserta.com/uk/" class="btn btn-sm btn-primary">🛡 defendus.locadeserta.com</a></div>
+        </div>
+      </article>
+
       <article class="game-card " data-category="historical mobilepc">
         <div class="game-card-media">
           <img src="/assets/og/og-sicha.jpg" alt="СІЧА — Козацький двобій" loading="lazy">
           <div class="card-badges">
-            <span class="badge ">Двобої на Шаблях • Скоро</span>
+            <span class="badge live">Двобої на Шаблях • Уже на Android</span>
           </div>
         </div>
         <div class="game-card-body">
           <h3 class="game-card-title">СІЧА — Козацький двобій</h3>
-          <p class="game-card-desc">Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.</p>
-          <div class="platform-pills"><span class="pill">Android (Скоро)</span><span class="pill">iOS (Скоро)</span><span class="pill">Steam (Скоро)</span></div>
-          <div class="card-actions"><a href="https://sicha.locadeserta.com/uk/" class="btn btn-sm btn-primary">⚔ sicha.locadeserta.com</a><a href="https://sicha.locadeserta.com/uk/#trailer" class="btn btn-sm btn-outline">▶ Дивитися трейлер</a></div>
+          <p class="game-card-desc">Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на Android. Згодом на iOS і Steam.</p>
+          <div class="platform-pills"><span class="pill">Android</span><span class="pill">iOS (Скоро)</span><span class="pill">Steam (Скоро)</span></div>
+          <div class="card-actions"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk" class="btn btn-sm btn-primary">▶ Завантажити з Google Play</a><a href="https://sicha.locadeserta.com/uk/" class="btn btn-sm btn-outline">⚔ sicha.locadeserta.com</a><a href="https://sicha.locadeserta.com/uk/#trailer" class="btn btn-sm btn-outline">▶ Дивитися трейлер</a></div>
         </div>
       </article>
 
@@ -1089,7 +1121,7 @@
 
     <details class="faq-item">
       <summary>Які є ігри про українських козаків?</summary>
-      <div class="faq-answer">«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, і ще 3 нові зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.</div>
+      <div class="faq-answer">«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, з них 2 зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.</div>
     </details>
 
     <details class="faq-item">

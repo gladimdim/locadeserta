@@ -12,7 +12,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'Які є ігри про українських козаків?',
-          a: '«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, і ще 3 нові зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.'
+          a: '«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, з них 2 зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.'
         },
         {
           q: 'У які ігри всесвіту Дикого Поля можна пограти безкоштовно в браузері?',
@@ -34,7 +34,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'What are the best games about Ukrainian Cossacks?',
-          a: 'Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 3 new ones in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky\'s war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.'
+          a: 'Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 2 of them in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky\'s war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.'
         },
         {
           q: 'Which Loca Deserta games can I play for free in my web browser?',
@@ -142,77 +142,68 @@ function buildHomePage(lang) {
     </details>`).join('\n');
 
   const bodyContent = `
+    <div class="universe-backdrop" aria-hidden="true">
+      <video data-ambient-video data-desktop-only data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" tabindex="-1" disablepictureinpicture></video>
+    </div>
+    <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false" hidden>
+      <span class="motion-icon" aria-hidden="true">Ⅱ</span>
+      <span data-motion-label>${isUk ? 'Призупинити відео' : 'Pause videos'}</span>
+    </button>
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero hero-gaming">
       <div class="container">
         <div class="hero-grid">
-          <div>
-            <span class="eyebrow">⚔️ ${isUk ? 'Український Ігровий та Книжковий Всесвіт' : 'Ukrainian Game & Sci-Fi Book Universe'}</span>
+          <div class="hero-copy">
+            <span class="eyebrow">${isUk ? 'Незалежні українські ігри • З 2019' : 'Independent Ukrainian games • Since 2019'}</span>
             <h1 class="hero-title">
               ${isUk
-                ? 'Всесвіт <span class="text-gradient-gold">Дикого Поля</span> та <span class="text-gradient-scifi">Зоряного Гетьманату</span>'
-                : 'The <span class="text-gradient-gold">Loca Deserta</span> &amp; <span class="text-gradient-scifi">Star Hetmanate</span> Universe'}
+                ? 'Твоя наступна<br><span class="text-gradient-gold">пригода.</span><br>Наші <span class="text-gradient-scifi">світи.</span>'
+                : 'Your next<br><span class="text-gradient-gold">adventure.</span><br>Our <span class="text-gradient-scifi">worlds.</span>'}
             </h1>
             <p class="hero-lead">
               ${isUk
-                ? 'Найактивніший сучасний розробник ігор про українських козаків: 10 ігор з 2019 року, з них 3 нові зараз у розробці. 10 жанрів: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія та інтерактивні історії. Від козацьких степів, слобід, чумацьких ватаг і розбудови Одеси XVII століття — до орбітальних десантів Федерації Гетьманату 2424 року. Створено Дмитром Гладким (@dmytrogladkyi).'
-                : 'The most active modern developer of games about Ukrainian Cossacks: 10 games since 2019, with 3 new ones in development now. 10 genres: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy and interactive fiction. From XVII-century Cossack steppes, Chumak trade caravans, and settling Khadjibey-Odesa — to orbital drops of the Hetmanate Federation in 2424 AD. Created by Dmytro Gladkyi (@dmytrogladkyi).'}
+                ? 'Схрести шаблі. Тримай небо. Збудуй новий світ. Ігри та книги всесвіту Loca Deserta: від козацького Дикого Поля до Зоряного Гетьманату. Створено в Україні Дмитром Гладким.'
+                : 'Cross sabres. Hold the sky. Build a new world. Discover the games and books of Loca Deserta, from the Cossack Wild Field to the Star Hetmanate. Created in Ukraine by Dmytro Gladkyi.'}
             </p>
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 ${isUk ? 'Дослідити всі ігри' : 'Explore All Games'}</a>
               <a href="${isUk ? '/locadesertascifi/' : '/locadesertascifi/index_en.html'}" class="btn btn-scifi">🚀 ${isUk ? 'Всесвіт Sci-Fi та Книги' : 'Sci-Fi Universe & Books'}</a>
-              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-outline" target="_blank" rel="noopener">🪐 ${isUk ? 'Settlers: попередня реєстрація в Google Play' : 'Pre-register Settlers on Google Play'}</a>
-            </div>
-
-            <div class="stats-grid">
-              <div class="stat-card">
-                <div class="stat-val">10</div>
-                <div class="stat-label">${isUk ? 'Ігор про козаків у 10 жанрах' : 'Cossack Games in 10 Genres'}</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">3</div>
-                <div class="stat-label">${isUk ? 'Книги у всесвіті Дике Поле Sci-Fi' : 'Novels in the Loca Deserta Sci-Fi Series'}</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val">3</div>
-                <div class="stat-label">${isUk ? 'Нові мобільні ігри в розробці: СІЧА, Валка та Eastern Wars' : 'New Mobile Games in Development: SICHA, Valka & Eastern Wars'}</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">100%</div>
-                <div class="stat-label">${isUk ? 'Український колорит, озвучка та лор' : 'Authentic Ukrainian Lore & Voice Acting'}</div>
-              </div>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat${isUk ? '&hl=uk' : ''}" class="hero-release">${isUk ? 'СІЧА вже на Android' : 'SICHA is out now on Android'} <span aria-hidden="true">↗</span></a>
             </div>
           </div>
 
-          <div class="hero-showcase">
-            <a href="${isUk ? '/odesa/index_uk.html' : '/odesa/'}" class="showcase-card">
-              <img src="/odesa/images/secret_place.jpg" alt="Loca Deserta: Odesa">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">XVII Century • Steam &amp; Mobile</span>
-                <div class="showcase-title">${isUk ? 'Дике Поле: Одеса' : 'Loca Deserta: Odesa'}</div>
-              </div>
-            </a>
-            <a href="https://settlers.locadeserta.com" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/cover.jpg" alt="Loca Deserta: Settlers & Star Hetmanate">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">Sci-Fi 2424 AD • Android</span>
-                <div class="showcase-title">Loca Deserta: Settlers</div>
-              </div>
-            </a>
-            <a href="${isUk ? '/sloboda2/index_uk.html' : '/sloboda2/'}" class="showcase-card">
-              <img src="/sloboda2/images/thumbnail.png" alt="Loca Deserta: Sloboda 2">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">3D City Builder</span>
-                <div class="showcase-title">${isUk ? 'Дике Поле: Слобода 2' : 'Loca Deserta: Sloboda 2'}</div>
-              </div>
-            </a>
-            <a href="/locadesertascifi/books/Vistrya_Kulaku.html" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/vistrya_kulaku_cover.jpg" alt="Vistrya Kulaku Sci-Fi Book">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">${isUk ? 'Нова книга 2026' : 'New Book 2026'}</span>
-                <div class="showcase-title">${isUk ? '«Вістря Кулаку»' : '«Vistrya Kulaku»'}</div>
-              </div>
-            </a>
+          <div class="hero-cinema">
+            <div class="cinema-heading"><span class="signal-dot" aria-hidden="true"></span>${isUk ? 'З наших ігрових світів' : 'From our game worlds'}<span class="cinema-index">01 — 05</span></div>
+            <div class="cinema-screen">
+              <video data-ambient-video data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video>
+              <div class="cinema-corners" aria-hidden="true"></div>
+            </div>
+            <div class="cinema-caption">${isUk ? 'Від двобою на шаблях до битви за галактику.' : 'From a clash of sabres to a battle for the galaxy.'}</div>
+            <div class="featured-games">
+              <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>${isUk ? 'Незабаром' : 'Coming soon'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small>${isUk ? 'У розробці' : 'In development'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small>${isUk ? 'Попередня реєстрація' : 'Pre-registration open'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="${isUk ? '/odesa/index_uk.html' : '/odesa/'}"><span class="featured-number">05</span><span><strong>${isUk ? 'Одеса' : 'Odesa'}</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-val">10</div>
+            <div class="stat-label">${isUk ? 'Ігор про козаків у 10 жанрах' : 'Cossack Games in 10 Genres'}</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">3</div>
+            <div class="stat-label">${isUk ? 'Книги у всесвіті Дике Поле Sci-Fi' : 'Novels in the Loca Deserta Sci-Fi Series'}</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">3</div>
+            <div class="stat-label">${isUk ? 'Нові мобільні ігри в розробці: DefendUS, Валка та Eastern Wars' : 'New Mobile Games in Development: DefendUS, Valka & Eastern Wars'}</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">100%</div>
+            <div class="stat-label">${isUk ? 'Український колорит, озвучка та лор' : 'Authentic Ukrainian Lore & Voice Acting'}</div>
           </div>
         </div>
       </div>
@@ -228,6 +219,30 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'Нова гра — DefendUS — незабаром на Android!' : 'New Game — DefendUS — Coming Soon to Android!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Тримай небо. Збережи світло. Керуй мобільними вогневими групами, захищай українські міста від дронів і ракет та посилюй оборону на світанку. Піксельна кампанія на 40 ночей від Краматорська до Києва.'
+                  : 'Hold the sky. Keep the power on. Command mobile fire teams, protect Ukrainian cities from drones and missiles, and upgrade your defenses at dawn. A pixel-art campaign spanning 40 nights from Kramatorsk to Kyiv.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-primary">${isUk ? '🛡 Сайт гри' : '🛡 Game site'}</a></p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">${isUk ? '5 Листопада 2026' : 'Nov 5, 2026'}</div>
+            <div>
+              <strong>${isUk ? '«СІЧА: Козацький двобій» — уже на Android!' : 'SICHA: Cossack Combat — Out Now on Android!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже в Google Play. Згодом на iOS і Steam.'
+                  : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Google Play. iOS and Steam are coming later.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-primary">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">${isUk ? '29 Жовтня 2026' : 'Oct 29, 2026'}</div>
             <div>
@@ -250,18 +265,6 @@ function buildHomePage(lang) {
                   : 'A macro-economic space colony builder inspired by The Settlers III/IV. Free to play, with an in-app purchase that unlocks the full game. Mobile only: coming first to Android phones and tablets, then the App Store.'}
               </p>
               <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Попередня реєстрація в Google Play' : '▶ Pre-register on Google Play'}</a></p>
-            </div>
-          </div>
-          <div class="news-item">
-            <div class="news-date">${isUk ? '22 Жовтня 2026' : 'Oct 22, 2026'}</div>
-            <div>
-              <strong>${isUk ? 'Нова гра — «СІЧА: Козацький двобій» — незабаром на мобільних!' : 'New Game — SICHA: Cossack Combat — Coming Soon to Mobile!'}</strong>
-              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
-                ${isUk
-                  ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром в Google Play та App Store, згодом у Steam.'
-                  : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Coming soon to Google Play and the App Store, then Steam.'}
-              </p>
-              <p style="margin-top: 0.5rem;"><a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-primary">${isUk ? '⚔ Сайт гри та трейлер' : '⚔ Game site & trailer'}</a></p>
             </div>
           </div>
           <div class="news-item scifi">
@@ -310,8 +313,8 @@ function buildHomePage(lang) {
             <h2 class="section-title">${isUk ? 'Усі ігри «Дикого Поля» (Loca Deserta)' : 'All Games in the Loca Deserta Universe'}</h2>
             <p class="section-desc">
               ${isUk
-                ? 'Усі наші ігри про українських козаків: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля, стратегія, інтерактивні історії, головоломка та шутер. Фільтруйте за епохою та платформою.'
-                : 'All our games about Ukrainian Cossacks: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy, interactive fiction, puzzle and shooter. Filter by era and platform.'}
+                ? 'Від ігор про українських козаків до сучасної протиповітряної оборони DefendUS та космічних стратегій: двобої на шаблях, тактика в реальному часі, оборона валки, RPG, містобудування, торгівля та інтерактивні історії. Фільтруйте за епохою та платформою.'
+                : 'From Ukrainian Cossack games to modern air defense in DefendUS and space strategy: sabre duels, real-time tactics, caravan defence, RPG, city building, trading and interactive fiction. Filter by era and platform.'}
             </p>
           </div>
           <div class="filter-tabs" role="tablist" aria-label="Game Category Filter">
@@ -463,6 +466,7 @@ function buildHomePage(lang) {
     ],
     jsonLd: [...gamesJsonLd, ...booksJsonLd, faqJsonLd],
     activeNav: 'games',
+    bodyClass: 'home-gaming',
     bodyContent
   });
 }

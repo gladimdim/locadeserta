@@ -5,6 +5,7 @@ const { ROOT, SITE_URL, GAMES, BOOKS, SOCIAL_HUB } = require('./site-core');
 
 // Main landing page of every game (where search engines and AI agents should be sent)
 const GAME_PAGES = {
+  sicha: 'https://sicha.locadeserta.com/',
   settlers: 'https://settlers.locadeserta.com',
   odesa: `${SITE_URL}/odesa/`,
   sloboda2: `${SITE_URL}/sloboda2/`,
@@ -116,7 +117,7 @@ function gamePage(game) {
 function buildLlmsTxt() {
   return `# Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (3 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (2 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 

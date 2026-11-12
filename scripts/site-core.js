@@ -6,9 +6,22 @@
 
 const fs = require('fs');
 const path = require('path');
+const { createHash } = require('crypto');
 
 const ROOT = path.resolve(__dirname, '..');
 const SITE_URL = 'https://locadeserta.com';
+
+// Change asset URLs whenever their contents change, so cached CSS/JS cannot
+// be paired with newly generated markup after a deployment or local rebuild.
+function versionedAsset(assetPath) {
+  const hash = createHash('sha256')
+    .update(fs.readFileSync(path.join(ROOT, assetPath)))
+    .digest('hex').slice(0, 12);
+  return `${assetPath}?v=${hash}`;
+}
+
+const STYLESHEET_URL = versionedAsset('/assets/css/site.css');
+const SCRIPT_URL = versionedAsset('/assets/js/site.js');
 
 // Ensure output directories exist
 function ensureDir(dirPath) {
@@ -71,27 +84,53 @@ const UI = {
 // Structured Data for All Games
 const GAMES = [
   {
+    id: 'defendus',
+    categories: 'mobilepc',
+    badgeClass: '',
+    image: '/assets/og/og-defendus.png',
+    en: {
+      badge: 'Air Defense • Coming Soon',
+      title: 'DefendUS',
+      desc: 'Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. Coming soon to Android.',
+      platforms: ['Android (Soon)'],
+      actions: [
+        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/', cls: 'btn-primary' }
+      ]
+    },
+    uk: {
+      badge: 'Протиповітряна оборона • Незабаром',
+      title: 'DefendUS',
+      desc: 'Тримай небо. Збережи світло. Піксельна гра про протиповітряну оборону: керуй мобільними вогневими групами, захищай українські міста від хвиль дронів і ракет та посилюй оборону на світанку. Кампанія на 40 ночей від Краматорська до Києва. Незабаром на Android.',
+      platforms: ['Android (Незабаром)'],
+      actions: [
+        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/uk/', cls: 'btn-primary' }
+      ]
+    }
+  },
+  {
     id: 'sicha',
     categories: 'historical mobilepc',
-    badgeClass: '',
+    badgeClass: 'live',
     image: '/assets/og/og-sicha.jpg',
     en: {
-      badge: 'Sabre Duels • Coming Soon',
+      badge: 'Sabre Duels • Out Now on Android',
       title: 'SICHA — Cossack Combat',
-      desc: 'Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.',
-      platforms: ['Android (Soon)', 'iOS (Soon)', 'Steam (Soon)'],
+      desc: 'Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later.',
+      platforms: ['Android', 'iOS (Soon)', 'Steam (Soon)'],
       actions: [
-        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/', cls: 'btn-primary' },
+        { label: '▶ Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat', cls: 'btn-primary' },
+        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/', cls: 'btn-outline' },
         { label: '▶ Watch the Trailer', href: 'https://sicha.locadeserta.com/#trailer', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Двобої на Шаблях • Скоро',
+      badge: 'Двобої на Шаблях • Уже на Android',
       title: 'СІЧА — Козацький двобій',
-      desc: 'Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Незабаром на Android та iOS, згодом у Steam.',
-      platforms: ['Android (Скоро)', 'iOS (Скоро)', 'Steam (Скоро)'],
+      desc: 'Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на Android. Згодом на iOS і Steam.',
+      platforms: ['Android', 'iOS (Скоро)', 'Steam (Скоро)'],
       actions: [
-        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-primary' },
+        { label: '▶ Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk', cls: 'btn-primary' },
+        { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-outline' },
         { label: '▶ Дивитися трейлер', href: 'https://sicha.locadeserta.com/uk/#trailer', cls: 'btn-outline' }
       ]
     }
@@ -499,6 +538,7 @@ function renderLayout({
   breadcrumbs = [],
   jsonLd = [],
   activeNav = '',
+  bodyClass = '',
   // Pages that exist in one language only (books, devlog) must not claim a translation in hreflang
   singleLanguage = false,
   bodyContent
@@ -538,7 +578,7 @@ function renderLayout({
         '@id': `${SITE_URL}/#organization`,
         name: 'Loca Deserta (Дике Поле)',
         alternateName: ['Всесвіт Дикого Поля', 'Loca Deserta Game Universe', 'Дике Поле Sci-Fi', 'Зоряний Гетьманат'],
-        description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 3 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
+        description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 2 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
         knowsAbout: ['Ukrainian Cossacks', 'Zaporozhian Sich', 'Cossack Hetmanate', 'Khmelnytsky Uprising', 'Chumaks', 'Wild Fields', 'Games about Cossacks', 'Ігри про козаків'],
         url: SITE_URL,
         logo: {
@@ -638,15 +678,15 @@ function renderLayout({
   <meta name="theme-color" content="#0a0d14">
 
   <!-- Self-Hosted Styles & Locale Controller -->
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <script src="/assets/js/site.js"></script>
+  <link rel="stylesheet" href="${STYLESHEET_URL}">
+  <script src="${SCRIPT_URL}"></script>
 
   <!-- Structured Data (Schema.org JSON-LD) for Google & AI Search Engines -->
   <script type="application/ld+json">
 ${JSON.stringify(defaultJsonLd, null, 2)}
   </script>
 </head>
-<body>
+<body${bodyClass ? ` class="${bodyClass}"` : ''}>
   <header class="site-header">
     <div class="nav-inner">
       <a href="${homeUrl}" class="brand">

@@ -58,6 +58,82 @@
   } catch (e) {}
 
   document.addEventListener('DOMContentLoaded', function () {
+    // Decorative footage: load only when motion is wanted and the video is visible.
+    var motionButton = document.getElementById('motion-toggle');
+    var ambientVideos = Array.from(document.querySelectorAll('[data-ambient-video]'));
+    if (motionButton && ambientVideos.length) {
+      var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      var desktopVideo = window.matchMedia('(min-width: 981px)');
+      var connection = navigator.connection;
+      var motionPaused = reducedMotion.matches || !!(connection && connection.saveData);
+      try {
+        motionPaused = motionPaused || localStorage.getItem('ld_motion_paused') === 'true';
+      } catch (e) {}
+
+      function updateMotionButton() {
+        motionButton.setAttribute('aria-pressed', String(motionPaused));
+        motionButton.querySelector('[data-motion-label]').textContent = isUkPage
+          ? (motionPaused ? 'Увімкнути відео' : 'Призупинити відео')
+          : (motionPaused ? 'Play videos' : 'Pause videos');
+        motionButton.querySelector('.motion-icon').textContent = motionPaused ? '▶' : 'Ⅱ';
+      }
+
+      function updateVideo(video) {
+        var shouldPlay = !motionPaused && !document.hidden && video.dataset.visible !== 'false'
+          && (!video.hasAttribute('data-desktop-only') || desktopVideo.matches);
+        if (!shouldPlay) {
+          video.pause();
+          return;
+        }
+        if (!video.getAttribute('src')) video.src = video.dataset.src;
+        video.muted = true;
+        var playRequest = video.play();
+        if (playRequest) playRequest.catch(function (error) {
+          // A visibility change can interrupt play normally; blocked autoplay needs a click.
+          if (error.name === 'NotAllowedError') {
+            motionPaused = true;
+            ambientVideos.forEach(function (item) { item.pause(); });
+            updateMotionButton();
+          }
+        });
+      }
+
+      function updateVideos() {
+        updateMotionButton();
+        ambientVideos.forEach(updateVideo);
+      }
+
+      motionButton.hidden = false;
+      motionButton.addEventListener('click', function () {
+        motionPaused = !motionPaused;
+        try { localStorage.setItem('ld_motion_paused', String(motionPaused)); } catch (e) {}
+        updateVideos();
+      });
+      document.addEventListener('visibilitychange', updateVideos);
+      desktopVideo.addEventListener('change', updateVideos);
+      reducedMotion.addEventListener('change', function () {
+        if (reducedMotion.matches) motionPaused = true;
+        updateVideos();
+      });
+      if (connection && connection.addEventListener) connection.addEventListener('change', function () {
+        if (connection.saveData) motionPaused = true;
+        updateVideos();
+      });
+      if ('IntersectionObserver' in window) {
+        var videoObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            entry.target.dataset.visible = String(entry.isIntersecting);
+            updateVideo(entry.target);
+          });
+        }, { threshold: 0.05 });
+        ambientVideos.forEach(function (video) {
+          video.dataset.visible = 'false';
+          videoObserver.observe(video);
+        });
+      }
+      updateVideos();
+    }
+
     // Language Switcher Buttons
     var langLinks = document.querySelectorAll('[data-set-lang]');
     langLinks.forEach(function (el) {

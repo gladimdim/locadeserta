@@ -48,8 +48,8 @@
   <meta name="theme-color" content="#0a0d14">
 
   <!-- Self-Hosted Styles & Locale Controller -->
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <script src="/assets/js/site.js"></script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=19d4caa6cb8c">
+  <script src="/assets/js/site.js?v=ffaa15546751"></script>
 
   <!-- Structured Data (Schema.org JSON-LD) for Google & AI Search Engines -->
   <script type="application/ld+json">
@@ -66,7 +66,7 @@
         "Дике Поле Sci-Fi",
         "Зоряний Гетьманат"
       ],
-      "description": "Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 3 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.",
+      "description": "Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 2 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.",
       "knowsAbout": [
         "Ukrainian Cossacks",
         "Zaporozhian Sich",
@@ -161,8 +161,24 @@
     },
     {
       "@type": "VideoGame",
+      "name": "DefendUS",
+      "description": "Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. Coming soon to Android.",
+      "image": "https://locadeserta.com/assets/og/og-defendus.png",
+      "author": {
+        "@type": "Person",
+        "name": "Dmytro Gladkyi"
+      },
+      "publisher": {
+        "@id": "https://locadeserta.com/#organization"
+      },
+      "applicationCategory": "Game",
+      "operatingSystem": "Android (Soon)",
+      "url": "https://defendus.locadeserta.com/"
+    },
+    {
+      "@type": "VideoGame",
       "name": "SICHA — Cossack Combat",
-      "description": "Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.",
+      "description": "Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later.",
       "image": "https://locadeserta.com/assets/og/og-sicha.jpg",
       "author": {
         "@type": "Person",
@@ -172,8 +188,8 @@
         "@id": "https://locadeserta.com/#organization"
       },
       "applicationCategory": "Game",
-      "operatingSystem": "Android (Soon), iOS (Soon), Steam (Soon)",
-      "url": "https://sicha.locadeserta.com/"
+      "operatingSystem": "Android, iOS (Soon), Steam (Soon)",
+      "url": "https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat"
     },
     {
       "@type": "VideoGame",
@@ -387,7 +403,7 @@
           "name": "What are the best games about Ukrainian Cossacks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 3 new ones in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky's war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser."
+            "text": "Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 2 of them in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky's war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser."
           }
         },
         {
@@ -420,7 +436,7 @@
 }
   </script>
 </head>
-<body>
+<body class="home-gaming">
   <header class="site-header">
     <div class="nav-inner">
       <a href="/" class="brand">
@@ -451,73 +467,64 @@
 
   <main>
 
+    <div class="universe-backdrop" aria-hidden="true">
+      <video data-ambient-video data-desktop-only data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" tabindex="-1" disablepictureinpicture></video>
+    </div>
+    <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false" hidden>
+      <span class="motion-icon" aria-hidden="true">Ⅱ</span>
+      <span data-motion-label>Pause videos</span>
+    </button>
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero hero-gaming">
       <div class="container">
         <div class="hero-grid">
-          <div>
-            <span class="eyebrow">⚔️ Ukrainian Game & Sci-Fi Book Universe</span>
+          <div class="hero-copy">
+            <span class="eyebrow">Independent Ukrainian games • Since 2019</span>
             <h1 class="hero-title">
-              The <span class="text-gradient-gold">Loca Deserta</span> &amp; <span class="text-gradient-scifi">Star Hetmanate</span> Universe
+              Your next<br><span class="text-gradient-gold">adventure.</span><br>Our <span class="text-gradient-scifi">worlds.</span>
             </h1>
             <p class="hero-lead">
-              The most active modern developer of games about Ukrainian Cossacks: 10 games since 2019, with 3 new ones in development now. 10 genres: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy and interactive fiction. From XVII-century Cossack steppes, Chumak trade caravans, and settling Khadjibey-Odesa — to orbital drops of the Hetmanate Federation in 2424 AD. Created by Dmytro Gladkyi (@dmytrogladkyi).
+              Cross sabres. Hold the sky. Build a new world. Discover the games and books of Loca Deserta, from the Cossack Wild Field to the Star Hetmanate. Created in Ukraine by Dmytro Gladkyi.
             </p>
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 Explore All Games</a>
               <a href="/locadesertascifi/index_en.html" class="btn btn-scifi">🚀 Sci-Fi Universe & Books</a>
-              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers" class="btn btn-outline" target="_blank" rel="noopener">🪐 Pre-register Settlers on Google Play</a>
-            </div>
-
-            <div class="stats-grid">
-              <div class="stat-card">
-                <div class="stat-val">10</div>
-                <div class="stat-label">Cossack Games in 10 Genres</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">3</div>
-                <div class="stat-label">Novels in the Loca Deserta Sci-Fi Series</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val">3</div>
-                <div class="stat-label">New Mobile Games in Development: SICHA, Valka & Eastern Wars</div>
-              </div>
-              <div class="stat-card">
-                <div class="stat-val cyan">100%</div>
-                <div class="stat-label">Authentic Ukrainian Lore & Voice Acting</div>
-              </div>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat" class="hero-release">SICHA is out now on Android <span aria-hidden="true">↗</span></a>
             </div>
           </div>
 
-          <div class="hero-showcase">
-            <a href="/odesa/" class="showcase-card">
-              <img src="/odesa/images/secret_place.jpg" alt="Loca Deserta: Odesa">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">XVII Century • Steam &amp; Mobile</span>
-                <div class="showcase-title">Loca Deserta: Odesa</div>
-              </div>
-            </a>
-            <a href="https://settlers.locadeserta.com" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/cover.jpg" alt="Loca Deserta: Settlers & Star Hetmanate">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">Sci-Fi 2424 AD • Android</span>
-                <div class="showcase-title">Loca Deserta: Settlers</div>
-              </div>
-            </a>
-            <a href="/sloboda2/" class="showcase-card">
-              <img src="/sloboda2/images/thumbnail.png" alt="Loca Deserta: Sloboda 2">
-              <div class="showcase-card-body">
-                <span class="showcase-tag">3D City Builder</span>
-                <div class="showcase-title">Loca Deserta: Sloboda 2</div>
-              </div>
-            </a>
-            <a href="/locadesertascifi/books/Vistrya_Kulaku.html" class="showcase-card scifi">
-              <img src="/locadesertascifi/images/vistrya_kulaku_cover.jpg" alt="Vistrya Kulaku Sci-Fi Book">
-              <div class="showcase-card-body">
-                <span class="showcase-tag scifi">New Book 2026</span>
-                <div class="showcase-title">«Vistrya Kulaku»</div>
-              </div>
-            </a>
+          <div class="hero-cinema">
+            <div class="cinema-heading"><span class="signal-dot" aria-hidden="true"></span>From our game worlds<span class="cinema-index">01 — 05</span></div>
+            <div class="cinema-screen">
+              <video data-ambient-video data-src="/assets/video/universe-collage.mp4" poster="/assets/video/universe-collage.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" disablepictureinpicture></video>
+              <div class="cinema-corners" aria-hidden="true"></div>
+            </div>
+            <div class="cinema-caption">From a clash of sabres to a battle for the galaxy.</div>
+            <div class="featured-games">
+              <a href="https://sicha.locadeserta.com/"><span class="featured-number">01</span><span><strong>SICHA</strong><small class="status-live">Out now on Android</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://defendus.locadeserta.com/"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>Coming soon</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://valka.locadeserta.com/"><span class="featured-number">03</span><span><strong>Valka</strong><small>In development</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://settlers.locadeserta.com/"><span class="featured-number">04</span><span><strong>Settlers</strong><small>Pre-registration open</small></span><span aria-hidden="true">↗</span></a>
+              <a href="/odesa/"><span class="featured-number">05</span><span><strong>Odesa</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-val">10</div>
+            <div class="stat-label">Cossack Games in 10 Genres</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">3</div>
+            <div class="stat-label">Novels in the Loca Deserta Sci-Fi Series</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">3</div>
+            <div class="stat-label">New Mobile Games in Development: DefendUS, Valka & Eastern Wars</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val cyan">100%</div>
+            <div class="stat-label">Authentic Ukrainian Lore & Voice Acting</div>
           </div>
         </div>
       </div>
@@ -533,6 +540,26 @@
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">Nov 12, 2026</div>
+            <div>
+              <strong>New Game — DefendUS — Coming Soon to Android!</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                Hold the sky. Keep the power on. Command mobile fire teams, protect Ukrainian cities from drones and missiles, and upgrade your defenses at dawn. A pixel-art campaign spanning 40 nights from Kramatorsk to Kyiv.
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://defendus.locadeserta.com/" class="btn btn-sm btn-primary">🛡 Game site</a></p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">Nov 5, 2026</div>
+            <div>
+              <strong>SICHA: Cossack Combat — Out Now on Android!</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on Google Play. iOS and Steam are coming later.
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat" class="btn btn-sm btn-primary">▶ Get it on Google Play</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">Oct 29, 2026</div>
             <div>
@@ -551,16 +578,6 @@
                 A macro-economic space colony builder inspired by The Settlers III/IV. Free to play, with an in-app purchase that unlocks the full game. Mobile only: coming first to Android phones and tablets, then the App Store.
               </p>
               <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">▶ Pre-register on Google Play</a></p>
-            </div>
-          </div>
-          <div class="news-item">
-            <div class="news-date">Oct 22, 2026</div>
-            <div>
-              <strong>New Game — SICHA: Cossack Combat — Coming Soon to Mobile!</strong>
-              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
-                Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Google Play and the App Store, then Steam.
-              </p>
-              <p style="margin-top: 0.5rem;"><a href="https://sicha.locadeserta.com/" class="btn btn-sm btn-primary">⚔ Game site & trailer</a></p>
             </div>
           </div>
           <div class="news-item scifi">
@@ -602,7 +619,7 @@
             <span class="eyebrow">🎮 Complete Game Catalog</span>
             <h2 class="section-title">All Games in the Loca Deserta Universe</h2>
             <p class="section-desc">
-              All our games about Ukrainian Cossacks: sabre duels, real-time tactics, caravan defence, RPG, city building, trading, strategy, interactive fiction, puzzle and shooter. Filter by era and platform.
+              From Ukrainian Cossack games to modern air defense in DefendUS and space strategy: sabre duels, real-time tactics, caravan defence, RPG, city building, trading and interactive fiction. Filter by era and platform.
             </p>
           </div>
           <div class="filter-tabs" role="tablist" aria-label="Game Category Filter">
@@ -616,18 +633,33 @@
 
         <div class="cards-grid">
           
+      <article class="game-card " data-category="mobilepc">
+        <div class="game-card-media">
+          <img src="/assets/og/og-defendus.png" alt="DefendUS" loading="lazy">
+          <div class="card-badges">
+            <span class="badge ">Air Defense • Coming Soon</span>
+          </div>
+        </div>
+        <div class="game-card-body">
+          <h3 class="game-card-title">DefendUS</h3>
+          <p class="game-card-desc">Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. Coming soon to Android.</p>
+          <div class="platform-pills"><span class="pill">Android (Soon)</span></div>
+          <div class="card-actions"><a href="https://defendus.locadeserta.com/" class="btn btn-sm btn-primary">🛡 defendus.locadeserta.com</a></div>
+        </div>
+      </article>
+
       <article class="game-card " data-category="historical mobilepc">
         <div class="game-card-media">
           <img src="/assets/og/og-sicha.jpg" alt="SICHA — Cossack Combat" loading="lazy">
           <div class="card-badges">
-            <span class="badge ">Sabre Duels • Coming Soon</span>
+            <span class="badge live">Sabre Duels • Out Now on Android</span>
           </div>
         </div>
         <div class="game-card-body">
           <h3 class="game-card-title">SICHA — Cossack Combat</h3>
-          <p class="game-card-desc">Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Coming soon to Android and iOS, then Steam.</p>
-          <div class="platform-pills"><span class="pill">Android (Soon)</span><span class="pill">iOS (Soon)</span><span class="pill">Steam (Soon)</span></div>
-          <div class="card-actions"><a href="https://sicha.locadeserta.com/" class="btn btn-sm btn-primary">⚔ sicha.locadeserta.com</a><a href="https://sicha.locadeserta.com/#trailer" class="btn btn-sm btn-outline">▶ Watch the Trailer</a></div>
+          <p class="game-card-desc">Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later.</p>
+          <div class="platform-pills"><span class="pill">Android</span><span class="pill">iOS (Soon)</span><span class="pill">Steam (Soon)</span></div>
+          <div class="card-actions"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat" class="btn btn-sm btn-primary">▶ Get it on Google Play</a><a href="https://sicha.locadeserta.com/" class="btn btn-sm btn-outline">⚔ sicha.locadeserta.com</a><a href="https://sicha.locadeserta.com/#trailer" class="btn btn-sm btn-outline">▶ Watch the Trailer</a></div>
         </div>
       </article>
 
@@ -1089,7 +1121,7 @@
 
     <details class="faq-item">
       <summary>What are the best games about Ukrainian Cossacks?</summary>
-      <div class="faq-answer">Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 3 new ones in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky's war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.</div>
+      <div class="faq-answer">Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 2 of them in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky's war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.</div>
     </details>
 
     <details class="faq-item">
