@@ -188,24 +188,6 @@ function buildHomePage(lang) {
             </div>
           </div>
         </div>
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-val">10</div>
-            <div class="stat-label">${isUk ? 'Ігор про козаків у 10 жанрах' : 'Cossack Games in 10 Genres'}</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-val cyan">3</div>
-            <div class="stat-label">${isUk ? 'Книги у всесвіті Дике Поле Sci-Fi' : 'Novels in the Loca Deserta Sci-Fi Series'}</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-val">3</div>
-            <div class="stat-label">${isUk ? 'Нові мобільні ігри в розробці: DefendUS, Валка та Eastern Wars' : 'New Mobile Games in Development: DefendUS, Valka & Eastern Wars'}</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-val cyan">100%</div>
-            <div class="stat-label">${isUk ? 'Український колорит, озвучка та лор' : 'Authentic Ukrainian Lore & Voice Acting'}</div>
-          </div>
-        </div>
       </div>
     </section>
 
