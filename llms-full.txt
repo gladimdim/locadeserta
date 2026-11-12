@@ -12,7 +12,7 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 ## Games
 
 - [DefendUS](https://defendus.locadeserta.com/): Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. Coming soon to Android. Platforms: Android (Soon).
-- [SICHA — Cossack Combat](https://sicha.locadeserta.com/): Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later. Platforms: Android, iOS (Soon), Steam (Soon).
+- [SICHA — Cossack Combat](https://sicha.locadeserta.com/): Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on iOS and Android. Steam is coming later. Platforms: iOS, Android, Steam (Soon).
 - [Valka: The Salt Road](https://valka.locadeserta.com/): A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS. Platforms: Android (Soon), iOS (Soon).
 - [Eastern Wars](https://ew.locadeserta.com/): Real-time tactics in the battles of Khmelnytsky's war, 1648–1655. Command regiments of the Cossack Hetmanate, the Polish–Lithuanian Commonwealth and the Ottoman Empire, where terrain and morale decide the fight: a 12-battle campaign from Zhovti Vody to Okhmativ, skirmishes and two-phone battles over Wi-Fi. Coming soon to Google Play. Platforms: Android (Soon).
 - [Loca Deserta: Settlers](https://settlers.locadeserta.com): A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Free on Android phones and tablets, with an in-app purchase that unlocks the full game. Mobile only: pre-registration is open on Google Play; the App Store follows. Platforms: Android (Free, Pre-registration), iOS (Coming Soon).
@@ -77,13 +77,13 @@ Hold the sky. Keep the power on. A pixel-art air-defense action game: command mo
 ### SICHA — Cossack Combat (СІЧА — Козацький двобій)
 
 - Page: https://sicha.locadeserta.com/
-- Type: Sabre Duels • Out Now on Android
-- Platforms: Android, iOS (Soon), Steam (Soon)
-- Links: [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat), [sicha.locadeserta.com](https://sicha.locadeserta.com/), [Watch the Trailer](https://sicha.locadeserta.com/#trailer)
+- Type: Sabre Duels • Out Now on iOS & Android
+- Platforms: iOS, Android, Steam (Soon)
+- Links: [Download on the App Store](https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat), [sicha.locadeserta.com](https://sicha.locadeserta.com/), [Watch the Trailer](https://sicha.locadeserta.com/#trailer)
 
-Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later.
+Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack's Path campaign and Wi-Fi duels with a friend. Out now on iOS and Android. Steam is coming later.
 
-Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на Android. Згодом на iOS і Steam.
+Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на iOS та Android. Згодом у Steam.
 
 ### Valka: The Salt Road (Валка: Чумацький Шлях)
 

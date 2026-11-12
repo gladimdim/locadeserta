@@ -3,6 +3,10 @@ const { SITE_URL, UI, GAMES, BOOKS, SOCIAL_HUB, renderLayout, writePage } = requ
 function buildHomePage(lang) {
   const isUk = lang === 'uk';
   const t = UI[lang];
+  const renderAction = a => a.badge
+    ? `<a href="${a.href}" class="app-store-badge"><img src="${a.badge}" alt="${a.label}" width="156" height="52"></a>`
+    : `<a href="${a.href}" class="btn btn-sm ${a.cls}">${a.label}</a>`;
+  const appStoreBadge = renderAction(GAMES.find(g => g.id === 'sicha')[lang].actions.find(a => a.badge));
 
   const faqs = isUk
     ? [
@@ -88,7 +92,7 @@ function buildHomePage(lang) {
     const info = g[lang];
     const pills = info.platforms.map(p => `<span class="pill">${p}</span>`).join('');
     const btns = info.actions
-      .map(a => `<a href="${a.href}" class="btn btn-sm ${a.cls}">${a.label}</a>`)
+      .map(renderAction)
       .join('');
     return `
       <article class="game-card ${g.badgeClass === 'scifi' ? 'scifi' : ''}" data-category="${g.categories}">
@@ -168,7 +172,8 @@ function buildHomePage(lang) {
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 ${isUk ? 'Дослідити всі ігри' : 'Explore All Games'}</a>
               <a href="${isUk ? '/locadesertascifi/' : '/locadesertascifi/index_en.html'}" class="btn btn-scifi">🚀 ${isUk ? 'Всесвіт Sci-Fi та Книги' : 'Sci-Fi Universe & Books'}</a>
-              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat${isUk ? '&hl=uk' : ''}" class="hero-release">${isUk ? 'СІЧА вже на Android' : 'SICHA is out now on Android'} <span aria-hidden="true">↗</span></a>
+              <a href="https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979" class="hero-release">${isUk ? 'СІЧА вже на iOS' : 'SICHA is out now on iOS'} <span aria-hidden="true">↗</span></a>
+              ${appStoreBadge}
             </div>
           </div>
 
@@ -180,7 +185,7 @@ function buildHomePage(lang) {
             </div>
             <div class="cinema-caption">${isUk ? 'Від двобою на шаблях до битви за галактику.' : 'From a clash of sabres to a battle for the galaxy.'}</div>
             <div class="featured-games">
-              <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на iOS та Android' : 'Out now on iOS & Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>${isUk ? 'Незабаром' : 'Coming soon'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small>${isUk ? 'У розробці' : 'In development'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small>${isUk ? 'Попередня реєстрація' : 'Pre-registration open'}</small></span><span aria-hidden="true">↗</span></a>
@@ -204,6 +209,18 @@ function buildHomePage(lang) {
           <div class="news-item">
             <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
             <div>
+              <strong>${isUk ? '«СІЧА: Козацький двобій» — уже на iOS!' : 'SICHA: Cossack Combat — Out Now on iOS!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'СІЧА вийшла в App Store! Схрести шаблі на iPhone та iPad: 35 героїв чотирьох держав, 12 комбо, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Гра також доступна на Android; Steam — згодом.'
+                  : 'SICHA is now on the App Store! Cross sabres on iPhone and iPad: 35 heroes of four nations, 12 combos, the Cossack’s Path campaign and Wi-Fi duels with a friend. Also available on Android; Steam comes later.'}
+              </p>
+              <div style="margin-top: 1rem;">${appStoreBadge}</div>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
+            <div>
               <strong>${isUk ? 'Нова гра — DefendUS — незабаром на Android!' : 'New Game — DefendUS — Coming Soon to Android!'}</strong>
               <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
                 ${isUk
@@ -219,8 +236,8 @@ function buildHomePage(lang) {
               <strong>${isUk ? '«СІЧА: Козацький двобій» — уже на Android!' : 'SICHA: Cossack Combat — Out Now on Android!'}</strong>
               <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
                 ${isUk
-                  ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже в Google Play. Згодом на iOS і Steam.'
-                  : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Google Play. iOS and Steam are coming later.'}
+                  ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже в Google Play.'
+                  : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Google Play.'}
               </p>
               <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-primary">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a></p>
             </div>

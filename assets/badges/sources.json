@@ -1,0 +1,11 @@
+{
+  "app_store": {
+    "guidelines": "https://developer.apple.com/app-store/marketing/guidelines/",
+    "downloaded": "2026-11-12",
+    "artwork": "Official black Download on the App Store SVG badges, unmodified",
+    "sources": {
+      "en": "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1280620800",
+      "uk": "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/uk-ua?releaseDate=1280620800"
+    }
+  }
+}

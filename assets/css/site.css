@@ -1298,3 +1298,8 @@ img {
   html { scroll-behavior: auto; }
   .home-gaming *, .home-gaming *::before, .home-gaming *::after { transition: none !important; animation: none !important; }
 }
+
+/* Official App Store artwork retains its proportions and a fixed layout slot. */
+.app-store-badge { display: inline-flex; align-items: center; justify-content: center; width: 156px; height: 52px; flex: 0 0 156px; line-height: 0; }
+.app-store-badge img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.app-store-badge:focus-visible { outline: 3px solid var(--accent-gold, #e8c860); outline-offset: 5px; }

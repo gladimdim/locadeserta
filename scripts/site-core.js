@@ -113,22 +113,24 @@ const GAMES = [
     badgeClass: 'live',
     image: '/assets/og/og-sicha.jpg',
     en: {
-      badge: 'Sabre Duels • Out Now on Android',
+      badge: 'Sabre Duels • Out Now on iOS & Android',
       title: 'SICHA — Cossack Combat',
-      desc: 'Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Android. iOS and Steam are coming later.',
-      platforms: ['Android', 'iOS (Soon)', 'Steam (Soon)'],
+      desc: 'Pixel-art sabre duels from the age of the Cossacks. 35 heroes of the Hetmanate, the Commonwealth, the Ottomans and the Crimean Tatars, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on iOS and Android. Steam is coming later.',
+      platforms: ['iOS', 'Android', 'Steam (Soon)'],
       actions: [
+        { label: 'Download on the App Store', href: 'https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979', badge: '/assets/badges/app-store-en.svg' },
         { label: '▶ Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat', cls: 'btn-primary' },
         { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/', cls: 'btn-outline' },
         { label: '▶ Watch the Trailer', href: 'https://sicha.locadeserta.com/#trailer', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Двобої на Шаблях • Уже на Android',
+      badge: 'Двобої на Шаблях • Уже на iOS та Android',
       title: 'СІЧА — Козацький двобій',
-      desc: 'Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на Android. Згодом на iOS і Steam.',
-      platforms: ['Android', 'iOS (Скоро)', 'Steam (Скоро)'],
+      desc: 'Піксельні двобої на шаблях з доби козацтва. 35 героїв Гетьманщини, Речі Посполитої, Османської імперії та Кримського ханства, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже на iOS та Android. Згодом у Steam.',
+      platforms: ['iOS', 'Android', 'Steam (Скоро)'],
       actions: [
+        { label: 'Завантажити в App Store', href: 'https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979', badge: '/assets/badges/app-store-uk.svg' },
         { label: '▶ Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk', cls: 'btn-primary' },
         { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-outline' },
         { label: '▶ Дивитися трейлер', href: 'https://sicha.locadeserta.com/uk/#trailer', cls: 'btn-outline' }
