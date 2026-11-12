@@ -39,7 +39,7 @@ function writePage(relPath, html) {
 const UI = {
   en: {
     siteName: 'Loca Deserta',
-    siteSubtitle: 'Wild Field Universe',
+    siteSubtitle: 'Loca Deserta Universe',
     navGames: 'Games',
     navSciFi: 'Sci-Fi & Books',
     navSocials: 'Socials & Stores',
@@ -431,7 +431,7 @@ const BOOKS = [
     en: {
       badge: 'Book I • Loca Deserta Sci-Fi',
       title: '«Zoryanij Hetmanat» (Star Hetmanate)',
-      desc: 'The foundational novel of Ukrainian military space sci-fi. In Star Era 281 (2424 AD), the Hetmanate Federation establishes secret colony "Wild Field 17" guarded by three regiments of Space Haiduks. In SE 323, all contact with the colony is lost...',
+      desc: 'The foundational novel of Ukrainian military space sci-fi. In Star Era 281 (2424 AD), the Hetmanate Federation establishes secret colony "Loca Deserta-17" guarded by three regiments of Space Haiduks. In SE 323, all contact with the colony is lost...',
       links: [
         { label: '📖 Read Full Book on Site (UA)', href: '/locadesertascifi/books/Zoryanij_Getmanat.html', cls: 'btn-scifi btn-sm' },
         { label: '📚 Booknet (Free)', href: 'https://booknet.ua/book/zoryanii-getmanat-b442821', cls: 'btn-outline btn-sm' },
@@ -457,7 +457,7 @@ const BOOKS = [
     en: {
       badge: 'Book II • Released July 31, 2026',
       title: '«Zustrich v Stepu» (Encounter in the Steppe)',
-      desc: 'Planet Wild Field-17. Otaman Bohdan Tytar leads three Plastun scouts on bot-horses armed with a heavy "Hornet" flamethrower deep behind Empire of the Sun lines to destroy an enemy melta-convoy.',
+      desc: 'Planet Loca Deserta-17. Otaman Bohdan Tytar leads three Plastun scouts on bot-horses armed with a heavy "Hornet" flamethrower deep behind Empire of the Sun lines to destroy an enemy melta-convoy.',
       links: [
         { label: '📖 About & Read (UA)', href: '/locadesertascifi/books/Zustrich_v_Stepu.html', cls: 'btn-scifi btn-sm' },
         { label: '📚 Booknet (Free)', href: 'https://booknet.ua/book/zustrch-v-stepu-b446432', cls: 'btn-outline btn-sm' },
@@ -579,7 +579,7 @@ function renderLayout({
         name: 'Loca Deserta (Дике Поле)',
         alternateName: ['Всесвіт Дикого Поля', 'Loca Deserta Game Universe', 'Дике Поле Sci-Fi', 'Зоряний Гетьманат'],
         description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 2 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
-        knowsAbout: ['Ukrainian Cossacks', 'Zaporozhian Sich', 'Cossack Hetmanate', 'Khmelnytsky Uprising', 'Chumaks', 'Wild Fields', 'Games about Cossacks', 'Ігри про козаків'],
+        knowsAbout: ['Ukrainian Cossacks', 'Zaporozhian Sich', 'Cossack Hetmanate', 'Khmelnytsky Uprising', 'Chumaks', 'Loca Deserta', 'Games about Cossacks', 'Ігри про козаків'],
         url: SITE_URL,
         logo: {
           '@type': 'ImageObject',

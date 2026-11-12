@@ -29,8 +29,8 @@ function buildHomePage(lang) {
       ]
     : [
         {
-          q: 'What is the Loca Deserta (Wild Field) Universe?',
-          a: 'Loca Deserta (Ukrainian: Дике Поле / Wild Field) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (SICHA: Cossack Combat, Eastern Wars, Valka: The Salt Road, Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
+          q: 'What is the Loca Deserta Universe?',
+          a: 'Loca Deserta (Ukrainian: Дике Поле) is an independent Ukrainian video game and sci-fi book universe created by developer and author Dmytro Gladkyi (@dmytrogladkyi). It spans two eras: XVII-century Cossack Ukraine (SICHA: Cossack Combat, Eastern Wars, Valka: The Salt Road, Loca Deserta: Odesa, Sloboda 2, Chumaki, Sloboda, Interactive Stories, Hex) and the 25th-century Loca Deserta Sci-Fi universe featuring the Hetmanate Federation (books "Star Hetmanate", "Encounter in the Steppe", "Fist\'s Edge", and the strategy game Loca Deserta: Settlers).'
         },
         {
           q: 'What are the best games about Ukrainian Cossacks?',
@@ -163,7 +163,7 @@ function buildHomePage(lang) {
             <p class="hero-lead">
               ${isUk
                 ? 'Схрести шаблі. Тримай небо. Збудуй новий світ. Ігри та книги всесвіту Loca Deserta: від козацького Дикого Поля до Зоряного Гетьманату. Створено в Україні Дмитром Гладким.'
-                : 'Cross sabres. Hold the sky. Build a new world. Discover the games and books of Loca Deserta, from the Cossack Wild Field to the Star Hetmanate. Created in Ukraine by Dmytro Gladkyi.'}
+                : 'Cross sabres. Hold the sky. Build a new world. Discover the games and books of Loca Deserta, from the Cossack lands of Loca Deserta to the Star Hetmanate. Created in Ukraine by Dmytro Gladkyi.'}
             </p>
             <div class="btn-group">
               <a href="#games" class="btn btn-primary">🎮 ${isUk ? 'Дослідити всі ігри' : 'Explore All Games'}</a>
@@ -342,7 +342,7 @@ function buildHomePage(lang) {
             <p class="section-desc">
               ${isUk
                 ? 'Альтернативна історія, де після 1657 року Гетьманат об’єднав Європу, вийшов у космос і після Марсіанського Поділу Всесвіту заснував Зоряну Січ у надскупченні Діви та засекречену колонію «Дике Поле-17».'
-                : 'An alternate timeline where after 1657 the Cossack Hetmanate united Europe, reached the stars, and after the Martian Division of the Universe founded Star Sich in the Virgo Supercluster and secret colony "Wild Field-17".'}
+                : 'An alternate timeline where after 1657 the Cossack Hetmanate united Europe, reached the stars, and after the Martian Division of the Universe founded Star Sich in the Virgo Supercluster and secret colony "Loca Deserta-17".'}
             </p>
           </div>
           <div class="btn-group">
@@ -453,7 +453,7 @@ function buildHomePage(lang) {
     lang,
     title: isUk
       ? 'Дике Поле (Loca Deserta) — ігри про козаків та книги Sci-Fi'
-      : 'Loca Deserta (Wild Field) — Ukrainian Cossack Games & Sci-Fi',
+      : 'Loca Deserta — Ukrainian Cossack Games & Sci-Fi',
     description: isUk
       ? 'Сучасні ігри про українських козаків: 10 ігор у 10 жанрах від Дмитра Гладкого: СІЧА, Eastern Wars, Валка, Одеса, Слобода 2, Чумаки. Грайте безкоштовно в браузері.'
       : 'Modern games about Ukrainian Cossacks: 10 games in 10 genres by Dmytro Gladkyi: SICHA, Eastern Wars, Valka, Odesa, Sloboda 2, Chumaki. Play free in your browser.',

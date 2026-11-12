@@ -139,9 +139,9 @@ function buildSciFiHubPage(lang) {
       <p>Welcome to <strong>Loca Deserta Sci-Fi (Дике Поле Sci-Fi)</strong> — the pioneering universe of Ukrainian military space fiction! Up until Hetman Ivan Vyhovskyi took power in 1657, history in our world and Loca Deserta Sci-Fi was identical. In this timeline, the Cossack Hetmanate not only survived but expanded across Eastern Europe and the Balkans.</p>
       <p>By the 19th century, three superpowers governed Earth: the <strong>Empire of the Sun</strong> (Asia & the Pacific), the <strong>Corporate Republic</strong> (the Americas & Australia), and our homeland — the <strong>Hetmanate Federation</strong> (all of Europe, North Africa, the Middle East, and Asia Minor).</p>
       <p>In 2143 AD (Year 0 of the Star Era — SE), scientists aboard the <em>Europa Jovian International Research Station</em> invented the warp drive powered by superheavy Lawrencium and Nobelium inside Jupiter's gravity well.</p>
-      <h2>The Martian Division of the Universe (33 SE) & Colony "Wild Field-17"</h2>
+      <h2>The Martian Division of the Universe (33 SE) & Colony "Loca Deserta-17"</h2>
       <p>Following the bloody Teegarden B Incident in 31 SE, the three empires signed the Martian Treaty on July 24, 33 SE, demilitarizing the Solar System and dividing deep space into three eternal sectors. In 91 SE, the Hetmanate Federation established <strong>Star Sich (Зоряна Січ)</strong> in the Virgo Supercluster.</p>
-      <p>In 281 SE (2424 AD), the Hetmanate founded secret research colony <strong>"Wild Field-17" (Дике Поле-17)</strong> in a pitch-black void sector, guarded by three regiments of Space Haiduks. In 323 SE, all communication with the colony went silent...</p>
+      <p>In 281 SE (2424 AD), the Hetmanate founded secret research colony <strong>"Loca Deserta-17" (Дике Поле-17)</strong> in a pitch-black void sector, guarded by three regiments of Space Haiduks. In 323 SE, all communication with the colony went silent...</p>
     `;
 
   const bodyContent = `
@@ -159,7 +159,7 @@ function buildSciFiHubPage(lang) {
             <p class="hero-lead">
               ${isUk
                 ? 'Федерація Гетьманату, Зоряна Січ у надскупченні Діви, орбітальні десанти термінаторів, пластуни на бот-конях та колонія «Дике Поле-17». Читайте книги серії безкоштовно, досліджуйте Вікі-портал і зареєструйтеся заздалегідь у Google Play на безкоштовну космічну стратегію Loca Deserta: Settlers для Android!'
-                : 'The Hetmanate Federation, Star Sich in the Virgo Supercluster, orbital drops by Cossack Terminators, Plastun scouts on bot-horses, and colony "Wild Field-17". Read the novels, explore the Lore Wiki, and pre-register on Google Play for Loca Deserta: Settlers, coming free to Android!'}
+                : 'The Hetmanate Federation, Star Sich in the Virgo Supercluster, orbital drops by Cossack Terminators, Plastun scouts on bot-horses, and colony "Loca Deserta-17". Read the novels, explore the Lore Wiki, and pre-register on Google Play for Loca Deserta: Settlers, coming free to Android!'}
             </p>
             <div class="btn-group">
               <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-scifi" target="_blank" rel="noopener">🪐 ${isUk ? 'Settlers: попередня реєстрація в Google Play' : 'Pre-register Settlers on Google Play'}</a>
@@ -189,7 +189,7 @@ function buildSciFiHubPage(lang) {
     title: isUk ? 'Всесвіт Дикого Поля Sci-Fi — Книги «Зоряний Гетьманат», «Вістря Кулаку», «Зустріч в Степу» та Settlers' : 'Loca Deserta Sci-Fi Universe — Star Hetmanate Books & Loca Deserta: Settlers',
     description: isUk
       ? 'Українська бойова космічна фантастика Дмитра Гладкого: читайте книги «Зоряний Гетьманат», «Вістря Кулаку», «Зустріч в Степу» та грайте в космічну стратегію Loca Deserta: Settlers.'
-      : 'Ukrainian military space sci-fi by Dmytro Gladkyi: explore the Star Hetmanate novels, Wild Field-17 lore, and Loca Deserta: Settlers space colony strategy game.',
+      : 'Ukrainian military space sci-fi by Dmytro Gladkyi: explore the Star Hetmanate novels, Loca Deserta-17 lore, and Loca Deserta: Settlers space colony strategy game.',
     canonicalPath: isUk ? '/locadesertascifi/' : '/locadesertascifi/index_en.html',
     altEnPath: '/locadesertascifi/index_en.html',
     altUkPath: '/locadesertascifi/',

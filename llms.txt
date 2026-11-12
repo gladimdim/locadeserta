@@ -1,10 +1,10 @@
 # Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (2 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле») is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (2 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 
-- **Historical Cossack era**: games set in the Ukrainian Wild Field, the Zaporozhian Sich and Khadjibey (Odesa) during the 16th–17th centuries.
+- **Historical Cossack era**: games set in Loca Deserta, the Zaporozhian Sich and Khadjibey (Odesa) in Ukraine during the 16th–17th centuries.
 - **Loca Deserta Sci-Fi** («Дике Поле Sci-Fi»): an alternate history where Hetman Ivan Vyhovskyi preserved the Cossack Hetmanate in 1657, which grows into the interstellar Hetmanate Federation with its capital Star Sich in the Virgo Supercluster (25th century, Star Era 281 = 2424 AD).
 
 The website is bilingual: English at https://locadeserta.com/ and Ukrainian at https://locadeserta.com/uk/. The books are written in Ukrainian.
@@ -26,8 +26,8 @@ The website is bilingual: English at https://locadeserta.com/ and Ukrainian at h
 
 ## Books (Loca Deserta Sci-Fi series, in Ukrainian)
 
-- [«Zoryanij Hetmanat» (Star Hetmanate) / «Зоряний Гетьманат»](https://locadeserta.com/locadesertascifi/books/Zoryanij_Getmanat.html): The foundational novel of Ukrainian military space sci-fi. In Star Era 281 (2424 AD), the Hetmanate Federation establishes secret colony "Wild Field 17" guarded by three regiments of Space Haiduks. In SE 323, all contact with the colony is lost...
-- [«Zustrich v Stepu» (Encounter in the Steppe) / «Зустріч в Степу»](https://locadeserta.com/locadesertascifi/books/Zustrich_v_Stepu.html): Planet Wild Field-17. Otaman Bohdan Tytar leads three Plastun scouts on bot-horses armed with a heavy "Hornet" flamethrower deep behind Empire of the Sun lines to destroy an enemy melta-convoy.
+- [«Zoryanij Hetmanat» (Star Hetmanate) / «Зоряний Гетьманат»](https://locadeserta.com/locadesertascifi/books/Zoryanij_Getmanat.html): The foundational novel of Ukrainian military space sci-fi. In Star Era 281 (2424 AD), the Hetmanate Federation establishes secret colony "Loca Deserta-17" guarded by three regiments of Space Haiduks. In SE 323, all contact with the colony is lost...
+- [«Zustrich v Stepu» (Encounter in the Steppe) / «Зустріч в Степу»](https://locadeserta.com/locadesertascifi/books/Zustrich_v_Stepu.html): Planet Loca Deserta-17. Otaman Bohdan Tytar leads three Plastun scouts on bot-horses armed with a heavy "Hornet" flamethrower deep behind Empire of the Sun lines to destroy an enemy melta-convoy.
 - [«Vistrya Kulaku» (Fist’s Edge) / «Вістря Кулаку»](https://locadeserta.com/locadesertascifi/books/Vistrya_Kulaku.html): When elite Samanaks of the Empire of the Sun seize a warp station on an abandoned moon, 2nd-grade Terminator Ivan Donets and the Hetmanate assault regiment launch an orbital drop into a plasma-scorched labyrinth.
 - [Loca Deserta Sci-Fi hub](https://locadeserta.com/locadesertascifi/index_en.html): overview of the sci-fi universe, timeline and all books.
 - [Sci-Fi lore wiki](https://scifi.locadeserta.com/): factions, history and technology of the sci-fi universe.

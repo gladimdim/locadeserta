@@ -47,7 +47,7 @@ function buildOdesaPage(lang) {
             <p class="hero-lead">
               ${isUk
                 ? 'Допоможіть козакам та поселенцям розбудувати Хаджибей-Одесу! Понад 70 взаємопов’язаних квестів, інтерактивні персонажі, пошук 5 закопаних скарбів із лопатою, 100% українська озвучка та бомбічні українські пісні 🇺🇦.'
-                : 'Help Cossack pioneers settle Khadjibey-Odesa in the Wild Field universe! Complete 70+ interconnected quests, interact with every NPC, unearth 5 buried treasures with your shovel, and enjoy 100% Ukrainian & English support with full voice acting and songs 🇺🇦.'}
+                : 'Help Cossack pioneers settle Khadjibey-Odesa in the Loca Deserta universe! Complete 70+ interconnected quests, interact with every NPC, unearth 5 buried treasures with your shovel, and enjoy 100% Ukrainian & English support with full voice acting and songs 🇺🇦.'}
             </p>
             <div class="btn-group">
               <a href="https://store.steampowered.com/app/2637950/_/" class="btn btn-primary" target="_blank" rel="noopener">🎮 Steam Store</a>

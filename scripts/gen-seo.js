@@ -117,11 +117,11 @@ function gamePage(game) {
 function buildLlmsTxt() {
   return `# Loca Deserta (Дике Поле)
 
-> Loca Deserta (Ukrainian: «Дике Поле», "Wild Field") is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (2 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
+> Loca Deserta (Ukrainian: «Дике Поле») is an independent Ukrainian game and military sci-fi book universe by game developer and author Dmytro Gladkyi (Дмитро Гладкий, @dmytrogladkyi). It is the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019 (2 of them in development now) in 10 genres (SICHA: Cossack Combat — pixel-art sabre duels, Eastern Wars — real-time tactics of Khmelnytsky's war, Valka: The Salt Road — chumak caravan defence, Odesa, Sloboda, Sloboda 2, Chumaki, Hex, Interactive Stories), a Roblox game, and the «Зоряний Гетьманат» (Star Hetmanate) sci-fi novel series.
 
 The universe spans two eras:
 
-- **Historical Cossack era**: games set in the Ukrainian Wild Field, the Zaporozhian Sich and Khadjibey (Odesa) during the 16th–17th centuries.
+- **Historical Cossack era**: games set in Loca Deserta, the Zaporozhian Sich and Khadjibey (Odesa) in Ukraine during the 16th–17th centuries.
 - **Loca Deserta Sci-Fi** («Дике Поле Sci-Fi»): an alternate history where Hetman Ivan Vyhovskyi preserved the Cossack Hetmanate in 1657, which grows into the interstellar Hetmanate Federation with its capital Star Sich in the Virgo Supercluster (25th century, Star Era 281 = 2424 AD).
 
 The website is bilingual: English at ${SITE_URL}/ and Ukrainian at ${SITE_URL}/uk/. The books are written in Ukrainian.
@@ -207,7 +207,7 @@ ${b.uk.desc}
 - **Year 0 of the Star Era (2143 AD)**: warp drive invented at the Europa Jovian International Research Station (Європа Юпітерна) using superheavy Lawrencium and Nobelium inside Jupiter's gravitational field. The first human warp flight to Alpha Centauri transmitted the signal "Гайда!" ("Haida!").
 - **Teegarden Incident (31 SE) and Martian Division of the Universe (July 24, 33 SE)**: after corporate forces massacred Empire of the Sun colonists on Teegarden B, station directors Mykhailo Sahaidak, Jack Mo and Richard Stallman threatened to trigger a warp-core collapse on Europa unless the three empires demilitarised the Solar System and divided deep space into three sectors by lottery.
 - **Star Sich (Зоряна Січ, 91 SE)**: capital of the Hetmanate Federation in the Virgo Supercluster.
-- **Colony "Wild Field-17" (Дике Поле-17, founded 281 SE / 2424 AD)**: secret Hetmanate research colony in a pitch-black void sector guarded by three regiments of Space Haiduks (Космічні Гайдуки). Contact lost in 323 SE.
+- **Colony "Loca Deserta-17" (Дике Поле-17, founded 281 SE / 2424 AD)**: secret Hetmanate research colony in a pitch-black void sector guarded by three regiments of Space Haiduks (Космічні Гайдуки). Contact lost in 323 SE.
 
 ## Loca Deserta: Sloboda game mechanics (buildings)
 

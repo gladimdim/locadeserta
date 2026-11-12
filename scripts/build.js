@@ -78,7 +78,7 @@ writePage(
     appleUrl: 'https://books.apple.com/us/book/%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D0%B9-%D0%B3%D0%B5%D1%82%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%82/id6752848228?ls=1',
     epubUrl: 'https://github.com/gladimdim/locadeserta/releases/download/space-getmanate/Zoryanij_Getmanat.epub',
     descUk: 'Перша книга в історії української бойової космічної фантастики! Історія про Федерацію Гетьманату, винайдення варп-двигуна на Європі Юпітерській, Марсіанський Поділ Всесвіту та таємничу колонію «Дике Поле-17» під охороною Космічних Гайдуків.',
-    descEn: 'The first book in the Loca Deserta Sci-Fi universe: the rise of the Hetmanate Federation, the Martian Division of the Universe, and secret colony Wild Field-17.'
+    descEn: 'The first book in the Loca Deserta Sci-Fi universe: the rise of the Hetmanate Federation, the Martian Division of the Universe, and secret colony Loca Deserta-17.'
   })
 );
 
@@ -110,7 +110,7 @@ writePage(
     appleUrl: 'http://books.apple.com/us/book/id6796818751',
     epubUrl: 'https://github.com/gladimdim/locadeserta/releases/tag/encounter_in_steppe',
     descUk: 'Планета Дике Поле-17. Отаман Богдан Титар веде загін пластунів-розвідників на бот-конях з важким вогнеметом «Шершень» у рейд тилами Імперії Сонця, щоб знищити ворожий мельтовіз.',
-    descEn: 'Planet Wild Field-17: Otaman Bohdan Tytar leads Cossack Plastun scouts on bot-horses behind Empire of the Sun lines.'
+    descEn: 'Planet Loca Deserta-17: Otaman Bohdan Tytar leads Cossack Plastun scouts on bot-horses behind Empire of the Sun lines.'
   })
 );
 
