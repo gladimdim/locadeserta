@@ -188,7 +188,7 @@ function buildHomePage(lang) {
               <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на iOS та Android' : 'Out now on iOS & Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>${isUk ? 'Незабаром' : 'Coming soon'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small>${isUk ? 'У розробці' : 'In development'}</small></span><span aria-hidden="true">↗</span></a>
-              <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small>${isUk ? 'Попередня реєстрація' : 'Pre-registration open'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="${isUk ? '/odesa/index_uk.html' : '/odesa/'}"><span class="featured-number">05</span><span><strong>${isUk ? 'Одеса' : 'Odesa'}</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -206,6 +206,18 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item scifi">
+            <div class="news-date">${isUk ? '16 Листопада 2026' : 'Nov 16, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'Loca Deserta: Settlers — уже в Google Play!' : 'Loca Deserta: Settlers — Out Now on Google Play!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Космічна стратегія в дусі The Settlers III/IV вийшла на Android! Засновуй колонії в порожніх зоряних системах, вози кожен товар кораблями, тримай кордони Вежами й веди флоти Федерації Гетьманату проти двох ворожих імперій. Шість місій кампанії Гетьманату, мультиплеєр через Wi-Fi, українською, англійською та німецькою. Гра безкоштовна, перші дві місії — без оплати, решту кампанії відкриває одноразова покупка. App Store — згодом.'
+                  : 'The space colony builder inspired by The Settlers III/IV is out on Android! Settle empty star systems, haul every good by ship, hold your borders with Towers and lead the Hetmanate Federation\'s fleets against two rival empires. Six Hetmanate campaign missions, local Wi-Fi multiplayer, in English, Ukrainian and German. Free to play: the first two missions are free and a one-time purchase unlocks the rest of the campaign. The App Store comes later.'}
+              </p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a> <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-outline">🪐 settlers.locadeserta.com</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
             <div>
@@ -263,7 +275,7 @@ function buildHomePage(lang) {
                   ? 'Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети Поділля, Жовті Води, Кривбас. Гра безкоштовна, а повну версію відкриває покупка в застосунку. Виходить лише на мобільних: спершу на телефонах і планшетах з Android, згодом в App Store.'
                   : 'A macro-economic space colony builder inspired by The Settlers III/IV. Free to play, with an in-app purchase that unlocks the full game. Mobile only: coming first to Android phones and tablets, then the App Store.'}
               </p>
-              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Попередня реєстрація в Google Play' : '▶ Pre-register on Google Play'}</a></p>
+              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a></p>
             </div>
           </div>
           <div class="news-item scifi">

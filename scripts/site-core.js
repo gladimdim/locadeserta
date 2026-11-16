@@ -195,22 +195,22 @@ const GAMES = [
     badgeClass: 'scifi',
     image: '/locadesertascifi/images/cover.jpg',
     en: {
-      badge: 'Sci-Fi Strategy • Coming to Android',
+      badge: 'Sci-Fi Strategy • Out Now on Android',
       title: 'Loca Deserta: Settlers',
-      desc: 'A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Free on Android phones and tablets, with an in-app purchase that unlocks the full game. Mobile only: pre-registration is open on Google Play; the App Store follows.',
-      platforms: ['Android (Free, Pre-registration)', 'iOS (Coming Soon)'],
+      desc: 'A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Free on Android phones and tablets, with an in-app purchase that unlocks the full game. Mobile only: out now on Google Play; the App Store follows.',
+      platforms: ['Android (Free)', 'iOS (Coming Soon)'],
       actions: [
-        { label: '▶ Pre-register on Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers', cls: 'btn-scifi' },
+        { label: '▶ Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers', cls: 'btn-scifi' },
         { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Космічна Стратегія • Скоро на Android',
+      badge: 'Космічна Стратегія • Уже на Android',
       title: 'Loca Deserta: Settlers',
-      desc: 'Космічна економічна стратегія в дусі The Settlers III/IV у всесвіті Дике Поле Sci-Fi: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас. Безкоштовно на телефонах і планшетах з Android, повну гру відкриває покупка в застосунку. Лише на мобільних: у Google Play вже відкрито попередню реєстрацію; згодом — App Store.',
-      platforms: ['Android (Безкоштовно, попередня реєстрація)', 'iOS (Скоро)'],
+      desc: 'Космічна економічна стратегія в дусі The Settlers III/IV у всесвіті Дике Поле Sci-Fi: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас. Безкоштовно на телефонах і планшетах з Android, повну гру відкриває покупка в застосунку. Лише на мобільних: уже в Google Play; згодом — App Store.',
+      platforms: ['Android (Безкоштовно)', 'iOS (Скоро)'],
       actions: [
-        { label: '▶ Попередня реєстрація в Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk', cls: 'btn-scifi' },
+        { label: '▶ Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk', cls: 'btn-scifi' },
         { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com/uk/', cls: 'btn-outline' }
       ]
     }
