@@ -230,7 +230,7 @@ const GAMES = [
         { label: 'Steam', href: 'https://store.steampowered.com/app/2637950/_/', cls: 'btn-outline' },
         { label: 'Epic Store', href: 'https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/app/loca-deserta-odesa/id6449617200', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa', cls: 'btn-outline' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' }
       ]
     },
     uk: {
@@ -243,7 +243,7 @@ const GAMES = [
         { label: 'Steam', href: 'https://store.steampowered.com/app/2637950/_/', cls: 'btn-outline' },
         { label: 'Epic Store', href: 'https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/loca-deserta-odesa/id6449617200', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa', cls: 'btn-outline' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' }
       ]
     }
   },
@@ -260,7 +260,7 @@ const GAMES = [
       actions: [
         { label: 'Game Details', href: '/sloboda2/', cls: 'btn-primary' },
         { label: 'iOS App Store', href: 'https://apps.apple.com/us/app/loca-deserta-sloboda-2/id1642505646', cls: 'btn-outline' },
-        { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda', cls: 'btn-outline' },
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' },
         { label: 'Alpha Devlog', href: '/sloboda2/alpha.html', cls: 'btn-outline' }
       ]
     },
@@ -272,7 +272,7 @@ const GAMES = [
       actions: [
         { label: 'Детальніше про гру', href: '/sloboda2/index_uk.html', cls: 'btn-primary' },
         { label: 'iOS App Store', href: 'https://apps.apple.com/ua/app/loca-deserta-sloboda-2/id1642505646', cls: 'btn-outline' },
-        { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda', cls: 'btn-outline' },
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' },
         { label: 'Архів Альфи', href: '/sloboda2/alpha.html', cls: 'btn-outline' }
       ]
     }
@@ -291,7 +291,7 @@ const GAMES = [
         { label: '▶ Play Online (/chumaki)', href: '/chumaki/', cls: 'btn-primary' },
         { label: 'Game Guide', href: '/locadesertachumaki/index_en.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.chumaki', cls: 'btn-outline' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.chumaki', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' }
       ]
     },
     uk: {
@@ -303,7 +303,7 @@ const GAMES = [
         { label: '▶ Грати Онлайн (/chumaki)', href: '/chumaki/', cls: 'btn-primary' },
         { label: 'Опис Ігроладу', href: '/locadesertachumaki/', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.chumaki', cls: 'btn-outline' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.chumaki&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' }
       ]
     }
   },
@@ -321,7 +321,7 @@ const GAMES = [
         { label: '▶ Play Online (/sloboda)', href: '/sloboda/', cls: 'btn-primary' },
         { label: 'Game Guide', href: '/citybuilding/index_en.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda', cls: 'btn-outline' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' }
       ]
     },
     uk: {
@@ -333,7 +333,7 @@ const GAMES = [
         { label: '▶ Грати Онлайн (/sloboda)', href: '/sloboda/', cls: 'btn-primary' },
         { label: 'Опис Ігроладу', href: '/citybuilding/', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda', cls: 'btn-outline' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.sloboda&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' }
       ]
     }
   },
@@ -351,7 +351,7 @@ const GAMES = [
         { label: '▶ Play Online (EN)', href: '/game/?lang=en', cls: 'btn-primary' },
         { label: 'Story List & Info', href: '/interactive/index_en.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/loca-deserta/id1468068398', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta', cls: 'btn-outline' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' }
       ]
     },
     uk: {
@@ -363,7 +363,7 @@ const GAMES = [
         { label: '▶ Грати Онлайн (UA)', href: '/game/?lang=uk', cls: 'btn-primary' },
         { label: 'Усі Історії та Опис', href: '/interactive/', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/loca-deserta/id1468068398', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta', cls: 'btn-outline' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=gladimdim.locadeserta&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' }
       ]
     }
   },
@@ -381,7 +381,7 @@ const GAMES = [
         { label: '▶ Play Online (/hex)', href: '/hex/', cls: 'btn-primary' },
         { label: 'Game Guide', href: '/locadesertahex/index_en.html', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/us/app/loca-deserta-hex/id1553674081', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex', cls: 'btn-outline' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' }
       ]
     },
     uk: {
@@ -393,7 +393,7 @@ const GAMES = [
         { label: '▶ Грати Онлайн (/hex)', href: '/hex/', cls: 'btn-primary' },
         { label: 'Опис Ігроладу', href: '/locadesertahex/', cls: 'btn-outline' },
         { label: 'iOS', href: 'https://apps.apple.com/ua/app/loca-deserta-hex/id1553674081', cls: 'btn-outline' },
-        { label: 'Android', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex', cls: 'btn-outline' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' }
       ]
     }
   },

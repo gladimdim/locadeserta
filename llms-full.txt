@@ -123,7 +123,7 @@ A macro-economic space colony builder inspired by The Settlers III/IV set in the
 - Page: https://locadeserta.com/odesa/
 - Type: RPG & Crafting • XVII Century
 - Platforms: Steam, Epic Games Store, iOS App Store, Google Play
-- Links: [Game Details](https://locadeserta.com/odesa/), [Steam](https://store.steampowered.com/app/2637950/_/), [Epic Store](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b), [iOS](https://apps.apple.com/app/loca-deserta-odesa/id6449617200), [Android](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa)
+- Links: [Game Details](https://locadeserta.com/odesa/), [Steam](https://store.steampowered.com/app/2637950/_/), [Epic Store](https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b), [iOS](https://apps.apple.com/app/loca-deserta-odesa/id6449617200), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa)
 
 Settle the south of Ukraine in Khadjibey-Odesa! Take on the role of a Cossack pioneer: complete 70+ interconnected quests, help Budjak Tatars and Cossack chieftains, dig up 5 ancient Ukrainian treasures, and enjoy 100% Ukrainian & English voice acting and songs.
 
@@ -134,7 +134,7 @@ Settle the south of Ukraine in Khadjibey-Odesa! Take on the role of a Cossack pi
 - Page: https://locadeserta.com/sloboda2/
 - Type: 3D Low-Poly Builder • Controller Support
 - Platforms: Steam, iOS App Store, Google Play, Gamepad Support
-- Links: [Game Details](https://locadeserta.com/sloboda2/), [iOS App Store](https://apps.apple.com/us/app/loca-deserta-sloboda-2/id1642505646), [Google Play](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda), [Alpha Devlog](https://locadeserta.com/sloboda2/alpha.html)
+- Links: [Game Details](https://locadeserta.com/sloboda2/), [iOS App Store](https://apps.apple.com/us/app/loca-deserta-sloboda-2/id1642505646), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda), [Alpha Devlog](https://locadeserta.com/sloboda2/alpha.html)
 
 A 3D low-poly settlement builder and production simulator set in the Zaporozhian Host. Start with an axe and pickaxe, construct 40+ buildings with 3 upgrade tiers, manage 14 production chains (from timber to cannons & ships), and unlock 6 valleys to the Black Sea.
 
@@ -145,7 +145,7 @@ A 3D low-poly settlement builder and production simulator set in the Zaporozhian
 - Page: https://locadeserta.com/locadesertachumaki/index_en.html
 - Type: Trading Simulator • Play Online
 - Platforms: Web Browser, Android, iOS, Windows, macOS
-- Links: [Play Online (/chumaki)](https://locadeserta.com/chumaki/), [Game Guide](https://locadeserta.com/locadesertachumaki/index_en.html), [iOS](https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648), [Android](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
+- Links: [Play Online (/chumaki)](https://locadeserta.com/chumaki/), [Game Guide](https://locadeserta.com/locadesertachumaki/index_en.html), [iOS](https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gladimdim.chumaki)
 
 Become a XVII-century Ukrainian Chumak salt-and-goods trader! Start at Zaporozhian Sich with one wagon, analyze market margins across 25+ historical towns (Chyhyryn, Kaniv, Cherkasy, Baturyn), hire Otamans, unlock trade perks, and build town manufactories.
 
@@ -156,7 +156,7 @@ Become a XVII-century Ukrainian Chumak salt-and-goods trader! Start at Zaporozhi
 - Page: https://locadeserta.com/citybuilding/index_en.html
 - Type: Classic Strategy • Play Online
 - Platforms: Web Browser, Android, iOS, Windows, Cross-Device Sync
-- Links: [Play Online (/sloboda)](https://locadeserta.com/sloboda/), [Game Guide](https://locadeserta.com/citybuilding/index_en.html), [iOS](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk), [Android](https://play.google.com/store/apps/details?id=com.gladimdim.sloboda)
+- Links: [Play Online (/sloboda)](https://locadeserta.com/sloboda/), [Game Guide](https://locadeserta.com/citybuilding/index_en.html), [iOS](https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gladimdim.sloboda)
 
 The classic turn-and-season strategy game at the edge of the Great Meadow (Velykyi Luh). Manage workers, build smithies and powder cellars, train armed Cossacks, send aid to the central Sich server, and explore two handcrafted maps through changing seasons.
 
@@ -167,7 +167,7 @@ The classic turn-and-season strategy game at the edge of the Great Meadow (Velyk
 - Page: https://locadeserta.com/interactive/index_en.html
 - Type: Interactive Fiction • Story Editor
 - Platforms: Web Browser, iOS App Store, Google Play
-- Links: [Play Online (EN)](https://locadeserta.com/game/?lang=en), [Story List & Info](https://locadeserta.com/interactive/index_en.html), [iOS](https://apps.apple.com/us/app/loca-deserta/id1468068398), [Android](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
+- Links: [Play Online (EN)](https://locadeserta.com/game/?lang=en), [Story List & Info](https://locadeserta.com/interactive/index_en.html), [iOS](https://apps.apple.com/us/app/loca-deserta/id1468068398), [Get it on Google Play](https://play.google.com/store/apps/details?id=gladimdim.locadeserta)
 
 The game that started the universe! A series of branching historical interactive stories with 9+ adventures (Khotyn Night Raid, Escape after Cicora with 18 endings, Yellow Waters Ambush, Kodak Night) plus a built-in cross-platform Story Creator.
 
@@ -178,7 +178,7 @@ The game that started the universe! A series of branching historical interactive
 - Page: https://locadeserta.com/locadesertahex/index_en.html
 - Type: Hex Strategy Puzzle • Play Online
 - Platforms: Web Browser, iOS App Store, Google Play
-- Links: [Play Online (/hex)](https://locadeserta.com/hex/), [Game Guide](https://locadeserta.com/locadesertahex/index_en.html), [iOS](https://apps.apple.com/us/app/loca-deserta-hex/id1553674081), [Android](https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex)
+- Links: [Play Online (/hex)](https://locadeserta.com/hex/), [Game Guide](https://locadeserta.com/locadesertahex/index_en.html), [iOS](https://apps.apple.com/us/app/loca-deserta-hex/id1553674081), [Get it on Google Play](https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex)
 
 A tactical hexagonal puzzle and territory expansion game. Start from a single central hex, harvest free grain tiles, combine resources to recruit Cossacks, cannons, wagons, and boats, and break through the 15th-ring enemy fortress walls!
 

@@ -53,7 +53,7 @@ function buildOdesaPage(lang) {
               <a href="https://store.steampowered.com/app/2637950/_/" class="btn btn-primary" target="_blank" rel="noopener">🎮 Steam Store</a>
               <a href="https://store.epicgames.com/en-US/p/loca-deserta-odesa-3f480b" class="btn btn-outline" target="_blank" rel="noopener">Epic Games Store</a>
               <a href="https://apps.apple.com/app/loca-deserta-odesa/id6449617200" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store (iOS)</a>
-              <a href="https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=com.dmytrogladkyi.SlobodaOdesa${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
             </div>
           </div>
           <div>
@@ -153,7 +153,7 @@ function buildSloboda2Page(lang) {
             </p>
             <div class="btn-group">
               <a href="https://apps.apple.com/us/app/loca-deserta-sloboda-2/id1642505646" class="btn btn-primary" target="_blank" rel="noopener">🍎 App Store (iOS)</a>
-              <a href="https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=com.dmytrogladkyi.Sloboda${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
               <a href="/sloboda2/alpha.html" class="btn btn-outline">📜 ${isUk ? 'Історія розробки (Alpha Devlog)' : 'Alpha Devlog Archive'}</a>
               <a href="/sloboda2_licenses.html" class="btn btn-outline">⚖️ ${isUk ? 'Ліцензії' : 'Licenses'}</a>
             </div>
@@ -246,7 +246,7 @@ function buildChumakiPage(lang) {
             </p>
             <div class="btn-group">
               <a href="/chumaki/" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн у Браузері' : 'Play Online in Browser'}</a>
-              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.chumaki" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.chumaki${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
               <a href="https://apps.apple.com/us/app/%D1%87%D1%83%D0%BC%D0%B0%D0%BA%D0%B8/id1582158648" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store</a>
               <a href="https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_windows_1.0.zip" class="btn btn-outline">💻 Windows ZIP</a>
               <a href="https://github.com/gladimdim/locadeserta/releases/download/universe-1.0/chumaki_macos_1.0.zip" class="btn btn-outline">🍏 macOS ZIP</a>
@@ -341,7 +341,7 @@ function buildCitybuildingPage(lang) {
             </p>
             <div class="btn-group">
               <a href="/sloboda/" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн (/sloboda)' : 'Play Online (/sloboda)'}</a>
-              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.sloboda" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.sloboda${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
               <a href="https://apps.apple.com/ua/app/sloboda/id1543669328?l=uk" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store</a>
               <a href="https://github.com/gladimdim/locadeserta/releases/download/sloboda-3.0.7/sloboda_windows_307.zip" class="btn btn-outline">💻 Windows ZIP</a>
               <a href="https://github.com/gladimdim/locadeserta/releases/download/sloboda-3.0.7/sloboda_307.apk" class="btn btn-outline">📦 Android APK</a>
@@ -447,7 +447,7 @@ function buildInteractivePage(lang) {
             <div class="btn-group">
               <a href="/game/?lang=${isUk ? 'uk' : 'en'}" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн у Браузері' : 'Play Online in Browser'}</a>
               <a href="https://apps.apple.com/us/app/loca-deserta/id1468068398" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store</a>
-              <a href="https://play.google.com/store/apps/details?id=gladimdim.locadeserta" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=gladimdim.locadeserta${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
             </div>
           </div>
           <div>
@@ -538,7 +538,7 @@ function buildHexPage(lang) {
             <div class="btn-group">
               <a href="/hex/" class="btn btn-primary">▶ ${isUk ? 'Грати Онлайн у Браузері (/hex)' : 'Play Online in Browser (/hex)'}</a>
               <a href="https://apps.apple.com/ua/app/loca-deserta-hex/id1553674081" class="btn btn-outline" target="_blank" rel="noopener">🍎 App Store (iOS)</a>
-              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex" class="btn btn-outline" target="_blank" rel="noopener">🤖 Google Play</a>
+              <a href="https://play.google.com/store/apps/details?id=com.gladimdim.locadesertahex${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Завантажити з Google Play' : 'Get it on Google Play'}" width="175" height="52"></a>
             </div>
           </div>
           <div>
