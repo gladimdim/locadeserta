@@ -4,9 +4,14 @@ function buildHomePage(lang) {
   const isUk = lang === 'uk';
   const t = UI[lang];
   const renderAction = a => a.badge
-    ? `<a href="${a.href}" class="app-store-badge"><img src="${a.badge}" alt="${a.label}" width="156" height="52"></a>`
+    ? (a.badgeClass === 'play-store-badge'
+      ? `<a href="${a.href}" class="play-store-badge" target="_blank" rel="noopener"><img src="${a.badge}" alt="${a.label}" width="175" height="52"></a>`
+      : `<a href="${a.href}" class="app-store-badge"><img src="${a.badge}" alt="${a.label}" width="156" height="52"></a>`)
     : `<a href="${a.href}" class="btn btn-sm ${a.cls}">${a.label}</a>`;
-  const appStoreBadge = renderAction(GAMES.find(g => g.id === 'sicha')[lang].actions.find(a => a.badge));
+  const badgeOf = (id, cls) => renderAction(GAMES.find(g => g.id === id)[lang].actions.find(a => a.badge && (a.badgeClass || 'app-store-badge') === cls));
+  const appStoreBadge = badgeOf('sicha', 'app-store-badge');
+  const sichaPlayBadge = badgeOf('sicha', 'play-store-badge');
+  const settlersPlayBadge = badgeOf('settlers', 'play-store-badge');
 
   const faqs = isUk
     ? [
@@ -215,7 +220,7 @@ function buildHomePage(lang) {
                   ? 'Космічна стратегія в дусі The Settlers III/IV вийшла на Android! Засновуй колонії в порожніх зоряних системах, вози кожен товар кораблями, тримай кордони Вежами й веди флоти Федерації Гетьманату проти двох ворожих імперій. Шість місій кампанії Гетьманату, мультиплеєр через Wi-Fi, українською, англійською та німецькою. Гра безкоштовна, перші дві місії — без оплати, решту кампанії відкриває одноразова покупка. App Store — згодом.'
                   : 'The space colony builder inspired by The Settlers III/IV is out on Android! Settle empty star systems, haul every good by ship, hold your borders with Towers and lead the Hetmanate Federation\'s fleets against two rival empires. Six Hetmanate campaign missions, local Wi-Fi multiplayer, in English, Ukrainian and German. Free to play: the first two missions are free and a one-time purchase unlocks the rest of the campaign. The App Store comes later.'}
               </p>
-              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a> <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-outline">🪐 settlers.locadeserta.com</a></p>
+              <p class="store-badges" style="margin-top: 0.75rem;">${settlersPlayBadge} <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-outline">🪐 settlers.locadeserta.com</a></p>
             </div>
           </div>
           <div class="news-item">
@@ -251,7 +256,7 @@ function buildHomePage(lang) {
                   ? 'Піксельні двобої на шаблях з доби козацтва: 35 героїв чотирьох держав, 12 комбо, десятки шабель, кампанія «Козацький шлях» і двобої з другом через Wi-Fi. Уже в Google Play.'
                   : 'Pixel-art sabre duels from the age of the Cossacks: 35 heroes of four nations, 12 combos, dozens of sabres, the Cossack\'s Path campaign and Wi-Fi duels with a friend. Out now on Google Play.'}
               </p>
-              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-primary">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a></p>
+              <p class="store-badges" style="margin-top: 0.75rem;">${sichaPlayBadge}</p>
             </div>
           </div>
           <div class="news-item">
@@ -275,7 +280,7 @@ function buildHomePage(lang) {
                   ? 'Космічна економічна стратегія в дусі The Settlers III/IV: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети Поділля, Жовті Води, Кривбас. Гра безкоштовна, а повну версію відкриває покупка в застосунку. Виходить лише на мобільних: спершу на телефонах і планшетах з Android, згодом в App Store.'
                   : 'A macro-economic space colony builder inspired by The Settlers III/IV. Free to play, with an in-app purchase that unlocks the full game. Mobile only: coming first to Android phones and tablets, then the App Store.'}
               </p>
-              <p style="margin-top: 0.5rem;"><a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-sm btn-scifi" target="_blank" rel="noopener">${isUk ? '▶ Завантажити з Google Play' : '▶ Get it on Google Play'}</a></p>
+              <p class="store-badges" style="margin-top: 0.75rem;">${settlersPlayBadge}</p>
             </div>
           </div>
           <div class="news-item scifi">

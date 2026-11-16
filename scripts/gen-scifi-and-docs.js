@@ -162,7 +162,7 @@ function buildSciFiHubPage(lang) {
                 : 'The Hetmanate Federation, Star Sich in the Virgo Supercluster, orbital drops by Cossack Terminators, Plastun scouts on bot-horses, and colony "Loca Deserta-17". Read the novels, explore the Lore Wiki, and play Loca Deserta: Settlers, out now free on Android!'}
             </p>
             <div class="btn-group">
-              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="btn btn-scifi" target="_blank" rel="noopener">🪐 ${isUk ? 'Settlers: завантажити з Google Play' : 'Get Settlers on Google Play'}</a>
+              <a href="https://play.google.com/store/apps/details?id=com.locadeserta.settlers${isUk ? '&hl=uk' : ''}" class="play-store-badge" target="_blank" rel="noopener"><img src="/assets/badges/google-play-${isUk ? 'uk' : 'en'}.svg" alt="${isUk ? 'Loca Deserta: Settlers — завантажити з Google Play' : 'Get Loca Deserta: Settlers on Google Play'}" width="175" height="52"></a>
               <a href="https://scifi.locadeserta.com" class="btn btn-outline">🌐 ${isUk ? 'Вікі-портал (scifi.locadeserta.com)' : 'Sci-Fi Lore Wiki'}</a>
               <a href="/locadesertascifi/books/Zoryanij_Getmanat.html" class="btn btn-outline">📖 ${isUk ? 'Читати «Зоряний Гетьманат»' : 'Read «Star Hetmanate»'}</a>
             </div>

@@ -7,5 +7,14 @@
       "en": "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1280620800",
       "uk": "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/uk-ua?releaseDate=1280620800"
     }
+  },
+  "google_play": {
+    "guidelines": "https://play.google.com/intl/en_us/badges/",
+    "downloaded": "2026-11-16",
+    "artwork": "Official Get it on Google Play colour SVG badges from Google's Badge guidelines kit (Digital/svg), unmodified",
+    "sources": {
+      "en": "GetItOnGooglePlay_Badge_Web_color_English.svg",
+      "uk": "GetItOnGooglePlay_Badge_Web_color_Ukranian.svg"
+    }
   }
 }

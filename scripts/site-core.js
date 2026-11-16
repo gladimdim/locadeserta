@@ -119,7 +119,7 @@ const GAMES = [
       platforms: ['iOS', 'Android', 'Steam (Soon)'],
       actions: [
         { label: 'Download on the App Store', href: 'https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979', badge: '/assets/badges/app-store-en.svg' },
-        { label: '▶ Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat', cls: 'btn-primary' },
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' },
         { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/', cls: 'btn-outline' },
         { label: '▶ Watch the Trailer', href: 'https://sicha.locadeserta.com/#trailer', cls: 'btn-outline' }
       ]
@@ -131,7 +131,7 @@ const GAMES = [
       platforms: ['iOS', 'Android', 'Steam (Скоро)'],
       actions: [
         { label: 'Завантажити в App Store', href: 'https://apps.apple.com/us/app/sicha-cossack-combat/id6827600979', badge: '/assets/badges/app-store-uk.svg' },
-        { label: '▶ Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk', cls: 'btn-primary' },
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.cossackcombat&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' },
         { label: '⚔ sicha.locadeserta.com', href: 'https://sicha.locadeserta.com/uk/', cls: 'btn-outline' },
         { label: '▶ Дивитися трейлер', href: 'https://sicha.locadeserta.com/uk/#trailer', cls: 'btn-outline' }
       ]
@@ -200,7 +200,7 @@ const GAMES = [
       desc: 'A macro-economic space colony builder inspired by The Settlers III/IV set in the Loca Deserta Sci-Fi universe. Harvest asteroids, chain production buildings, expand territory with Towers, and colonise planets named after Ukrainian regions — Podillia, Zhovti Vody, Kryvbas. Free on Android phones and tablets, with an in-app purchase that unlocks the full game. Mobile only: out now on Google Play; the App Store follows.',
       platforms: ['Android (Free)', 'iOS (Coming Soon)'],
       actions: [
-        { label: '▶ Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers', cls: 'btn-scifi' },
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' },
         { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com', cls: 'btn-outline' }
       ]
     },
@@ -210,7 +210,7 @@ const GAMES = [
       desc: 'Космічна економічна стратегія в дусі The Settlers III/IV у всесвіті Дике Поле Sci-Fi: видобувай ресурси на астероїдах, будуй виробничі ланцюги, розширюй територію Вежами та колонізуй планети з українськими назвами — Поділля, Жовті Води, Кривбас. Безкоштовно на телефонах і планшетах з Android, повну гру відкриває покупка в застосунку. Лише на мобільних: уже в Google Play; згодом — App Store.',
       platforms: ['Android (Безкоштовно)', 'iOS (Скоро)'],
       actions: [
-        { label: '▶ Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk', cls: 'btn-scifi' },
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.locadeserta.settlers&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' },
         { label: '🪐 settlers.locadeserta.com', href: 'https://settlers.locadeserta.com/uk/', cls: 'btn-outline' }
       ]
     }
