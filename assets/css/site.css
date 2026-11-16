@@ -810,6 +810,29 @@ img {
   align-items: baseline;
 }
 
+/* News with a thumbnail: picture on the left, date above the text. */
+.news-item:has(.news-thumb) {
+  grid-template-columns: 176px 1fr;
+  grid-template-areas: "thumb date" "thumb body";
+  grid-template-rows: auto 1fr;
+  column-gap: 1.25rem;
+  row-gap: 0.35rem;
+  align-items: start;
+}
+.news-item:has(.news-thumb) > .news-date { grid-area: date; }
+.news-item:has(.news-thumb) > div:last-child { grid-area: body; }
+.news-thumb {
+  grid-area: thumb;
+  display: block;
+  width: 176px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-sm, 6px);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated, #0d1220);
+}
+
 .news-item.scifi {
   border-left-color: var(--cyan);
 }
@@ -1122,6 +1145,12 @@ img {
     grid-template-columns: 1fr;
     gap: 0.4rem;
   }
+  .news-item:has(.news-thumb) {
+    grid-template-columns: 112px 1fr;
+    grid-template-areas: "thumb date" "thumb body";
+    column-gap: 0.9rem;
+  }
+  .news-thumb { width: 112px; }
   .book-card {
     grid-template-columns: 1fr;
   }

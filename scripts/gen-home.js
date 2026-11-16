@@ -212,6 +212,7 @@ function buildHomePage(lang) {
         </div>
         <div class="timeline">
           <div class="news-item scifi">
+            <img class="news-thumb" src="/assets/news/settlers-launch.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '16 Листопада 2026' : 'Nov 16, 2026'}</div>
             <div>
               <strong>${isUk ? 'Loca Deserta: Settlers — уже в Google Play!' : 'Loca Deserta: Settlers — Out Now on Google Play!'}</strong>
@@ -224,6 +225,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item">
+            <img class="news-thumb" src="/assets/news/sicha-ios.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
             <div>
               <strong>${isUk ? '«СІЧА: Козацький двобій» — уже на iOS!' : 'SICHA: Cossack Combat — Out Now on iOS!'}</strong>
@@ -236,6 +238,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item">
+            <img class="news-thumb" src="/assets/news/defendus.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '12 Листопада 2026' : 'Nov 12, 2026'}</div>
             <div>
               <strong>${isUk ? 'Нова гра — DefendUS — незабаром на Android!' : 'New Game — DefendUS — Coming Soon to Android!'}</strong>
@@ -248,6 +251,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item">
+            <img class="news-thumb" src="/assets/news/sicha-android.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '5 Листопада 2026' : 'Nov 5, 2026'}</div>
             <div>
               <strong>${isUk ? '«СІЧА: Козацький двобій» — уже на Android!' : 'SICHA: Cossack Combat — Out Now on Android!'}</strong>
@@ -260,6 +264,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item">
+            <img class="news-thumb" src="/assets/news/valka.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '29 Жовтня 2026' : 'Oct 29, 2026'}</div>
             <div>
               <strong>${isUk ? 'Розробляємо нову гру — «Валка: Чумацький Шлях»!' : 'In Development — Valka: The Salt Road!'}</strong>
@@ -272,6 +277,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item scifi">
+            <img class="news-thumb" src="/assets/news/settlers-preregistration.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '23 Жовтня 2026' : 'Oct 23, 2026'}</div>
             <div>
               <strong>${isUk ? 'Loca Deserta: Settlers — попередня реєстрація в Google Play!' : 'Loca Deserta: Settlers — Pre-registration Open on Google Play!'}</strong>
@@ -284,6 +290,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item scifi">
+            <img class="news-thumb" src="/assets/news/scifi-books.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '31 Липня 2026' : 'Jul 31, 2026'}</div>
             <div>
               <strong>${isUk ? 'Дві нові книги у всесвіті Дике Поле Sci-Fi — «Вістря Кулаку» та «Зустріч в Степу»!' : 'Two New Books in Loca Deserta Sci-Fi — «Vistrya Kulaku» & «Zustrich v Stepu»!'}</strong>
@@ -295,6 +302,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item scifi">
+            <img class="news-thumb" src="/assets/news/zoryanij.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '29 Вересня 2025' : 'Sep 29, 2025'}</div>
             <div>
               <strong>${isUk ? 'Перша книга всесвіту — «Зоряний Гетьманат»!' : 'First Novel — «Zoryanij Hetmanat» (Star Hetmanate)!'}</strong>
@@ -306,6 +314,7 @@ function buildHomePage(lang) {
             </div>
           </div>
           <div class="news-item">
+            <img class="news-thumb" src="/assets/news/roblox-fortnite.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? 'Січень 2025' : 'Jan 2025'}</div>
             <div>
               <strong>${isUk ? 'Дике Поле в Roblox (20 на 20) та 9 ігор у Fortnite!' : 'Loca Deserta in Roblox (20v20) & 9 Fortnite Islands!'}</strong>
