@@ -86,24 +86,26 @@ const GAMES = [
   {
     id: 'defendus',
     categories: 'mobilepc',
-    badgeClass: '',
+    badgeClass: 'live',
     image: '/assets/og/og-defendus.png',
     en: {
-      badge: 'Air Defense • Coming Soon',
+      badge: 'Air Defense • Out Now on Android',
       title: 'DefendUS',
-      desc: 'Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. Coming soon to Android.',
-      platforms: ['Android (Soon)'],
+      desc: 'Hold the sky. Keep the power on. A pixel-art air-defense action game: command mobile fire teams, protect Ukrainian cities from waves of drones and missiles, and upgrade your defenses at dawn. A 40-night campaign from Kramatorsk to Kyiv. First city free; one purchase unlocks the full campaign. Out now on Google Play.',
+      platforms: ['Android (Free)'],
       actions: [
-        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/', cls: 'btn-primary' }
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.defendus', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' },
+        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Протиповітряна оборона • Незабаром',
+      badge: 'Протиповітряна оборона • Уже на Android',
       title: 'DefendUS',
-      desc: 'Тримай небо. Збережи світло. Піксельна гра про протиповітряну оборону: керуй мобільними вогневими групами, захищай українські міста від хвиль дронів і ракет та посилюй оборону на світанку. Кампанія на 40 ночей від Краматорська до Києва. Незабаром на Android.',
-      platforms: ['Android (Незабаром)'],
+      desc: 'Тримай небо. Збережи світло. Піксельна гра про протиповітряну оборону: керуй мобільними вогневими групами, захищай українські міста від хвиль дронів і ракет та посилюй оборону на світанку. Кампанія на 40 ночей від Краматорська до Києва. Перше місто безкоштовно, повну кампанію відкриває одна покупка. Уже в Google Play.',
+      platforms: ['Android (Безкоштовно)'],
       actions: [
-        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/uk/', cls: 'btn-primary' }
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.defendus&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' },
+        { label: '🛡 defendus.locadeserta.com', href: 'https://defendus.locadeserta.com/uk/', cls: 'btn-outline' }
       ]
     }
   },

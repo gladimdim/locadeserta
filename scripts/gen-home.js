@@ -12,6 +12,7 @@ function buildHomePage(lang) {
   const appStoreBadge = badgeOf('sicha', 'app-store-badge');
   const sichaPlayBadge = badgeOf('sicha', 'play-store-badge');
   const settlersPlayBadge = badgeOf('settlers', 'play-store-badge');
+  const defendusPlayBadge = badgeOf('defendus', 'play-store-badge');
 
   const faqs = isUk
     ? [
@@ -191,7 +192,7 @@ function buildHomePage(lang) {
             <div class="cinema-caption">${isUk ? 'Від двобою на шаблях до битви за галактику.' : 'From a clash of sabres to a battle for the galaxy.'}</div>
             <div class="featured-games">
               <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на iOS та Android' : 'Out now on iOS & Android'}</small></span><span aria-hidden="true">↗</span></a>
-              <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small>${isUk ? 'Незабаром' : 'Coming soon'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small>${isUk ? 'У розробці' : 'In development'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="${isUk ? '/odesa/index_uk.html' : '/odesa/'}"><span class="featured-number">05</span><span><strong>${isUk ? 'Одеса' : 'Odesa'}</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
@@ -211,6 +212,19 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <img class="news-thumb" src="/assets/news/defendus.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
+            <div class="news-date">${isUk ? '17 Листопада 2026' : 'Nov 17, 2026'}</div>
+            <div>
+              <strong>${isUk ? 'DefendUS — уже в Google Play!' : 'DefendUS — Out Now on Google Play!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Тримай небо. Збережи світло. Піксельна гра про ППО вийшла на Android! Керуй мобільними вогневими групами, бери упередження по шахедах і крилатих ракетах, прикривай енергетику та посилюй оборону на світанку: кулемети, «Гепарди», РЕБ, дрони-перехоплювачі й Patriot над Києвом. Кампанія на 40 ночей від Краматорщини до Києва, українською та англійською. Краматорщина — безкоштовно, решту кампанії відкриває одна покупка. Без реклами й підписок.'
+                  : 'Hold the sky. Keep the lights on. The pixel-art air-defense game is out on Android! Command mobile fire teams, lead your shots on Shaheds and cruise missiles, protect the power grid and upgrade at dawn: machine guns, Gepards, electronic warfare, interceptor drones and Patriot over Kyiv. A 40-night campaign from Kramatorsk to Kyiv, in English and Ukrainian. The Kramatorsk area is free; one purchase unlocks the rest of the campaign. No ads, no subscription.'}
+              </p>
+              <p class="store-badges" style="margin-top: 0.75rem;">${defendusPlayBadge} <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-outline">🛡 defendus.locadeserta.com</a></p>
+            </div>
+          </div>
           <div class="news-item scifi">
             <img class="news-thumb" src="/assets/news/settlers-launch.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '16 Листопада 2026' : 'Nov 16, 2026'}</div>
