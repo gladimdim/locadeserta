@@ -499,7 +499,10 @@ function buildHomePage(lang) {
     canonicalPath: isUk ? '/uk/' : '/',
     altEnPath: '/',
     altUkPath: '/uk/',
-    ogImage: '/assets/og/og-odesa.jpg',
+    ogImage: `/assets/og/og-universe-${lang}.jpg`,
+    ogImageAlt: isUk
+      ? 'Дике Поле — козацькі ігри та фантастика. Вершник дивиться на космічний корабель над Дніпром.'
+      : 'Loca Deserta — Cossack games & sci-fi books. A Cossack rider watches a spacecraft above the Dnipro.',
     breadcrumbs: [
       { name: isUk ? 'Головна' : 'Home', url: isUk ? '/uk/' : '/' }
     ],

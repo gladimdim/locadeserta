@@ -538,6 +538,7 @@ function renderLayout({
   altEnPath,
   altUkPath,
   ogImage = '/assets/og/og-odesa.jpg',
+  ogImageAlt,
   ogType = 'website',
   breadcrumbs = [],
   jsonLd = [],
@@ -562,6 +563,7 @@ function renderLayout({
   <link rel="alternate" hreflang="uk" href="${ukFull}">
   <link rel="alternate" hreflang="x-default" href="${enFull}">`;
   const safeTitle = title.replace(/"/g, '&quot;');
+  const safeImageAlt = ogImageAlt ? ogImageAlt.replace(/&/g, '&amp;').replace(/"/g, '&quot;') : safeTitle;
   const safeDesc = description.replace(/"/g, '&quot;');
 
   const breadcrumbSchema = breadcrumbs.length > 0 ? [{
@@ -661,7 +663,7 @@ function renderLayout({
   <meta property="og:image:type" content="${ogImgType}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="${safeTitle}">
+  <meta property="og:image:alt" content="${safeImageAlt}">
   <meta property="og:locale" content="${lang === 'uk' ? 'uk_UA' : 'en_US'}">
   <meta property="og:locale:alternate" content="${lang === 'uk' ? 'en_US' : 'uk_UA'}">
 
@@ -671,7 +673,7 @@ function renderLayout({
   <meta name="twitter:title" content="${safeTitle}">
   <meta name="twitter:description" content="${safeDesc}">
   <meta name="twitter:image" content="${ogImgFull}">
-  <meta name="twitter:image:alt" content="${safeTitle}">
+  <meta name="twitter:image:alt" content="${safeImageAlt}">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
