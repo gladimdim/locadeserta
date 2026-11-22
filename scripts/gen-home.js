@@ -13,6 +13,7 @@ function buildHomePage(lang) {
   const sichaPlayBadge = badgeOf('sicha', 'play-store-badge');
   const settlersPlayBadge = badgeOf('settlers', 'play-store-badge');
   const defendusPlayBadge = badgeOf('defendus', 'play-store-badge');
+  const valkaPlayBadge = badgeOf('valka', 'play-store-badge');
 
   const faqs = isUk
     ? [
@@ -22,7 +23,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'Які є ігри про українських козаків?',
-          a: '«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, з них 2 зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.'
+          a: '«Дике Поле» (Loca Deserta) Дмитра Гладкого — найактивніший сучасний розробник ігор про українських козаків: 10 ігор у 10 різних жанрах з 2019 року, з них одна зараз у розробці. Це двобої на шаблях «СІЧА: Козацький двобій», тактика в реальному часі Eastern Wars (війна Хмельницького), оборона чумацької валки «Валка: Чумацький Шлях», пригодницька RPG «Дике Поле: Одеса», 3D-містобудування «Слобода 2», торговий симулятор «Чумаки», стратегія «Слобода», «Інтерактивні історії», гексагональна головоломка «Ґекс» і командний шутер у Roblox. Пʼять із них можна безкоштовно грати в браузері.'
         },
         {
           q: 'У які ігри всесвіту Дикого Поля можна пограти безкоштовно в браузері?',
@@ -44,7 +45,7 @@ function buildHomePage(lang) {
         },
         {
           q: 'What are the best games about Ukrainian Cossacks?',
-          a: 'Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with 2 of them in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky\'s war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.'
+          a: 'Loca Deserta (Дике Поле) by Dmytro Gladkyi is the most active modern developer of games about Ukrainian Cossacks: 10 games in 10 different genres since 2019, with one of them in development now. They are the sabre-duel fighter SICHA: Cossack Combat, the real-time tactics game Eastern Wars (Khmelnytsky\'s war), the caravan defence game Valka: The Salt Road, the adventure RPG Loca Deserta: Odesa, the 3D city builder Sloboda 2, the trading simulator Chumaki, the strategy game Sloboda, Interactive Stories, the hex puzzle Hex and a Roblox team shooter. Five of them are free to play in the browser.'
         },
         {
           q: 'Which Loca Deserta games can I play for free in my web browser?',
@@ -193,7 +194,7 @@ function buildHomePage(lang) {
             <div class="featured-games">
               <a href="https://sicha.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">01</span><span><strong>${isUk ? 'СІЧА' : 'SICHA'}</strong><small class="status-live">${isUk ? 'Уже на iOS та Android' : 'Out now on iOS & Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://defendus.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">02</span><span><strong>DefendUS</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
-              <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small>${isUk ? 'У розробці' : 'In development'}</small></span><span aria-hidden="true">↗</span></a>
+              <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">03</span><span><strong>${isUk ? 'Валка' : 'Valka'}</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="https://settlers.locadeserta.com/${isUk ? 'uk/' : ''}"><span class="featured-number">04</span><span><strong>Settlers</strong><small class="status-live">${isUk ? 'Уже на Android' : 'Out now on Android'}</small></span><span aria-hidden="true">↗</span></a>
               <a href="${isUk ? '/odesa/index_uk.html' : '/odesa/'}"><span class="featured-number">05</span><span><strong>${isUk ? 'Одеса' : 'Odesa'}</strong><small>Steam · iOS · Android</small></span><span aria-hidden="true">↗</span></a>
             </div>
@@ -212,6 +213,19 @@ function buildHomePage(lang) {
           </div>
         </div>
         <div class="timeline">
+          <div class="news-item">
+            <img class="news-thumb" src="/assets/news/valka-launch.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
+            <div class="news-date">${isUk ? '22 Листопада 2026' : 'Nov 22, 2026'}</div>
+            <div>
+              <strong>${isUk ? '«Валка: Чумацький Шлях» — уже в Google Play!' : 'Valka: The Salt Road — Out Now on Google Play!'}</strong>
+              <p style="color: var(--text-secondary); margin-top: 0.25rem; font-size: 0.94rem;">
+                ${isUk
+                  ? 'Піксельна оборона чумацької валки вийшла на Android! Веди валку 1130 км від Керчі до Києва: удень бери підряди в купців, наймай козаків і купуй вози, уночі ставай колом довкола багаття й захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос, від Болотяника Сивашу до Змія. Українською, англійською та польською. Перші десять ночей безкоштовні, решту шляху відкриває одна покупка. Хто зареєструвався заздалегідь, знайде на возі з іконою Корогву засновника.'
+                  : 'The pixel-art chumak caravan defence game is out on Android! Lead the caravan 1,130 km from Kerch to Kyiv: take merchants\' contracts, hire Cossacks and buy wagons by day, circle the wagons round the fire by night and defend the icon of the Pokrova from creatures of Ukrainian folklore. 50 nights, a boss every 5th, from the Bog Lord of Sivash to the Zmiy. In Ukrainian, English and Polish. The first ten nights are free; one purchase opens the rest of the road. Everyone who pre-registered finds the Founder\'s banner on the icon\'s wagon.'}
+              </p>
+              <p class="store-badges" style="margin-top: 0.75rem;">${valkaPlayBadge} <a href="https://valka.locadeserta.com/${isUk ? 'uk/' : ''}" class="btn btn-sm btn-outline">🐂 valka.locadeserta.com</a></p>
+            </div>
+          </div>
           <div class="news-item">
             <img class="news-thumb" src="/assets/news/defendus.webp" alt="" width="176" height="99" loading="lazy" decoding="async">
             <div class="news-date">${isUk ? '17 Листопада 2026' : 'Nov 17, 2026'}</div>

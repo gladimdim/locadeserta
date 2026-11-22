@@ -142,25 +142,27 @@ const GAMES = [
   {
     id: 'valka',
     categories: 'historical mobilepc',
-    badgeClass: '',
+    badgeClass: 'live',
     image: '/assets/og/og-valka.jpg',
     en: {
-      badge: 'Caravan Defence • In Development',
+      badge: 'Caravan Defence • Out Now on Android',
       title: 'Valka: The Salt Road',
-      desc: 'A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. Android first, then iOS.',
-      platforms: ['Android (Soon)', 'iOS (Soon)'],
+      desc: 'A side-view pixel-art caravan defence game in the spirit of Kingdom Two Crowns. Lead a Cossack salt caravan 1,130 km from Kerch to Kyiv: trade and hire guards by day, defend the icon of the Pokrova from Ukrainian folklore creatures by night. 50 nights, a boss every 5th. The first ten nights are free; one purchase opens the rest of the road. Out now on Google Play, iOS later.',
+      platforms: ['Android (Free)', 'iOS (Soon)'],
       actions: [
-        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/', cls: 'btn-primary' },
+        { label: 'Get it on Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.valka', badge: '/assets/badges/google-play-en.svg', badgeClass: 'play-store-badge' },
+        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/', cls: 'btn-outline' },
         { label: 'Bestiary', href: 'https://valka.locadeserta.com/#bestiary', cls: 'btn-outline' }
       ]
     },
     uk: {
-      badge: 'Оборона Валки • У Розробці',
+      badge: 'Оборона Валки • Уже на Android',
       title: 'Валка: Чумацький Шлях',
-      desc: 'Піксельна гра з видом збоку про оборону чумацької валки, у дусі Kingdom Two Crowns. Проведи валку 1130 км від Керчі до Києва: удень торгуй і наймай охорону, уночі захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос. Спершу на Android, згодом на iOS.',
-      platforms: ['Android (Скоро)', 'iOS (Скоро)'],
+      desc: 'Піксельна гра з видом збоку про оборону чумацької валки, у дусі Kingdom Two Crowns. Проведи валку 1130 км від Керчі до Києва: удень торгуй і наймай охорону, уночі захищай ікону Покрови від гаддя з українського фольклору. 50 ночей, щоп’ятої — бос. Перші десять ночей безкоштовні, решту шляху відкриває одна покупка. Уже в Google Play, згодом на iOS.',
+      platforms: ['Android (Безкоштовно)', 'iOS (Скоро)'],
       actions: [
-        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/uk/', cls: 'btn-primary' },
+        { label: 'Завантажити з Google Play', href: 'https://play.google.com/store/apps/details?id=com.gladimdim.valka&hl=uk', badge: '/assets/badges/google-play-uk.svg', badgeClass: 'play-store-badge' },
+        { label: '🐂 valka.locadeserta.com', href: 'https://valka.locadeserta.com/uk/', cls: 'btn-outline' },
         { label: 'Бестіарій', href: 'https://valka.locadeserta.com/uk/#bestiary', cls: 'btn-outline' }
       ]
     }
@@ -584,7 +586,7 @@ function renderLayout({
         '@id': `${SITE_URL}/#organization`,
         name: 'Loca Deserta (Дике Поле)',
         alternateName: ['Всесвіт Дикого Поля', 'Loca Deserta Game Universe', 'Дике Поле Sci-Fi', 'Зоряний Гетьманат'],
-        description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, 2 of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
+        description: 'Independent Ukrainian studio of Dmytro Gladkyi, the most active modern developer of games about Ukrainian Cossacks: 10 Cossack-era games since 2019, one of them in development now, in 10 genres (sabre duels, real-time tactics, caravan defence, open-world quests, city building, trading, strategy, interactive fiction, puzzle and multiplayer shooter) plus the Star Hetmanate sci-fi universe.',
         knowsAbout: ['Ukrainian Cossacks', 'Zaporozhian Sich', 'Cossack Hetmanate', 'Khmelnytsky Uprising', 'Chumaks', 'Loca Deserta', 'Games about Cossacks', 'Ігри про козаків'],
         url: SITE_URL,
         logo: {
